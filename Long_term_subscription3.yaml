@@ -5,343 +5,275 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49, server: 10f6d40e-sv2sg0-tcr97d-2b2n.hk.p5pv.com, port: 80, type: vmess, uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 10f6d40e-sv2sg0-tcr97d-2b2n.hk.p5pv.com}}}
-  - {name: 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81, server: 52.80.232.93, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}}
-  - {name: 14|CN_speednode_0133, server: 183.240.116.235, port: 34016, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.66.44.214, port: 2053, type: trojan, password: T%40_WvT8Ho%40LW%25w_%2C, sni: NOp-55q.pAgEs.dEv, network: ws, ws-opts: {path: "/trGPZDfetEwuO25SAs?ed=2560", headers: {Host: NOp-55q.pAgEs.dEv}}}
-  - {name: 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn..., server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇺🇸 美国 - San Jose - Oracle Corporation - 5, server: 104.21.32.1, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/rongseven?ed=2048"}}
-  - {name: 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis..., server: 104.21.26.17, port: 443, type: trojan, password: 15153c1d-fc81-4b2a-9689-7b4e4a72dce5, sni: m9uujh2.459.pp.ua, skip-cert-verify: false, network: ws, ws-opts: {path: /l6lvY4hFZriQDBimbKYmPIggy, headers: {Host: m9uujh2.459.pp.ua}}}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90, server: 183.236.51.38, port: 46121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 0|🇰🇷 韩国 01 | 1x KR, server: free.2weradf.xyz, port: 36311, type: ss, cipher: chacha20-ietf-poly1305, password: 408948f6-5ee8-4d83-b610-90b231126361}
-  - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省湛江市 移动, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 2|🇺🇸58 |  4.0MB/s|0%|Openai, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 2|🇺🇸102 |  5.9MB/s|50%|Openai, server: 172.67.135.37, port: 443, type: trojan, password: 44ed7a37-af89-4cd1-8680-83a7207810d9, sni: cCtv4.459.pp.uA, skip-cert-verify: false, network: ws, ws-opts: {path: /HpYP4foAlpTKtfYnjLYhU30U, headers: {Host: cCtv4.459.pp.uA}}}
-  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.154.20, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: 2|🇺🇸119 |  1.6MB/s|29%|Openai, server: 45.147.201.231, port: 31005, type: hysteria2, password: 44cc8f88-2495-4a69-bb34-e674b940db4f, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
-  - {name: 1|🇺🇸111 |  1.6MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 2|🇺🇸81 |  3.2MB/s|0%|Openai, server: 172.67.204.120, port: 443, type: trojan, password: 4a3ee276-f50f-46f6-ba4d-13571732ab70, sni: ddcDe.890603.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /COp52Dbu3dvwvDWUxOqxq, headers: {Host: ddcDe.890603.XYz}}}
-  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 103.140.136.242, port: 39770, type: ss, cipher: chacha20-ietf-poly1305, password: 130961f0a8a6}
+  - {name: 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1, server: 36.150.232.128, port: 45241, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles, server: free.2weradf.xyz, port: 36211, type: ss, cipher: chacha20-ietf-poly1305, password: 0ca138e3-82be-4314-86d0-7ae81065c563}
+  - {name: 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK, server: free.2apzhfa.xyz, port: 31145, type: ss, cipher: chacha20-ietf-poly1305, password: 04132271-415a-4f1e-b018-348c24fefa70}
+  - {name: 🇯🇵 0|🇯🇵日本 03 | 1x JP, server: free.2apzhfa.xyz, port: 31115, type: ss, cipher: chacha20-ietf-poly1305, password: 49656a49-5c70-423b-8918-6e1258fcccd4}
+  - {name: 14|HK_speednode_0036, server: us.madison.eu.org, port: 443, type: trojan, password: bpb-trojan, sni: skwygx.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: skwygx.top}}}
+  - {name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian, server: 47.129.101.96, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇯🇵 14|日本特殊|@ripaojiedian, server: 47.129.101.96, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
+  - {name: 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope..., server: 142.132.185.156, port: 45541, type: vmess, uuid: d79bcd65-10ed-4cc2-b5fa-3680f6092951, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 0|🇩🇪德国 01 | 1x DE, server: free.2apzhfa.xyz, port: 31471, type: ss, cipher: chacha20-ietf-poly1305, password: 49656a49-5c70-423b-8918-6e1258fcccd4}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: hkkh11v1.xpmc.cc, port: 37441, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hkkh11v1.xpmc.cc, path: /utvbnrzejpmt, tls: true, mux: true}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9, server: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com, port: 80, type: vmess, uuid: b72009aa-ed88-11ed-92a4-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com}}}
+  - {name: 🇯🇵 3|🇯🇵 日本 01 | 1x JP, server: free.2weradf.xyz, port: 36111, type: ss, cipher: chacha20-ietf-poly1305, password: 0ca138e3-82be-4314-86d0-7ae81065c563}
+  - {name: 🇭🇰 13|香港|@ripaojiedian, server: 120.232.153.40, port: 56152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23, server: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com, port: 80, type: vmess, uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com}}}
+  - {name: 🇭🇰 13|🇭🇰 香港2|@ripaojiedian, server: hkkh11v1.xpmc.cc, port: 37441, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
+  - {name: 🇸🇬 14|狮城特殊|@ripaojiedian, server: 47.128.78.62, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
+  - {name: 15|CN_speednode_0017, server: 120.232.220.45, port: 46926, type: trojan, password: ef35dfd8-b468-42fb-abf8-0a6c4536c1ff, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 0|🇺🇸美国 03 | 1x US Washington, server: free.2apzhfa.xyz, port: 31215, type: ss, cipher: chacha20-ietf-poly1305, password: 04132271-415a-4f1e-b018-348c24fefa70}
   - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 14|CN_speednode_0096, server: 120.232.220.45, port: 33506, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 2|🇫🇷13 |  5.2MB/s|Openai, server: 188.114.96.3, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
-  - {name: 14|CN_speednode_0057, server: 120.232.220.45, port: 43393, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis..., server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 14|CN_speednode_0043, server: 58.254.186.231, port: 27201, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0010, server: 58.254.186.233, port: 10465, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0086, server: 183.2.150.64, port: 27101, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13, server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com, port: 80, type: vmess, uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com}}}
-  - {name: 14|CN_speednode_0078, server: 58.254.186.231, port: 43393, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71, server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com, port: 80, type: vmess, uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com}}}
-  - {name: 🇸🇬 0|🇸🇬新加坡 03 | 1x SG, server: free.2apzhfa.xyz, port: 31175, type: ss, cipher: chacha20-ietf-poly1305, password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22}
-  - {name: 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem..., server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇨🇳 0|🇹🇼 台湾 01 | 1x TW, server: free.2weradf.xyz, port: 36241, type: ss, cipher: chacha20-ietf-poly1305, password: 408948f6-5ee8-4d83-b610-90b231126361}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: hkkh11v1.xpmc.cc, port: 37441, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 14|CN_speednode_0038, server: 120.232.220.45, port: 22271, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 2|🇺🇸55 |  3.8MB/s|80%|Openai, server: uswuxian.pai50288.uk, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: uswuxian.pai50288.uk}}}
-  - {name: "10|@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "10|@Pashmam_Vpn سرور های بیشتر #1", server: br.1010520.xyz, port: 1001, type: hysteria2, password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499, sni: br.1010520.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 47.129.101.96, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 1|🇫🇷8 |  5.2MB/s|100%|Openai, server: 188.114.96.2, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, servername: obdii.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
-  - {name: 1|🌀4-VN |  2.7MB/s|0%|Openai, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 14|CN_speednode_0059, server: 219.135.197.214, port: 27201, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0069, server: 58.254.186.231, port: 43394, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 10|Mci-@V2ray_Raha-2, server: p5.punchline.ir, port: 14055, type: hysteria2, password: p27Iss2ByA, obfs: salamander, obfs-password: AOICMIWHB892R8LNKDQX, skip-cert-verify: true}
-  - {name: 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis..., server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "11|Hysteria 🇸🇬 @v2meowcf #1", server: 103.195.189.54, port: 443, type: hysteria2, password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70, server: bbf6bb8d-sv0xs0-t0t0ee-1tave.hk.p5pv.com, port: 80, type: vmess, uuid: a930bf30-e465-11ef-bd0b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bbf6bb8d-sv0xs0-t0t0ee-1tave.hk.p5pv.com}}}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 59.42.247.189, port: 8004, type: vmess, uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nmkj, headers: {Host: www.bing.com}}}
-  - {name: 14|CN_speednode_0061, server: 219.135.197.214, port: 27202, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0088, server: 183.2.150.64, port: 10465, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 14|HK_speednode_0160, server: 219.76.13.177, port: 443, type: trojan, password: Aimer, sni: tyep.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tyep.esslh.filegear-sg.me}}}
-  - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22}
-  - {name: "9,11|⚡️ @vipv2rey(Hysteria) #2", server: 66.245.192.15, port: 443, type: hysteria2, password: 9f73c619627d6a5d, obfs: salamander, obfs-password: bd7f765e, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0109, server: 183.240.116.235, port: 43583, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian, server: 47.129.101.96, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 12|tg频道:@ripaojiedian, server: 54.218.227.44, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53, server: 4dcb02c3-sv8cg0-svrs3m-1qct1.hk.p5pv.com, port: 80, type: vmess, uuid: ae2c23e8-9204-11ef-b635-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 4dcb02c3-sv8cg0-svrs3m-1qct1.hk.p5pv.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125, server: 1566b24a-sw7j40-sxt412-1qrx5.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: f524c600-db8f-11ee-819e-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 14|CN_speednode_0087, server: 58.254.186.222, port: 34014, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 1|🇺🇸24 |  4.2MB/s|Openai|Gemini, server: eccd74b4-sw7j40-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, sni: eccd74b4-sw7j40-t1bnjq-1krtb.cu.plebai.net, skip-cert-verify: true}
-  - {name: "🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2", server: 59.42.247.189, port: 8004, type: vmess, uuid: 6641a3ac-04f7-4542-9b30-1e547702f768, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nmkj, headers: {Host: www.bing.com}}}
-  - {name: 14|CN_speednode_0131, server: 120.232.220.45, port: 46926, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32, server: 279aa6f9-svlb40-swa8xy-laev.hk.p5pv.com, port: 80, type: vmess, uuid: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 14|CN_speednode_0034, server: 120.232.220.45, port: 22269, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇹🇭 2|🇹🇭泰国01  | 1x TH, server: free.2apzhfa.xyz, port: 31741, type: ss, cipher: chacha20-ietf-poly1305, password: fb73cdbc-5839-4b08-9fc4-c71e7a5091ac}
-  - {name: 🇭🇰 13|香港6|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 14|CN_speednode_0017, server: 183.240.116.252, port: 10465, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 2|🇺🇸62 |  4.1MB/s|50%|Openai, server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua, port: 443, type: vmess, uuid: 5453ae26-250d-4e79-b4ec-016baf806865, alterId: 0, cipher: auto, tls: true, servername: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua, network: ws, ws-opts: {path: /h7Rcu0y30lhjdVjJ3gc4aj, headers: {Host: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua}}}
-  - {name: 1|🇫🇷15 |  3.5MB/s|36%|Openai, server: ss.sps1.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: PqJc89bEJnYJ-3mFetkZRQ}
-  - {name: 🇧🇷 0|🇧🇷巴西 01 | 1x BR, server: free.2apzhfa.xyz, port: 31671, type: ss, cipher: chacha20-ietf-poly1305, password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22}
-  - {name: 14|CN_speednode_0134, server: 219.135.197.214, port: 42882, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
-  - {name: 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1, server: 112.65.92.20, port: 45250, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem..., server: 38.54.25.204, port: 55839, type: vmess, uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: b87cea1d-d14c-45c3-af40-7af5d3be88da, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvkvws, headers: {Host: CANADa-199.BLaZecANADA.sIte}}}
-  - {name: 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1, server: 172.66.168.209, port: 2083, type: vmess, uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvkws}}
-  - {name: 14|CN_speednode_0141, server: 183.2.150.98, port: 43397, type: trojan, password: beb150fd-b4b4-4347-bcb9-f23537fa1654, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true}
   - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113, server: f87d16a1-sw1z40-sxct8s-1ok3j.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 84de144e-f418-11ef-8c3f-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇯🇵 0|🇯🇵 日本 03 | 1x JP, server: free.2weradf.xyz, port: 36115, type: ss, cipher: chacha20-ietf-poly1305, password: 408948f6-5ee8-4d83-b610-90b231126361}
+  - {name: 2|🇺🇸105 |  1.2MB/s|29%|Openai, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 160.123.255.243, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /proxyip=160.123.255.243:443, headers: {Host: icecream.955850.xyz}}}
+  - {name: 10|@VPNTV20, server: jpvl.681687.xyz, port: 10100, type: hysteria2, password: 9e7a0efe-e7fd-42f2-9f66-092fa9285da7, sni: jpvl.681687.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56, server: aaf99562-sv0xs0-t6i794-dr6f.hk.p5pv.com, port: 80, type: vmess, uuid: 9238c12a-0aa2-11eb-ad8c-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aaf99562-sv0xs0-t6i794-dr6f.hk.p5pv.com}}}
+  - {name: 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope..., server: gdlt.aicheetah.lol, port: 43450, type: ss, cipher: chacha20-ietf-poly1305, password: d192a833-b118-4b46-8e54-12cf5025d4cd}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26, server: 5c4c4152-sv2sg0-sy8f4e-ukt4.hk.p5pv.com, port: 80, type: vmess, uuid: 6589f6d0-e192-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 5c4c4152-sv2sg0-sy8f4e-ukt4.hk.p5pv.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18, server: 8aa8a2db-sv2sg0-syfj90-1r9dt.hk.p5pv.com, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8aa8a2db-sv2sg0-syfj90-1r9dt.hk.p5pv.com}}}
+  - {name: 11|Hysteria 🇷🇴 @v2meowcf, server: 194.87.2.3, port: 443, type: hysteria2, password: eq64TMTbpcsf5LERJoKcMwwSHEzBEm, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 14|香港|@ripaojiedian, server: 120.232.153.40, port: 56152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7", server: 59.42.247.189, port: 8004, type: vmess, uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nmkj, headers: {Host: www.bing.com}}}
+  - {name: "🇨🇳 13,14|台湾|@ripaojiedian", server: wb.kaiqsz.com, port: 42765, type: trojan, password: 65c14581-e479-41b1-b343-44699f115b1d, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 🇮🇳 0|🇮🇳印度 01 | 1x IN, server: free.2apzhfa.xyz, port: 31371, type: ss, cipher: chacha20-ietf-poly1305, password: 49656a49-5c70-423b-8918-6e1258fcccd4}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41, server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com, port: 80, type: vmess, uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles, server: free.2apzhfa.xyz, port: 31213, type: ss, cipher: chacha20-ietf-poly1305, password: 49656a49-5c70-423b-8918-6e1258fcccd4}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 141.101.120.253, port: 2096, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, servername: 1746882891.speed.adl.cccp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: 1746882891.speed.adl.cccp.freefly.pp.ua}}}
+  - {name: 🇹🇭 0|🇹🇭泰国01  | 1x TH, server: free.2apzhfa.xyz, port: 31741, type: ss, cipher: chacha20-ietf-poly1305, password: 49656a49-5c70-423b-8918-6e1258fcccd4}
+  - {name: 15|GB_speednode_0039, server: 217.163.76.254, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /proxyip=217.163.76.254:443, headers: {Host: icecream.955850.xyz}}}
+  - {name: 14|US_speednode_0054, server: 192.0.54.184, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /proxyip=192.0.54.184:443, headers: {Host: icecream.955850.xyz}}}
+  - {name: 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH, server: free.2weradf.xyz, port: 36341, type: ss, cipher: chacha20-ietf-poly1305, password: 0ca138e3-82be-4314-86d0-7ae81065c563}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.79.133.0, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62, server: c6da11bd-sv2sg0-t6ctgc-1s3hd.hk.p5pv.com, port: 80, type: vmess, uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c6da11bd-sv2sg0-t6ctgc-1s3hd.hk.p5pv.com}}}
+  - {name: 🇰🇷 0|🇰🇷韩国 01 | 1x KR, server: free.2apzhfa.xyz, port: 31311, type: ss, cipher: chacha20-ietf-poly1305, password: 49656a49-5c70-423b-8918-6e1258fcccd4}
+  - {name: 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn..., server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇺🇸 13|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 12|tg频道:@ripaojiedian, server: 54.218.227.44, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34, server: 2f9705fc-sv6hs0-t2nkut-jx5r.hk.p5pv.com, port: 80, type: vmess, uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 15|FR_speednode_0027, server: grown-doberman.shiner427.skin, port: 443, type: trojan, password: !<str> 74260665780162200, sni: grown-doberman.shiner427.skin, skip-cert-verify: false}
+  - {name: 🇨🇳 江苏省 移动, server: 36.151.251.59, port: 7815, type: trojan, password: RlzoEILU, skip-cert-verify: true}
+  - {name: 🇰🇷 13|韩国特殊|@ripaojiedian, server: 13.250.27.89, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48, server: 9e4ea3b8-sv0xs0-tcp4th-1c4g6.hk.p5pv.com, port: 80, type: vmess, uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9e4ea3b8-sv0xs0-tcp4th-1c4g6.hk.p5pv.com}}}
+  - {name: "11|Hysteria 🇸🇬 @v2meowcf #1", server: 103.195.189.54, port: 443, type: hysteria2, password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27, server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com}}}
+  - {name: 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope..., server: 208.87.242.215, port: 443, type: hysteria2, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104, server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "🇺🇸 13,14|美国5|@ripaojiedian", server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68, server: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com}}}
+  - {name: "2,15|CN_speednode_0018", server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, port: 15229, type: trojan, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15, server: c4ad4b4d-sv2sg0-t6oecc-1slpn.hk.p5pv.com, port: 80, type: vmess, uuid: 659b0268-92ca-11ef-b3af-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c4ad4b4d-sv2sg0-t6oecc-1slpn.hk.p5pv.com}}}
+  - {name: 🇸🇬 0|🇸🇬新加坡 03 | 1x SG, server: free.2apzhfa.xyz, port: 31175, type: ss, cipher: chacha20-ietf-poly1305, password: 04132271-415a-4f1e-b018-348c24fefa70}
+  - {name: 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU, server: free.2weradf.xyz, port: 36511, type: ss, cipher: chacha20-ietf-poly1305, password: 0ca138e3-82be-4314-86d0-7ae81065c563}
+  - {name: "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4", server: 108.181.23.241, port: 443, type: hysteria2, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66, server: 60cd512f-sv2sg0-swbdgq-1iddy.hk.p5pv.com, port: 80, type: vmess, uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 60cd512f-sv2sg0-swbdgq-1iddy.hk.p5pv.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98, server: 5e750680-sw1z40-sx27gr-1t926.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -360,361 +292,301 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 🇭🇰 13|香港6|@ripaojiedian
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -730,86 +602,69 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 49
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 81
-      - 14|CN_speednode_0133
-      - 🇺🇸 美国 CloudFlare节点
-      - 1|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
-      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
-      - 2|🇺🇸12 |  1.4MB/s|0%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 90
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 2
-      - 🇨🇳 广东省湛江市 移动
-      - 2|🇺🇸58 |  4.0MB/s|0%|Openai
-      - 2|🇺🇸102 |  5.9MB/s|50%|Openai
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 2|🇺🇸119 |  1.6MB/s|29%|Openai
-      - 1|🇺🇸111 |  1.6MB/s
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 2|🇺🇸81 |  3.2MB/s|0%|Openai
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇧🇷 巴西 - 圣保罗 - EpicUp Holdings Inc - 1
+      - 🇺🇸 3|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰香港家宽 03 | 1x HK
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 14|HK_speednode_0036
+      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 14|日本特殊|@ripaojiedian
+      - 1|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
+      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
+      - 🇯🇵 3|🇯🇵 日本 01 | 1x JP
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
+      - 15|CN_speednode_0017
+      - 🇺🇸 0|🇺🇸美国 03 | 1x US Washington
       - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 14|CN_speednode_0096
-      - 2|🇫🇷13 |  5.2MB/s|Openai
-      - 14|CN_speednode_0057
-      - 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-      - 14|CN_speednode_0043
-      - 14|CN_speednode_0010
-      - 14|CN_speednode_0086
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 13
-      - 14|CN_speednode_0078
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 71
-      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
-      - 1|🌀5-VN |  1.5MB/s|0%|Openai|Gem...
-      - 🇨🇳 0|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 14|CN_speednode_0038
-      - 2|🇺🇸55 |  3.8MB/s|80%|Openai
-      - "10|@V2rayNG3 #8"
-      - "10|@Pashmam_Vpn سرور های بیشتر #1"
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 1|🇫🇷8 |  5.2MB/s|100%|Openai
-      - 1|🌀4-VN |  2.7MB/s|0%|Openai
-      - 14|CN_speednode_0059
-      - "10|@V2rayNG3 #9"
-      - 14|CN_speednode_0069
-      - 10|Mci-@V2ray_Raha-2
-      - 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 95
-      - "11|Hysteria 🇸🇬 @v2meowcf #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 70
-      - 🇯🇵 日本4|@ripaojiedian
-      - 14|CN_speednode_0061
-      - 14|CN_speednode_0088
-      - 14|HK_speednode_0160
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - "9,11|⚡️ @vipv2rey(Hysteria) #2"
-      - 14|CN_speednode_0109
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 125
-      - 14|CN_speednode_0087
-      - 1|🇺🇸24 |  4.2MB/s|Openai|Gemini
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 2
-      - 14|CN_speednode_0131
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 32
-      - 14|CN_speednode_0034
-      - 🇹🇭 2|🇹🇭泰国01  | 1x TH
-      - 🇭🇰 13|香港6|@ripaojiedian
-      - 14|CN_speednode_0017
-      - 2|🇺🇸62 |  4.1MB/s|50%|Openai
-      - 1|🇫🇷15 |  3.5MB/s|36%|Openai
-      - 🇧🇷 0|🇧🇷巴西 01 | 1x BR
-      - 14|CN_speednode_0134
-      - 🇵🇱 波兰 - 华沙 - Regxa Company for Information Technology Ltd - 1
-      - 1|🇺🇸54 |  4.7MB/s|61%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 14|CN_speednode_0141
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 113
-      - 🇯🇵 0|🇯🇵 日本 03 | 1x JP
+      - 2|🇺🇸105 |  1.2MB/s|29%|Openai
+      - 🇿🇦 南非 V2CROSS.COM
+      - 10|@VPNTV20
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
+      - 2|🇰🇷3 |  1.1MB/s|61%|Youtube|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 11|Hysteria 🇷🇴 @v2meowcf
+      - 🇭🇰 14|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
+      - 🇨🇳 13,14|台湾|@ripaojiedian
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 🇺🇸 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇭 0|🇹🇭泰国01  | 1x TH
+      - 15|GB_speednode_0039
+      - 14|US_speednode_0054
+      - 🇵🇭 3|🇵🇭 菲律宾 01 | 1x PH
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇰🇷 0|🇰🇷韩国 01 | 1x KR
+      - 1|🇸🇬2 |  5.8MB/s|0%|Netflix|Disn...
+      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 15|FR_speednode_0027
+      - 🇨🇳 江苏省 移动
+      - 🇰🇷 13|韩国特殊|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - "11|Hysteria 🇸🇬 @v2meowcf #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 27
+      - 1|🇺🇸20 |  4.1MB/s|47%|Disney|Ope...
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 104
+      - 🇺🇸 13,14|美国5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
+      - 2,15|CN_speednode_0018
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇸🇬 0|🇸🇬新加坡 03 | 1x SG
+      - 🇷🇺 3|🇷🇺 俄罗斯 01 | 1x RU
+      - "2,11|عضو+کانال+بشید+👈+VPNTV20@ #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 98
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
