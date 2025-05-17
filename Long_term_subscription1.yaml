@@ -5,79 +5,90 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 网址发布页：aa.needss1.top, server: i.needss.top, port: 20013, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 [3x] 香港 IEPL专线NO1", server: i.needss.top, port: 20013, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 [3x] 香港 IEPL专线NO2", server: i.needss.top, port: 20013, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO1", server: i.needss.top, port: 52103, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO2", server: i.needss.top, port: 52103, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO3", server: i.needss.top, port: 20016, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO4", server: i.needss.top, port: 20016, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [3x] 日本 IEPL专线NO1", server: i.needss.top, port: 20017, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [3x] 日本 IEPL专线NO2", server: i.needss.top, port: 20017, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 [3x] 新加坡 IEPL专线NO1", server: i.needss.top, port: 20015, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 [3x] 新加坡 IEPL专线NO2", server: i.needss.top, port: 20015, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x] 泰国 IEPL专线 NO1", server: i.needss.top, port: 30028, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x] 泰国 IEPL专线 NO2", server: i.needss.top, port: 30028, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇦🇷 [3x] 阿根廷 IEPL专线NO1", server: i.needss.top, port: 20014, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇦🇷 [3x] 阿根廷 IEPL专线NO2", server: i.needss.top, port: 20014, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x] 韩国 IEPL专线NO1", server: i.needss.top, port: 20021, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x] 韩国 IEPL专线NO2", server: i.needss.top, port: 20021, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇮🇳 [3x] 印度 IEPL专线NO1", server: i.needss.top, port: 15442, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇮🇳 [3x] 印度 IEPL专线NO2", server: i.needss.top, port: 15442, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 [3x] 美国 IEPL专线NO1", server: i.needss.top, port: 54770, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 [3x] 美国 IEPL专线NO2", server: i.needss.top, port: 54770, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "[3x]  非洲 IEPL专线 NO1", server: i.needss.top, port: 44410, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "[3x]  非洲 IEPL专线 NO2", server: i.needss.top, port: 44410, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇦🇺 [3x] 澳大利亚 IEPL专线NO1", server: i.needss.top, port: 20011, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇦🇺 [3x] 澳大利亚 IEPL专线NO2", server: i.needss.top, port: 20011, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇩🇪 [3x] 德国 IEPL专线NO1", server: i.needss.top, port: 54787, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇩🇪 [3x] 德国 IEPL专线NO2", server: i.needss.top, port: 54787, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇦 [3x] 加拿大 IEPL专线 NO1", server: sd.needss.top, port: 45105, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇦 [3x] 加拿大 IEPL专线 NO2", server: sd.needss.top, port: 45105, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇬🇧 [2x] 英国 IEPL专线NO1", server: sd.needss.top, port: 54774, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇬🇧 [2x] 英国 IEPL专线NO2", server: sd.needss.top, port: 54774, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇵🇹 [2x] 葡萄牙 IEPL专线NO1", server: sd.needss.top, port: 31001, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇵🇹 [2x] 葡萄牙 IEPL专线NO2", server: sd.needss.top, port: 31001, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇳🇱 [1x] 荷兰 IEPL 隧道 NO1", server: sd.needss.top, port: 20014, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇳🇱 [1x] 荷兰 IEPL 隧道 NO2", server: sd.needss.top, port: 20014, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇫🇷 [1x] 法国 CM 隧道NO1", server: sd.needss.top, port: 52100, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇫🇷 [1x] 法国 CM 隧道NO2", server: sd.needss.top, port: 52100, type: vmess, uuid: 2c25c3aa-9db6-44c5-87ac-70665a6072e1, alterId: 0, cipher: auto, tls: false}
-  - {name: 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇲🇾 [3x]马来西亚专线NO1", server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇲🇾 [3x]马来西亚专线NO2", server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x]泰国NO1", server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x]泰国NO2", server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港（直连）, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 94dadd39-08e3-4853-aba3-a243d2f98ea4, alterId: 0, cipher: auto, tls: false}
-  - {name: 距离下次重置剩余：7 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: df4ea2b7-340a-4cb3-ab80-95e1524ab7c0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: df4ea2b7-340a-4cb3-ab80-95e1524ab7c0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：1 天, server: i.needss.top, port: 20013, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: 网址发布页：aa.needss1.top, server: i.needss.top, port: 20013, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 [3x] 香港 IEPL专线NO1", server: i.needss.top, port: 20013, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 [3x] 香港 IEPL专线NO2", server: i.needss.top, port: 20013, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO1", server: i.needss.top, port: 52103, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO2", server: i.needss.top, port: 52103, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO3", server: i.needss.top, port: 20016, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 [3x] 台湾 IEPL专线NO4", server: i.needss.top, port: 20016, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 [3x] 日本 IEPL专线NO1", server: i.needss.top, port: 20017, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 [3x] 日本 IEPL专线NO2", server: i.needss.top, port: 20017, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 [3x] 新加坡 IEPL专线NO1", server: i.needss.top, port: 20015, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 [3x] 新加坡 IEPL专线NO2", server: i.needss.top, port: 20015, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x] 泰国 IEPL专线 NO1", server: i.needss.top, port: 30028, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x] 泰国 IEPL专线 NO2", server: i.needss.top, port: 30028, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇦🇷 [3x] 阿根廷 IEPL专线NO1", server: i.needss.top, port: 20014, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇦🇷 [3x] 阿根廷 IEPL专线NO2", server: i.needss.top, port: 20014, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x] 韩国 IEPL专线NO1", server: i.needss.top, port: 20021, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x] 韩国 IEPL专线NO2", server: i.needss.top, port: 20021, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇮🇳 [3x] 印度 IEPL专线NO1", server: i.needss.top, port: 15442, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇮🇳 [3x] 印度 IEPL专线NO2", server: i.needss.top, port: 15442, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 [3x] 美国 IEPL专线NO1", server: i.needss.top, port: 54770, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 [3x] 美国 IEPL专线NO2", server: i.needss.top, port: 54770, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "[3x]  非洲 IEPL专线 NO1", server: i.needss.top, port: 44410, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "[3x]  非洲 IEPL专线 NO2", server: i.needss.top, port: 44410, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇦🇺 [3x] 澳大利亚 IEPL专线NO1", server: i.needss.top, port: 20011, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇦🇺 [3x] 澳大利亚 IEPL专线NO2", server: i.needss.top, port: 20011, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇩🇪 [3x] 德国 IEPL专线NO1", server: i.needss.top, port: 54787, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇩🇪 [3x] 德国 IEPL专线NO2", server: i.needss.top, port: 54787, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇦 [3x] 加拿大 IEPL专线 NO1", server: sd.needss.top, port: 45105, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇦 [3x] 加拿大 IEPL专线 NO2", server: sd.needss.top, port: 45105, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇬🇧 [2x] 英国 IEPL专线NO1", server: sd.needss.top, port: 54774, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇬🇧 [2x] 英国 IEPL专线NO2", server: sd.needss.top, port: 54774, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇵🇹 [2x] 葡萄牙 IEPL专线NO1", server: sd.needss.top, port: 31001, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇵🇹 [2x] 葡萄牙 IEPL专线NO2", server: sd.needss.top, port: 31001, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇳🇱 [1x] 荷兰 IEPL 隧道 NO1", server: sd.needss.top, port: 20014, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇳🇱 [1x] 荷兰 IEPL 隧道 NO2", server: sd.needss.top, port: 20014, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇫🇷 [1x] 法国 CM 隧道NO1", server: sd.needss.top, port: 52100, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇫🇷 [1x] 法国 CM 隧道NO2", server: sd.needss.top, port: 52100, type: vmess, uuid: 094dbd23-013b-4664-84f4-bd0f016c1050, alterId: 0, cipher: auto, tls: false}
+  - {name: 过滤掉3条线路, server: 45.147.201.231, port: 22039, type: vmess, uuid: dc1af816-094c-4d41-8775-fd630601f437, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-纽约-001, server: 45.147.201.231, port: 22039, type: vmess, uuid: dc1af816-094c-4d41-8775-fd630601f437, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-拉斯维加斯-001, server: 45.147.201.231, port: 20030, type: vmess, uuid: dc1af816-094c-4d41-8775-fd630601f437, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-拉斯维加斯-002, server: 45.147.201.231, port: 23083, type: vmess, uuid: dc1af816-094c-4d41-8775-fd630601f437, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 距离下次重置剩余：8 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9449cc4b-80d7-40c9-a23a-0aa9904051f2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9449cc4b-80d7-40c9-a23a-0aa9904051f2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 过滤掉3条线路 2, server: 45.147.201.231, port: 22039, type: vmess, uuid: 4464047c-262a-420b-a210-6bc569b79e69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-纽约-001 2, server: 45.147.201.231, port: 22039, type: vmess, uuid: 4464047c-262a-420b-a210-6bc569b79e69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-拉斯维加斯-001 2, server: 45.147.201.231, port: 20030, type: vmess, uuid: 4464047c-262a-420b-a210-6bc569b79e69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-拉斯维加斯-002 2, server: 45.147.201.231, port: 23083, type: vmess, uuid: 4464047c-262a-420b-a210-6bc569b79e69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 距离下次重置剩余：1 天 2, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇲🇾 [3x]马来西亚专线NO1", server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇲🇾 [3x]马来西亚专线NO2", server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x]泰国NO1", server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x]泰国NO2", server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港（直连）, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 2936cb63-3236-47ae-a6b0-3e5d752c829a, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -115,6 +126,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -143,13 +165,12 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -187,6 +208,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -215,14 +247,13 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -260,6 +291,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -288,8 +330,6 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -308,6 +348,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -345,6 +386,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -373,8 +425,6 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -396,6 +446,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -433,6 +484,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -461,13 +523,12 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -505,6 +566,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -533,14 +605,13 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -578,6 +649,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -606,8 +688,6 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -623,6 +703,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 距离下次重置剩余：1 天
       - 网址发布页：aa.needss1.top
       - 🇭🇰 [3x] 香港 IEPL专线NO1
       - 🇭🇰 [3x] 香港 IEPL专线NO2
@@ -660,6 +741,17 @@ proxy-groups:
       - 🇳🇱 [1x] 荷兰 IEPL 隧道 NO2
       - 🇫🇷 [1x] 法国 CM 隧道NO1
       - 🇫🇷 [1x] 法国 CM 隧道NO2
+      - 过滤掉3条线路
+      - 🇺🇸 美国-纽约-001
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-拉斯维加斯-002
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国-三网优化2
+      - 过滤掉3条线路 2
+      - 🇺🇸 美国-纽约-001 2
+      - 🇺🇸 美国-拉斯维加斯-001 2
+      - 🇺🇸 美国-拉斯维加斯-002 2
+      - 距离下次重置剩余：1 天 2
       - 目前国内网址：xc1.shishi1.buzz    备用：ds1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -688,8 +780,6 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
-      - 🇰🇷 韩国-三网优化2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
