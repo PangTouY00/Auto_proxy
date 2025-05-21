@@ -5,199 +5,191 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID, server: free.2apzhfa.xyz, port: 31677, type: ss, cipher: chacha20-ietf-poly1305, password: 4175d9ca-3b54-47a5-aa41-3ca60f23d965}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 103.140.136.76, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b5297f2203b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp1v9.8vote.cn, path: /xejseyjyquez, tls: true, mux: false}}
-  - {name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
-  - {name: 🇺🇸 美国 - 洛杉矶 - HostPapa - 11, server: 104.21.64.1, port: 2083, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 1|🇹🇼 台湾 01 | 1x TW, server: free.2weradf.xyz, port: 36241, type: ss, cipher: chacha20-ietf-poly1305, password: e45f44e5-cba6-44ed-b8d6-ec13c13c6d38}
-  - {name: 🇯🇵 0|🇯🇵 日本 02 | 1x JP, server: free.2weradf.xyz, port: 36113, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 54.168.242.214, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YXdzcHMwNTAx}
-  - {name: 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU, server: free.2weradf.xyz, port: 36511, type: ss, cipher: chacha20-ietf-poly1305, password: e45f44e5-cba6-44ed-b8d6-ec13c13c6d38}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: hkkh11v1.xpmc.cc, port: 53098, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc}
-  - {name: 2|🇺🇸109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 🇹🇭 1|🇹🇭泰国 01 | 1x TH, server: free.2weradf.xyz, port: 36731, type: ss, cipher: chacha20-ietf-poly1305, password: e45f44e5-cba6-44ed-b8d6-ec13c13c6d38}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68, server: 9b9e395a-swkhs0-t124q0-zs30.hk.p5pv.com, port: 80, type: vmess, uuid: 52117af0-0ec7-11f0-a7ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net, skip-cert-verify: false}
-  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 1|🇯🇵 日本 03 | 1x JP, server: free.2weradf.xyz, port: 36115, type: ss, cipher: chacha20-ietf-poly1305, password: e45f44e5-cba6-44ed-b8d6-ec13c13c6d38}
+  - {name: 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK, server: free.2apzhfa.xyz, port: 31145, type: ss, cipher: chacha20-ietf-poly1305, password: db4da550-16db-4e90-9fc6-a66d5e9ac567}
   - {name: 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3, server: tiamo3.tiamocloud.us.kg, port: 80, type: vmess, uuid: 52584a96-68ed-497b-81ba-5fd302f2d4e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tiamo3.tiamocloud.us.kg}}}
-  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
-  - {name: 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR, server: free.2weradf.xyz, port: 36571, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63, server: 8688b8f9-swkhs0-sxh7iw-1ryup.hk.p5pv.com, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles, server: free.2weradf.xyz, port: 36211, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: 14|RU_speednode_0104, server: 45.67.215.234, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=45.67.215.234:443, headers: {Host: icecream.955850.xyz}}}
+  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 7, server: 104.21.71.112, port: 80, type: vmess, uuid: 906ba92f-ef96-4133-8eee-f33202a5a721, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /DAxJddOdTd5pVam9w}}
+  - {name: "🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5", server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36, server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇯🇵 2|🇯🇵 日本 01 | 1x JP, server: free.2weradf.xyz, port: 36111, type: ss, cipher: chacha20-ietf-poly1305, password: d99be6d9-32b3-4246-839b-2b00f05b4416}
+  - {name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 120.198.71.216, port: 35921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 0|🇯🇵 日本 01 | 1x JP, server: free.2weradf.xyz, port: 36111, type: ss, cipher: chacha20-ietf-poly1305, password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 2|🇺🇸122 |  1.4MB/s, server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net}
+  - {name: 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles, server: free.2apzhfa.xyz, port: 31211, type: ss, cipher: chacha20-ietf-poly1305, password: db4da550-16db-4e90-9fc6-a66d5e9ac567}
+  - {name: 🇯🇵 0|🇯🇵日本 03 | 1x JP, server: free.2apzhfa.xyz, port: 31115, type: ss, cipher: chacha20-ietf-poly1305, password: ebfadf8f-aab2-49f5-8477-9836467daceb}
+  - {name: 2|🇺🇸96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU, server: free.2weradf.xyz, port: 36411, type: ss, cipher: chacha20-ietf-poly1305, password: d99be6d9-32b3-4246-839b-2b00f05b4416}
+  - {name: 🇷🇺 俄罗斯|@ripaojiedian, server: 176.32.35.68, port: 4018, type: ss, cipher: aes-256-gcm, password: 4194ce5b1f36f660}
+  - {name: 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU, server: free.2weradf.xyz, port: 36411, type: ss, cipher: chacha20-ietf-poly1305, password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91}
+  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #2", server: 64.181.207.162, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 15|🇺🇸美国 03 | 1x US Washington, server: free.2apzhfa.xyz, port: 31215, type: ss, cipher: chacha20-ietf-poly1305, password: db4da550-16db-4e90-9fc6-a66d5e9ac567}
+  - {name: 🇹🇷 15|🇹🇷土耳其 01 | 1x TR, server: free.2apzhfa.xyz, port: 31571, type: ss, cipher: chacha20-ietf-poly1305, password: db4da550-16db-4e90-9fc6-a66d5e9ac567}
+  - {name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
+  - {name: 🇸🇬 0|🇸🇬新加坡 02 | 1x SG, server: free.2apzhfa.xyz, port: 31173, type: ss, cipher: chacha20-ietf-poly1305, password: ebfadf8f-aab2-49f5-8477-9836467daceb}
+  - {name: 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles, server: free.2apzhfa.xyz, port: 31211, type: ss, cipher: chacha20-ietf-poly1305, password: ebfadf8f-aab2-49f5-8477-9836467daceb}
+  - {name: 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK, server: free.2weradf.xyz, port: 36145, type: ss, cipher: chacha20-ietf-poly1305, password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91}
+  - {name: 2|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
+  - {name: 🇺🇸 美国 - 洛杉矶 - HostPapa - 13, server: 104.21.80.1, port: 2083, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇮🇳 0|🇮🇳印度 01 | 1x IN, server: free.2apzhfa.xyz, port: 31371, type: ss, cipher: chacha20-ietf-poly1305, password: ebfadf8f-aab2-49f5-8477-9836467daceb}
+  - {name: 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16, server: 120.198.44.126, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 2|🇭🇰 香港 01 | 1x HK, server: free.2weradf.xyz, port: 36141, type: ss, cipher: chacha20-ietf-poly1305, password: d99be6d9-32b3-4246-839b-2b00f05b4416}
+  - {name: 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles, server: free.2weradf.xyz, port: 36211, type: ss, cipher: chacha20-ietf-poly1305, password: d99be6d9-32b3-4246-839b-2b00f05b4416}
   - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 99, server: tiamo.tiamocloud.us.kg, port: 80, type: vmess, uuid: 52584a96-68ed-497b-81ba-5fd302f2d4e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tiamo.tiamocloud.us.kg}}}
-  - {name: 🇲🇾 0|🇲🇾马来西亚02 | 1x MY, server: free.2apzhfa.xyz, port: 31722, type: ss, cipher: chacha20-ietf-poly1305, password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.200.117, port: 443, type: trojan, password: c6840587-7ac4-40be-aa4b-ae327eb4fa53, sni: ccdfRt6.890634.Xyz, network: ws, ws-opts: {path: /ogSVyJu0ksqZjqvVUXlLhk95Ad, headers: {Host: ccdfRt6.890634.Xyz}}}
-  - {name: 🇨🇳 0|🇹🇼 台湾 03 | 1x TW, server: free.2weradf.xyz, port: 36245, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: "🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103", server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
-  - {name: 🇸🇬 0|🇸🇬新加坡 01 | 1x SG, server: free.2apzhfa.xyz, port: 31171, type: ss, cipher: chacha20-ietf-poly1305, password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f}
-  - {name: 🇩🇪 0|🇩🇪德国 01 | 1x DE, server: free.2apzhfa.xyz, port: 31471, type: ss, cipher: chacha20-ietf-poly1305, password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f}
-  - {name: 🇰🇷 0|🇰🇷 韩国 01 | 1x KR, server: free.2weradf.xyz, port: 36311, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: 14|GB_speednode_0083, server: 217.163.76.221, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /proxyip=217.163.76.221:443, headers: {Host: icecream.955850.xyz}}}
-  - {name: 🇻🇳 0|🇻🇳 越南 01 | 1x VN, server: free.2weradf.xyz, port: 36641, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK, server: free.2apzhfa.xyz, port: 31145, type: ss, cipher: chacha20-ietf-poly1305, password: 4175d9ca-3b54-47a5-aa41-3ca60f23d965}
-  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: gzyd.cg.xxality.cn, port: 35000, type: trojan, password: 09e8b39a-4c09-4df0-a50c-af3bef01567e, sni: cgsg2.hysality.com}
-  - {name: 🇨🇳 吉林省 移动(全省通用), server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 14|GB_speednode_0079, server: 217.163.76.89, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=217.163.76.89:443, headers: {Host: icecream.955850.xyz}}}
-  - {name: 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA, server: free.2apzhfa.xyz, port: 31611, type: ss, cipher: chacha20-ietf-poly1305, password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f}
-  - {name: 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA, server: free.2apzhfa.xyz, port: 31611, type: ss, cipher: chacha20-ietf-poly1305, password: 4175d9ca-3b54-47a5-aa41-3ca60f23d965}
-  - {name: 🇭🇰 香港7|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem..., server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇹🇭 0|🇹🇭泰国 01 | 1x TH, server: free.2weradf.xyz, port: 36731, type: ss, cipher: chacha20-ietf-poly1305, password: c742eeab-d955-4c29-8b12-2c13bb4b820a}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1, server: lt.fxlcn.com, port: 45233, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 2|🇺🇸103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
+  - {name: 🇷🇺 13|俄罗斯|@ripaojiedian, server: 176.32.35.68, port: 4018, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206NDE5NGNlNWIxZjM2ZjY2MA}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55, server: eedb5b5e-swexs0-sxgzej-1teze.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 8f55b5d6-f98f-11ef-ba82-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇪🇸 0|🇮🇳西班牙 01 | 1x ES, server: free.2weradf.xyz, port: 36741, type: ss, cipher: chacha20-ietf-poly1305, password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 54.168.242.214, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YXdzcHMwNTAx}
+  - {name: 11|Hamrah avval, server: 88.99.86.235, port: 443, type: hysteria2, ports: 443, password: 7008iSe44g5ddtr4a5621r32o, obfs: salamander, obfs-password: i35Se47g78ar98o, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40, server: 6b187c1b-swexs0-tcrvlr-r84q.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 3a514c32-65f4-11ea-97ba-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 0|🇭🇰香港 02 | 1x HK, server: free.2apzhfa.xyz, port: 31143, type: ss, cipher: chacha20-ietf-poly1305, password: ebfadf8f-aab2-49f5-8477-9836467daceb}
+  - {name: 🇹🇭 0|🇹🇭泰国 01 | 1x TH, server: free.2weradf.xyz, port: 36731, type: ss, cipher: chacha20-ietf-poly1305, password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net}}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,211 +208,206 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇭🇰 香港7|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -436,50 +423,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇩 15|🇮🇩印度尼西亚 01 | 1x ID
-      - 🇯🇵 日本2|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 11
-      - 🇨🇳 1|🇹🇼 台湾 01 | 1x TW
-      - 🇯🇵 0|🇯🇵 日本 02 | 1x JP
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇷🇺 1|🇷🇺 俄罗斯 01 | 1x RU
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇹🇭 1|🇹🇭泰国 01 | 1x TH
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 68
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇯🇵 1|🇯🇵 日本 03 | 1x JP
-      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇹🇷 0|🇹🇷 土耳其 01 | 1x TR
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇺🇸 0|🇺🇸 美国 01 | 1x US Los Angeles
-      - 14|RU_speednode_0104
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
-      - 🇲🇾 0|🇲🇾马来西亚02 | 1x MY
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 0|🇹🇼 台湾 03 | 1x TW
-      - 🇺🇸 美国 - 聖荷西 - Cloudflare, Inc. - 103
-      - 🇸🇬 0|🇸🇬新加坡 01 | 1x SG
-      - 🇩🇪 0|🇩🇪德国 01 | 1x DE
-      - 🇰🇷 0|🇰🇷 韩国 01 | 1x KR
-      - 14|GB_speednode_0083
-      - 🇻🇳 0|🇻🇳 越南 01 | 1x VN
       - 🇭🇰 15|🇭🇰香港家宽 03 | 1x HK
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇨🇳 吉林省 移动(全省通用)
-      - 14|GB_speednode_0079
-      - 🇺🇦 0|🇺🇦乌克兰 01 | 1x UA
-      - 🇺🇦 15|🇺🇦乌克兰 01 | 1x UA
-      - 🇭🇰 香港7|@ripaojiedian
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+      - 🇧🇷 巴西 - São Paulo - Oracle Corporation - 3
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 7
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 36
+      - 🇯🇵 2|🇯🇵 日本 01 | 1x JP
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 0|🇯🇵 日本 01 | 1x JP
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 15|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇯🇵 0|🇯🇵日本 03 | 1x JP
+      - 2|🇺🇸96 |  2.4MB/s
+      - 🇦🇺 2|🇦🇺 澳大利亚 01 | 1x AU
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇦🇺 0|🇦🇺 澳大利亚 01 | 1x AU
+      - "11|Channel id: @ShadowProxy66🇺🇸 #2"
+      - 🇺🇸 15|🇺🇸美国 03 | 1x US Washington
+      - 🇹🇷 15|🇹🇷土耳其 01 | 1x TR
+      - 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+      - 🇸🇬 0|🇸🇬新加坡 02 | 1x SG
+      - 🇺🇸 0|🇺🇸美国 01 | 1x US Los Angeles
+      - 🇭🇰 0|🇭🇰 香港住宅IP 03 | 1x HK
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇺🇸 美国 - 洛杉矶 - HostPapa - 13
+      - 🇮🇳 0|🇮🇳印度 01 | 1x IN
+      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 16
+      - 🇭🇰 2|🇭🇰 香港 01 | 1x HK
+      - 🇺🇸 2|🇺🇸 美国 01 | 1x US Los Angeles
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 99
+      - 🇷🇺 13|俄罗斯|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 55
+      - 🇪🇸 0|🇮🇳西班牙 01 | 1x ES
+      - "13|tg频道:@ripaojiedian #1"
+      - 11|Hamrah avval
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
+      - 🇭🇰 0|🇭🇰香港 02 | 1x HK
       - 🇹🇭 0|🇹🇭泰国 01 | 1x TH
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-      - 🇯🇵 日本4|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港5|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
