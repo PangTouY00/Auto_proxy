@@ -5,187 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 2, server: wwssxxcdfr.freevpnatm.dpdns.org, port: 443, type: vmess, uuid: ac5b2e52-435b-4461-a99c-1317ab0e2889, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vjvNSMXhz3o99DmZDo0oju2st1, headers: {Host: wwssxxcdfr.freevpnatm.dpdns.org}}}
-  - {name: 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "11|Channel id: @ShadowProxy66🇨🇴", server: 195.14.189.109, port: 25565, type: hysteria2, ports: 25565, password: b3429796-fd3b-488a-b137-8886a9717b32, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 3.34.131.22, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18, server: 723cdaa4-sv8cg0-tcw58g-1p0be.cm.plebai.net, port: 15229, type: vmess, uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net}}}
-  - {name: 14|JP_speednode_0036, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epme.ambercc.filegear-sg.me}}}
-  - {name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: "11|Channel id: @ShadowProxy66🇮🇹", server: 23.132.228.217, port: 38746, type: hysteria2, ports: 38746, password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0, sni: dxobg4azmk.gafnode.sbs, skip-cert-verify: true}
-  - {name: "11|Channel id: @ShadowProxy66🇺🇦", server: 185.126.255.78, port: 58944, type: hysteria2, ports: 58944, password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0, sni: dxobg4azmk.gafnode.sbs, skip-cert-verify: true}
-  - {name: 🇭🇰 13|香港8|@ripaojiedian, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT}
-  - {name: "🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4", server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com, port: 17234, type: vmess, uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1", server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}}
-  - {name: 2|🇺🇸116 |  1.2MB/s, server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net}
-  - {name: "2,11|Channel id: @ShadowProxy66🇺🇸 #6", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com, port: 27231, type: trojan, password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d}
-  - {name: 🇸🇬 13|新加坡4|@ripaojiedian, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11", server: 41d65c9d-sux8g0-t0w6o1-1lk9i.cm5.p5pv.com, port: 17234, type: vmess, uuid: a60e3782-223e-11ee-b973-f23c913c8d2b, alterId: 0, cipher: auto, tls: false}
-  - {name: "11|sshocean VIP VPN ⭐ #2", server: hys2.cpionline.us, port: 443, type: hysteria2, ports: 443, password: 9f73c619627d6a5d, obfs: salamander, obfs-password: bd7f765e, sni: www.apple.com, skip-cert-verify: true}
-  - {name: "🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12", server: 03956a29-sux8g0-sz6btt-1fee.cm5.p5pv.com, port: 17234, type: vmess, uuid: fceba144-0aa0-11ee-bf3c-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4", server: 3ef20940-svlb40-swdyrj-1tbzx.cm5.p5pv.com, port: 17233, type: vmess, uuid: 6b43d15a-e7bf-11ef-9862-f23c913c8d2b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3, server: ee53ff51-sux8g0-sxxbmq-1szgv.cm5.p5pv.com, port: 17235, type: vmess, uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30, server: ad5fa6b1-sux8g0-sy6f3m-1os43.cm.plebai.net, port: 15229, type: vmess, uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1, server: e29966dd-sv2sg0-t61a4d-uufg.cm5.p5pv.com, port: 17235, type: vmess, uuid: 565e68bc-a9a5-11ee-abce-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇰🇷2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7", server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com, port: 17233, type: vmess, uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 1|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
-  - {name: "🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19", server: 5f796e41-surog0-svbm2l-1t8q3.cm5.p5pv.com, port: 17234, type: vmess, uuid: 775baa4a-d75b-11ef-a11a-f23c913c8d2b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25, server: 183.236.51.38, port: 30052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇺🇸104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 11|🔵🟡HYSs 🇺🇲, server: 141.11.74.11, port: 443, type: hysteria2, ports: 443, password: a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03, sni: us-hy2.xlb8.eu.org, skip-cert-verify: true}
-  - {name: "11|Channel id: @ShadowProxy66🇭🇰 #1", server: 47.76.232.205, port: 3074, type: hysteria2, ports: 3074, password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm, skip-cert-verify: true}
-  - {name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com}
-  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #7", server: 107.172.235.75, port: 56381, type: hysteria2, ports: 56381, password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0, sni: dxobg4azmk.gafnode.sbs, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112", server: 0000:0000:0000:0000:0000:ffff:8e5d:fd31, port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [d1.awsstatic.com]}}}
+  - {name: 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10, server: 120.198.44.126, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 江苏省 移动, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7, server: tci2.tiamoci.us.kg, port: 80, type: vmess, uuid: 6a56074e-167a-4f0a-b2ef-780e4c506436, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tci2.tiamoci.us.kg}}}
+  - {name: 🇨🇳 广东省梅州市 移动, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,199 +84,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,47 +168,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 2
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - "11|Channel id: @ShadowProxy66🇨🇴"
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      - 🇺🇸 美国|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
-      - 14|JP_speednode_0036
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - "11|Channel id: @ShadowProxy66🇮🇹"
-      - "11|Channel id: @ShadowProxy66🇺🇦"
-      - 🇭🇰 13|香港8|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 4
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 2|🇺🇸116 |  1.2MB/s
-      - "2,11|Channel id: @ShadowProxy66🇺🇸 #6"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 13|新加坡4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 11
-      - "11|sshocean VIP VPN ⭐ #2"
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 12
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 4
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 3
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇫🇷 法国 - 塞纳河畔维提 - Online S.A.S. - 1
-      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 洛杉矶 - DMIT Cloud Services - 42
-      - 🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 7
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 40
-      - 1|🇺🇸98 |  1.3MB/s
-      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 19
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 25
-      - 2|🇺🇸104 |  2.1MB/s
-      - 11|🔵🟡HYSs 🇺🇲
-      - "11|Channel id: @ShadowProxy66🇭🇰 #1"
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
+      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
+      - 🇨🇳 广东省梅州市 移动
+      - 🇭🇰 香港5|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
