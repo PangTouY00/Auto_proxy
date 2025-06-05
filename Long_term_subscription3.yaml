@@ -5,67 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国|@ripaojiedian, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112", server: 0000:0000:0000:0000:0000:ffff:8e5d:fd31, port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [d1.awsstatic.com]}}}
-  - {name: 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10, server: 120.198.44.126, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}}
+  - {name: 如有需要，自行搭建, server: web.51.la, port: 443, type: vmess, uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b, alterId: 0, cipher: auto, tls: true, servername: web.51.la}
+  - {name: 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10, server: 18.162.203.189, port: 3000, type: vmess, uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 上海市 移动, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
+  - {name: 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1", server: d24111a9-svhls0-t0ces9-1rs9e.cm5.p5pv.com, port: 17234, type: vmess, uuid: e651d432-320c-11ef-a119-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1, server: 5zc21-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 6e5f11f9-0cc1-3997-b245-56279f9894a5, alterId: 1, cipher: auto, tls: true}
   - {name: 🇭🇰 香港7|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 江苏省 移动, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7, server: tci2.tiamoci.us.kg, port: 80, type: vmess, uuid: 6a56074e-167a-4f0a-b2ef-780e4c506436, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tci2.tiamoci.us.kg}}}
-  - {name: 🇨🇳 广东省梅州市 移动, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 8, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 09499c8:182394}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,75 +88,80 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -168,17 +177,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 112
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 10
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 2
+      - 如有需要，自行搭建
+      - 🇭🇰 中国 - 香港 - G-Core Labs S.A - 10
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 13
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇨🇳 上海市 移动
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 17
+      - 🇮🇩 印度尼西亚 - 雅加达 - Akamai Technologies, Inc. - 1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
       - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 江苏省 移动
-      - 🇬🇧 英国 - 伦敦 - Massivegrid LTD - 7
-      - 🇨🇳 广东省梅州市 移动
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile - 8
+      - 🇨🇳 台湾|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
