@@ -5,163 +5,159 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10|⚡️ @vpnserverrr (Hysteria) #6", server: 164.152.19.229, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 0|🇺🇸105 |  2.9MB/s, server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net}
-  - {name: 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr, server: us.xn--mes91t7ofgnw.com, port: 443, type: hysteria2, ports: 443, password: aa068abd-f858-4fdf-b7c2-101947f160cb}
-  - {name: "12|Channel id: @ShadowProxy66🇷🇺 #1", server: 85.235.205.212, port: 56410, type: hysteria2, ports: 56410, password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0, sni: dxobg4azmk.gafnode.sbs, skip-cert-verify: true}
-  - {name: "12|Channel id: @ShadowProxy66🇭🇰", server: 89.185.27.133, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国6|@ripaojiedian, server: 35.89.114.253, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
-  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2, server: poki.shahrekhabar.ru, port: 2087, type: vmess, uuid: 9d8b498c-559f-4405-9edd-0ec5f3bab6c2, alterId: 0, cipher: auto, tls: false}
-  - {name: 0|🇺🇸88 |  1.1MB/s, server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, servername: cf.fovi.tk, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}}
-  - {name: 11|tg频道:@ripaojiedian, server: 57.180.28.64, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
-  - {name: 11|🇱@ا ا, server: sinavm.sinavm.ir, port: 80, type: hysteria2, ports: 80, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM, sni: sinavm.sinavm.ir, skip-cert-verify: false}
-  - {name: "10|Channel id: @ShadowProxy66🇨🇴", server: 195.14.189.109, port: 25565, type: hysteria2, ports: 25565, password: b3429796-fd3b-488a-b137-8886a9717b32, skip-cert-verify: true}
-  - {name: 🇻🇳 12|越南|@ripaojiedian, server: 103.186.154.25, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: 12|sshocean 🎖️ POD ³, server: 35.74.239.19, port: 3074, type: hysteria2, ports: 3074, password: NDE0NTc3OjExMTIwMTplODE1ODQ3YmIyZGJjZDM0%3D, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9, server: 183.236.51.38, port: 49191, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10, server: 183.236.51.38, port: 49554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 14|香港|@ripaojiedian, server: 183.236.51.38, port: 49554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O..., server: us.10101251.xyz, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "10|⚡️ @vpnserverrr (Hysteria) #4", server: 45.63.116.113, port: 443, type: hysteria2, ports: 443, password: 18463200c271aa6d, obfs: salamander, obfs-password: 6c80ade6, sni: vkvd127.mycdn.me, skip-cert-verify: true}
-  - {name: "12|⚡️ @vpnserverrr (Hysteria) #2", server: bac.aelen.ggff.net, port: 52045, type: hysteria2, ports: 52045, password: 5gi8342LF4, obfs: salamander, obfs-password: Cui080924}
-  - {name: 2|🌀4-TH |  2.6MB/s|55%|Netflix|O..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡6|@ripaojiedian, server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com}
-  - {name: 2|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383, server: tci5.tiamoci.us.kg, port: 80, type: vmess, uuid: cd976bfe-2118-4738-b373-6384ec4a23cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tci5.tiamoci.us.kg}}}
-  - {name: "12|sshocean VIP VPN ⭐ #2", server: hys2.cpionline.us, port: 443, type: hysteria2, ports: 443, password: 9f73c619627d6a5d, obfs: salamander, obfs-password: bd7f765e, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 13|🇭🇰 香港5|@ripaojiedian, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 11|🇭🇰 香港2|@ripaojiedian, server: 121.127.231.217, port: 11400, type: ss, cipher: chacha20-ietf-poly1305, password: 1450cecfb93f}
-  - {name: 13|CN_speednode_0006, server: 7fd1be71-sxc9s0-tcselz-oua4.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 659990ba-650f-11ea-a7af-f23c9164ca5d, sni: 7fd1be71-sxc9s0-tcselz-oua4.cm5.cnkuaishou.com, skip-cert-verify: false}
-  - {name: 13|tg频道:@ripaojiedian, server: 57.180.28.64, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
-  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "🇺🇸 12,13|美国4|@ripaojiedian", server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}}
+  - {name: "11|Channel id: @ShadowProxy66рҹҮё...", server: 104.192.92.99, port: 443, type: hysteria2, ports: 443, password: cdb63ff9-1767-4a35-97e5-900048e4feb2, sni: tms.dingtalk.com, skip-cert-verify: true}
+  - {name: 1|🇺🇸104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com}
+  - {name: 🇭🇰 13|香港|@ripaojiedian, server: 183.236.51.38, port: 49554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "11|Channel id: @ShadowProxy66рҹҮә... #7", server: 185.126.255.78, port: 58944, type: hysteria2, ports: 58944, password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0, sni: dxobg4azmk.gafnode.sbs, skip-cert-verify: true}
+  - {name: "11|Channel id: @ShadowProxy66рҹҮ®...", server: 89.168.23.31, port: 10000, type: hysteria2, ports: 10000, password: 9b80524b-f3c5-4221-8851-59cd409d99ef, sni: yidali.959555.xyz, skip-cert-verify: true}
+  - {name: "11|Channel id: @ShadowProxy66рҹҮә... #4", server: 104.168.34.109, port: 443, type: hysteria2, ports: 443, password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3", server: ld-arm.nfsn666.gq, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: ld-arm.nfsn666.gq, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 - 东京 - Akari Networks - 6, server: jp4.relay.windraycloud.top, port: 41284, type: vmess, uuid: edcb72d6-b67f-3c83-ad3d-cdf424d98593, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "11|Channel id: @ShadowProxy66🇫🇮", server: 37.27.65.125, port: 21160, type: hysteria2, ports: 21160, password: bc97f674-c578-4940-3548-0a1da46041b9, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "11|⚡️ @vpnserverrr (Hysteria) #6", server: 164.152.19.229, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 121.127.231.217, port: 11400, type: ss, cipher: chacha20-ietf-poly1305, password: 1450cecfb93f}
+  - {name: "🇨🇳 12,13|台湾|@ripaojiedian", server: js-12f83a8c.kaiqsz.com, port: 42765, type: trojan, password: b483bf41-79d4-48df-bec6-30a756a3bd6b, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: "11|Channel id: @ShadowProxy66рҹҮ©... #1", server: 45.138.99.106, port: 8443, type: hysteria2, ports: 8443, password: PassWord2, obfs: salamander, obfs-password: PassWord1, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}}
+  - {name: 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7, server: 4f895d15-sva740-syx1ku-1o8ak.cm.plebai.net, port: 15229, type: vmess, uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: js-12f83a8c.kaiqsz.com, port: 42765, type: trojan, password: b483bf41-79d4-48df-bec6-30a756a3bd6b, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: 14|CN_speednode_0005, server: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com, port: 27231, type: trojan, password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b, sni: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com, skip-cert-verify: false}
+  - {name: "11|Channel id: @ShadowProxy66🇨🇦", server: 40.233.70.163, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "11|⚡️ @vpnserverrr (Hysteria) #3", server: ld-arm.nfsn666.gq, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: ld-arm.nfsn666.gq, skip-cert-verify: true}
+  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #1", server: 108.181.5.130, port: 57773, type: hysteria2, ports: 57773, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: "11|Channel id: @ShadowProxy66рҹҮә... #12", server: 141.11.89.172, port: 60000, type: hysteria2, ports: 60000, password: 87f055ba, sni: www.bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,175 +176,170 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -364,41 +355,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|⚡️ @vpnserverrr (Hysteria) #6"
-      - 0|🇺🇸105 |  2.9MB/s
-      - 🇺🇸 10|🇺🇸US- 🚀 @vpnserverrr
-      - "12|Channel id: @ShadowProxy66🇷🇺 #1"
-      - "12|Channel id: @ShadowProxy66🇭🇰"
-      - 🇺🇸 美国6|@ripaojiedian
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 2
-      - 0|🇺🇸88 |  1.1MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 11|tg频道:@ripaojiedian
-      - 11|🇱@ا ا
-      - "10|Channel id: @ShadowProxy66🇨🇴"
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 12|sshocean 🎖️ POD ³
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 14|香港|@ripaojiedian
-      - 0|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇭🇰 香港6|@ripaojiedian
-      - "10|⚡️ @vpnserverrr (Hysteria) #4"
-      - "12|⚡️ @vpnserverrr (Hysteria) #2"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 11
-      - 🇸🇬 新加坡6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 5
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 383
-      - "12|sshocean VIP VPN ⭐ #2"
-      - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 13|CN_speednode_0006
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸108 |  1.4MB/s
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮё..."
+      - 1|🇺🇸104 |  2.1MB/s
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - "11|Channel id: @ShadowProxy66рҹҮә... #7"
+      - "11|Channel id: @ShadowProxy66рҹҮ®..."
+      - "11|Channel id: @ShadowProxy66рҹҮә... #4"
+      - "11|вҡЎпёҸ @vpnserverrr (Hysteria) #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 日本 - 东京 - Akari Networks - 6
+      - 🇰🇷 12|🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇫🇮"
+      - "11|⚡️ @vpnserverrr (Hysteria) #6"
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66рҹҮ©... #1"
+      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 1
+      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇨🇳 台湾|@ripaojiedian
+      - 2|🇺🇸96 |  2.4MB/s
+      - 14|CN_speednode_0005
+      - "11|Channel id: @ShadowProxy66🇨🇦"
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - "11|⚡️ @vpnserverrr (Hysteria) #3"
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - "11|Channel id: @ShadowProxy66рҹҮә... #12"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
