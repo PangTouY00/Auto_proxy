@@ -5,143 +5,147 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 13,14|新加坡4|@ripaojiedian", server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 13|日本4|@ripaojiedian, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange..., server: freea.glyphara.com, port: 36213, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇧🇷 3|🇧🇷 巴西 101 | 1x BR, server: freea.glyphara.com, port: 36671, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇨🇳 江苏省盐城市 创凡云, server: 223.111.144.12, port: 43196, type: trojan, password: HrTsLJvh, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0028, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, skip-cert-verify: true}
-  - {name: 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR, server: freem.vidalith.com, port: 31541, type: ss, cipher: chacha20-ietf-poly1305, password: e544a749-43df-4ec8-ae93-ea9984ea009e}
-  - {name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 11|@Selinc, server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇺🇸 13,14|美国3|@ripaojiedian", server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}}
-  - {name: 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR, server: freea.glyphara.com, port: 36571, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇰🇷 1|🇰🇷韩国 101 | 1x KR, server: freem.vidalith.com, port: 31311, type: ss, cipher: chacha20-ietf-poly1305, password: e544a749-43df-4ec8-ae93-ea9984ea009e}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: c1xxdcswe.777169.xyz, port: 80, type: vmess, uuid: cad5a49f-14e5-4a05-aae9-c5df8fad394f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TjUzWyRmR4P2fGqXENw4Z4, headers: {Host: c1xxdcswe.777169.xyz}}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 91.194.160.151, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: gChbvpX95FZTtOv6dtwsRL}
-  - {name: 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15, server: 38.47.176.251, port: 56051, type: vmess, uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA, server: freem.vidalith.com, port: 31611, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
+  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 5, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}}
   - {name: "🇯🇵 13,14|日本5|@ripaojiedian", server: 203.156.253.11, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
-  - {name: 🇭🇰 3|🇭🇰 香港 102 | 1x HK, server: freea.glyphara.com, port: 36143, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 1|🇺🇸122 |  1.4MB/s, server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net}
+  - {name: "🇭🇰 13,14|香港3|@ripaojiedian", server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 5.10.245.69, port: 443, type: vmess, uuid: 5096073d-535a-4885-960d-e78d5cb0a83b, alterId: 0, cipher: auto, tls: true, servername: dcs.atlen.dpdns.org, network: ws, ws-opts: {path: /wyk, headers: {Host: dcs.atlen.dpdns.org}}}
+  - {name: 3|🇺🇸103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 5.10.245.69, port: 443, type: vmess, uuid: 5096073d-535a-4885-960d-e78d5cb0a83b, alterId: 0, cipher: auto, tls: true, servername: dcs.atlen.dpdns.org, network: ws, ws-opts: {path: /wyk, headers: {Host: dcs.atlen.dpdns.org}}}
+  - {name: 🇯🇵 12|🇯🇵 日本3|@ripaojiedian, server: 140.227.28.92, port: 20452, type: vmess, uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 14|日本3|@ripaojiedian, server: 140.227.28.92, port: 20452, type: vmess, uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.112.1, port: 443, type: trojan, password: 84831b86-5c76-4173-bdf1-02fa3ed78a32, sni: eeERrrR.999815.xYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /eS3prPmcpzbScA5VUAi1psm38Tz, headers: {Host: eeERrrR.999815.xYZ}}}
+  - {name: 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54, server: 112.65.92.20, port: 45202, type: vmess, uuid: 3bb7e826-6bc8-43ec-a22b-c65d8f30c4e5, alterId: 0, cipher: auto, tls: false}
   - {name: 12|tg频道:@ripaojiedian, server: 43.203.219.33, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU, server: freea.glyphara.com, port: 36411, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام, server: sinavm.soft10.ir, port: 443, type: hysteria2, ports: 443, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 13|tg频道:@ripaojiedian, server: 43.203.219.33, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 2|🇺🇸105 |  2.9MB/s, server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net}
-  - {name: 🇮🇳 0|🇮🇳 印度 101 | 1x IN, server: freea.glyphara.com, port: 36371, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
-  - {name: 11|🇱@𝗩ا ا, server: sinavm.sinavm.ir, port: 80, type: hysteria2, ports: 80, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM, sni: sinavm.sinavm.ir, skip-cert-verify: false}
+  - {name: 🇨🇳 2|🇹🇼 台湾 101 | 1x TW, server: freea.glyphara.com, port: 36241, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1, server: 112.65.92.20, port: 45275, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 0|🇺🇸美国 103 | 1x US Washington, server: freem.vidalith.com, port: 31215, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
+  - {name: 3|🇺🇸88 |  1.1MB/s, server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, skip-cert-verify: false}
+  - {name: 1|🌀4-TH |  2.6MB/s|55%|Netflix|O..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1", server: freea.glyphara.com, port: 36721, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇹🇭 2|🇹🇭泰国 101 | 1x TH, server: freea.glyphara.com, port: 36731, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇭🇰 0|🇭🇰香港 101 | 1x HK, server: freem.vidalith.com, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
+  - {name: 🇺🇸 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 3|🇺🇸119 |  1.2MB/s, server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net}
+  - {name: 11|@Selinc, server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR, server: freea.glyphara.com, port: 36541, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇭🇰 2|🇭🇰 香港 102 | 1x HK, server: freea.glyphara.com, port: 36143, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15, server: 38.47.176.251, port: 56051, type: vmess, uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange..., server: freea.glyphara.com, port: 36213, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇨🇳 广东省 移动, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,148 +164,156 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -317,36 +329,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 13,14|新加坡4|@ripaojiedian
-      - 🇯🇵 13|日本4|@ripaojiedian
-      - 🇺🇸 0|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
-      - 🇧🇷 3|🇧🇷 巴西 101 | 1x BR
-      - 🇨🇳 江苏省盐城市 创凡云
-      - 14|CN_speednode_0028
-      - 🇦🇷 1|🇦🇷阿根廷 101 | 1x AR
-      - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - 11|@Selinc
-      - 🇺🇸 13,14|美国3|@ripaojiedian
-      - 🇹🇷 3|🇹🇷 土耳其 101 | 1x TR
-      - 🇰🇷 1|🇰🇷韩国 101 | 1x KR
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇦 0|🇺🇦乌克兰 101 | 1x UA
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 5
       - 🇯🇵 13,14|日本5|@ripaojiedian
-      - 🇭🇰 3|🇭🇰 香港 102 | 1x HK
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 51
-      - 2|🇺🇸121 |  1.2MB/s
+      - 1|🇺🇸122 |  1.4MB/s
+      - 🇭🇰 13,14|香港3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 3|🇺🇸103 |  3.2MB/s
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 14|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 - 洛杉矶 - FDCservers.net - 54
       - 12|tg频道:@ripaojiedian
-      - 🇦🇺 0|🇦🇺 澳大利亚 101 | 1x AU
-      - 11|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
-      - 2|🇺🇸105 |  2.9MB/s
-      - 🇮🇳 0|🇮🇳 印度 101 | 1x IN
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-      - 11|🇱@𝗩ا ا
+      - 🇨🇳 2|🇹🇼 台湾 101 | 1x TW
+      - 🇫🇮 芬兰 - 赫尔辛基 - CGI GLOBAL LIMITED - 1
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 0|🇺🇸美国 103 | 1x US Washington
+      - 3|🇺🇸88 |  1.1MB/s
+      - 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "🇲🇾 2|🇲🇾马来西亚 101 | 1x MY #1"
+      - 🇹🇭 2|🇹🇭泰国 101 | 1x TH
+      - 🇭🇰 0|🇭🇰香港 101 | 1x HK
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 3|🇺🇸119 |  1.2MB/s
+      - 11|@Selinc
+      - 🇦🇷 2|🇦🇷 阿根廷 101 | 1x AR
+      - 🇭🇰 2|🇭🇰 香港 102 | 1x HK
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - PT Herza Digital Indonesia - 15
+      - 🇺🇸 2|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
+      - 🇨🇳 广东省 移动
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

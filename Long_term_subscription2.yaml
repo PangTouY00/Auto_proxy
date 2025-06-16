@@ -5,195 +5,147 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本5|@ripaojiedian, server: 203.156.253.11, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
-  - {name: 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7, server: dlgdc.thecxfcsp.top, port: 21564, type: vmess, uuid: 9f9b21c3-e3fc-3e27-b878-82eeae401d12, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington, server: freea.glyphara.com, port: 36215, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: "🇸🇬 12,13|新加坡4|@ripaojiedian", server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 13|日本3|@ripaojiedian, server: 140.227.28.92, port: 20452, type: vmess, uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}}
-  - {name: 🇺🇸 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 43.226.17.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8360adcea0b1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kr6v1.dashengjs.net, path: /bylnxldqaquw, tls: true, mux: false}}
-  - {name: 🇩🇪 0|🇩🇪 德国 101 | 1x DE, server: freea.glyphara.com, port: 36471, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 2|🇺🇸104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 🇭🇰 13|香港7|@ripaojiedian, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 0|🇯🇵 日本 102 | 1x JP, server: freea.glyphara.com, port: 36113, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 🇭🇰 香港7|@ripaojiedian, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 13|🇯🇵 日本3|@ripaojiedian, server: 140.227.28.92, port: 20452, type: vmess, uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 14|香港7|@ripaojiedian, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 3|🇰🇷 韩国 101 | 1x KR, server: freea.glyphara.com, port: 36311, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 2|🇺🇸120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 🇹🇭 3|🇹🇭泰国 101 | 1x TH, server: freea.glyphara.com, port: 36731, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1, server: ppy-boardv2.02ijp4uos1.download, port: 26133, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange..., server: freea.glyphara.com, port: 36213, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 2|🇺🇸82 |  1.3MB/s, server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b, sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net}
-  - {name: tg频道:@ripaojiedian, server: 43.203.219.33, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
-  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 203.227.44.74, port: 31945, type: vmess, uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 77.246.98.67, port: 4343, type: ss, cipher: chacha20-ietf-poly1305, password: OFpg90YqwofvAOv2hEgrou}
-  - {name: 🇨🇳 江苏省 移动, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 15|CN_speednode_0030, server: 223.111.144.12, port: 43196, type: trojan, password: HrTsLJvh, skip-cert-verify: true}
-  - {name: 15|CN_speednode_0028, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, skip-cert-verify: true}
-  - {name: 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG, server: freea.glyphara.com, port: 36171, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA, server: freea.glyphara.com, port: 36611, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH, server: freem.vidalith.com, port: 31341, type: ss, cipher: chacha20-ietf-poly1305, password: e544a749-43df-4ec8-ae93-ea9984ea009e}
-  - {name: 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2, server: 120.199.83.240, port: 45244, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID, server: freea.glyphara.com, port: 36677, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH, server: freea.glyphara.com, port: 36341, type: ss, cipher: chacha20-ietf-poly1305, password: e673c385-6c33-4318-84d3-c56c29d060c6}
-  - {name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian, server: 43.226.17.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8360adcea0b1}
-  - {name: 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 2c329585-67a8-498b-8d38-176dac806bc7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: cloudgetservice.mcloudservice.site}}}
-  - {name: 🇭🇰 13|🇭🇰 香港7|@ripaojiedian, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH, server: freea.glyphara.com, port: 36341, type: ss, cipher: chacha20-ietf-poly1305, password: 6b67b9a5-acbf-406c-8c5a-ab1382efb591}
-  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: ssscdfr5.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: ssscdfr5.freevpnatm2025.dpdns.org}}}
-  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 15|CN_speednode_0031, server: 36.151.251.56, port: 4448, type: trojan, password: FpQhGpIr, skip-cert-verify: true}
+  - {name: 🇨🇳 2|🇹🇼 台湾 102 | 1x TW, server: freea.glyphara.com, port: 36243, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di..., server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
+  - {name: 14|CN_speednode_0027, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, sni: 36.151.251.62, skip-cert-verify: true}
+  - {name: 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK, server: freea.glyphara.com, port: 36145, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇧🇷 0|🇧🇷巴西 101 | 1x BR, server: freem.vidalith.com, port: 31671, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 4da9741f-swq1s0-sxmlck-1ta58.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇯🇵 2|🇯🇵 日本 102 | 1x JP, server: freea.glyphara.com, port: 36113, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: "10|@Selinc #1", server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 吉林省 移动(全省通用), server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "🇸🇬 13,14|新加坡|@ripaojiedian", server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 3|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 🇨🇦 0|🇨🇦加拿大 101 | 1x CA, server: freem.vidalith.com, port: 31441, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
+  - {name: 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA, server: freea.glyphara.com, port: 36611, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: 203.227.44.74, port: 31945, type: vmess, uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 203.227.44.74, port: 31945, type: vmess, uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506131022370-yLzbxEkmoB.download.microsoft.com}}
+  - {name: "🇭🇰 12,13|香港6|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU, server: freea.glyphara.com, port: 36511, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true}
+  - {name: 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR, server: freea.glyphara.com, port: 36571, type: ss, cipher: chacha20-ietf-poly1305, password: ed2f51ac-7d49-4532-8165-3212eedcf1ca}
+  - {name: 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 14|CN_speednode_0028, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, skip-cert-verify: true}
+  - {name: 🇰🇷 13|🇰🇷 韩国|@ripaojiedian, server: 203.227.44.74, port: 31945, type: vmess, uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 0|🇰🇷韩国 101 | 1x KR, server: freem.vidalith.com, port: 31311, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
+  - {name: 🇮🇳 0|🇮🇳印度 101 | 1x IN, server: freem.vidalith.com, port: 31371, type: ss, cipher: chacha20-ietf-poly1305, password: b2a23a25-3787-4820-8db7-0ab96fc3478e}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,204 +164,157 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -425,49 +330,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 俄罗斯 - 新西伯利亚 - LLC Baxet - 7
-      - 🇺🇸 3|🇺🇸 美国 103 | 1x US Washington
-      - 🇸🇬 12,13|新加坡4|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda - CTG Server Ltd. - 1
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 6
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 0|🇩🇪 德国 101 | 1x DE
-      - 2|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 13|香港7|@ripaojiedian
-      - 🇯🇵 0|🇯🇵 日本 102 | 1x JP
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 14|香港7|@ripaojiedian
-      - 🇰🇷 3|🇰🇷 韩国 101 | 1x KR
-      - 2|🇺🇸120 |  1.4MB/s
-      - 🇹🇭 3|🇹🇭泰国 101 | 1x TH
-      - 🇭🇰 阿曼 - 马斯喀特 - Kaopu Cloud HK Limited - 1
-      - 🇺🇸 3|🇺🇸 美国住宅IP 102 | 1x US Los Ange...
-      - 2|🇺🇸82 |  1.3MB/s
-      - tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 15|CN_speednode_0030
-      - 15|CN_speednode_0028
-      - 🇸🇬 3|🇸🇬 新加坡 101 | 1x SG
-      - 🇺🇦 0|🇺🇦 乌克兰 101 | 1x UA
-      - 🇵🇭 1|🇵🇭菲律宾 101 | 1x PH
-      - 🇲🇽 墨西哥 - 墨西哥城 - Latitude.sh - 2
-      - 🇮🇩 3|🇮🇩 印度尼西亚 101 | 1x ID
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇵🇭 3|🇵🇭 菲律宾 101 | 1x PH
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-      - 🇵🇭 0|🇵🇭 菲律宾 101 | 1x PH
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 1
+      - 15|CN_speednode_0031
+      - 🇨🇳 2|🇹🇼 台湾 102 | 1x TW
+      - 1|🇺🇸68 |  2.6MB/s|32%|Netflix|Di...
+      - 14|CN_speednode_0027
+      - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 2|🇭🇰 香港住宅IP 103 | 1x HK
+      - 🇧🇷 0|🇧🇷巴西 101 | 1x BR
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 2|🇯🇵 日本 102 | 1x JP
+      - "10|@Selinc #1"
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇸🇬 13,14|新加坡|@ripaojiedian
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
+      - 3|🇺🇸121 |  1.2MB/s
+      - 🇨🇦 0|🇨🇦加拿大 101 | 1x CA
+      - 🇺🇦 2|🇺🇦 乌克兰 101 | 1x UA
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇷🇺 2|🇷🇺 俄罗斯 101 | 1x RU
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 3
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 2|🇹🇷 土耳其 101 | 1x TR
+      - 3|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 14|CN_speednode_0028
+      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 0|🇰🇷韩国 101 | 1x KR
+      - 🇮🇳 0|🇮🇳印度 101 | 1x IN
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
