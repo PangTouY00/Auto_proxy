@@ -20,39 +20,39 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 1174`
+`Total number of merge nodes: 1484`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.comPangTouY00/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription5`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 186`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 145`
+`Total number of merge nodes: 182`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `9`
-Updata：`2025-06-17 11:13:36`
+Updata：`2025-06-17 22:13:46`
 
 
 <details>
@@ -21007,44 +21007,29 @@ Updata：`2025-06-17 11:13:36`
 
 
 
->Trial subscription：
-`https://dl.vfkum.website/api/v1/client/subscribe?token=cd47ed6e3f0a6556e479e6046641e85f`
 
 
 
 
->Trial subscription：
-`https://admin.vip.edu.kg/api/v1/client/subscribe?token=1dbb983c69e6743be76afc7722026acb`
+
 
 
 
 
 >Trial subscription：
-`https://vt.louwangzhiyu.xyz/api/v1/client/subscribe?token=dde6dcef7f66c32ca5bef2932aa4807d`
+`https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=0fae9ad4843ac42d731567f842ef1e33`
 
 
 
 
 >Trial subscription：
-`https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=282a8d8af6ac9611984a85b2337c3b41`
+`https://di5ji.lat/api/v1/client/subscribe?token=ab4f8b4cb2d759a6b35b1baafb2eb921`
 
 
 
 
 >Trial subscription：
-`https://dashuai.us/api/v1/client/subscribe?token=9b797c14d8710b86614601f2ce5c6d21`
-
-
-
-
->Trial subscription：
-`https://ch.cukug.website/api/v1/client/subscribe?token=2355bae4eacd90f98411ca02021aa412`
-
-
-
-
->Trial subscription：
-`https://ch.louwangzhiyu.xyz/api/v1/client/subscribe?token=69678b7d9b177bab20dd22bb7828fda0`
+`https://dl.vfkum.website/api/v1/client/subscribe?token=d154116c9f1fdfab35460c3913570b6c`
 
 
 
@@ -21056,7 +21041,31 @@ Updata：`2025-06-17 11:13:36`
 
 
 >Trial subscription：
-`https://di5ji.lat/api/v1/client/subscribe?token=e33f716d064fb4a8379dac62385cff82`
+`https://admin.vip.edu.kg/api/v1/client/subscribe?token=b8d833fabcc8b17cb46c59ece6bb0c8f`
+
+
+
+
+>Trial subscription：
+`https://dashuai.us/api/v1/client/subscribe?token=df6f1039dc15c8375be5bdab0a500e8a`
+
+
+
+
+>Trial subscription：
+`https://vt.louwangzhiyu.xyz/api/v1/client/subscribe?token=611318d84e18a88b3fe9a7f9a3003c82`
+
+
+
+
+>Trial subscription：
+`https://ch.louwangzhiyu.xyz/api/v1/client/subscribe?token=c2276804473807835a82e2def004291a`
+
+
+
+
+>Trial subscription：
+`https://ch.cukug.website/api/v1/client/subscribe?token=fef8e4294063e2f8a6bec3bd09aa6f55`
 
 
 
