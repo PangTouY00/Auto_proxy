@@ -5,143 +5,175 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 13|美国3|@ripaojiedian, server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net, port: 15229, type: trojan, password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b}
-  - {name: 🇺🇸 美国 - Elk Grove Village - HostPapa - 1, server: 172.67.199.104, port: 80, type: vmess, uuid: 03e92910-34b1-4245-ac63-04a865f43cd5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /NjLXrucxVIcvpHPhIJoo2wcE6Q, headers: {Host: eeefr5t6.4444916.xyz}}}
+  - {name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 172.64.157.100, port: 8443, type: vmess, uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708, alterId: 0, cipher: auto, tls: true, servername: transcripts-guys-singapore-fotos.trycloudflare.com, network: ws, ws-opts: {path: /, headers: {Host: transcripts-guys-singapore-fotos.trycloudflare.com}}}
+  - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: 183.236.51.38, port: 36519, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "13,14,15|CN_speednode_0043", server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true}
+  - {name: 14|KR_speednode_0145, server: 121.172.5.248, port: 16913, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: kh36v1.pmxiaonan.xyz, port: 15116, type: ss, cipher: chacha20-ietf-poly1305, password: 1450cecfb93f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kh36v1.pmxiaonan.xyz, path: /simieepvt, tls: true, mux: true}}
-  - {name: 2|🇺🇸109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 14|KR_speednode_0141, server: 121.172.5.248, port: 34689, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: 2|🇺🇸116 |  1.2MB/s, server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net}
-  - {name: 14|ES_speednode_0091, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: store.timimi.dpdns.org}}}
-  - {name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
-  - {name: 14|KR_speednode_0150, server: 220.87.229.22, port: 37865, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 104.18.42.62, port: 8443, type: vmess, uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7, alterId: 0, cipher: auto, tls: true, servername: hk2.huaweiwuu5.xyz, network: ws, ws-opts: {path: /, headers: {Host: hk2.huaweiwuu5.xyz}}}
-  - {name: 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1, server: 37.27.213.97, port: 24715, type: vmess, uuid: 03fe3f21-177f-448c-b4cf-b6b9155563a4, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}}
-  - {name: 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 15|US_speednode_0522, server: 104.26.13.31, port: 8443, type: trojan, password: trojan, sni: qianlang.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: qianlang.pages.dev}}}
+  - {name: 3|🌀5-LI |  2.0MB/s|0%|Openai, server: sinavm.ru, port: 8080, type: hysteria2, ports: 8080, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM, sni: sinavm.ru, skip-cert-verify: true}
+  - {name: 1|🇺🇸119 |  1.2MB/s, server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net}
+  - {name: "10,12|Channel id: @ShadowProxy66🇫🇷 #1", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
+  - {name: 🇯🇵 13|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 14|US_speednode_0551, server: 104.21.77.149, port: 443, type: trojan, password: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, sni: sssxcvfgty.999834.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /MwXI8nfdPkSDsYEGVHqPd73hl, headers: {Host: sssxcvfgty.999834.xyz}}}
+  - {name: 1|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
+  - {name: 14|KR_speednode_0146, server: 118.37.105.12, port: 28827, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 15|KR_speednode_0150, server: 220.87.229.22, port: 37865, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 🇺🇸 美国 - Elk Grove Village - HostPapa - 1, server: 172.67.199.104, port: 80, type: vmess, uuid: 03e92910-34b1-4245-ac63-04a865f43cd5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /NjLXrucxVIcvpHPhIJoo2wcE6Q, headers: {Host: eeefr5t6.4444916.xyz}}}
+  - {name: 15|US_speednode_0480, server: 172.67.175.148, port: 443, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: inviNcIble.fafa20.ShOp, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560", headers: {Host: inviNcIble.fafa20.ShOp}}}
+  - {name: 1|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
   - {name: 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2, server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com, port: 4151, type: vmess, uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇺🇸88 |  1.1MB/s, server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, skip-cert-verify: false}
-  - {name: 3|🇺🇸122 |  1.4MB/s, server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net}
-  - {name: 10|@Selinc, server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "10|@Selinc #1", server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: kr6v1.dashengjs.net, port: 443, type: ss, cipher: aes-256-gcm, password: 8360adcea0b1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kr6v1.dashengjs.net, path: /bylnxldqaquw, tls: true, mux: true}}
-  - {name: 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 14|KR_speednode_0156, server: 59.5.53.119, port: 14982, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: 15|CN_speednode_0029, server: 36.151.251.62, port: 38632, type: trojan, password: FpQhGpIr, skip-cert-verify: true}
-  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
-  - {name: 11|@Selinc, server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇰🇷 13|韩国3|@ripaojiedian, server: 3.36.114.140, port: 9898, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg}
+  - {name: "12|Channel id: @ShadowProxy66🇺🇸 #6", server: 107.175.34.118, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz}
+  - {name: 🇺🇸 13|🇺🇸 美国3|@ripaojiedian, server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net, port: 15229, type: trojan, password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net, skip-cert-verify: false}
+  - {name: 14|KR_speednode_0144, server: 220.87.243.193, port: 24304, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: "11|Channel id: @ShadowProxy66🇬🇧", server: 185.184.70.120, port: 42353, type: hysteria2, ports: 42353, password: e48d6377dda26840, skip-cert-verify: true}
+  - {name: "12|Channel id: @ShadowProxy66🇺🇸 #3", server: 172.245.106.236, port: 35091, type: hysteria2, ports: 35091, password: e3f67f43-9097-4e56-96e2-681910b92150, obfs: salamander, obfs-password: fWQ4LCfAYiKaEVRe, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "11|⚡️ @vpnserverrr (Hysteria) #1", server: 108.181.5.130, port: 57773, type: hysteria2, ports: 57773, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Cnservers LLC - 12, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: 14|SG_speednode_0293, server: 128.199.237.143, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: "12,13,14|CN_speednode_0043", server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 14|US_speednode_0547, server: 172.67.209.79, port: 443, type: trojan, password: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, sni: sssxcvfgty.999834.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /MwXI8nfdPkSDsYEGVHqPd73hl, headers: {Host: sssxcvfgty.999834.xyz}}}
+  - {name: 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian, server: 3.36.114.140, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
+  - {name: 14|KR_speednode_0147, server: 220.87.243.193, port: 28568, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 14|US_speednode_0480, server: 172.67.175.148, port: 443, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: inviNcIble.fafa20.ShOp, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560", headers: {Host: inviNcIble.fafa20.ShOp}}}
+  - {name: 15|KR_speednode_0153, server: 218.148.212.190, port: 26120, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: "🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3", server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: "🇭🇰 13,14|香港5|@ripaojiedian", server: 104.18.42.62, port: 8443, type: vmess, uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7, alterId: 0, cipher: auto, tls: true, servername: hk2.huaweiwuu5.xyz, network: ws, ws-opts: {path: /, headers: {Host: hk2.huaweiwuu5.xyz}}}
+  - {name: 14|KR_speednode_0138, server: 211.248.229.186, port: 14074, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 🇯🇵 14|日本4|@ripaojiedian, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|US_speednode_0522, server: 104.26.13.31, port: 8443, type: trojan, password: trojan, sni: qianlang.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: qianlang.pages.dev}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,150 +192,183 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
+      - 🇭🇰 13,14|香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -319,36 +384,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 13|美国3|@ripaojiedian
-      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 13,14,15|CN_speednode_0043
+      - 14|KR_speednode_0145
       - 🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸109 |  3.2MB/s
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 14|KR_speednode_0141
-      - 2|🇺🇸116 |  1.2MB/s
-      - 14|ES_speednode_0091
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 14|KR_speednode_0150
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
-      - 3|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 15|US_speednode_0522
+      - 3|🌀5-LI |  2.0MB/s|0%|Openai
+      - 1|🇺🇸119 |  1.2MB/s
+      - "10,12|Channel id: @ShadowProxy66🇫🇷 #1"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
+      - 14|US_speednode_0551
+      - 1|🇺🇸98 |  1.3MB/s
+      - 14|KR_speednode_0146
+      - 15|KR_speednode_0150
+      - 🇺🇸 美国 - Elk Grove Village - HostPapa - 1
+      - 15|US_speednode_0480
+      - 1|🇺🇸108 |  1.4MB/s
       - 🇯🇵 日本 - 东京 - Eons Data Communications Limited - 2
-      - 2|🇺🇸88 |  1.1MB/s
-      - 3|🇺🇸122 |  1.4MB/s
-      - 10|@Selinc
-      - 🇯🇵 日本4|@ripaojiedian
-      - "10|@Selinc #1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 3|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 14|KR_speednode_0156
-      - 15|CN_speednode_0029
-      - 2|🇺🇸108 |  1.4MB/s
-      - 11|@Selinc
-      - 🇰🇷 13|韩国3|@ripaojiedian
+      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0144
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - "12|Channel id: @ShadowProxy66🇺🇸 #3"
+      - "11|⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
       - 14|SG_speednode_0293
-      - 12,13,14|CN_speednode_0043
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 14|US_speednode_0547
+      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+      - 14|KR_speednode_0147
+      - 14|US_speednode_0480
+      - 15|KR_speednode_0153
+      - 🇺🇸 美国 - 亚特兰大 - Akamai Technologies, Inc. - 3
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13,14|香港5|@ripaojiedian
+      - 14|KR_speednode_0138
+      - 🇯🇵 14|日本4|@ripaojiedian
+      - 14|US_speednode_0522
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
