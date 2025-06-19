@@ -5,163 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 江苏省宿迁市 数据中心, server: l98tygm6.wmdkwwurw.top, port: 19994, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 3988dfba-e9ee-40ba-a87e-553aee1c5993, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
-  - {name: 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 11|🇭🇰 香港5|@ripaojiedian, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 47.129.223.224, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw}
-  - {name: 🇯🇵 12|日本5|@ripaojiedian, server: 112.54.160.36, port: 30232, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206ZHd6MUd0Rjc}
-  - {name: 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126, server: 45.147.201.231, port: 20062, type: vmess, uuid: e1dca130-d74e-47fa-82d6-4c3773e6f813, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 2|🇺🇸96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: "9|Channel id: @ShadowProxy66🇺🇸 #6", server: 107.175.34.118, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz}
+  - {name: 12|KR_speednode_0152, server: 221.161.58.134, port: 29264, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
+  - {name: "🇭🇰 10,11|香港4|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
+  - {name: 🇺🇸 10|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 14|SG_speednode_0292, server: 139.180.154.158, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 0|🇺🇸82 |  1.3MB/s, server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b, sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net}
+  - {name: 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1, server: ppy-boardv2.02ijp4uos1.download, port: 26153, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: 14|ES_speednode_0091, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: store.timimi.dpdns.org}}}
-  - {name: 🇯🇵 11|🇯🇵 日本4|@ripaojiedian, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem..., server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇯🇵 11|🇯🇵 日本2|@ripaojiedian, server: 163.61.206.64, port: 443, type: ss, cipher: aes-256-gcm, password: b44864e5b56d}
-  - {name: "10|Channel id: @ShadowProxy66🇺🇸 #1", server: 64.181.207.162, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
-  - {name: 2|🇺🇸120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 13|KR_speednode_0154, server: 183.100.144.36, port: 10482, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: 13|KR_speednode_0148, server: 61.83.219.114, port: 14491, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: "🇺🇸 12,13|美国6|@ripaojiedian", server: LllLLLllllLKJh.222560.xyZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: lllllllllllkjh.222560.xyz}}}
-  - {name: 14|KR_speednode_0143, server: 121.154.79.130, port: 10126, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: 13|US_speednode_0553, server: 172.67.149.202, port: 443, type: trojan, password: 19a78eeb-d83a-4364-b095-b7dd93436320, sni: CVFgTrE4.222560.XyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /Hq0I4JMuzO0WLijID, headers: {Host: CVFgTrE4.222560.XyZ}}}
-  - {name: "🇺🇸 12,13|美国5|@ripaojiedian", server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: ooooooooop.222769.xyz}}}
-  - {name: 2|🇺🇸88 |  1.1MB/s, server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, skip-cert-verify: false}
-  - {name: "11|Channel id: @ShadowProxy66🇨🇦", server: 40.233.70.163, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11, server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com, port: 4138, type: vmess, uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 13|KR_speednode_0141, server: 121.172.5.248, port: 34689, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
-  - {name: "🇺🇸 11,12|美国6|@ripaojiedian", server: LllLLLllllLKJh.222560.xyZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: lllllllllllkjh.222560.xyz}}}
+  - {name: 14|IN_speednode_0132, server: 13.233.5.49, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: "🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6", server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}}
+  - {name: "🇰🇷 10,11|韩国|@ripaojiedian", server: 120.233.44.201, port: 21056, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k14.tudou211.com, skip-cert-verify: false}
+  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #3", server: 172.245.106.236, port: 35091, type: hysteria2, ports: 35091, password: e3f67f43-9097-4e56-96e2-681910b92150, obfs: salamander, obfs-password: fWQ4LCfAYiKaEVRe, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 12|US_speednode_0549, server: 172.67.200.11, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: rRfGty6.890606.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: rRfGty6.890606.XYz}}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13, server: f641bba8-supts0-svp9t7-1oijm.cm.plebai.net, port: 15228, type: vmess, uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 14|US_speednode_0549, server: 172.67.200.11, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: rRfGty6.890606.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: rRfGty6.890606.XYz}}}
+  - {name: 9|@drakvpn🐉, server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 12|US_speednode_0522, server: 104.26.13.31, port: 8443, type: trojan, password: trojan, sni: qianlang.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: qianlang.pages.dev}}}
+  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇻🇳 10|🇻🇳 越南|@ripaojiedian, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 2|🇺🇸105 |  2.9MB/s, server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net}
+  - {name: 14|US_speednode_0544, server: 172.67.175.139, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: cvFbghYU.859886.XYZ, skip-cert-verify: false, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: cvFbghYU.859886.XYZ}}}
+  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: kh36v1.pmxiaonan.xyz, port: 14556, type: ss, cipher: chacha20-ietf-poly1305, password: 1450cecfb93f}
+  - {name: 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国6|@ripaojiedian, server: LllLLLllllLKJh.222560.xyZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: lllllllllllkjh.222560.xyz}}}
   - {name: 12|tg频道:@ripaojiedian, server: 47.129.223.224, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
-  - {name: 🇭🇰 中国 - 香港 - Cnservers LLC - 12, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 14|US_speednode_0533, server: 104.21.29.205, port: 443, type: trojan, password: 19a78eeb-d83a-4364-b095-b7dd93436320, sni: CVFgTrE4.222560.XyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /Hq0I4JMuzO0WLijID, headers: {Host: CVFgTrE4.222560.XyZ}}}
-  - {name: 1|🇺🇸119 |  1.2MB/s, server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net}
+  - {name: 🇺🇸 10|🇺🇸 美国3|@ripaojiedian, server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net, port: 15229, type: trojan, password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net, skip-cert-verify: false}
+  - {name: 14|KR_speednode_0147, server: 220.87.243.193, port: 28568, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,172 +168,160 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -361,41 +337,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
-      - 🇨🇳 江苏省宿迁市 数据中心
-      - 🇺🇸 美国 CloudFlare节点
-      - 2|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 12|日本5|@ripaojiedian
-      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
-      - 2|🇺🇸96 |  2.4MB/s
+      - "9|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 12|KR_speednode_0152
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国2|@ripaojiedian
+      - 14|SG_speednode_0292
+      - 0|🇺🇸82 |  1.3MB/s
+      - 🇱🇹 立陶宛 - Vilnius - Global Connectivity Solutions LLP - 1
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
       - 14|ES_speednode_0091
-      - 🇯🇵 11|🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 15
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "10|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - 2|🇺🇸120 |  1.4MB/s
-      - 13|KR_speednode_0154
-      - 13|KR_speednode_0148
-      - 🇺🇸 12,13|美国6|@ripaojiedian
-      - 14|KR_speednode_0143
-      - 13|US_speednode_0553
-      - 🇺🇸 12,13|美国5|@ripaojiedian
-      - 2|🇺🇸88 |  1.1MB/s
-      - "11|Channel id: @ShadowProxy66🇨🇦"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 13|KR_speednode_0141
-      - 🇺🇸 11,12|美国6|@ripaojiedian
+      - 14|IN_speednode_0132
+      - 🇬🇧 英国 - 伦敦 - Akamai Technologies, Inc. - 6
+      - 🇰🇷 10,11|韩国|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #3"
+      - 12|US_speednode_0549
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
+      - 14|US_speednode_0549
+      - 9|@drakvpn🐉
+      - 12|US_speednode_0522
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇻🇳 10|🇻🇳 越南|@ripaojiedian
+      - 2|🇺🇸105 |  2.9MB/s
+      - 14|US_speednode_0544
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国6|@ripaojiedian
       - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Cnservers LLC - 12
-      - 14|US_speednode_0533
-      - 1|🇺🇸119 |  1.2MB/s
+      - 🇺🇸 10|🇺🇸 美国3|@ripaojiedian
+      - 14|KR_speednode_0147
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
