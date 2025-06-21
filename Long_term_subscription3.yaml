@@ -5,123 +5,91 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 3|🇰🇷2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 日本5|@ripaojiedian, server: 112.54.160.36, port: 30232, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
-  - {name: "🇰🇷 12,13|韩国2|@ripaojiedian", server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
-  - {name: 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian, server: 125.141.26.14, port: 5344, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 2|🇺🇸100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
-  - {name: 3|🇺🇸88 |  1.1MB/s, server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, skip-cert-verify: false}
-  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: kr9v1.3ci.xyz, port: 34808, type: ss, cipher: aes-256-gcm, password: 264727317ef6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kr9v1.3ci.xyz, path: /ylikhqxcjfeb, tls: true, mux: true}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 45.159.50.131, port: 10331, type: vmess, uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
-  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省湛江市 移动, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: 🇯🇵 14|日本5|@ripaojiedian, server: 112.54.160.36, port: 30232, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206ZHd6MUd0Rjc}
-  - {name: "12|Channel id: @ShadowProxy66🇺🇸 #6", server: 107.175.34.118, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz}
+  - {name: 🇨🇳 广东省广州市 移动, server: yal.fxlcn.com, port: 45266, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11, server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com, port: 4138, type: vmess, uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian, server: 120.232.153.40, port: 50152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 11|@drakvpn🐉, server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3, server: 62.146.232.152, port: 33064, type: vmess, uuid: 942d56e4-cf72-4a7a-a87c-f555a270d79a, alterId: 0, cipher: auto, tls: false}
   - {name: "11|⚡️ @vpnserverrr (Hysteria) #2", server: 77.110.115.25, port: 5053, type: hysteria2, ports: 5053, password: 4c0c889785026935, obfs: salamander, obfs-password: 4c0c889785026935, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 3|🇺🇸104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 2|🇺🇸82 |  1.3MB/s, server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b, sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net}
-  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.112.1, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}}
-  - {name: 🇭🇰 14|香港6|@ripaojiedian, server: 183.236.51.38, port: 36519, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 2|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 3|🌀5-LI |  2.0MB/s|0%|Openai, server: sinavm.ru, port: 8080, type: hysteria2, ports: 8080, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM, sni: sinavm.ru, skip-cert-verify: true}
-  - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: iIiiI8.222560.xYZ, port: 80, type: vmess, uuid: 393b1061-d615-459a-8616-3f9447bdff5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: iiiii8.222560.xyz}}}
+  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 183.236.51.38, port: 36519, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: kr9v1.3ci.xyz, port: 34808, type: ss, cipher: aes-256-gcm, password: 264727317ef6}
+  - {name: 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126, server: 45.147.201.231, port: 20062, type: vmess, uuid: e1dca130-d74e-47fa-82d6-4c3773e6f813, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 韩国3|@ripaojiedian, server: 125.141.26.14, port: 5344, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇭🇰 13|香港6|@ripaojiedian, server: 183.236.51.38, port: 36519, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "11|Channel id: @ShadowProxy66🇬🇧", server: 185.184.70.120, port: 42353, type: hysteria2, ports: 42353, password: e48d6377dda26840, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: iIiiI8.222560.xYZ, port: 80, type: vmess, uuid: 393b1061-d615-459a-8616-3f9447bdff5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: iiiii8.222560.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,129 +108,99 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -278,31 +216,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 3|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
-      - 2|🇺🇸100 |  1.3MB/s
-      - 3|🇺🇸88 |  1.1MB/s
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 2|🇺🇸98 |  1.3MB/s
-      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 🇨🇳 广东省湛江市 移动
-      - 3|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇯🇵 14|日本5|@ripaojiedian
-      - "12|Channel id: @ShadowProxy66🇺🇸 #6"
+      - 🇨🇳 广东省广州市 移动
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
+      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
+      - 11|@drakvpn🐉
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Contabo Asia Private Limited - 3
       - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - 3|🇺🇸104 |  2.1MB/s
-      - 2|🇺🇸82 |  1.3MB/s
-      - 2|🇺🇸108 |  1.4MB/s
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 14|香港6|@ripaojiedian
-      - 2|🇺🇸121 |  1.2MB/s
-      - 3|🌀5-LI |  2.0MB/s|0%|Openai
-      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 126
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇭🇰 13|香港6|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇬🇧"
+      - 🇺🇸 美国3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
