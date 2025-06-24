@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `8`
-Updata：`2025-06-23 22:13:50`
+### Try the number of high-speed subscriptions: `9`
+Updata：`2025-06-24 11:14:23`
 
 
 <details>
@@ -21120,50 +21120,61 @@ Updata：`2025-06-23 22:13:50`
 
 
 
->Trial subscription：
-`https://dl.vfkum.website/api/v1/client/subscribe?token=5ff2535fe6dcec0729ddbd39ccd55e3f`
 
-
-
-
->Trial subscription：
-`https://www.ztcloud.xyz/api/v1/client/subscribe?token=7595b1d491904cf1b78f9c8ce296e7c9`
 
 
 
 
 >Trial subscription：
-`https://fs.v2rayse.com/share/20250623/1mara9foob.txt`
+`https://fs.v2rayse.com/share/20250624/av3b4hktfg.txt`
 
 
 
 
 >Trial subscription：
-`https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=751f39e92a28d028d432ba8f62510ad6`
+`https://ch.louwangzhiyu.xyz/api/v1/client/subscribe?token=a652b5ad0471c3c6c3d980bed078c0a7`
 
 
 
 
 >Trial subscription：
-`https://dashuai.us/api/v1/client/subscribe?token=7ddfdccb2251ab856afaf37879677e15`
+`https://ch.cukug.website/api/v1/client/subscribe?token=bc3c1feec970816959eeeae682fadc18`
 
 
 
 
 >Trial subscription：
-`https://di5ji.lat/api/v1/client/subscribe?token=33a5711d43faa7eaac30d4de115ae4fb`
+`https://dashuai.us/api/v1/client/subscribe?token=451131d1014f85a6acf300a126877acb`
 
 
 
 
 >Trial subscription：
-`https://ch.cukug.website/api/v1/client/subscribe?token=36b694cf8ab496903db02bd81fbad6f8`
+`https://dl.vfkum.website/api/v1/client/subscribe?token=c89ed1fcd2cf62b1116e2132b62d0fb1`
 
 
 
 
 >Trial subscription：
-`https://ch.louwangzhiyu.xyz/api/v1/client/subscribe?token=1e95e2a6b550e4169b5aff1eb22b79ff`
+`https://vt.louwangzhiyu.xyz/api/v1/client/subscribe?token=2e50def1d5ace3d290297633546278a1`
+
+
+
+
+>Trial subscription：
+`https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=d64420ae161977b076a3a0a251019a96`
+
+
+
+
+>Trial subscription：
+`https://www.ztcloud.xyz/api/v1/client/subscribe?token=4862b64a5d2621affd1069dc1c223320`
+
+
+
+
+>Trial subscription：
+`https://di5ji.lat/api/v1/client/subscribe?token=abfd30a1fd0a4abe2dacab398b5ea4df`
 
 
 
