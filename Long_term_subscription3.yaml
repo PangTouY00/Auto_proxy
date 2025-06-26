@@ -5,135 +5,159 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 1|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
-  - {name: "⚡️ @vpnserverrr (Hysteria) #1", server: 108.181.5.130, port: 57773, type: hysteria2, ports: 57773, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 63 |  2.1MB/s|46%|Openai|Gem..., server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇺🇸 11|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
-  - {name: 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام, server: sinavm.soft10.ir, port: 443, type: hysteria2, ports: 443, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM, skip-cert-verify: false}
+  - {name: 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.135.170, port: 46210, type: vmess, uuid: d1eca706-1aae-42d3-bab0-69995d7b023d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大 - 多伦多 - HostPapa - 2, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
+  - {name: 🇨🇦 加拿大 - 多伦多 - HostPapa - 3, server: 172.67.131.27, port: 2087, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 广东省梅州市 移动, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 广东省湛江市 移动, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 14|CN_speednode_0033, server: relay001.xiaoniuyun.cc, port: 38027, type: trojan, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, sni: ua001.xiaoniuyun.cc, skip-cert-verify: false}
+  - {name: "@Selinc", server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian 2, server: 43.247.135.170, port: 46210, type: vmess, uuid: d1eca706-1aae-42d3-bab0-69995d7b023d, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇷🇺 #1", server: 45.147.201.231, port: 30073, type: hysteria2, ports: 30073, password: 6d579896-40eb-400c-89b4-4eef10f2e7a6, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: 183.236.51.38, port: 49154, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: "🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4", server: api.jquery.com, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: api.jquery.com}}}
-  - {name: CN_speednode_0038, server: 36.151.251.62, port: 23770, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: "10|Channel id: @ShadowProxy66🇫🇷", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "🇰🇷 11,12|韩国2|@ripaojiedian", server: 120.233.44.201, port: 21017, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: 120.233.44.201, skip-cert-verify: true}
-  - {name: "9,10|@drakvpn🐉", server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 69 |  4.3MB/s|100%|Netflix|O..., server: us.10101251.xyz, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz, skip-cert-verify: false}
-  - {name: "Channel id: @ShadowProxy66🇺🇸 #2", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 163.61.207.182, port: 443, type: ss, cipher: aes-256-gcm, password: 97a221a3333a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jplistv1-2.dsjsapi.com, path: /dobrirfl, tls: true, mux: true}}
-  - {name: 1|🇺🇸105 |  2.9MB/s, server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net}
-  - {name: 105 |  2.9MB/s, server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net}
-  - {name: 🇭🇰 12|香港5|@ripaojiedian, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 11|🇭🇰 香港6|@ripaojiedian, server: 183.236.51.38, port: 49154, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇻🇳 12|越南|@ripaojiedian, server: 103.163.218.2, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
-  - {name: 98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
-  - {name: 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 1|🇺🇸120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: a29b45ed-submo0-syap8d-dbk8.d.volczijie.com, port: 3684, type: vmess, uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 116 |  1.2MB/s, server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net}
+  - {name: US_speednode_0264, server: 104.21.3.189, port: 443, type: trojan, password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f, sni: CcCVfGTyU.89060004.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /5MkU0nARgHwk3aXBStn7, headers: {Host: CcCVfGTyU.89060004.Xyz}}}
+  - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 43.247.135.170, port: 46210, type: vmess, uuid: d1eca706-1aae-42d3-bab0-69995d7b023d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "@meli_proxyy", server: 132.226.117.48, port: 30000, type: hysteria2, ports: 30000, password: ca5c8e49-3b25-45f8-9fbb-6dd1806a1444, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 2|🇰🇷2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: tg频道:@ripaojiedian, server: 54.168.216.169, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: "🇭🇰 12,13|香港7|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇯🇵 日本3|@ripaojiedian 2, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
   - {name: 🇺🇸 美国 CloudFlare节点, server: npmjs.com, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: ke7hz36ewz-4515017473.mashallahbet.com}}}
+  - {name: 100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
+  - {name: 103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
+  - {name: 42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
+  - {name: 🇨🇳 江苏省 移动, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true}
+  - {name: CN_speednode_0035, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9, server: 183.236.51.38, port: 46921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 163.61.207.182, port: 443, type: ss, cipher: aes-256-gcm, password: 97a221a3333a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jplistv1-2.dsjsapi.com, path: /dobrirfl, tls: true, mux: true}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,142 +176,173 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -303,34 +358,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1|🇺🇸98 |  1.3MB/s
-      - "⚡️ @vpnserverrr (Hysteria) #1"
-      - 63 |  2.1MB/s|46%|Openai|Gem...
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
-      - 9|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+      - 🇮🇹 意大利 - 罗马市 - PQ HOSTING PLUS S.R.L. - 1
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 3
+      - 🇨🇳 广东省梅州市 移动
+      - 🇨🇳 广东省湛江市 移动
+      - 109 |  3.2MB/s
+      - 14|CN_speednode_0033
+      - "@Selinc"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇷🇺 #1"
       - 🇭🇰 香港6|@ripaojiedian
-      - 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 4
-      - CN_speednode_0038
-      - "10|Channel id: @ShadowProxy66🇫🇷"
-      - 🇰🇷 11,12|韩国2|@ripaojiedian
-      - 9,10|@drakvpn🐉
-      - 69 |  4.3MB/s|100%|Netflix|O...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 1|🇺🇸105 |  2.9MB/s
-      - 105 |  2.9MB/s
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 🇻🇳 12|越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 1|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
-      - 1|🇺🇸120 |  1.4MB/s
-      - 🇯🇵 日本4|@ripaojiedian
-      - 116 |  1.2MB/s
+      - US_speednode_0264
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - "@meli_proxyy"
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 2|🇰🇷2 |  1.5MB/s|44%|Openai
+      - tg频道:@ripaojiedian
+      - 🇭🇰 12,13|香港7|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian 2
       - 🇺🇸 美国 CloudFlare节点
+      - 100 |  1.3MB/s
+      - 103 |  3.2MB/s
+      - 42 |  5.7MB/s|47%|Netflix|Di...
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 🇨🇳 江苏省 移动
+      - CN_speednode_0035
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 🇯🇵 日本2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
