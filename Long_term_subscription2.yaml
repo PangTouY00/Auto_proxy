@@ -5,131 +5,163 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 13|日本3|@ripaojiedian, server: 54.178.162.204, port: 9898, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg}
-  - {name: 119 |  1.2MB/s, server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-8wt2dE37PQ.download.microsoft.com}}
+  - {name: "@Selinc", server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: "tg频道:@ripaojiedian #1", server: 43.203.249.172, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw}
+  - {name: 2|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 43.247.134.201, port: 59149, type: vmess, uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609, alterId: 0, cipher: auto, tls: false}
+  - {name: 2|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
+  - {name: 🇸🇬 13|新加坡|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206MDREMkJINkRMN1pLVFhYVA}
+  - {name: 10|@Selinc, server: 40.233.73.221, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "11|Channel id: @ShadowProxy66🇸🇬", server: 92.112.23.216, port: 28264, type: hysteria2, ports: 28264, password: 9FmazX8AAPpM8TQcNyI2zvBDF5o, skip-cert-verify: true}
+  - {name: 2|🇺🇸88 |  1.1MB/s, server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net, skip-cert-verify: false}
   - {name: "11|Channel id: @ShadowProxy66🇷🇺", server: 45.129.2.108, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: IRAN 9 (@Outline_Vpn), server: 108.181.5.130, port: 4710, type: hysteria2, ports: 4710, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: 120.233.128.98, port: 30015, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206ZHd6MUd0Rjc}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 54.178.162.204, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10, server: 183.236.51.37, port: 55112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16009, type: ss, cipher: aes-256-gcm, password: RJ7MXLK2KHIN2B4U}
-  - {name: 122 |  1.4MB/s, server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net}
-  - {name: 120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16011, type: ss, cipher: aes-256-gcm, password: 983UF5QK58NAQNHZ}
-  - {name: 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 2|🇺🇸100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-0ppQRz8sLh.download.microsoft.com}}
-  - {name: 🇵🇱 波兰 - 华沙 - OVH SAS - 1, server: 146.59.80.70, port: 2083, type: vmess, uuid: 7523339b-fb63-4ecb-b84a-e402045919ef, alterId: 0, cipher: auto, tls: true}
-  - {name: 42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: EeedcFvg.999824.xYZ, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9dZlJLjHHrL0VwSolbqFpg, headers: {Host: eeedcfvg.999824.xyz}}}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 121.127.231.239, port: 636, type: ss, cipher: aes-256-gcm, password: 941cbc4237e0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kh36v1.dsjsapp.com, path: /tkzhhylcfuf, tls: true, mux: true}}
+  - {name: 🇨🇳 13|台湾|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 19490, type: vmess, uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.176.171, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: ke7hz36ewz-4515017473.mashallahbet.com}}}
+  - {name: 🇯🇵 日本|@ripaojiedian 2, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 116 |  1.2MB/s, server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net}
+  - {name: 🇰🇷 韩国3|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.37.59.91, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
   - {name: "Channel id: @ShadowProxy66🇸🇬", server: 92.112.23.216, port: 28264, type: hysteria2, ports: 28264, password: 9FmazX8AAPpM8TQcNyI2zvBDF5o, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.236.51.37, port: 46621, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 2|🌀5-LI |  2.0MB/s|0%|Openai, server: sinavm.ru, port: 8080, type: hysteria2, ports: 8080, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM, sni: sinavm.ru, skip-cert-verify: true}
+  - {name: 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2, server: 172.67.162.74, port: 443, type: vmess, uuid: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VgtsOrriMf1sdep5KKSues}}
+  - {name: "Channel id: @ShadowProxy66🇫🇷", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇯🇵 12|🇯🇵 日本4|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18009, type: ss, cipher: aes-256-gcm, password: MNOORIVKRQF4KGJP}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 吉林省 移动(全省通用), server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "🇰🇷 12,13|韩国|@ripaojiedian", server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
+  - {name: 104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 69 |  4.3MB/s|100%|Netflix|O..., server: us.10101251.xyz, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz, skip-cert-verify: false}
+  - {name: 100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
   - {name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: tg频道:@ripaojiedian, server: 52.221.255.116, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 1751187741.tencentapp.cn, port: 8443, type: vmess, uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 1751188131.speed.nlb.cccp.freefly.pp.ua}}}
-  - {name: "⚡️ @vpnserverrr (Hysteria) #2", server: 77.110.115.25, port: 5053, type: hysteria2, ports: 5053, password: 4c0c889785026935, obfs: salamander, obfs-password: 4c0c889785026935, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|@meli_proxyy, server: 132.226.117.48, port: 30000, type: hysteria2, ports: 30000, password: ca5c8e49-3b25-45f8-9fbb-6dd1806a1444, sni: www.apple.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,139 +180,170 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 13|台湾|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -296,33 +359,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 13|日本3|@ripaojiedian
-      - 119 |  1.2MB/s
-      - 🇭🇰 香港|@ripaojiedian
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "11|Channel id: @ShadowProxy66🇷🇺"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 10
-      - 🇸🇬 12|🇸🇬 新加坡2|@ripaojiedian
-      - 122 |  1.4MB/s
-      - 120 |  1.4MB/s
-      - 🇸🇬 12|🇸🇬 新加坡|@ripaojiedian
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 2|🇺🇸100 |  1.3MB/s
       - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 波兰 - 华沙 - OVH SAS - 1
-      - 42 |  5.7MB/s|47%|Netflix|Di...
-      - 103 |  3.2MB/s
+      - "@Selinc"
+      - 2|🇺🇸108 |  1.4MB/s
+      - "tg频道:@ripaojiedian #1"
+      - 2|🇺🇸121 |  1.2MB/s
+      - 🇭🇰 13|香港3|@ripaojiedian
+      - 2|🇺🇸98 |  1.3MB/s
+      - 🇸🇬 13|新加坡|@ripaojiedian
+      - 10|@Selinc
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 2|🇺🇸88 |  1.1MB/s
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 13|台湾|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 116 |  1.2MB/s
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 109 |  3.2MB/s
       - "Channel id: @ShadowProxy66🇸🇬"
+      - 🇭🇰 香港4|@ripaojiedian
       - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 2
+      - "Channel id: @ShadowProxy66🇫🇷"
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 吉林省 移动(全省通用)
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 104 |  2.1MB/s
+      - 121 |  1.2MB/s
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 100 |  1.3MB/s
       - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "⚡️ @vpnserverrr (Hysteria) #2"
+      - 10|@meli_proxyy
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
