@@ -5,51 +5,131 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 222.112.15.140, port: 56780, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-EWzC7QCi0k.download.microsoft.com}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 156.226.173.104, port: 443, type: ss, cipher: aes-128-gcm, password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 121.127.231.213, port: 636, type: ss, cipher: aes-256-gcm, password: f917888c6f39, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hkxwv1-5.dsjsapi.com, path: /rxoasyex, tls: true, mux: true}}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: api.jquery.com, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, servername: admin.kasrax.ir, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: admin.kasrax.ir}}}
-  - {name: 🇸🇬 敏感时期，更新暂停, server: web.51.la, port: 443, type: vmess, uuid: c6e84072-2e69-4928-90af-436b3fcd0663, alterId: 0, cipher: auto, tls: true, servername: web.51.la}
-  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 6, server: bBbbbbbBb.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: bbbbbbbbb.222769.xyz}}}
+  - {name: 1|🇺🇸98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
+  - {name: ff_kikor, server: p1.3dfigures.ir, port: 18646, type: hysteria2, ports: 18646, password: 3r6PBKy5DX, obfs: salamander, obfs-password: ywfihi3ohyg9iun3gvu, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.201, port: 59149, type: vmess, uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本5|@ripaojiedian, server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b}
+  - {name: 1|🇺🇸96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: 45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
+  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.163.218.2, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: 36.151.192.61, port: 4445, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.192.61, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 36.151.192.58, port: 51083, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "11|Channel id: @ShadowProxy66🇸🇬", server: 92.112.23.216, port: 28264, type: hysteria2, ports: 28264, password: 9FmazX8AAPpM8TQcNyI2zvBDF5o, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
+  - {name: 1|🇺🇸105 |  2.9MB/s, server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net}
+  - {name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: false}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #5", server: 107.175.145.72, port: 22647, type: hysteria2, ports: 22647, password: e3f67f43-9097-4e56-96e2-681910b92150, obfs: salamander, obfs-password: fWQ4LCfAYiKaEVRe, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 122 |  1.4MB/s, server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net}
+  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 1, server: 172.67.191.174, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR}}
+  - {name: 96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: "Channel id: @ShadowProxy66🇷🇺", server: 45.129.2.108, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇨🇳 上海市徐汇区 联通漕河泾数据中心, server: lt.fxlcn.com, port: 45235, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: "ff_kikor #1", server: p1.3dfigures.ir, port: 501, type: hysteria2, ports: 501, password: 3r6PBKy5DX, obfs: salamander, obfs-password: Djxsjduwue, skip-cert-verify: true}
+  - {name: 1|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: SSxXZASw.999824.Xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: ssxxzasw.999824.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,57 +148,137 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -134,13 +294,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
+      - 1|🇺🇸98 |  1.3MB/s
+      - ff_kikor
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 1|🇺🇸96 |  2.4MB/s
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 100 |  1.3MB/s
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "11|Channel id: @ShadowProxy66🇸🇬"
+      - 🇺🇸 美国 CloudFlare节点
+      - 1|🇺🇸105 |  2.9MB/s
+      - 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇺🇸 #5"
+      - 122 |  1.4MB/s
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
+      - 96 |  2.4MB/s
+      - "Channel id: @ShadowProxy66🇷🇺"
+      - 🇨🇳 上海市徐汇区 联通漕河泾数据中心
+      - "ff_kikor #1"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 🇺🇸 美国 CloudFlare节点 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
