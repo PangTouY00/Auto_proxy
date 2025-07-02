@@ -5,210 +5,129 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 距离下次重置剩余：7 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0802f8d4-8c25-40ef-89e4-c2de3e008a56, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0802f8d4-8c25-40ef-89e4-c2de3e008a56, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：31 天, server: us.xn--mes91t7ofgnw.com, port: 20298, type: ss, cipher: aes-128-gcm, password: c451c4c2-c597-44b3-b83c-826fa0950c9b}
-  - {name: TG交流群https://t.me/wukongjichang, server: us.xn--mes91t7ofgnw.com, port: 20298, type: ss, cipher: aes-128-gcm, password: c451c4c2-c597-44b3-b83c-826fa0950c9b}
-  - {name: 🇭🇰 香港家宽 星河幻境 ✨🌌, server: hk.xn--mes91t7ofgnw.com, port: 20248, type: hysteria2, ports: 20248, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 流光溢彩 🌃💫, server: hk.xn--mes91t7ofgnw.com, port: 20250, type: hysteria2, ports: 20250, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 潮韵霓裳 🎶🌈, server: hk.xn--mes91t7ofgnw.com, port: 20205, type: hysteria2, ports: 20205, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 云帆启航 ☁️⛵, server: hk.xn--mes91t7ofgnw.com, port: 20248, type: hysteria2, ports: 20248, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 璀璨星河 ✨, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇭🇰 香港家宽 梦幻港湾 🌊, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇭🇰 香港家宽 云海仙踪 ☁️, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇭🇰 香港家宽 海风呢喃 🌿, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇺🇸 美国巨容 光影旖旎 🌴🎬, server: us.xn--mes91t7ofgnw.com, port: 20287, type: hysteria2, ports: 20287, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 星梦幻城 🌟🏙️, server: us.xn--mes91t7ofgnw.com, port: 20280, type: hysteria2, ports: 20280, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 风情雅韵 🍂🏙️, server: us.xn--mes91t7ofgnw.com, port: 20237, type: hysteria2, ports: 20237, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 阳光碧海 🌞🌊, server: us.xn--mes91t7ofgnw.com, port: 20263, type: hysteria2, ports: 20263, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 雾海星桥🌁✨, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇺🇸 美国 幻彩之梦🎰🌈, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇺🇸 美国 晨曦雨韵🌦️🌅, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇺🇸 美国 爵夜迷情🎷🌙, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇯🇵 日本低延 樱梦流光 🌸✨, server: jp.xn--mes91t7ofgnw.com, port: 20212, type: hysteria2, ports: 20212, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 古韵流芳 🏯🌺, server: jp.xn--mes91t7ofgnw.com, port: 20259, type: hysteria2, ports: 20259, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 霓虹恋曲 🌆💖, server: jp.xn--mes91t7ofgnw.com, port: 20298, type: hysteria2, ports: 20298, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 雪韵悠然 ❄️🌌, server: jp.xn--mes91t7ofgnw.com, port: 20247, type: hysteria2, ports: 20247, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇭🇰 日本 星港潮音✨🌊, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇯🇵 日本 鹿梦千樱🦌🌸, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇯🇵 日本 樱潮夜歌🌸🌙, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇯🇵 日本 云岚琉光☁️🌅, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇸🇬 新加坡稳 月映星澜🌙✨, server: sg.xn--mes91t7ofgnw.com, port: 20231, type: hysteria2, ports: 20231, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 诗香弄影📜🌸, server: sg.xn--mes91t7ofgnw.com, port: 20258, type: hysteria2, ports: 20258, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 彩梦织锦🎨🌺, server: sg.xn--mes91t7ofgnw.com, port: 20284, type: hysteria2, ports: 20284, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 翡翠星辰🍃⭐, server: sg.xn--mes91t7ofgnw.com, port: 20252, type: hysteria2, ports: 20252, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 星橙夜语✨🍊, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇸🇬 新加坡 碧海晨曦🌊🌅, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇸🇬 新加坡 云岭幽香☁️🌿, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇸🇬 新加坡 霞光映水🌇💧, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇬🇧 英国超速 霓虹醉影🌃💫, server: uk.xn--mes91t7ofgnw.com, port: 20203, type: hysteria2, ports: 20203, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 海韵情怀🌊💖, server: uk.xn--mes91t7ofgnw.com, port: 20292, type: hysteria2, ports: 20292, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 梦幻霓裳🌸🌟, server: uk.xn--mes91t7ofgnw.com, port: 20215, type: hysteria2, ports: 20215, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 蓝海吟风🌊🍃, server: uk.xn--mes91t7ofgnw.com, port: 20216, type: hysteria2, ports: 20216, password: c451c4c2-c597-44b3-b83c-826fa0950c9b, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 雾都晨曦🌫️🌅, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇬🇧 英国 暮影古城🏰🌆, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇬🇧 英国 湖光书梦📖🌊, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 🇬🇧 英国 英雨琴韵☔🎶, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:YzQ1MWM0YzItYzU5Ny00NA==}
-  - {name: 距离下次重置剩余：31 天 2, server: hk.xn--2vxn29amga.com, port: 21157, type: hysteria2, ports: 21157, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 璀璨星河 ✨ 2, server: hk.xn--2vxn29amga.com, port: 21157, type: hysteria2, ports: 21157, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 梦幻港湾 🌊 2, server: hk.xn--2vxn29amga.com, port: 21180, type: hysteria2, ports: 21180, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 云海仙踪 ☁️ 2, server: hk.xn--2vxn29amga.com, port: 21102, type: hysteria2, ports: 21102, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 海风呢喃 🌿 2, server: hk.xn--2vxn29amga.com, port: 21185, type: hysteria2, ports: 21185, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇭🇰 香港家宽 星河幻境 ✨🌌 2, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇭🇰 香港家宽 流光溢彩 🌃💫 2, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇺🇸 美国巨容 星河万象 ✨, server: us.xn--2vxn29amga.com, port: 21123, type: hysteria2, ports: 21123, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 雾隐金门 🌁, server: us.xn--2vxn29amga.com, port: 21162, type: hysteria2, ports: 21162, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 风韵之都 🍂, server: us.xn--2vxn29amga.com, port: 21123, type: hysteria2, ports: 21123, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 爵调流光 🎷, server: us.xn--2vxn29amga.com, port: 21107, type: hysteria2, ports: 21107, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇺🇸 美国巨容 光影旖旎 🌴🎬 2, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇺🇸 美国巨容 阳光碧海 🌞🌊 2, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇯🇵 日本低延 霓虹梦影 ✨, server: jp.xn--2vxn29amga.com, port: 21173, type: hysteria2, ports: 21173, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 千年烟雨 🍃, server: jp.xn--2vxn29amga.com, port: 21151, type: hysteria2, ports: 21151, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 雪落无声 ❄️, server: jp.xn--2vxn29amga.com, port: 21183, type: hysteria2, ports: 21183, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 樱海晕染 🌸, server: jp.xn--2vxn29amga.com, port: 21159, type: hysteria2, ports: 21159, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇯🇵 日本低延 樱梦流光 🌸✨ 2, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇯🇵 日本低延 古韵流芳 🏯🌺 2, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇯🇵 日本低延 霓虹恋曲 🌆💖 2, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇸🇬 新加坡稳 璀璨明珠 ✨, server: sg.xn--2vxn29amga.com, port: 21187, type: hysteria2, ports: 21187, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 繁花似锦 🌸, server: sg.xn--2vxn29amga.com, port: 21177, type: hysteria2, ports: 21177, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 梦海微澜 🌊, server: sg.xn--2vxn29amga.com, port: 21124, type: hysteria2, ports: 21124, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 烟火人间 🎏, server: sg.xn--2vxn29amga.com, port: 21162, type: hysteria2, ports: 21162, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡稳 月映星澜🌙✨ 2, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇸🇬 新加坡稳 诗香弄影📜🌸 2, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇬🇧 英国超速 星河繁都 ✨, server: uk.xn--2vxn29amga.com, port: 21199, type: hysteria2, ports: 21199, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 碧海霞光 🌊, server: uk.xn--2vxn29amga.com, port: 21152, type: hysteria2, ports: 21152, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 风拂花海 🍊, server: uk.xn--2vxn29amga.com, port: 21175, type: hysteria2, ports: 21175, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 烟雨古韵 ⛩️, server: uk.xn--2vxn29amga.com, port: 21124, type: hysteria2, ports: 21124, password: b7138993-fc8b-4c00-a364-a05d6f9d4863, skip-cert-verify: false}
-  - {name: 🇬🇧 英国超速 霓虹醉影🌃💫 2, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇬🇧 英国超速 海韵情怀🌊💖 2, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇬🇧 英国超速 梦幻霓裳🌸🌟 2, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 🇬🇧 英国超速 蓝海吟风🌊🍃 2, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:YjcxMzg5OTMtZmM4Yi00Yw==}
-  - {name: 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇲🇾 [3x]马来西亚专线NO1", server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇲🇾 [3x]马来西亚专线NO2", server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x]泰国NO1", server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x]泰国NO2", server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港（直连）, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 17b26f6f-722c-45ed-aea8-9cfca24889fb, alterId: 0, cipher: auto, tls: false}
+  - {name: 距离下次重置剩余：8 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 25bb8f64-d159-446b-bf4b-9de520c08a48, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 25bb8f64-d159-446b-bf4b-9de520c08a48, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：1 天, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇲🇾 [3x]马来西亚专线NO1", server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇲🇾 [3x]马来西亚专线NO2", server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x]泰国NO1", server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x]泰国NO2", server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港（直连）, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: d5d122a9-0553-4c33-acd1-19963a37ccce, alterId: 0, cipher: auto, tls: false}
+  - {name: 距离下次重置剩余：1 天 2, server: hk.xn--2vxn29amga.com, port: 21199, type: hysteria2, ports: 21199, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 璀璨星河 ✨, server: hk.xn--2vxn29amga.com, port: 21199, type: hysteria2, ports: 21199, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 梦幻港湾 🌊, server: hk.xn--2vxn29amga.com, port: 21167, type: hysteria2, ports: 21167, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 云海仙踪 ☁️, server: hk.xn--2vxn29amga.com, port: 21189, type: hysteria2, ports: 21189, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 海风呢喃 🌿, server: hk.xn--2vxn29amga.com, port: 21113, type: hysteria2, ports: 21113, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 星河幻境 ✨🌌, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇭🇰 香港家宽 流光溢彩 🌃💫, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇭🇰 香港家宽 潮韵霓裳 🎶🌈, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇭🇰 香港家宽 云帆启航 ☁️⛵, server: zz.xn--2vxn29amga.com, port: 8091, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZWFjNWM2MTViMjA5ZDkzYw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇺🇸 美国巨容 星河万象 ✨, server: us.xn--2vxn29amga.com, port: 21169, type: hysteria2, ports: 21169, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 雾隐金门 🌁, server: us.xn--2vxn29amga.com, port: 21170, type: hysteria2, ports: 21170, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 风韵之都 🍂, server: us.xn--2vxn29amga.com, port: 21146, type: hysteria2, ports: 21146, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 爵调流光 🎷, server: us.xn--2vxn29amga.com, port: 21145, type: hysteria2, ports: 21145, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 光影旖旎 🌴🎬, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇺🇸 美国巨容 星梦幻城 🌟🏙️, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇺🇸 美国巨容 风情雅韵 🍂🏙️, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇺🇸 美国巨容 阳光碧海 🌞🌊, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇯🇵 日本低延 霓虹梦影 ✨, server: jp.xn--2vxn29amga.com, port: 21166, type: hysteria2, ports: 21166, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 千年烟雨 🍃, server: jp.xn--2vxn29amga.com, port: 21198, type: hysteria2, ports: 21198, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 雪落无声 ❄️, server: jp.xn--2vxn29amga.com, port: 21169, type: hysteria2, ports: 21169, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 樱海晕染 🌸, server: jp.xn--2vxn29amga.com, port: 21196, type: hysteria2, ports: 21196, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 樱梦流光 🌸✨, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇯🇵 日本低延 古韵流芳 🏯🌺, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇯🇵 日本低延 霓虹恋曲 🌆💖, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇯🇵 日本低延 雪韵悠然 ❄️🌌, server: zz.xn--2vxn29amga.com, port: 8093, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjNkY2E5MmJmMTM3NzQyYg==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇸🇬 新加坡稳 璀璨明珠 ✨, server: sg.xn--2vxn29amga.com, port: 21127, type: hysteria2, ports: 21127, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 繁花似锦 🌸, server: sg.xn--2vxn29amga.com, port: 21158, type: hysteria2, ports: 21158, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 梦海微澜 🌊, server: sg.xn--2vxn29amga.com, port: 21141, type: hysteria2, ports: 21141, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 烟火人间 🎏, server: sg.xn--2vxn29amga.com, port: 21167, type: hysteria2, ports: 21167, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 月映星澜🌙✨, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇸🇬 新加坡稳 诗香弄影📜🌸, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇸🇬 新加坡稳 彩梦织锦🎨🌺, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇸🇬 新加坡稳 翡翠星辰🍃⭐, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇬🇧 英国超速 星河繁都 ✨, server: uk.xn--2vxn29amga.com, port: 21193, type: hysteria2, ports: 21193, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 碧海霞光 🌊, server: uk.xn--2vxn29amga.com, port: 21130, type: hysteria2, ports: 21130, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 风拂花海 🍊, server: uk.xn--2vxn29amga.com, port: 21112, type: hysteria2, ports: 21112, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 烟雨古韵 ⛩️, server: uk.xn--2vxn29amga.com, port: 21196, type: hysteria2, ports: 21196, password: 96eae985-029a-4a72-98b9-2d517769b8db, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 霓虹醉影🌃💫, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇬🇧 英国超速 海韵情怀🌊💖, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇬🇧 英国超速 梦幻霓裳🌸🌟, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 🇬🇧 英国超速 蓝海吟风🌊🍃, server: zz.xn--2vxn29amga.com, port: 8095, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Njk3MDY0MzIwNTE0ZGQzMA==:OTZlYWU5ODUtMDI5YS00YQ==}
+  - {name: 距离下次重置剩余：1 天 3, server: us.xn--mes91t7ofgnw.com, port: 20293, type: ss, cipher: aes-128-gcm, password: eafe33fc-5f05-421c-9c63-d0218472d982}
+  - {name: TG交流群https://t.me/wukongjichang, server: us.xn--mes91t7ofgnw.com, port: 20293, type: ss, cipher: aes-128-gcm, password: eafe33fc-5f05-421c-9c63-d0218472d982}
+  - {name: 🇭🇰 香港家宽 星河幻境 ✨🌌 2, server: hk.xn--mes91t7ofgnw.com, port: 20207, type: hysteria2, ports: 20207, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 流光溢彩 🌃💫 2, server: hk.xn--mes91t7ofgnw.com, port: 20207, type: hysteria2, ports: 20207, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2, server: hk.xn--mes91t7ofgnw.com, port: 20274, type: hysteria2, ports: 20274, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2, server: hk.xn--mes91t7ofgnw.com, port: 20294, type: hysteria2, ports: 20294, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇭🇰 香港家宽 璀璨星河 ✨ 2, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇭🇰 香港家宽 梦幻港湾 🌊 2, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇭🇰 香港家宽 云海仙踪 ☁️ 2, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇭🇰 香港家宽 海风呢喃 🌿 2, server: zz.xn--mes91t7ofgnw.com, port: 8081, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Yzg1YmEyOWM5YjgyODg1Yg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇺🇸 美国巨容 光影旖旎 🌴🎬 2, server: us.xn--mes91t7ofgnw.com, port: 20297, type: hysteria2, ports: 20297, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2, server: us.xn--mes91t7ofgnw.com, port: 20236, type: hysteria2, ports: 20236, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2, server: us.xn--mes91t7ofgnw.com, port: 20287, type: hysteria2, ports: 20287, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇺🇸 美国巨容 阳光碧海 🌞🌊 2, server: us.xn--mes91t7ofgnw.com, port: 20224, type: hysteria2, ports: 20224, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 雾海星桥🌁✨, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇺🇸 美国 幻彩之梦🎰🌈, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇺🇸 美国 晨曦雨韵🌦️🌅, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇺🇸 美国 爵夜迷情🎷🌙, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇯🇵 日本低延 樱梦流光 🌸✨ 2, server: jp.xn--mes91t7ofgnw.com, port: 20249, type: hysteria2, ports: 20249, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 古韵流芳 🏯🌺 2, server: jp.xn--mes91t7ofgnw.com, port: 20260, type: hysteria2, ports: 20260, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 霓虹恋曲 🌆💖 2, server: jp.xn--mes91t7ofgnw.com, port: 20237, type: hysteria2, ports: 20237, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2, server: jp.xn--mes91t7ofgnw.com, port: 20286, type: hysteria2, ports: 20286, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇭🇰 日本 星港潮音✨🌊, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇯🇵 日本 鹿梦千樱🦌🌸, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇯🇵 日本 樱潮夜歌🌸🌙, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇯🇵 日本 云岚琉光☁️🌅, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇸🇬 新加坡稳 月映星澜🌙✨ 2, server: sg.xn--mes91t7ofgnw.com, port: 20253, type: hysteria2, ports: 20253, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 诗香弄影📜🌸 2, server: sg.xn--mes91t7ofgnw.com, port: 20296, type: hysteria2, ports: 20296, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2, server: sg.xn--mes91t7ofgnw.com, port: 20291, type: hysteria2, ports: 20291, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2, server: sg.xn--mes91t7ofgnw.com, port: 20241, type: hysteria2, ports: 20241, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 星橙夜语✨🍊, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇸🇬 新加坡 碧海晨曦🌊🌅, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇸🇬 新加坡 云岭幽香☁️🌿, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇸🇬 新加坡 霞光映水🌇💧, server: zz.xn--mes91t7ofgnw.com, port: 8084, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NTkxZDRjNjQ1YTNjOGU3ZQ==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇬🇧 英国超速 霓虹醉影🌃💫 2, server: uk.xn--mes91t7ofgnw.com, port: 20251, type: hysteria2, ports: 20251, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 海韵情怀🌊💖 2, server: uk.xn--mes91t7ofgnw.com, port: 20240, type: hysteria2, ports: 20240, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 梦幻霓裳🌸🌟 2, server: uk.xn--mes91t7ofgnw.com, port: 20243, type: hysteria2, ports: 20243, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇬🇧 英国超速 蓝海吟风🌊🍃 2, server: uk.xn--mes91t7ofgnw.com, port: 20232, type: hysteria2, ports: 20232, password: eafe33fc-5f05-421c-9c63-d0218472d982, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 雾都晨曦🌫️🌅, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇬🇧 英国 暮影古城🏰🌆, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇬🇧 英国 湖光书梦📖🌊, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:ZWFmZTMzZmMtNWYwNS00Mg==}
+  - {name: 🇬🇧 英国 英雨琴韵☔🎶, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:ZWFmZTMzZmMtNWYwNS00Mg==}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -237,96 +156,97 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -355,97 +275,98 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -474,6 +395,89 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -492,91 +496,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -605,123 +527,124 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港家宽 璀璨星河 ✨
       - 🇭🇰 香港家宽 梦幻港湾 🌊
       - 🇭🇰 香港家宽 云海仙踪 ☁️
       - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
       - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
       - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
       - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
       - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
       - 🇭🇰 香港NO.1（GPT奈飞等）
       - 🇭🇰 香港NO.2（GPT奈飞等）
       - 🇭🇰 香港（直连）
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇭🇰 日本 星港潮音✨🌊
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -750,96 +673,97 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -868,97 +792,98 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -987,6 +912,89 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1002,91 +1010,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
-      - 距离下次重置剩余：31 天
-      - TG交流群https://t.me/wukongjichang
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
-      - 🇭🇰 香港家宽 璀璨星河 ✨
-      - 🇭🇰 香港家宽 梦幻港湾 🌊
-      - 🇭🇰 香港家宽 云海仙踪 ☁️
-      - 🇭🇰 香港家宽 海风呢喃 🌿
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
-      - 🇺🇸 美国 雾海星桥🌁✨
-      - 🇺🇸 美国 幻彩之梦🎰🌈
-      - 🇺🇸 美国 晨曦雨韵🌦️🌅
-      - 🇺🇸 美国 爵夜迷情🎷🌙
-      - 🇯🇵 日本低延 樱梦流光 🌸✨
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
-      - 🇭🇰 日本 星港潮音✨🌊
-      - 🇯🇵 日本 鹿梦千樱🦌🌸
-      - 🇯🇵 日本 樱潮夜歌🌸🌙
-      - 🇯🇵 日本 云岚琉光☁️🌅
-      - 🇸🇬 新加坡稳 月映星澜🌙✨
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
-      - 🇸🇬 新加坡 星橙夜语✨🍊
-      - 🇸🇬 新加坡 碧海晨曦🌊🌅
-      - 🇸🇬 新加坡 云岭幽香☁️🌿
-      - 🇸🇬 新加坡 霞光映水🌇💧
-      - 🇬🇧 英国超速 霓虹醉影🌃💫
-      - 🇬🇧 英国超速 海韵情怀🌊💖
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃
-      - 🇬🇧 英国 雾都晨曦🌫️🌅
-      - 🇬🇧 英国 暮影古城🏰🌆
-      - 🇬🇧 英国 湖光书梦📖🌊
-      - 🇬🇧 英国 英雨琴韵☔🎶
-      - 距离下次重置剩余：31 天 2
-      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
-      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
-      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
-      - 🇭🇰 香港家宽 海风呢喃 🌿 2
-      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
-      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
-      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
-      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
-      - 🇺🇸 美国巨容 星河万象 ✨
-      - 🇺🇸 美国巨容 雾隐金门 🌁
-      - 🇺🇸 美国巨容 风韵之都 🍂
-      - 🇺🇸 美国巨容 爵调流光 🎷
-      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
-      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
-      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
-      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
-      - 🇯🇵 日本低延 霓虹梦影 ✨
-      - 🇯🇵 日本低延 千年烟雨 🍃
-      - 🇯🇵 日本低延 雪落无声 ❄️
-      - 🇯🇵 日本低延 樱海晕染 🌸
-      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
-      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
-      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
-      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
-      - 🇸🇬 新加坡稳 璀璨明珠 ✨
-      - 🇸🇬 新加坡稳 繁花似锦 🌸
-      - 🇸🇬 新加坡稳 梦海微澜 🌊
-      - 🇸🇬 新加坡稳 烟火人间 🎏
-      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
-      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
-      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
-      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
-      - 🇬🇧 英国超速 星河繁都 ✨
-      - 🇬🇧 英国超速 碧海霞光 🌊
-      - 🇬🇧 英国超速 风拂花海 🍊
-      - 🇬🇧 英国超速 烟雨古韵 ⛩️
-      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
-      - 🇬🇧 英国超速 海韵情怀🌊💖 2
-      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
-      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 距离下次重置剩余：1 天
       - 目前国内网址：xc3.shishi1.buzz 备用：ds3.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -1115,6 +1041,89 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
+      - 距离下次重置剩余：1 天 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨
+      - 🇭🇰 香港家宽 梦幻港湾 🌊
+      - 🇭🇰 香港家宽 云海仙踪 ☁️
+      - 🇭🇰 香港家宽 海风呢喃 🌿
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵
+      - 🇺🇸 美国巨容 星河万象 ✨
+      - 🇺🇸 美国巨容 雾隐金门 🌁
+      - 🇺🇸 美国巨容 风韵之都 🍂
+      - 🇺🇸 美国巨容 爵调流光 🎷
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊
+      - 🇯🇵 日本低延 霓虹梦影 ✨
+      - 🇯🇵 日本低延 千年烟雨 🍃
+      - 🇯🇵 日本低延 雪落无声 ❄️
+      - 🇯🇵 日本低延 樱海晕染 🌸
+      - 🇯🇵 日本低延 樱梦流光 🌸✨
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌
+      - 🇸🇬 新加坡稳 璀璨明珠 ✨
+      - 🇸🇬 新加坡稳 繁花似锦 🌸
+      - 🇸🇬 新加坡稳 梦海微澜 🌊
+      - 🇸🇬 新加坡稳 烟火人间 🎏
+      - 🇸🇬 新加坡稳 月映星澜🌙✨
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐
+      - 🇬🇧 英国超速 星河繁都 ✨
+      - 🇬🇧 英国超速 碧海霞光 🌊
+      - 🇬🇧 英国超速 风拂花海 🍊
+      - 🇬🇧 英国超速 烟雨古韵 ⛩️
+      - 🇬🇧 英国超速 霓虹醉影🌃💫
+      - 🇬🇧 英国超速 海韵情怀🌊💖
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃
+      - 距离下次重置剩余：1 天 3
+      - TG交流群https://t.me/wukongjichang
+      - 🇭🇰 香港家宽 星河幻境 ✨🌌 2
+      - 🇭🇰 香港家宽 流光溢彩 🌃💫 2
+      - 🇭🇰 香港家宽 潮韵霓裳 🎶🌈 2
+      - 🇭🇰 香港家宽 云帆启航 ☁️⛵ 2
+      - 🇭🇰 香港家宽 璀璨星河 ✨ 2
+      - 🇭🇰 香港家宽 梦幻港湾 🌊 2
+      - 🇭🇰 香港家宽 云海仙踪 ☁️ 2
+      - 🇭🇰 香港家宽 海风呢喃 🌿 2
+      - 🇺🇸 美国巨容 光影旖旎 🌴🎬 2
+      - 🇺🇸 美国巨容 星梦幻城 🌟🏙️ 2
+      - 🇺🇸 美国巨容 风情雅韵 🍂🏙️ 2
+      - 🇺🇸 美国巨容 阳光碧海 🌞🌊 2
+      - 🇺🇸 美国 雾海星桥🌁✨
+      - 🇺🇸 美国 幻彩之梦🎰🌈
+      - 🇺🇸 美国 晨曦雨韵🌦️🌅
+      - 🇺🇸 美国 爵夜迷情🎷🌙
+      - 🇯🇵 日本低延 樱梦流光 🌸✨ 2
+      - 🇯🇵 日本低延 古韵流芳 🏯🌺 2
+      - 🇯🇵 日本低延 霓虹恋曲 🌆💖 2
+      - 🇯🇵 日本低延 雪韵悠然 ❄️🌌 2
+      - 🇭🇰 日本 星港潮音✨🌊
+      - 🇯🇵 日本 鹿梦千樱🦌🌸
+      - 🇯🇵 日本 樱潮夜歌🌸🌙
+      - 🇯🇵 日本 云岚琉光☁️🌅
+      - 🇸🇬 新加坡稳 月映星澜🌙✨ 2
+      - 🇸🇬 新加坡稳 诗香弄影📜🌸 2
+      - 🇸🇬 新加坡稳 彩梦织锦🎨🌺 2
+      - 🇸🇬 新加坡稳 翡翠星辰🍃⭐ 2
+      - 🇸🇬 新加坡 星橙夜语✨🍊
+      - 🇸🇬 新加坡 碧海晨曦🌊🌅
+      - 🇸🇬 新加坡 云岭幽香☁️🌿
+      - 🇸🇬 新加坡 霞光映水🌇💧
+      - 🇬🇧 英国超速 霓虹醉影🌃💫 2
+      - 🇬🇧 英国超速 海韵情怀🌊💖 2
+      - 🇬🇧 英国超速 梦幻霓裳🌸🌟 2
+      - 🇬🇧 英国超速 蓝海吟风🌊🍃 2
+      - 🇬🇧 英国 雾都晨曦🌫️🌅
+      - 🇬🇧 英国 暮影古城🏰🌆
+      - 🇬🇧 英国 湖光书梦📖🌊
+      - 🇬🇧 英国 英雨琴韵☔🎶
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -5,51 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10", server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.link}}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.192.60, port: 2001, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 巴黎Amazon数据中心, server: 35.181.29.16, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 2c329585-67a8-498b-8d38-176dac806bc7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: cloudgetservice.mcloudservice.site}}}
-  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 8, server: GgGgGGgGggggGg.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}}
-  - {name: 🇭🇰 香港 CN2, server: 156.226.173.104, port: 443, type: ss, cipher: aes-128-gcm, password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 222.112.15.140, port: 56780, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-EWzC7QCi0k.download.microsoft.com}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 156.226.173.104, port: 443, type: ss, cipher: aes-128-gcm, password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 121.127.231.213, port: 636, type: ss, cipher: aes-256-gcm, password: f917888c6f39, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hkxwv1-5.dsjsapi.com, path: /rxoasyex, tls: true, mux: true}}
+  - {name: 🇺🇸 美国5|@ripaojiedian, server: api.jquery.com, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, servername: admin.kasrax.ir, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: admin.kasrax.ir}}}
+  - {name: 🇸🇬 敏感时期，更新暂停, server: web.51.la, port: 443, type: vmess, uuid: c6e84072-2e69-4928-90af-436b3fcd0663, alterId: 0, cipher: auto, tls: true, servername: web.51.la}
+  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 6, server: bBbbbbbBb.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: bbbbbbbbb.222769.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,56 +68,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 CN2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,13 +134,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 北伯根 - DigitalOcean, LLC - 10
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 1
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 2
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 8
-      - 🇭🇰 香港 CN2
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 敏感时期，更新暂停
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 6
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
