@@ -5,127 +5,127 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 2|🇺🇸120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
-  - {name: 10|@vpnv2rayNGv, server: p1.3dfigures.ir, port: 18646, type: hysteria2, ports: 18646, password: 3r6PBKy5DX, obfs: salamander, obfs-password: ywfihi3ohyg9iun3gvu, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.61, port: 444, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356}
-  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 1, server: 104.21.16.1, port: 80, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1}}
-  - {name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.192.60, port: 7571, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 43.247.134.201, port: 59149, type: vmess, uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609, alterId: 0, cipher: auto, tls: false}
-  - {name: 10|All  @Cook_Vpn, server: pro.moon-night.ir, port: 42820, type: hysteria2, ports: 42820, password: 5f81e5a7-8362-4af4-b688-81241c3a4c51, obfs: salamander, obfs-password: nZ1fJMEpOR41WvXM4p98ryGE, sni: speedtest.net, skip-cert-verify: true}
-  - {name: "Channel id: @ShadowProxy66🇸🇬", server: 92.112.23.216, port: 28264, type: hysteria2, ports: 28264, password: 9FmazX8AAPpM8TQcNyI2zvBDF5o, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省汕头市 移动, server: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, sni: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, skip-cert-verify: false}
-  - {name: 5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6, server: 1ec053e0-swd340-t4m86v-1s9pj.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 57f70d4e-6428-11ef-8f5f-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1ec053e0-swd340-t4m86v-1s9pj.hgc1.tcpbbr.net}}}
-  - {name: 43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 36.151.192.61, port: 444, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.163.218.2, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
-  - {name: 98 |  1.3MB/s, server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9, server: 77becdb4-sw7j40-t94bdb-mrtr.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 77becdb4-sw7j40-t94bdb-mrtr.hgc1.tcpbbr.net}}}
-  - {name: 1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇨🇳 吉林省 移动(全省通用), server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}}
-  - {name: "Channel id: @ShadowProxy66🇷🇺", server: 45.129.2.108, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 11|@drakvpn🐉, server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇭🇰", server: hk.nfsn666.gq, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: hk.nfsn666.gq, skip-cert-verify: true}
+  - {name: 64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507031938065-8k6EJ6kiGd.download.microsoft.com}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35, server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com, port: 4136, type: vmess, uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
+  - {name: 2|🇺🇸103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #1", server: 64.181.207.162, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 82 |  1.3MB/s, server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b, sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356}
+  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #1", server: 64.181.207.162, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 69 |  4.3MB/s|100%|Netflix|O..., server: us.10101251.xyz, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #4", server: 75.127.13.83, port: 45551, type: hysteria2, ports: 45551, password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7, server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net}}}
+  - {name: 120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37, server: d64de51c-su2dc0-susvoj-d6ar.c.volczijie.com, port: 4138, type: vmess, uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
+  - {name: 12|tg频道:@ripaojiedian, server: 52.193.38.93, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇨🇦", server: 40.233.70.163, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "tg频道:@ripaojiedian #1", server: 52.193.38.93, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YXdzcHMwNTAx}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.192.61, port: 4445, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "@vpnv2rayNGv", server: p1.3dfigures.ir, port: 18646, type: hysteria2, ports: 18646, password: 3r6PBKy5DX, obfs: salamander, obfs-password: ywfihi3ohyg9iun3gvu, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: IRAN 4 (@Outline_Vpn), server: fr4.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: dec336f6-e5da-40f4-a4de-986c7b34d587, sni: fr4.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 10|IRAN 9 (@Outline_Vpn), server: 108.181.5.130, port: 4710, type: hysteria2, ports: 4710, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.181, port: 636, type: ss, cipher: aes-256-gcm, password: 23d03aa704c7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: cmihk3v1.dsjsapp.com, path: /grqhyifio, tls: true, mux: true}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,138 +144,137 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -291,32 +290,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2|🇺🇸120 |  1.4MB/s
-      - 10|@vpnv2rayNGv
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 - 水牛城 - HostPapa - 1
-      - 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 10|All  @Cook_Vpn
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 🇨🇳 广东省汕头市 移动
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 35
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - 82 |  1.3MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
+      - 69 |  4.3MB/s|100%|Netflix|O...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      - "11|Channel id: @ShadowProxy66🇺🇸 #4"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
+      - 120 |  1.4MB/s
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 12|tg频道:@ripaojiedian
+      - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - "Channel id: @ShadowProxy66🇨🇦"
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "@vpnv2rayNGv"
       - 🇻🇳 越南|@ripaojiedian
-      - 98 |  1.3MB/s
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 9
-      - 1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "Channel id: @ShadowProxy66🇷🇺"
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - 11|@drakvpn🐉
+      - IRAN 4 (@Outline_Vpn)
+      - 10|IRAN 9 (@Outline_Vpn)
+      - 🇭🇰 香港2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
