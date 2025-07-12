@@ -5,215 +5,235 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.192.26, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "10|✅ @V2aryng_vpn کانفینگ رایگان #3", server: 52.14.165.55, port: 33562, type: hysteria2, ports: 33562, password: YidTdI17j06K1PFBUWdzWDVZXc, skip-cert-verify: true}
-  - {name: 2|🌀4-TH |  2.6MB/s|55%|Netflix|O..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
-  - {name: 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇰🇷 12,13|韩国2|@ripaojiedian", server: 3.34.143.101, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true}
-  - {name: ": _", server: knock.zone1.center, port: 443, type: hysteria2, ports: 443, password: user12.myserverSEFR097, obfs: salamander, obfs-password: The_Sefr-salamdash, skip-cert-verify: false}
-  - {name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem..., server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
-  - {name: 2|🇺🇸100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
-  - {name: "@V2rayNG3", server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: "@V2RayTheKyo     #1", server: 77.90.52.69, port: 35000, type: hysteria2, ports: 35000, password: "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi", obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: pichondan.com, skip-cert-verify: false}
   - {name: "10|🇸 @game_file2020 #1", server: us.saigonfly.com, port: 17340, type: hysteria2, ports: 17340, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "@game_file2020 #15", server: uk.saigonfly.com, port: 17129, type: hysteria2, ports: 17129, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 - 多伦多 - HostPapa - 1, server: 104.21.3.189, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 10| @game_file2020, server: au.saigonfly.com, port: 17169, type: hysteria2, ports: 17169, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "@game_file2020", server: au.saigonfly.com, port: 17169, type: hysteria2, ports: 17169, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "10|🇦 @game_file2020 #2", server: za.saigonfly.com, port: 17365, type: hysteria2, ports: 17365, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "@VpnFreak |Trade2|", server: v2raybluecrystal.3dfigures.ir, port: 19338, type: hysteria2, ports: 19338, password: 6E7ZX07Att, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "@v2ray313", server: p4.3dfigures.ir, port: 20627, type: hysteria2, ports: 20627, password: jvTJxLMlcl, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: 🇨🇳 吉林省 移动(全省通用), server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: "10|🇹🇷 @game_file2020 #1", server: tr.saigonfly.com, port: 17882, type: hysteria2, ports: 17882, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "10,11|Channel id: @ShadowProxy66🇫🇷", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 54.168.210.205, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YXdzcHMwNTAx}
-  - {name: "10|🇸 @game_file2020 #2", server: us.saigonfly.com, port: 17627, type: hysteria2, ports: 17627, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "🇩🇪 @Filter_breaker | Germany #3", server: 185.146.173.3400, port: 443, type: hysteria2, ports: 443, password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
-  - {name: "Channel id: @ShadowProxy66🇨🇦", server: 40.233.70.163, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #6", server: 107.175.34.118, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz}
+  - {name: "10|✅ @V2aryng_vpn کانفینگ رایگان #2", server: 13.230.223.36, port: 30673, type: hysteria2, ports: 30673, password: THySbYJ9A198OxWz2HLK6Kpaw, skip-cert-verify: true}
+  - {name: 10|@vpnv2r4y️  یو️, server: 104.168.34.109, port: 443, type: hysteria2, ports: 443, password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|🇧 @game_file2020, server: uk.saigonfly.com, port: 17129, type: hysteria2, ports: 17129, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 - 多伦多 - HostPapa - 2, server: 172.67.131.27, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: "@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
+  - {name: "@game_file2020 #1", server: au.saigonfly.com, port: 17275, type: hysteria2, ports: 17275, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
+  - {name: "🇭🇰 12,13|香港6|@ripaojiedian", server: 155.117.228.70, port: 26193, type: trojan, password: 7367d04e-4c59-4dff-a50e-12e730a09891, skip-cert-verify: true}
+  - {name: "🇰🇷 12,13|韩国4|@ripaojiedian", server: 36.151.192.59, port: 16158, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "2,10|@V2aryng_vpn #6", server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net, skip-cert-verify: true}
+  - {name: "10|@meli_proxyy #3", server: 46.17.41.217, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "@v2rayng_fars  Telegram #1", server: knock.zone1.center, port: 443, type: hysteria2, ports: 443, password: user11.serverTest1234, obfs: salamander, obfs-password: The_Sefr-salamdash, skip-cert-verify: false}
+  - {name: 9|未命名, server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
+  - {name: "🇩🇪 10|@Filter_breaker | Germany #2", server: 185.146.173.3250, port: 443, type: hysteria2, ports: 443, password: u5v6w7x8-9012-3bcd-4abc-5678abcdef34, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
+  - {name: 103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
+  - {name: 14|SG_speednode_0107, server: 138.2.64.229, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.192.26, port: 34719, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 10|لمان 🇩🇪 @V2xay, server: p1.3dfigures.ir, port: 501, type: hysteria2, ports: 501, password: k1sCJ4SJQj, obfs: salamander, obfs-password: Djxsjduwue, skip-cert-verify: true}
+  - {name: 10|@V2rayNG3, server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.192.26, port: 32765, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "10|✅ @V2aryng_vpn کانفینگ رایگان #3", server: 52.14.165.55, port: 33562, type: hysteria2, ports: 33562, password: YidTdI17j06K1PFBUWdzWDVZXc, skip-cert-verify: true}
+  - {name: 109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️, server: yjjdhl.yunjijd.xyz, port: 26923, type: hysteria2, ports: 26923, password: be81e21d-02d8-4a60-a07e-c2202a50a549, sni: yjjdhl.yunjijd.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: 103.224.80.92, port: 58236, type: vmess, uuid: 829218e3-9f74-4303-88da-a9d84f0c7852, alterId: 0, cipher: auto, tls: false}
+  - {name: "@Filter_breaker | United Kingd...", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "@VpnFreak |Trade3|", server: v2raybluecrystal.3dfigures.ir, port: 47294, type: hysteria2, ports: 47294, password: 6E7ZX07Att, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true}}
-  - {name: 10|🇪 @game_file2020, server: de.saigonfly.com, port: 17340, type: hysteria2, ports: 17340, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "@game_file2020 #25", server: za.saigonfly.com, port: 17365, type: hysteria2, ports: 17365, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "🇩🇪 10|@Filter_breaker | Germany #3", server: 185.146.173.3400, port: 443, type: hysteria2, ports: 443, password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
-  - {name: "Channel id: @ShadowProxy66 #2", server: uk.saigonfly.com, port: 443, type: hysteria2, ports: 443, password: 621187c3-859d-4682-aac1-cd4500f9690e}
-  - {name: "@game_file2020 #16", server: uk.saigonfly.com, port: 17383, type: hysteria2, ports: 17383, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
-  - {name: "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
-  - {name: "10|@v2rayng_fars 🚀 Telegram #1", server: knock.zone1.center, port: 443, type: hysteria2, ports: 443, password: user11.serverTest1234, obfs: salamander, obfs-password: The_Sefr-salamdash, skip-cert-verify: false}
-  - {name: "11|⚡️ @vpnserverrr (Hysteria) #2", server: 77.110.115.25, port: 5053, type: hysteria2, ports: 5053, password: 4c0c889785026935, obfs: salamander, obfs-password: 4c0c889785026935, sni: www.bing.com, skip-cert-verify: true}
-  - {name: IRAN 9 (@Outline_Vpn), server: 108.181.5.130, port: 4710, type: hysteria2, ports: 4710, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake..., server: 108.181.23.241, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #3", server: s15.serv00.com, port: 7777, type: hysteria2, ports: 7777, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
-  - {name: ⚡️ @vpnserverrr (Hysteria), server: jp.xn--mes91t7ofgnw.com, port: 20252, type: hysteria2, ports: 20252, password: f70ff140-9c4e-44d3-8864-f336d7607d7e, sni: jp.xn--mes91t7ofgnw.com, skip-cert-verify: true}
-  - {name: 119 |  1.2MB/s, server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net}
-  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #1", server: 64.181.207.162, port: 47262, type: hysteria2, ports: 47262, password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@V2aryng_vpn #4", server: 18.156.80.195, port: 18551, type: hysteria2, ports: 18551, password: Z5cdtfPHAPbFHC40PClBeD0hEzY, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
+  - {name: "10|@V2rayNG3 #5", server: p1.punchline.ir, port: 19037, type: hysteria2, ports: 19037, password: AtTK3tiEA0, obfs: salamander, obfs-password: bipbip, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "未命名 #4", server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.192.26, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "10|🇷 @game_file2020 #1", server: tr.saigonfly.com, port: 17515, type: hysteria2, ports: 17515, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
+  - {name: "🇩🇪 @Filter_breaker | Germany #3", server: 185.146.173.3400, port: 443, type: hysteria2, ports: 443, password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
+  - {name: "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1", server: 108.181.23.249, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true}}
+  - {name: "@V2aryng_vpn   #2", server: 18.181.173.54, port: 14257, type: hysteria2, ports: 14257, password: JhsNcC589qqPqdRob3CIgwqjbc, skip-cert-verify: true}
   - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.53.53.249, port: 2083, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}}
-  - {name: 64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
-  - {name: 10|@v2ray313 کانال, server: p4.3dfigures.ir, port: 20627, type: hysteria2, ports: 20627, password: jvTJxLMlcl, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: "@game_file2020 #2", server: au.saigonfly.com, port: 17887, type: hysteria2, ports: 17887, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 3.34.143.101, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true}
+  - {name: "Telegram: @IP_CF", server: 129.153.59.86, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: 10|@meli_proxyy, server: 40.233.121.211, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "@game_file2020 #7", server: de.saigonfly.com, port: 17027, type: hysteria2, ports: 17027, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
+  - {name: 🇯🇵 9|东京, server: zp2.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp2.eyujichang.xyz, skip-cert-verify: true}
+  - {name: "@Mahdi2000_m ql_0366", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 2|🌀4-TH |  2.6MB/s|55%|Netflix|O..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: "10|🇹🇷 @game_file2020 #1", server: tr.saigonfly.com, port: 17882, type: hysteria2, ports: 17882, password: 621187c3-859d-4682-aac1-cd4500f9690e, skip-cert-verify: false}
+  - {name: "@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
+  - {name: "🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -232,58 +252,65 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -291,161 +318,176 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -461,54 +503,59 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
-      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
-      - 2|🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
-      - 🇰🇷 12,13|韩国2|@ripaojiedian
-      - ": _"
-      - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
-      - 2|🇺🇸100 |  1.3MB/s
-      - "@V2rayNG3"
-      - "@V2RayTheKyo     #1"
       - "10|🇸 @game_file2020 #1"
-      - "@game_file2020 #15"
-      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 1
-      - 10| @game_file2020
-      - "@game_file2020"
-      - "10|🇦 @game_file2020 #2"
-      - "@VpnFreak |Trade2|"
-      - "@v2ray313"
-      - 🇨🇳 吉林省 移动(全省通用)
-      - "10|🇹🇷 @game_file2020 #1"
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|@V2rayNG3 #4"
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|🇸 @game_file2020 #2"
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66🇨🇦"
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #2"
+      - 10|@vpnv2r4y️  یو️
+      - 10|🇧 @game_file2020
+      - 🇨🇦 加拿大 - 多伦多 - HostPapa - 2
+      - "@V2rayNG3 #4"
+      - "@game_file2020 #1"
+      - 🇭🇰 12,13|香港6|@ripaojiedian
+      - 🇰🇷 12,13|韩国4|@ripaojiedian
+      - "2,10|@V2aryng_vpn #6"
+      - "10|@meli_proxyy #3"
+      - "@v2rayng_fars  Telegram #1"
+      - 9|未命名
+      - "🇩🇪 10|@Filter_breaker | Germany #2"
+      - 103 |  3.2MB/s
+      - 14|SG_speednode_0107
+      - 🇺🇸 美国4|@ripaojiedian
+      - 10|لمان 🇩🇪 @V2xay
+      - 10|@V2rayNG3
+      - "10|@V2rayNG3 #6"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|✅ @V2aryng_vpn کانفینگ رایگان #3"
+      - 109 |  3.2MB/s
+      - 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+      - 🇭🇰 香港|@ripaojiedian
+      - "@Filter_breaker | United Kingd..."
+      - "@VpnFreak |Trade3|"
       - 🇺🇸 美国2|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇪 @game_file2020
-      - "@game_file2020 #25"
-      - "🇩🇪 10|@Filter_breaker | Germany #3"
-      - "Channel id: @ShadowProxy66 #2"
-      - "@game_file2020 #16"
-      - "2,9,11|Channel id: @ShadowProxy66🇺🇸 #2"
-      - "10|@v2rayng_fars 🚀 Telegram #1"
-      - "11|⚡️ @vpnserverrr (Hysteria) #2"
-      - IRAN 9 (@Outline_Vpn)
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake...
-      - "@V2rayNG3 #3"
-      - ⚡️ @vpnserverrr (Hysteria)
-      - 119 |  1.2MB/s
-      - "11|Channel id: @ShadowProxy66🇺🇸 #1"
-      - "@V2aryng_vpn #4"
+      - "10|@V2rayNG3 #5"
+      - "10|@V2rayNG3 #9"
+      - "未命名 #4"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇷 @game_file2020 #1"
+      - "🇩🇪 @Filter_breaker | Germany #3"
+      - "🇺🇸 10|🇺🇸USA-Hysteria2-@Filter_breake... #1"
+      - 96 |  2.4MB/s
+      - 🇯🇵 日本2|@ripaojiedian
+      - "@V2aryng_vpn   #2"
       - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 64 |  1.3MB/s|46%|Openai|Gem...
-      - 10|@v2ray313 کانال
-      - "@game_file2020 #2"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "Telegram: @IP_CF"
+      - 108 |  1.4MB/s
+      - 10|@meli_proxyy
+      - "@game_file2020 #7"
+      - 🇯🇵 9|东京
+      - "@Mahdi2000_m ql_0366"
+      - 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - "10|🇹🇷 @game_file2020 #1"
+      - "@V2rayNG3 #1"
+      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
