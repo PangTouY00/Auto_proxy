@@ -5,219 +5,195 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: TEL > @SaghiVpnXBOT-, server: nexiabx.688997.xyz, port: 20857, type: hysteria2, ports: 20857, password: 39c3ffc8-5861-4fd5-a35d-8108471234fa, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiabx.688997.xyz, skip-cert-verify: true}
-  - {name: "未命名 #1", server: aws-linkhy2.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.tesla.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: "9|v2raybluecrystal2 #2", server: 78.138.118.228, port: 22527, type: hysteria2, ports: 22527, password: Ys1Z1iA996, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "9|Alfa_v2ray_ng #7", server: alfa_v2ray_ng-france.alfa_v2ray_ng.dynv6.net, port: 33113, type: hysteria2, ports: 33113, password: mItioklzVp, obfs: salamander, obfs-password: Alfa_v2ray_ng, skip-cert-verify: true}
-  - {name: "v2raybluecrystal #1", server: v2raybluecrystal.3dfigures.ir, port: 40408, type: hysteria2, ports: 40408, password: 6E7ZX07Att, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17, server: fhrcvbgffxd.hjdfghfc.asia, port: 50229, type: vmess, uuid: 3b0ad7ab-57f9-4db2-98dc-daccc9d5938e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/market?ed=512", headers: {Host: fhrcvbgffxd.hjdfghfc.asia}}}
-  - {name: "@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@GVgg#v2raybluecrystal3-tur", server: 5.133.102.59, port: 28958, type: hysteria2, ports: 28958, password: e2QEtNgU9v, obfs: salamander, obfs-password: FF, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 9|美国10 付费推荐：https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 67828a6e-0144-4e57-8169-2447a3dd2e61, sni: www.apple.com, skip-cert-verify: true}
-  - {name: "Alfa_v2ray_ng #4", server: 78.138.118.228, port: 33113, type: hysteria2, ports: 33113, password: mItioklzVp, obfs: salamander, obfs-password: Alfa_v2ray_ng, skip-cert-verify: true}
-  - {name: v2raybluecrystal-ger, server: 185.211.101.15, port: 20358, type: hysteria2, ports: 20358, password: F6HtMurQGt, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: v2raybluecrystal2-ger, server: 185.211.101.15, port: 16666, type: hysteria2, ports: 16666, password: F6HtMurQGt, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: "9|@V2rayNG3 #7", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
-  - {name: "9,10|Channel id: @ShadowProxy66🇫🇷", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "9|@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 江苏省 移动, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
-  - {name: 119 |  1.2MB/s, server: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, sni: 638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net}
-  - {name: v2raybluecrystal-la, server: 165.140.166.78, port: 50163, type: hysteria2, ports: 50163, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: v2raybluecrystal2-hou, server: 146.19.56.21, port: 57418, type: hysteria2, ports: 57418, password: UnYCJJ9AQy, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: (@vmesskhodam), server: shade.zone1.center, port: 443, type: hysteria2, ports: 443, password: user10.thisismeSUperkl19201, obfs: salamander, obfs-password: mkv_SEfr-salamdash, skip-cert-verify: false}
-  - {name: "9|@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
-  - {name: 9|(@vmesskhodam)چنل, server: shade.zone1.center, port: 443, type: hysteria2, ports: 443, password: user10.thisismeSUperkl19201, obfs: salamander, obfs-password: mkv_SEfr-salamdash, skip-cert-verify: false}
-  - {name: "v2raybluecrystal2 #2", server: 78.138.118.228, port: 22527, type: hysteria2, ports: 22527, password: Ys1Z1iA996, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "tg频道:@ripaojiedian #1", server: 35.86.251.49, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YXdzcHMwNTAx}
   - {name: "🇩🇪 @Filter_breaker | Germany #3", server: 185.146.173.3400, port: 443, type: hysteria2, ports: 443, password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
-  - {name: "10|Channel id: @ShadowProxy66🇸🇬", server: 92.112.23.216, port: 28264, type: hysteria2, ports: 28264, password: 9FmazX8AAPpM8TQcNyI2zvBDF5o, skip-cert-verify: true}
-  - {name: 0|🇺🇸96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
-  - {name: 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 9|v2raybluecrystal3-la, server: 165.140.166.78, port: 41003, type: hysteria2, ports: 41003, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
+  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+  - {name: 未命名, server: aws-linkhy17.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.apple.com.cn, skip-cert-verify: true}
+  - {name: 🇸🇬 9|新加坡, server: aws-linkhy10.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90, sni: www.teslaautomation.de, skip-cert-verify: true}
+  - {name: "@_", server: jpcn286.s2fjeyeeyafe.bond, port: 35789, type: hysteria2, ports: 35789, password: 196d331c-9a7d-4a8a-990e-f8babff27412, sni: jpcn286.s2fjeyeeyafe.bond, skip-cert-verify: true}
+  - {name: "10|Alfa_v2ray_ng #6", server: alfa_v2ray_ng-france.v2raybluecrystal2.dynv6.net, port: 37804, type: hysteria2, ports: 37804, password: mItioklzVp, obfs-password: Alfa_v2ray_ng, skip-cert-verify: true}
+  - {name: "🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15", server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 073748f2-ddd0-41f4-9bd0-910f04a54df4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
+  - {name: 🇩🇪 @Filter_breaker | Germany, server: 185.146.173.2450, port: 443, type: hysteria2, ports: 443, password: e9f0g1h2-3456-7bcd-8abc-9012abcdef34, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
   - {name: "Telegram: @IP_CF #4", server: 45.129.2.108, port: 50850, type: hysteria2, ports: 50850, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN, server: 143.198.235.49, port: 443, type: hysteria2, ports: 443, password: iMqY3uG_5pgEj3hCfyHB-0vB, skip-cert-verify: true}
-  - {name: 🇯🇵 8|日本, server: aws-linkhy17.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.apple.com.cn, skip-cert-verify: true}
-  - {name: "v2raybluecrystal #3", server: 78.138.118.228, port: 37804, type: hysteria2, ports: 37804, password: mItioklzVp, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "9|v2raybluecrystal2 #3", server: 78.138.118.228, port: 22527, type: hysteria2, ports: 22527, password: mItioklzVp, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: v2raybluecrystal-hou, server: 146.19.56.21, port: 28165, type: hysteria2, ports: 28165, password: UnYCJJ9AQy, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: 0|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: "@FreakConfig", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi", obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: pichondan.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-ygDWmYQSlm.download.microsoft.com}}
+  - {name: 10|کان ی یش ر ن تلگرام💎 @Config_R..., server: 46.17.41.217, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|@_, server: jpcn286.s2fjeyeeyafe.bond, port: 35789, type: hysteria2, ports: 35789, password: 196d331c-9a7d-4a8a-990e-f8babff27412, sni: jpcn286.s2fjeyeeyafe.bond, skip-cert-verify: true}
+  - {name: 3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "未命名 #8", server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #3", server: 172.245.106.236, port: 35091, type: hysteria2, ports: 35091, password: e3f67f43-9097-4e56-96e2-681910b92150, obfs: salamander, obfs-password: fWQ4LCfAYiKaEVRe, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.192.239, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "@VPNHubMaRKeT   @VpnHubMarKeT... #1", server: 3.123.253.70, port: 9999, type: hysteria2, ports: 9999, password: VPNHubMaRKeT, obfs: salamander, obfs-password: tel:@VPNHubMaRKeT, skip-cert-verify: true}
   - {name: 0|🇺🇸103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
-  - {name: "9|v2raybluecrystal #5", server: v2raybluecrystal3.3dfigures.ir, port: 20675, type: hysteria2, ports: 20675, password: o753T2a9zD, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "9|Telegram @v2rayng_fars #7", server: yjjdxg.yunjijd.xyz, port: 26323, type: hysteria2, ports: 26323, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
-  - {name: 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1, server: 62.60.176.240, port: 10410, type: vmess, uuid: f107a60e-af79-44c9-bc7e-b5707f3208e1, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [zula.ir]}}}
-  - {name: 🇯🇵 8|🇯🇵日本东京, server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
-  - {name: v2raybluecrystal3-la, server: 165.140.166.78, port: 41003, type: hysteria2, ports: 41003, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
-  - {name: 43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "Telegram @v2rayng_fars #3", server: yjjdhg.yunjijd.xyz, port: 26723, type: hysteria2, ports: 26723, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
-  - {name: "9,10|@drakvpn🐉", server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 9|Telegram @v2rayng_fars, server: yjjdbd.yunjijd.xyz, port: 26623, type: hysteria2, ports: 26623, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
-  - {name: 13|GB_speednode_0122, server: stirring-parakeet.shiner427.skin, port: 443, type: trojan, password: !<str> 74260628090146500, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.192.239, port: 32063, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - Shizishan - China Telecom - 14, server: gcvbnjth.hjdfghfc.asia, port: 25395, type: vmess, uuid: b566a8bf-8b33-47fc-a361-e10f96056cff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/market?ed=512", headers: {Host: gcvbnjth.hjdfghfc.asia}}}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "Telegram @v2rayng_fars #5", server: yjjdjnd.yunjijd.xyz, port: 26523, type: hysteria2, ports: 26523, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
+  - {name: 🇭🇰 9|🇭🇰香港, server: 47.74.34.102, port: 29282, type: hysteria2, ports: 29282, password: Wo9rLCYw6gzcfTgIu11mhBVciVs, skip-cert-verify: true}
+  - {name: "TEL > @SaghiVpnXBOT-  #5", server: nexiarb.688997.xyz, port: 20257, type: hysteria2, ports: 20257, password: 39c3ffc8-5861-4fd5-a35d-8108471234fa, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiarb.688997.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true}}
+  - {name: "TEL > @SaghiVpnXBOT-  #6", server: nexiateq.688997.xyz, port: 20957, type: hysteria2, ports: 20957, password: 39c3ffc8-5861-4fd5-a35d-8108471234fa, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiateq.688997.xyz, skip-cert-verify: true}
+  - {name: 0|🇺🇸116 |  1.2MB/s, server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net}
+  - {name: "🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7", server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: dabd02ee-f986-4eae-a315-a811b51c4472, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
+  - {name: "⚡️ @vpnserverrr (Hysteria) #1", server: 108.181.5.130, port: 57773, type: hysteria2, ports: 57773, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15, server: 8e551c95-sv0xs0-szj6wo-8f7h.hk.p5pv.com, port: 80, type: vmess, uuid: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8e551c95-sv0xs0-szj6wo-8f7h.hk.p5pv.com}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "10|@Daily_Configs #1", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 0|🌀4-TH |  2.6MB/s|55%|Netflix|O..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: "🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8", server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: bcbc9693-e772-4956-9179-ba1633a56d31, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
+  - {name: 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di..., server: 208.87.242.215, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: "TEL > @SaghiVpnXBOT-  #2", server: nexiahg.688997.xyz, port: 20357, type: hysteria2, ports: 20357, password: 39c3ffc8-5861-4fd5-a35d-8108471234fa, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiahg.688997.xyz, skip-cert-verify: true}
+  - {name: "10,11|Channel id: @ShadowProxy66🇨🇦", server: 40.233.70.163, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|Telegram @v2rayng_fars, server: yjjdbd.yunjijd.xyz, port: 26623, type: hysteria2, ports: 26623, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -236,223 +212,203 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9|🇭🇰香港
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -468,55 +424,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #1"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|v2raybluecrystal2 #2"
-      - "9|Alfa_v2ray_ng #7"
-      - "v2raybluecrystal #1"
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
-      - "@V2rayNG3 #6"
-      - "@V2rayNG3 #9"
-      - "@GVgg#v2raybluecrystal3-tur"
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
-      - 🇺🇸 9|美国10 付费推荐：https://dafei.de
-      - "Alfa_v2ray_ng #4"
-      - v2raybluecrystal-ger
-      - v2raybluecrystal2-ger
-      - "9|@V2rayNG3 #7"
-      - "9,10|Channel id: @ShadowProxy66🇫🇷"
-      - "9|@V2rayNG3 #2"
-      - 🇨🇳 江苏省 移动
-      - 119 |  1.2MB/s
-      - v2raybluecrystal-la
-      - v2raybluecrystal2-hou
-      - (@vmesskhodam)
-      - "9|@V2rayNG3 #1"
-      - 9|(@vmesskhodam)چنل
-      - "v2raybluecrystal2 #2"
-      - "tg频道:@ripaojiedian #1"
       - "🇩🇪 @Filter_breaker | Germany #3"
-      - "10|Channel id: @ShadowProxy66🇸🇬"
-      - 0|🇺🇸96 |  2.4MB/s
-      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - 9|v2raybluecrystal3-la
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - 未命名
+      - 🇸🇬 9|新加坡
+      - "@_"
+      - "10|Alfa_v2ray_ng #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 15
+      - 🇩🇪 @Filter_breaker | Germany
       - "Telegram: @IP_CF #4"
-      - 🇺🇸 8|🇸美国 加 拉 DIGITALOCEAN-ASN
-      - 🇯🇵 8|日本
-      - "v2raybluecrystal #3"
-      - "9|v2raybluecrystal2 #3"
-      - v2raybluecrystal-hou
+      - 0|🇺🇸121 |  1.2MB/s
+      - "@FreakConfig"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|کان ی یش ر ن تلگرام💎 @Config_R...
+      - 10|@_
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "未命名 #8"
+      - "10|@V2rayNG3 #4"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
       - 0|🇺🇸103 |  3.2MB/s
-      - "9|v2raybluecrystal #5"
-      - "9|Telegram @v2rayng_fars #7"
-      - 阿拉伯联合酋长国 - 阿布扎比 - Aeza International LTD - 1
-      - 🇯🇵 8|🇯🇵日本东京
-      - v2raybluecrystal3-la
-      - 43 |  4.9MB/s|48%|Netflix|Di...
-      - "Telegram @v2rayng_fars #3"
-      - 9,10|@drakvpn🐉
-      - 9|Telegram @v2rayng_fars
-      - 13|GB_speednode_0122
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇨🇳 中国 - Shizishan - China Telecom - 14
+      - 🇭🇰 香港|@ripaojiedian
+      - "Telegram @v2rayng_fars #5"
+      - 🇭🇰 9|🇭🇰香港
+      - "TEL > @SaghiVpnXBOT-  #5"
+      - 🇭🇰 香港2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #6"
+      - 0|🇺🇸116 |  1.2MB/s
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
+      - "⚡️ @vpnserverrr (Hysteria) #1"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本|@ripaojiedian
+      - 0|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+      - "10|@Daily_Configs #1"
+      - 0|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 8
+      - 0|🇺🇸42 |  5.7MB/s|47%|Netflix|Di...
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #2"
+      - "10,11|Channel id: @ShadowProxy66🇨🇦"
+      - 10|Telegram @v2rayng_fars
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
