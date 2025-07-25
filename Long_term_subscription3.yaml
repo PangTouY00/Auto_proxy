@@ -5,203 +5,219 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 116 |  1.2MB/s, server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net}
-  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇩🇪 @Filter_breaker | Germany #3", server: 185.146.173.3400, port: 443, type: hysteria2, ports: 443, password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇺🇸 10|美国10 付费推荐：https://dafei.de #3", server: 107.174.41.101, port: 45000, type: hysteria2, ports: 45000, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1, server: 172.67.131.27, port: 2053, type: vmess, uuid: 350e2b01-d410-44a6-90ba-6483f1062972, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: rak2d4.89060004.xyz}}}
-  - {name: 10|@V2rayNG3, server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: "@VPNHubMaRKeT   @VpnHubMarKeT... #1", server: 3.123.253.70, port: 9999, type: hysteria2, ports: 9999, password: VPNHubMaRKeT, obfs: salamander, obfs-password: tel:@VPNHubMaRKeT, skip-cert-verify: true}
-  - {name: "10|Telegram @v2rayng_fars #2", server: yjjdels.yunjijd.xyz, port: 26123, type: hysteria2, ports: 26123, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
-  - {name: 🇩🇪 10|10 https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 27e473f8-d610-4b04-bdf7-d0c39b47c897, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.135.254, port: 11200, type: vmess, uuid: 1edd0cbc-7fde-4c9d-9909-1fc0e2a8f6aa, alterId: 0, cipher: auto, tls: false}
-  - {name: "9|未命名 #3", server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "@drakvpn🐉", server: 46.17.41.5, port: 12904, type: hysteria2, ports: 12904, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 1 |  1.8MB/s|15%|Disney|Yout..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: IRAN 9 (@Outline_Vpn), server: 108.181.5.130, port: 4710, type: hysteria2, ports: 4710, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "9|未命名 #4", server: asg.pagate.top, port: 10086, type: hysteria2, ports: 10086, password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1}
-  - {name: TEL > @SaghiVpnXBOT-, server: nexiabx.688997.xyz, port: 20857, type: hysteria2, ports: 20857, password: 39c3ffc8-5861-4fd5-a35d-8108471234fa, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiabx.688997.xyz, skip-cert-verify: true}
-  - {name: "未命名 #11", server: 13.212.75.22, port: 10264, type: hysteria2, ports: 10264, password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 9|新加坡 #1", server: 13.212.75.22, port: 10264, type: hysteria2, ports: 10264, password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, sni: bing.com, skip-cert-verify: true}
-  - {name: "Channel id: @ShadowProxy66🇬🇧", server: 185.184.70.120, port: 42353, type: hysteria2, ports: 42353, password: e48d6377dda26840, skip-cert-verify: true}
-  - {name: 10|Telegram@vmessorg, server: 13.250.121.168, port: 29713, type: hysteria2, ports: 29713, password: JSC7GnvDM4mIitnCZXQo8IKSPs, sni: bing.com, skip-cert-verify: true}
-  - {name: "@Daily_Configs", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
-  - {name: 🇩🇪 @Filter_breaker | Germany, server: 185.146.173.2450, port: 443, type: hysteria2, ports: 443, password: e9f0g1h2-3456-7bcd-8abc-9012abcdef34, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
-  - {name: "@_", server: jpcn286.s2fjeyeeyafe.bond, port: 35789, type: hysteria2, ports: 35789, password: 196d331c-9a7d-4a8a-990e-f8babff27412, sni: jpcn286.s2fjeyeeyafe.bond, skip-cert-verify: true}
-  - {name: 9|未命名, server: aws-linkhy2.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.tesla.cn, skip-cert-verify: true}
-  - {name: 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: "10,11|Channel id: @ShadowProxy66🇫🇷", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "10|Telegram @v2rayng_fars #7", server: yjjdxg.yunjijd.xyz, port: 26323, type: hysteria2, ports: 26323, password: 5424bc48-fd4a-4a17-b576-973423c3c33b, sni: /V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS, skip-cert-verify: true}
-  - {name: 5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
-  - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 43.247.135.254, port: 11200, type: vmess, uuid: 1edd0cbc-7fde-4c9d-9909-1fc0e2a8f6aa, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13, server: nmtow.hjdfghfc.asia, port: 19331, type: vmess, uuid: 1ae7b2ce-393d-4b22-ab55-a8d3e319f1a9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/market?ed=512", headers: {Host: nmtow.hjdfghfc.asia}}}
+  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK..., server: 91.217.119.51, port: 443, type: hysteria2, ports: 443, password: dbe172973c29534833c6fae3d706d9e7, obfs: salamander, obfs-password: VpnHubMarKeT, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #6", server: 107.175.34.118, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz}
+  - {name: GB_speednode_0122, server: stirring-parakeet.shiner427.skin, port: 443, type: trojan, password: !<str> 74260628090146500, skip-cert-verify: false}
+  - {name: 🇨🇳 12|🇹🇼 台湾|@ripaojiedian, server: 183.249.207.249, port: 40180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "Channel id: @ShadowProxy66🇫🇷", server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
   - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: IRAN 4 (@Outline_Vpn), server: fr4.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: dec336f6-e5da-40f4-a4de-986c7b34d587, sni: fr4.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
-  - {name: "未命名 #6", server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
-  - {name: DIGITALOCEAN-ASN, server: 143.198.235.49, port: 443, type: hysteria2, ports: 443, password: iMqY3uG_5pgEj3hCfyHB-0vB, skip-cert-verify: true}
-  - {name: "未命名 #8", server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 2|🇺🇸120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: "🇩🇪 10|@Filter_breaker | Germany #1", server: 185.146.173.2900, port: 443, type: hysteria2, ports: 443, password: o9p0q1r2-9012-3bcd-4abc-5678abcdef12, sni: hysteria.de.vpnfree.org, skip-cert-verify: false}
+  - {name: 10|v2ray_market11, server: 213.142.133.2, port: 443, type: hysteria2, ports: 443, password: 9f60e54d-d835-426a-937d-232d9930b236, obfs: salamander, obfs-password: xu0SJY749OrXVi27YoOyTS, sni: telewebion.com, skip-cert-verify: true}
+  - {name: 10|@ata_connect  ا ا ن, server: 79.72.81.183, port: 30000, type: hysteria2, ports: 30000, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: 183.249.207.249, port: 40180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "TEL > @SaghiVpnXBOT-  #4", server: nexiamg.688997.xyz, port: 20157, type: hysteria2, ports: 20157, password: 39c3ffc8-5861-4fd5-a35d-8108471234fa, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiamg.688997.xyz, skip-cert-verify: true}
+  - {name: 104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 🇨🇦 @Filter_breaker | CA-, server: caca.yinheyz.cfd, port: 33756, type: hysteria2, ports: 33756, password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, skip-cert-verify: true}
+  - {name: 🇮🇩 印度尼西亚, server: iepl.huli168.com, port: 42277, type: ss, cipher: aes-256-gcm, password: cj3STx+0NwLUQFvJWHbKmQ==}
+  - {name: 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23, server: nmone.hjdfghfc.asia, port: 80, type: vmess, uuid: 6e2c77b4-c34b-4fb4-9187-08742eb0ba2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/market?ed=512", headers: {Host: nmone.hjdfghfc.asia}}}
   - {name: 2|🇰🇷2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: Telegram@vmessorg, server: 13.250.121.168, port: 29713, type: hysteria2, ports: 29713, password: JSC7GnvDM4mIitnCZXQo8IKSPs, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7", server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 5714bc78-14d2-40d2-b017-af400eab9143, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 36.151.251.7, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: m.avhxc.cn, skip-cert-verify: false}
-  - {name: "@V2xay #1", server: 77.90.52.69, port: 35000, type: hysteria2, ports: 35000, password: "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi", obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: pichondan.com, skip-cert-verify: true}
+  - {name: "🇰🇷 12,13|韩国|@ripaojiedian", server: 36.151.251.7, port: 4448, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "Alfa_v2ray_ng #2", server: 78.138.118.228, port: 37804, type: hysteria2, ports: 37804, password: Ys1Z1iA996, obfs: salamander, obfs-password: Alfa_v2ray_ng, skip-cert-verify: true}
+  - {name: "@V2rayNG3", server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
+  - {name: ⚡️ @vpnserverrr (Hysteria), server: jp.xn--mes91t7ofgnw.com, port: 20252, type: hysteria2, ports: 20252, password: f70ff140-9c4e-44d3-8864-f336d7607d7e, sni: jp.xn--mes91t7ofgnw.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 2|🌀5-LI |  2.0MB/s|0%|Openai, server: sinavm.ru, port: 8080, type: hysteria2, ports: 8080, password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM, obfs: salamander, obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM, sni: sinavm.ru, skip-cert-verify: true}
+  - {name: "Telegram@vmessorg #1", server: 150.230.30.237, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: (@vmesskhodam), server: shade.zone1.center, port: 443, type: hysteria2, ports: 443, password: user10.thisismeSUperkl19201, obfs: salamander, obfs-password: mkv_SEfr-salamdash, skip-cert-verify: false}
+  - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: 43.247.135.254, port: 11200, type: vmess, uuid: 1edd0cbc-7fde-4c9d-9909-1fc0e2a8f6aa, alterId: 0, cipher: auto, tls: false}
+  - {name: "@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇮🇩 印度尼西亚 2, server: iepl.huli168.com, port: 42277, type: ss, cipher: aes-256-gcm, password: cj3STx+0NwLUQFvJWHbKmQ==}
+  - {name: "@ata_connect", server: 79.72.81.183, port: 30000, type: hysteria2, ports: 30000, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "🇸🇬 9|新加坡 #1", server: 13.212.75.22, port: 10264, type: hysteria2, ports: 10264, password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: "@V2xay #6", server: knock.zone1.center, port: 443, type: hysteria2, ports: 443, password: user12.myserverSEFR097, obfs: salamander, obfs-password: The_Sefr-salamdash, skip-cert-verify: false}
+  - {name: "🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5", server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: f375c63e-026e-4442-9783-b02622cb708d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
+  - {name: 🇯🇵 9|🇯🇵日本东京2, server: 154.85.18.233, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 82 |  1.3MB/s, server: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b, sni: 3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net}
+  - {name: 43 |  4.9MB/s|48%|Netflix|Di..., server: 108.181.23.255, port: 443, type: hysteria2, ports: 443, password: b8bd42a9-551f-419d-b70d-4aefdd2cb074, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "未命名 #7", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
+  - {name: 🇭🇰 9|🇭🇰香港2, server: 89.185.27.133, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, servername: de.vmess.comnpmjs.com, network: grpc, grpc-opts: {grpc-service-name: vmess-grpc}}
+  - {name: 10|(@vmesskhodam)چنلمون, server: shade.zone1.center, port: 443, type: hysteria2, ports: 443, password: user10.thisismeSUperkl19201, obfs: salamander, obfs-password: mkv_SEfr-salamdash, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}}
+  - {name: 120 |  1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 🇯🇵 9|日本Hy2-3, server: jp1.interld123456789.com, port: 443, type: hysteria2, ports: 443, password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd, sni: 1231231.1234567890spcloud.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: "Channel id: @ShadowProxy66🇨🇦", server: 40.233.70.163, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -220,211 +236,228 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 9|🇭🇰香港2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -440,51 +473,55 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 116 |  1.2MB/s
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - "🇩🇪 @Filter_breaker | Germany #3"
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #3"
-      - 2 |  1.5MB/s|44%|Openai
-      - 🇺🇸 美国 - 圣克拉拉 - PEG TECH INC - 1
-      - 10|@V2rayNG3
-      - "@VPNHubMaRKeT   @VpnHubMarKeT... #1"
-      - "10|Telegram @v2rayng_fars #2"
-      - 🇩🇪 10|10 https://dafei.de
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|未命名 #3"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "@drakvpn🐉"
-      - 1 |  1.8MB/s|15%|Disney|Yout...
-      - IRAN 9 (@Outline_Vpn)
-      - "9|未命名 #4"
-      - TEL > @SaghiVpnXBOT-
-      - "未命名 #11"
-      - "🇸🇬 9|新加坡 #1"
-      - "Channel id: @ShadowProxy66🇬🇧"
-      - 10|Telegram@vmessorg
-      - "@Daily_Configs"
-      - 103 |  3.2MB/s
-      - 🇩🇪 @Filter_breaker | Germany
-      - "@_"
-      - 9|未命名
-      - 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
-      - "10,11|Channel id: @ShadowProxy66🇫🇷"
-      - "10|Telegram @v2rayng_fars #7"
-      - 5 |  1.4MB/s|0%|Youtube|Open...
-      - 🇭🇰 13|香港3|@ripaojiedian
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 13
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 10|🇹🇷¹ @VpnHubMarKeT  @VpnHubMarK...
+      - "Channel id: @ShadowProxy66🇺🇸 #6"
+      - GB_speednode_0122
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇫🇷"
       - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - IRAN 4 (@Outline_Vpn)
-      - 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
-      - "未命名 #6"
-      - DIGITALOCEAN-ASN
-      - "未命名 #8"
-      - 2|🇺🇸120 |  1.4MB/s
+      - "🇩🇪 10|@Filter_breaker | Germany #1"
+      - 10|v2ray_market11
+      - 10|@ata_connect  ا ا ن
+      - 🇨🇳 台湾|@ripaojiedian
+      - "TEL > @SaghiVpnXBOT-  #4"
+      - 104 |  2.1MB/s
+      - 🇨🇦 @Filter_breaker | CA-
+      - 🇮🇩 印度尼西亚
+      - 🇨🇳 中国 - 呼市 - Cloud Computing Corporation - 23
       - 2|🇰🇷2 |  1.5MB/s|44%|Openai
-      - Telegram@vmessorg
-      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 7
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "@V2xay #1"
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - "Alfa_v2ray_ng #2"
+      - "@V2rayNG3"
+      - ⚡️ @vpnserverrr (Hysteria)
+      - 2|🇺🇸100 |  1.3MB/s
+      - 🇺🇸 美国4|@ripaojiedian
+      - 2|🌀5-LI |  2.0MB/s|0%|Openai
+      - "Telegram@vmessorg #1"
+      - (@vmesskhodam)
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - "@V2rayNG3 #8"
+      - 🇮🇩 印度尼西亚 2
+      - "@ata_connect"
+      - "🇸🇬 9|新加坡 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - "@V2xay #6"
+      - 🇺🇸 美国 - 盐湖城 - FiberState, LLC - 5
+      - 🇯🇵 9|🇯🇵日本东京2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 82 |  1.3MB/s
+      - 43 |  4.9MB/s|48%|Netflix|Di...
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "未命名 #7"
+      - 🇭🇰 9|🇭🇰香港2
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 10|(@vmesskhodam)چنلمون
+      - 🇺🇸 美国|@ripaojiedian
+      - 120 |  1.4MB/s
+      - 🇯🇵 9|日本Hy2-3
+      - 2|🇺🇸108 |  1.4MB/s
+      - "Channel id: @ShadowProxy66🇨🇦"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
