@@ -5,38 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 008d6d73-7a64-4014-8d02-bf5829c11e53}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 008d6d73-7a64-4014-8d02-bf5829c11e53}
-  - {name: 目前国内网址：dsh1.dashi99.top, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇲🇾 [3x]马来西亚专线NO1", server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇲🇾 [3x]马来西亚专线NO2", server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x]泰国NO1", server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇹🇭 [3x]泰国NO2", server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港（直连）, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 8c854ec2-e7f3-4078-8e89-7aacf7e5d617, alterId: 0, cipher: auto, tls: false}
-  - {name: 距离下次重置剩余：7 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 73291ca1-2a28-4271-8984-4e7b09e68335, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 73291ca1-2a28-4271-8984-4e7b09e68335, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6beef48b-82d9-4625-b1a7-affe40cabbad}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6beef48b-82d9-4625-b1a7-affe40cabbad}
+  - {name: 距离下次重置剩余：1 天, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 目前国内网址：dsh1.dashi99.top, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇲🇾 [3x]马来西亚专线NO1", server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇲🇾 [3x]马来西亚专线NO2", server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x]泰国NO1", server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇹🇭 [3x]泰国NO2", server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港（直连）, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 7fa5151c-d725-4542-8d87-54c47b70077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 距离下次重置剩余：8 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a8a9076-8eb3-410a-89cf-f87010858b83, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a8a9076-8eb3-410a-89cf-f87010858b83, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇭🇰 香港01｜专线, server: cm22-zz.moonwang.xyz, port: 48445, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 香港02｜专线, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 香港03｜专线, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 香港04｜专线, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 香港05｜专线, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国01｜专线, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国02｜专线, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国03｜专线, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国04｜专线｜ChatGPT, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国05｜专线, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇯🇵 日本04｜专线｜ChatGPT, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国06｜国外专用, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇺🇸 美国07｜国外专用, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇯🇵 日本01｜专线｜ChatGPT, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇯🇵 日本02｜专线｜ChatGPT, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇯🇵 日本03｜专线｜ChatGPT, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇸🇬 新加坡01｜专线｜ChatGPT, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇨🇳 台湾01｜专线｜ChatGPT, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇨🇳 Netflix01｜TW, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 Netflix02｜HK, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 Netflix03｜HK, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇸🇬 Netflix04｜SG, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: d35e1520-9f15-42fa-aea0-cb85b89ce8df}
+  - {name: 🇭🇰 香港01｜专线 2, server: cm22-zz.moonwang.xyz, port: 48445, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇭🇰 香港02｜专线 2, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇭🇰 香港03｜专线 2, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇭🇰 香港04｜专线 2, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇭🇰 香港05｜专线 2, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国01｜专线 2, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国02｜专线 2, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国03｜专线 2, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国04｜专线｜ChatGPT 2, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国05｜专线 2, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇯🇵 日本04｜专线｜ChatGPT 2, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国06｜国外专用 2, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇺🇸 美国07｜国外专用 2, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇯🇵 日本01｜专线｜ChatGPT 2, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇯🇵 日本02｜专线｜ChatGPT 2, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇯🇵 日本03｜专线｜ChatGPT 2, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇸🇬 新加坡01｜专线｜ChatGPT 2, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇨🇳 台湾01｜专线｜ChatGPT 2, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇨🇳 Netflix01｜TW 2, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇭🇰 Netflix02｜HK 2, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇭🇰 Netflix03｜HK 2, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
+  - {name: 🇸🇬 Netflix04｜SG 2, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: a7ef584e-2c3f-4282-98a6-0e8dc49c78ba}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -45,6 +90,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -73,8 +119,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,6 +172,7 @@ proxy-groups:
     proxies:
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -110,8 +201,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -120,6 +255,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -148,8 +284,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -170,6 +350,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -198,8 +379,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,6 +435,18 @@ proxy-groups:
       - 🇭🇰 香港NO.1（GPT奈飞等）
       - 🇭🇰 香港NO.2（GPT奈飞等）
       - 🇭🇰 香港（直连）
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -218,6 +455,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -246,8 +484,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -255,6 +537,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -283,8 +566,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -293,6 +620,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -321,8 +649,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,6 +712,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇮🇪 爱尔兰-都柏林
       - 🇭🇰 香港-线路1
+      - 距离下次重置剩余：1 天
       - 目前国内网址：dsh1.dashi99.top
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -368,8 +741,52 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇭🇰 香港（直连）
-      - 距离下次重置剩余：7 天
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇭🇰 香港01｜专线
+      - 🇭🇰 香港02｜专线
+      - 🇭🇰 香港03｜专线
+      - 🇭🇰 香港04｜专线
+      - 🇭🇰 香港05｜专线
+      - 🇺🇸 美国01｜专线
+      - 🇺🇸 美国02｜专线
+      - 🇺🇸 美国03｜专线
+      - 🇺🇸 美国04｜专线｜ChatGPT
+      - 🇺🇸 美国05｜专线
+      - 🇯🇵 日本04｜专线｜ChatGPT
+      - 🇺🇸 美国06｜国外专用
+      - 🇺🇸 美国07｜国外专用
+      - 🇯🇵 日本01｜专线｜ChatGPT
+      - 🇯🇵 日本02｜专线｜ChatGPT
+      - 🇯🇵 日本03｜专线｜ChatGPT
+      - 🇸🇬 新加坡01｜专线｜ChatGPT
+      - 🇨🇳 台湾01｜专线｜ChatGPT
+      - 🇨🇳 Netflix01｜TW
+      - 🇭🇰 Netflix02｜HK
+      - 🇭🇰 Netflix03｜HK
+      - 🇸🇬 Netflix04｜SG
+      - 🇭🇰 香港01｜专线 2
+      - 🇭🇰 香港02｜专线 2
+      - 🇭🇰 香港03｜专线 2
+      - 🇭🇰 香港04｜专线 2
+      - 🇭🇰 香港05｜专线 2
+      - 🇺🇸 美国01｜专线 2
+      - 🇺🇸 美国02｜专线 2
+      - 🇺🇸 美国03｜专线 2
+      - 🇺🇸 美国04｜专线｜ChatGPT 2
+      - 🇺🇸 美国05｜专线 2
+      - 🇯🇵 日本04｜专线｜ChatGPT 2
+      - 🇺🇸 美国06｜国外专用 2
+      - 🇺🇸 美国07｜国外专用 2
+      - 🇯🇵 日本01｜专线｜ChatGPT 2
+      - 🇯🇵 日本02｜专线｜ChatGPT 2
+      - 🇯🇵 日本03｜专线｜ChatGPT 2
+      - 🇸🇬 新加坡01｜专线｜ChatGPT 2
+      - 🇨🇳 台湾01｜专线｜ChatGPT 2
+      - 🇨🇳 Netflix01｜TW 2
+      - 🇭🇰 Netflix02｜HK 2
+      - 🇭🇰 Netflix03｜HK 2
+      - 🇸🇬 Netflix04｜SG 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
