@@ -5,243 +5,231 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 1|🇺🇸104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 98, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "9|v2raybluecrystal #1", server: 78.138.118.228, port: 37804, type: hysteria2, ports: 37804, password: Ys1Z1iA996, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "🇯🇵 东京 #1", server: zp2.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp2.eyujichang.xyz, skip-cert-verify: true}
-  - {name: 🇮🇳 9|v2raybluecrystal2-ind, server: 160.191.183.244, port: 14849, type: hysteria2, ports: 14849, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: 9|telegram  @v2rayNG_Matsuri, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi", obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: pichondan.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19, server: 96aaf322-sv2sg0-tbvl5i-1mebs.hk.p5pv.com, port: 80, type: vmess, uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 96aaf322-sv2sg0-tbvl5i-1mebs.hk.p5pv.com}}}
-  - {name: 1|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 9|@V2ray_cartel, server: 45.129.2.108, port: 50850, type: hysteria2, ports: 50850, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇮🇳 v2raybluecrystal2-ind, server: 160.191.183.244, port: 14849, type: hysteria2, ports: 14849, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: "@Daily_Configs", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: v2raybluecrystal4-tur, server: 5.133.102.59, port: 13222, type: hysteria2, ports: 13222, password: e2QEtNgU9v, obfs: salamander, obfs-password: xfvg@FFG, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: v2raybluecrystal-tur, server: 5.133.102.59, port: 30062, type: hysteria2, ports: 30062, password: e2QEtNgU9v, obfs: salamander, obfs-password: xfvgb@ssV, skip-cert-verify: true}
-  - {name: "@Filter_breaker #1", server: network-gb-02.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
-  - {name: 8|🇦 @Filter_breaker, server: network-ca-01.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 39, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: روسیه 🇷🇺 @V2xay, server: 46.17.41.217, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 72, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 8|🇸 @Filter_breaker, server: network-sg-01.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
-  - {name: "🇺🇸 11,12|美国4|@ripaojiedian", server: 104.248.68.184, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: Telegram:@config_proxy 😍, server: 45.136.245.177, port: 33079, type: hysteria2, ports: 33079, password: a18b26c8-6634-4238-8ccb-34e777e1277b, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
-  - {name: "8|🇮 @Filter_breaker #1", server: network-in-02.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
-  - {name: "9|v2raybluecrystal2 #3", server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net, port: 22527, type: hysteria2, ports: 22527, password: mItioklzVp, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: 8|🇪 @Filter_breaker, server: network-de-02.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
-  - {name: "10|Channel id: @ShadowProxy66🇬🇧", server: 185.184.70.120, port: 42353, type: hysteria2, ports: 42353, password: e48d6377dda26840, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 61, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem..., server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: "🇭🇰 香港2 #1", server: 89.185.27.133, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 178.128.114.123, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 87, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4, server: 377dc0dd-sva740-tbrhck-1thqb.hk.p5pv.com, port: 80, type: vmess, uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 377dc0dd-sva740-tbrhck-1thqb.hk.p5pv.com}}}
-  - {name: "Channel id: @ShadowProxy66🇺🇸 #9", server: 107.175.145.72, port: 22647, type: hysteria2, ports: 22647, password: e3f67f43-9097-4e56-96e2-681910b92150, obfs: salamander, obfs-password: fWQ4LCfAYiKaEVRe, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26, server: b55d59d3-sv6hs0-tbpu76-1thmd.hk.p5pv.com, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: b55d59d3-sv6hs0-tbpu76-1thmd.hk.p5pv.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1, server: ac3105fa-sv2sg0-t30eih-jm0w.hk3.p5pv.com, port: 80, type: vmess, uuid: e3004917-ad9d-b8a2-a2ee-65a54830e020, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ac3105fa-sv2sg0-t30eih-jm0w.hk3.p5pv.com}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 40, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "8|未命名 #1", server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11, server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com, port: 80, type: vmess, uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com}}}
-  - {name: 🇮🇳 9|v2raybluecrystal-ind, server: 160.191.183.244, port: 11282, type: hysteria2, ports: 11282, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: "Channel id: @ShadowProxy66🇸🇬", server: 92.112.23.216, port: 28264, type: hysteria2, ports: 28264, password: 9FmazX8AAPpM8TQcNyI2zvBDF5o, skip-cert-verify: true}
-  - {name: 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O..., server: us.10101251.xyz, port: 3002, type: hysteria2, ports: 3002, password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d, sni: us.10101251.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 9|10 https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 27e473f8-d610-4b04-bdf7-d0c39b47c897, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37, server: b1601217-sv2sg0-tcdlur-1qwom.hk3.p5pv.com, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: b1601217-sv2sg0-tcdlur-1qwom.hk3.p5pv.com}}}
-  - {name: 9|@V2rayNG3, server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 58, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: ｜@Filter_breaker, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 7a812743-3e4f-4a5d-8d2d-e5d50b54279f, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "@Filter_breaker", server: network-au-01.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #3", server: 108.181.5.130, port: 63015, type: hysteria2, ports: 63015, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24, server: sp.bggaming.ir, port: 27839, type: vmess, uuid: dc9b7c08-029e-4e53-985f-8d3d84300394, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3, server: 72697351-sv2sg0-suzz2n-vmdo.hk.p5pv.com, port: 80, type: vmess, uuid: 24e32978-4858-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 9|🇭  @Filter_breaker, server: sw-oh.com.studentcp.ir, port: 44444, type: hysteria2, ports: 44444, password: 85d3ef5ea053c9d65c32e535d38ad6c3, obfs: salamander, obfs-password: ee44WW2eesdxfcghoerrbU9dfghjh, sni: sw-oh.com.studentcp.ir}
+  - {name: 🇮🇳 10|v2raybluecrystal-ind, server: 160.191.183.244, port: 11282, type: hysteria2, ports: 11282, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: "1,10|🇷  Telegram @v2rayng_fars", server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net, skip-cert-verify: false}
+  - {name: v2raybluecrystal3-ger, server: 185.211.101.15, port: 48233, type: hysteria2, ports: 48233, password: F6HtMurQGt, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 68, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 4c0ba4a2-1510-11ef-ba65-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇯🇵 Japan_flyrb_35300 | @Filter..., server: flyrb.flylink.cyou, port: 35300, type: hysteria2, ports: 35300, password: e283d4e4-cbee-45e1-ab19-8eb0c9927891, obfs: salamander, obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==, sni: flyxg.flylink.cyou, skip-cert-verify: true}
+  - {name: v2raybluecrystal2-tur, server: 5.133.102.59, port: 41250, type: hysteria2, ports: 41250, password: e2QEtNgU9v, obfs: salamander, obfs-password: vbn@ffFF, skip-cert-verify: true}
+  - {name: 10|ه 🇷🇺 @V2xay, server: 46.17.41.217, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|Channel id: @ShadowProxy66🇰", server: 43.199.72.130, port: 32089, type: hysteria2, ports: 32089, password: AZrgUfcGknbd6Q6LHkzMT0ODVk, sni: bing.com, skip-cert-verify: true}
   - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 70, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇯🇵 12|日本3|@ripaojiedian, server: 45.159.51.232, port: 10544, type: vmess, uuid: fea0400c-9dab-4709-a149-9f3144e5a346, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国104 | ⬇️ 2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: "10|⚡️ @vpnserverrr (Hysteria) #2", server: 77.110.115.25, port: 5053, type: hysteria2, ports: 5053, password: 4c0c889785026935, obfs: salamander, obfs-password: 4c0c889785026935, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "Channel id: @ShadowProxy66🇭🇰 #1", server: 45.207.222.138, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: hk.nfsn666.gq, skip-cert-verify: true}
-  - {name: "8|Channel id: @ShadowProxy66", server: 185.45.193.163, port: 11001, type: hysteria2, ports: 11001, password: 6hDSryb2af, obfs: salamander, obfs-password: KevinZakarian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "🇺🇸 美国10 付费推荐：https://dafei.de #4", server: 107.174.41.101, port: 45000, type: hysteria2, ports: 45000, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "11|Channel id: @ShadowProxy66🇺🇸 #7", server: 172.245.106.236, port: 35091, type: hysteria2, ports: 35091, password: e3f67f43-9097-4e56-96e2-681910b92150, obfs: salamander, obfs-password: fWQ4LCfAYiKaEVRe, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇯🇵 #1", server: 45.11.1.62, port: 443, type: hysteria2, ports: 443, password: 262100bd-a0c7-4412-a62d-a07d01f11a6a, sni: www.microsoft.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 9|🇬新加坡, server: aws-linkhy10.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90, sni: www.teslaautomation.de, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 10|v2raybluecrystal3-ger, server: 185.211.101.15, port: 48233, type: hysteria2, ports: 48233, password: F6HtMurQGt, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
+  - {name: "آلمان 🇩🇪 @V2xay #4", server: knock.zone1.center, port: 443, type: hysteria2, ports: 443, password: user12.myserverSEFR097, obfs: salamander, obfs-password: The_Sefr-salamdash, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2, server: fast17.new1gold.com, port: 56701, type: vmess, uuid: 1d350e55-cd4e-4c93-9f8b-f8684aa5b8dc, alterId: 0, cipher: auto, tls: false}
+  - {name: "11|Channel id: @ShadowProxy66🇷🇺", server: 45.129.2.108, port: 30033, type: hysteria2, ports: 30033, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.135.176, port: 10701, type: vmess, uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 78, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "🇰🇷 12,13|韩国|@ripaojiedian", server: 34.64.53.92, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 178.128.17.109, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: v2raybluecrystal3-hou, server: 146.19.56.21, port: 24803, type: hysteria2, ports: 24803, password: UnYCJJ9AQy, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 13.201.33.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: 🇯🇵 9|🇯🇵日本, server: aws-linkhy17.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.apple.com.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 45, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 58.152.30.37, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 10|v2raybluecrystal3, server: 185.219.81.33, port: 50757, type: hysteria2, ports: 50757, password: 4VDmo53kWX, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com}
+  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 104, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9d80dd14-ac44-11ee-a116-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "آلمان 🇩🇪 @V2xay #3", server: nexiadg.688997.xyz, port: 20557, type: hysteria2, ports: 20557, password: f39a270d-c46e-4a39-a998-b33660291e7e, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiadg.688997.xyz, skip-cert-verify: true}
+  - {name: "10|v2raybluecrystal2 #1", server: 78.138.118.228, port: 22527, type: hysteria2, ports: 22527, password: Ys1Z1iA996, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: 10|(@vmesskhodam)چنل, server: shade.zone1.center, port: 443, type: hysteria2, ports: 443, password: user10.thisismeSUperkl19201, obfs: salamander, obfs-password: mkv_SEfr-salamdash, skip-cert-verify: false}
+  - {name: ｜@Filter_breaker 2, server: hg.dport.top, port: 33656, type: hysteria2, ports: 33656, password: 7a812743-3e4f-4a5d-8d2d-e5d50b54279f, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hg.dport.top, skip-cert-verify: true}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 102.177.189.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
+  - {name: 14|GB_speednode_0122, server: stirring-parakeet.shiner427.skin, port: 443, type: trojan, password: !<str> 74260628090146500, skip-cert-verify: false}
+  - {name: 9|🇮 @Filter_breaker, server: network-in-01.ppldata.xyz, port: 30000, type: hysteria2, ports: 30000, password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3, sni: network-lite.oss-cn-hongkong.aliyuncs.com}
+  - {name: "9|Channel id: @ShadowProxy66 #1", server: 185.85.242.177, port: 1443, type: hysteria2, ports: 1443, password: cf125f42-759d-4112-82c3-014d2ffcb1e7, sni: gbr1.587458.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 东京, server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63, server: aeb50015-t02f40-t9byd7-1jfvb.hk3.p5pv.com, port: 80, type: vmess, uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aeb50015-t02f40-t9byd7-1jfvb.hk3.p5pv.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,263 +248,246 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - "🇭🇰 香港2 #1"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -532,61 +503,58 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1|🇺🇸104 |  2.1MB/s
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 98
-      - "9|v2raybluecrystal #1"
-      - "🇯🇵 东京 #1"
-      - 🇮🇳 9|v2raybluecrystal2-ind
-      - 9|telegram  @v2rayNG_Matsuri
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 1|🇫🇷1 |  3.4MB/s|15%|Openai
-      - 9|@V2ray_cartel
-      - 🇮🇳 v2raybluecrystal2-ind
-      - "@Daily_Configs"
-      - v2raybluecrystal4-tur
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 22
-      - v2raybluecrystal-tur
-      - "@Filter_breaker #1"
-      - 8|🇦 @Filter_breaker
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - روسیه 🇷🇺 @V2xay
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 72
-      - 8|🇸 @Filter_breaker
-      - 🇺🇸 11,12|美国4|@ripaojiedian
-      - Telegram:@config_proxy 😍
-      - "8|🇮 @Filter_breaker #1"
-      - "9|v2raybluecrystal2 #3"
-      - 8|🇪 @Filter_breaker
-      - "10|Channel id: @ShadowProxy66🇬🇧"
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 61
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "🇭🇰 香港2 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 87
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 4
-      - "Channel id: @ShadowProxy66🇺🇸 #9"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 26
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 40
-      - "8|未命名 #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
-      - 🇮🇳 9|v2raybluecrystal-ind
-      - "@V2rayNG3 #6"
-      - "Channel id: @ShadowProxy66🇸🇬"
-      - 1|🇺🇸69 |  4.3MB/s|100%|Netflix|O...
-      - 🇩🇪 9|10 https://dafei.de
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 9|@V2rayNG3
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
+      - ｜@Filter_breaker
+      - "10|@V2rayNG3 #8"
+      - "@Filter_breaker"
+      - "Channel id: @ShadowProxy66🇺🇸 #3"
+      - 🇩🇪 德国 - 格尔恩豪森 - Layer7 Networks GmbH - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 3
+      - 9|🇭  @Filter_breaker
+      - 🇮🇳 10|v2raybluecrystal-ind
+      - 1,10|🇷  Telegram @v2rayng_fars
+      - v2raybluecrystal3-ger
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 68
+      - 🇯🇵 Japan_flyrb_35300 | @Filter...
+      - v2raybluecrystal2-tur
+      - 10|ه 🇷🇺 @V2xay
+      - "9|Channel id: @ShadowProxy66🇰"
       - 🇭🇰 中国 - 香港 - Pccw IMS - 70
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - 🇺🇸 美国104 | ⬇️ 2.1MB/s
-      - "10|⚡️ @vpnserverrr (Hysteria) #2"
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 20
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - "8|Channel id: @ShadowProxy66"
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "11|Channel id: @ShadowProxy66🇺🇸 #7"
+      - "Channel id: @ShadowProxy66🇯🇵 #1"
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 32
+      - 🇸🇬 9|🇬新加坡
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|v2raybluecrystal3-ger
+      - "آلمان 🇩🇪 @V2xay #4"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - "11|Channel id: @ShadowProxy66🇷🇺"
+      - "@V2rayNG3 #9"
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 78
+      - 🇰🇷 12,13|韩国|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - v2raybluecrystal3-hou
+      - tg频道:@ripaojiedian
+      - 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+      - 其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
+      - 🇯🇵 9|🇯🇵日本
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 45
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
+      - "آلمان 🇩🇪 @V2xay #3"
+      - "10|v2raybluecrystal2 #1"
+      - 10|(@vmesskhodam)چنل
+      - ｜@Filter_breaker 2
+      - 🇿🇦 南非 V2CROSS.COM
+      - 14|GB_speednode_0122
+      - 9|🇮 @Filter_breaker
+      - "9|Channel id: @ShadowProxy66 #1"
+      - 🇯🇵 东京
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
