@@ -5,167 +5,155 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10|@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: "🇺🇸 10|美国10 付费推荐：https://dafei.de #1", server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 67828a6e-0144-4e57-8169-2447a3dd2e61, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇺🇸 12|🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "2,9|Channel id: @ShadowProxy66🇸", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 🇳🇱 | @v2xay, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 51e23a46-c92a-477f-9675-d2a8088f9bbf, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
-  - {name: آلمان 🇩🇪 @V2xay, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 12|tg频道:@ripaojiedian, server: 13.239.86.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+  - {name: "@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
+  - {name: 1|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: 9|@V2ray1_Ng, server: 45.129.2.108, port: 50850, type: hysteria2, ports: 50850, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
   - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 9|🇯🇵日本东京2, server: 154.85.18.233, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem..., server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.125, port: 447, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: ️ @FreakConfig, server: flydg.flylink.cyou, port: 35230, type: hysteria2, ports: 35230, password: 30cd031e-b4a6-4bc7-a99a-9642259fdeff, obfs: salamander, obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==, sni: flydg.flylink.cyou, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "9|@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
+  - {name: "@Daily_Configs", server: nexiaels.688997.xyz, port: 20757, type: hysteria2, ports: 20757, password: 0004f8b0-df8e-4f3d-866a-e3547122933d, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiaels.688997.xyz, skip-cert-verify: true}
+  - {name: 🇩🇪 9|10 https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 27e473f8-d610-4b04-bdf7-d0c39b47c897, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "8,9|🛡️ @FreakConfig #2", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "@VPNHubMaRKeT ♾  @VpnHubMar...", server: 202.78.166.190, port: 443, type: hysteria2, ports: 443, password: "%40VPNHubMaRKeT", obfs: salamander, obfs-password: "@VPNHubMaRKeT", sni: www.bing.com, skip-cert-verify: true}
+  - {name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa..., server: 3.123.253.70, port: 9999, type: hysteria2, ports: 9999, password: VPNHubMaRKeT, obfs: salamander, obfs-password: tel:@VPNHubMaRKeT, skip-cert-verify: true}
   - {name: 🇬🇧 GB 1 🇬🇧 | @v2xay, server: 185.184.70.120, port: 51234, type: hysteria2, ports: 51234, password: 07a95561-a7c6-40fb-b964-45c83a2833bf, skip-cert-verify: true}
-  - {name: "🇭🇰 香港 #2", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
-  - {name: 2|🇺🇸103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
-  - {name: "10|MCI-@Tunder_vpn #1", server: 108.181.23.249, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡, server: aws-linkhy10.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90, sni: www.teslaautomation.de, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - Reston - netcup GmbH - 5, server: 152.53.165.218, port: 32158, type: vmess, uuid: b44ecf62-d313-4f32-8e77-62c0d8dd18ce, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: v35.emoyes.top, port: 443, type: vmess, uuid: a78fc14e-4e8b-4fc0-8cab-86fd81c583ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v35.emoyes.top}}}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-..., server: 143.198.235.49, port: 443, type: hysteria2, ports: 443, password: iMqY3uG_5pgEj3hCfyHB-0vB, skip-cert-verify: true}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "10|@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "10|🛡️ @FreakConfig #1", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "9|Channel id: @ShadowProxy66🇰", server: 154.204.181.230, port: 50256, type: hysteria2, ports: 50256, password: cc83a02b-90ea-403b-9c76-27e4be95f637, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国100 | ⬇️ 1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true}}
-  - {name: "9|未命名 #1", server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #5", server: p1.punchline.ir, port: 19037, type: hysteria2, ports: 19037, password: AtTK3tiEA0, obfs: salamander, obfs-password: bipbip, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 8f8ecfe2-szt5s0-t19fr1-1tbzx.hk.p5pv.com, port: 80, type: vmess, uuid: 6b43d15a-e7bf-11ef-9862-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8f8ecfe2-szt5s0-t19fr1-1tbzx.hk.p5pv.com}}}
+  - {name: "🇺🇸 美国10 付费推荐：https://dafei.de #4", server: 107.174.41.101, port: 45000, type: hysteria2, ports: 45000, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 9|MCI-@Tunder_vpn, server: 108.181.23.241, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 9| 🇩🇪 @V2xay, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "🇺🇸 美国10 付费推荐：https://dafei.de #2", server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 67828a6e-0144-4e57-8169-2447a3dd2e61, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "8|未命名 #2", server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 1|🇺🇸109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem..., server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "@Configology🫧", server: 91.98.34.130, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: "️ @FreakConfig #5", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "8|Channel id: @ShadowProxy66 #4", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇳🇱 NL 🇳🇱 | @v2xay, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 51e23a46-c92a-477f-9675-d2a8088f9bbf, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 12|美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
+  - {name: 🇯🇵 8|🇯🇵日本东京2, server: 154.85.18.233, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇭🇰 #1", server: 45.207.222.138, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: hk.nfsn666.gq, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京, server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "🇺🇸 9|美国10 付费推荐：https://dafei.de #1", server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 67828a6e-0144-4e57-8169-2447a3dd2e61, sni: www.apple.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,174 +172,162 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -367,42 +343,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|@V2rayNG3 #6"
-      - "🇺🇸 10|美国10 付费推荐：https://dafei.de #1"
-      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "2,9|Channel id: @ShadowProxy66🇸"
-      - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇯🇵 日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-      - آلمان 🇩🇪 @V2xay
-      - 12|tg频道:@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - "@V2rayNG3 #6"
+      - 1|🇺🇸108 |  1.4MB/s
+      - 9|@V2ray1_Ng
       - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇯🇵 9|🇯🇵日本东京2
-      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - 🇭🇰 香港4|@ripaojiedian
-      - ️ @FreakConfig
+      - 🇭🇰 香港 电讯盈科有限公司
+      - "9|@V2rayNG3 #4"
+      - "@Daily_Configs"
+      - 🇩🇪 9|10 https://dafei.de
+      - "8,9|🛡️ @FreakConfig #2"
+      - "@VPNHubMaRKeT ♾  @VpnHubMar..."
+      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
       - 🇬🇧 GB 1 🇬🇧 | @v2xay
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 2|🇺🇸103 |  3.2MB/s
-      - "10|MCI-@Tunder_vpn #1"
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 - Reston - netcup GmbH - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-      - 🇺🇸 美国3|@ripaojiedian
-      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "10|🛡️ @FreakConfig #1"
-      - "9|Channel id: @ShadowProxy66🇰"
-      - 🇺🇸 美国100 | ⬇️ 1.3MB/s
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|未命名 #1"
-      - "@V2rayNG3 #5"
-      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 9|MCI-@Tunder_vpn
+      - 9| 🇩🇪 @V2xay
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
+      - "8|未命名 #2"
+      - 1|🇺🇸109 |  3.2MB/s
+      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
+      - "@Configology🫧"
+      - "️ @FreakConfig #5"
+      - "8|Channel id: @ShadowProxy66 #4"
+      - "@V2rayNG3 #2"
+      - 🇳🇱 NL 🇳🇱 | @v2xay
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇺🇸 12|美国|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本东京2
+      - "Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇯🇵 日本东京
+      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
