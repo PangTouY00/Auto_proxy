@@ -5,155 +5,187 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: 1|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
-  - {name: 9|@V2ray1_Ng, server: 45.129.2.108, port: 50850, type: hysteria2, ports: 50850, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "9|@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
-  - {name: "@Daily_Configs", server: nexiaels.688997.xyz, port: 20757, type: hysteria2, ports: 20757, password: 0004f8b0-df8e-4f3d-866a-e3547122933d, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: nexiaels.688997.xyz, skip-cert-verify: true}
-  - {name: 🇩🇪 9|10 https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 27e473f8-d610-4b04-bdf7-d0c39b47c897, sni: www.apple.com, skip-cert-verify: true}
-  - {name: "8,9|🛡️ @FreakConfig #2", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.156.102.125, port: 1256, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
   - {name: "@VPNHubMaRKeT ♾  @VpnHubMar...", server: 202.78.166.190, port: 443, type: hysteria2, ports: 443, password: "%40VPNHubMaRKeT", obfs: salamander, obfs-password: "@VPNHubMaRKeT", sni: www.bing.com, skip-cert-verify: true}
-  - {name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa..., server: 3.123.253.70, port: 9999, type: hysteria2, ports: 9999, password: VPNHubMaRKeT, obfs: salamander, obfs-password: tel:@VPNHubMaRKeT, skip-cert-verify: true}
-  - {name: 🇬🇧 GB 1 🇬🇧 | @v2xay, server: 185.184.70.120, port: 51234, type: hysteria2, ports: 51234, password: 07a95561-a7c6-40fb-b964-45c83a2833bf, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 245b0bbb-sunz40-t5bgb3-l4nv.hk.p5pv.com, port: 80, type: vmess, uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 245b0bbb-sunz40-t5bgb3-l4nv.hk.p5pv.com}}}
+  - {name: 🇺🇸 美国120 | ⬇️ 1.4MB/s, server: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "防范境外势*渗透 #2", server: 127.0.0.53, port: 82, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: "10|@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
+  - {name: 14|TW_speednode_0132, server: 103.106.230.186, port: 81, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}}
+  - {name: "️ @FreakConfig #6", server: 47.245.53.59, port: 26404, type: hysteria2, ports: 26404, password: kWlrCka5jzfKbD2z7ucwANEdZM, skip-cert-verify: true}
+  - {name: "@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: آلمان 🇩🇪 @V2xay, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 加州, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 8f8ecfe2-szt5s0-t19fr1-1tbzx.hk.p5pv.com, port: 80, type: vmess, uuid: 6b43d15a-e7bf-11ef-9862-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8f8ecfe2-szt5s0-t19fr1-1tbzx.hk.p5pv.com}}}
-  - {name: "🇺🇸 美国10 付费推荐：https://dafei.de #4", server: 107.174.41.101, port: 45000, type: hysteria2, ports: 45000, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 9|MCI-@Tunder_vpn, server: 108.181.23.241, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 9| 🇩🇪 @V2xay, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "🇺🇸 美国10 付费推荐：https://dafei.de #2", server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 67828a6e-0144-4e57-8169-2447a3dd2e61, sni: www.apple.com, skip-cert-verify: true}
-  - {name: "8|未命名 #2", server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 1|🇺🇸109 |  3.2MB/s, server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net}
-  - {name: 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem..., server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: "@Configology🫧", server: 91.98.34.130, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: "️ @FreakConfig #5", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "8|Channel id: @ShadowProxy66 #4", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.156.102.125, port: 180, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "🇭🇰 香港 #1", server: 47.74.34.102, port: 29282, type: hysteria2, ports: 29282, password: Wo9rLCYw6gzcfTgIu11mhBVciVs, skip-cert-verify: true}
+  - {name: 2|🇺🇸122 |  1.4MB/s, server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net}
+  - {name: 🇺🇸 美国10 付费推荐：https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 27e473f8-d610-4b04-bdf7-d0c39b47c897, sni: www.apple.com, skip-cert-verify: true}
   - {name: 🇳🇱 NL 🇳🇱 | @v2xay, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 51e23a46-c92a-477f-9675-d2a8088f9bbf, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 12|美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
-  - {name: 🇯🇵 8|🇯🇵日本东京2, server: 154.85.18.233, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "Channel id: @ShadowProxy66🇭🇰 #1", server: 45.207.222.138, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: hk.nfsn666.gq, skip-cert-verify: true}
-  - {name: 🇯🇵 日本东京, server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇺🇸 9|美国10 付费推荐：https://dafei.de #1", server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 67828a6e-0144-4e57-8169-2447a3dd2e61, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: "10|MCI-@Tunder_vpn #3", server: 204.10.194.86, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国121 | ⬇️ 1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: "@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸104 |  2.1MB/s, server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net}
+  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: "防范境外势*渗透 #5", server: 127.0.0.53, port: 85, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 36.156.102.125, port: 447, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: 120.240.118.186, port: 9233, type: trojan, password: f60cd513-7b83-4b64-936c-f7e88e95dacd, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京2, server: 154.85.18.233, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|Channel id: @ShadowProxy66 #4", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "9|未命名 #2", server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 2|🇺🇸100 |  1.3MB/s, server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net}
+  - {name: "🇭🇰 香港 #2", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4, server: 172.67.72.15, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/linkwsrt?ed=2560"}}
+  - {name: 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai..., server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国108 | ⬇️ 1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,162 +204,197 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "🇭🇰 香港 #2"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -343,39 +410,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@V2rayNG3 #6"
-      - 1|🇺🇸108 |  1.4MB/s
-      - 9|@V2ray1_Ng
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - 🇭🇰 香港 电讯盈科有限公司
-      - "9|@V2rayNG3 #4"
-      - "@Daily_Configs"
-      - 🇩🇪 9|10 https://dafei.de
-      - "8,9|🛡️ @FreakConfig #2"
+      - "10|@V2rayNG3 #4"
+      - 🇸🇬 新加坡|@ripaojiedian
       - "@VPNHubMaRKeT ♾  @VpnHubMar..."
-      - 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-      - 🇬🇧 GB 1 🇬🇧 | @v2xay
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国120 | ⬇️ 1.4MB/s
+      - 🇸🇬 新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
+      - "防范境外势*渗透 #2"
+      - "10|@V2rayNG3 #1"
+      - 14|TW_speednode_0132
+      - "️ @FreakConfig #6"
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - آلمان 🇩🇪 @V2xay
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
-      - 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 9|MCI-@Tunder_vpn
-      - 9| 🇩🇪 @V2xay
-      - "🇺🇸 美国10 付费推荐：https://dafei.de #2"
-      - "8|未命名 #2"
-      - 1|🇺🇸109 |  3.2MB/s
-      - 🇺🇸 美国62 | ⬇️ 3.3MB/s|Openai|Gem...
-      - "@Configology🫧"
+      - 🇭🇰 12,13|香港|@ripaojiedian
       - "️ @FreakConfig #5"
-      - "8|Channel id: @ShadowProxy66 #4"
-      - "@V2rayNG3 #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "🇭🇰 香港 #1"
+      - 2|🇺🇸122 |  1.4MB/s
+      - 🇺🇸 美国10 付费推荐：https://dafei.de
       - 🇳🇱 NL 🇳🇱 | @v2xay
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇺🇸 12|美国|@ripaojiedian
-      - 🇯🇵 8|🇯🇵日本东京2
-      - "Channel id: @ShadowProxy66🇭🇰 #1"
-      - 🇯🇵 日本东京
-      - "🇺🇸 9|美国10 付费推荐：https://dafei.de #1"
+      - "10|@V2rayNG3 #8"
+      - 2|🇺🇸121 |  1.2MB/s
+      - "10|MCI-@Tunder_vpn #3"
+      - 🇺🇸 美国121 | ⬇️ 1.2MB/s
+      - "@V2rayNG3 #2"
+      - 2|🇺🇸104 |  2.1MB/s
+      - 2|🇺🇸108 |  1.4MB/s
+      - "防范境外势*渗透 #5"
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇯🇵 日本东京2
+      - "9|Channel id: @ShadowProxy66 #4"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 3
+      - "9|未命名 #2"
+      - 🇰🇷 韩国2 | ⬇️ 1.5MB/s|44%|Openai
+      - 2|🇺🇸100 |  1.3MB/s
+      - "🇭🇰 香港 #2"
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 4
+      - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
+      - 🇺🇸 美国108 | ⬇️ 1.4MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
