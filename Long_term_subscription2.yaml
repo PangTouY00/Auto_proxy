@@ -5,235 +5,311 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "9|未命名 #1", server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: mm.huawei-api.top, port: 19852, type: ss, cipher: chacha20-ietf-poly1305, password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1, server: manager.gghbjnjbff.shop, port: 10900, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false}
-  - {name: "@V2rayNG3 #7", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20, server: e5c8864f-t0u740-t49lki-1ejce.hkt.tcpbbr.net, port: 80, type: vmess, uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e5c8864f-t0u740-t49lki-1ejce.hkt.tcpbbr.net}}}
-  - {name: "️ @FreakConfig #1", server: dg.dport.top, port: 33653, type: hysteria2, ports: 33653, password: 51e23a46-c92a-477f-9675-d2a8088f9bbf, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: dg.dport.top, skip-cert-verify: true}
-  - {name: "🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1", server: manager.gghbjnjbff.shop, port: 10010, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false}
-  - {name: "10|ViP RGB🚀 #10", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: 29fbd51f-03c8-4d76-849a-436e54d58317, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇫🇷 FR 2 🇫🇷 | @v2xay, server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: 🇯🇵 东京, server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 香港 #2", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.156.102.67, port: 22006, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "10|ViP RGB🚀 #15", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇯🇵 12|🇯🇵 日本6|@ripaojiedian, server: 52.199.211.144, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
-  - {name: 🇺🇸 美国🇺🇸, server: 35.94.124.236, port: 34060, type: hysteria2, ports: 34060, password: RKrGw4dSUwK3YAvqdQI8tcqNl0, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 江苏省 移动, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: "@Selinc", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: n9OgQprayM, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇩🇪 德国1, server: dg1.gy6688.xyz, port: 25352, type: hysteria2, ports: 25352, password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82, obfs: salamander, obfs-password: LNAnPYDfFyesRAVn, sni: dg1.gy6688.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17, server: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net, port: 80, type: vmess, uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net}}}
-  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: mm.huawei-api.top, port: 19852, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZWFmYzJlZi1kNWZkLTRmNmQtODAzYi1mYWQ0YTVjYzFmMGU}
-  - {name: 🇫🇷 10|FR 2 🇷 | @v2xay, server: 51.159.111.32, port: 31180, type: hysteria2, ports: 31180, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: 1|🇺🇸121 |  1.2MB/s, server: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: 9d5cde75-sw3ts0-sww7b0-1qwp5.hy2.gotochinatown.net}
+  - {name: "9|Telegram:@config_proxy 😍 #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
   - {name: "🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇯🇵 JP #1", server: 54.199.157.111, port: 26036, type: hysteria2, ports: 26036, password: yn3gMvdZ0hpReiimChE1H1BFvE, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 36.156.102.78, port: 193, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "ViP RGB🚀 #12", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 413c8b50-96bf-4457-82f2-54dfa8685f53, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇨🇳 江苏省盐城市 移动, server: 36.156.102.67, port: 22006, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
+  - {name: "9|未命名 #1", server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
+  - {name: "9,10|🇬@FreakConfig", server: 203.174.82.145, port: 43057, type: hysteria2, ports: 43057, password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "MCI-@Tunder_vpn #1", server: 108.181.23.249, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.156.102.125, port: 461, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 14|US_speednode_0249, server: 154.23.172.19, port: 11000, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 🇯🇵 日本, server: aws-linkhy17.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af, sni: www.apple.com.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "10|MCI-@Tunder_vpn #1", server: 108.181.23.249, port: 443, type: hysteria2, ports: 443, password: 627712cf-d0e1-4545-81fb-241e7fda0284, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1, server: manager.gghbjnjbff.shop, port: 10004, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|AM_speednode_0016, server: 188.164.159.98, port: 2083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
   - {name: "10|ViP RGB🚀 #19", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 52816135-d3bc-46bc-a915-09886a2e2b2e, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇬🇧 10|GB 🇬🇧 | @v2xay, server: 185.85.242.177, port: 1443, type: hysteria2, ports: 1443, password: cf125f42-759d-4112-82c3-014d2ffcb1e7, sni: gbr1.587458.xyz, skip-cert-verify: true}
-  - {name: "10|RGB🚀 #3", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: "ViP RGB🚀 #7", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡, server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 9|🇺🇸, server: 35.94.124.236, port: 34060, type: hysteria2, ports: 34060, password: RKrGw4dSUwK3YAvqdQI8tcqNl0, sni: bing.com, skip-cert-verify: true}
-  - {name: "10|ViP RGB🚀 #34", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: "@Daily_Configs #1", server: 198.23.130.211, port: 443, type: hysteria2, ports: 443, password: 68821a5b-49db-49c7-924f-22b1441e5b30, sni: api.push.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.156.102.125, port: 444, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.ithome.com, skip-cert-verify: true}
-  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: "@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "ViP RGB🚀 #36", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: f901861b-6491-450c-b500-606b2e921625, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 1|🇰🇷2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1, server: 148.253.209.172, port: 20521, type: vmess, uuid: 42364c51-2b0d-4b93-81dc-fc907757e470, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 未知节点, server: asg.pagate.top, port: 10086, type: hysteria2, ports: 10086, password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1}
-  - {name: 1|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
-  - {name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "10|ViP RGB🚀 #23", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 5eaa121d-4362-444d-8219-29b02c35303a, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: "9|Channel id: @ShadowProxy66🇷", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|剩余：1, server: uuk1.tok8888.com, port: 22996, type: hysteria2, ports: 22996, password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82, obfs: salamander, obfs-password: LNAnPYDfFyesRAVn, sni: uuk1.tok8888.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
+  - {name: US_speednode_0268, server: 192.210.207.89, port: 20080, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 14|US_speednode_0272, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: "ViP RGB🚀 #10", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 29fbd51f-03c8-4d76-849a-436e54d58317, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇸🇬 SG, server: 54.255.144.66, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 43.201.7.128, port: 9898, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg}
+  - {name: 14|JP_speednode_0067, server: 34.85.77.183, port: 8080, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 14|US_speednode_0246, server: 154.17.10.113, port: 12266, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: "10|RGB🚀 #4", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "ViP RGB🚀 #28", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇯🇵 日本6|@ripaojiedian, server: 52.199.211.144, port: 9898, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg}
+  - {name: 🇭🇰 9|🇭🇰HK, server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, sni: bing.com, skip-cert-verify: true}
+  - {name: 2|🇺🇸103 |  3.2MB/s, server: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, sni: 898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "@V2rayNG3 #7", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18, server: 69cd7a07-t0u740-tbmeud-1th9y.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 69cd7a07-t0u740-tbmeud-1th9y.hkt.tcpbbr.net}}}
+  - {name: KR_speednode_0079, server: 175.212.51.220, port: 21301, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 14|HK_speednode_0062, server: 154.211.8.150, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: KR_speednode_0076, server: 210.222.78.191, port: 10240, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: US_speednode_0246, server: 154.17.10.113, port: 12266, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
   - {name: "防范境外势*渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 1|🇺🇸96 |  2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
-  - {name: 🇭🇰 香港7|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5", server: cf.090227.xyz, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}}
-  - {name: 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1, server: 23.136.164.71, port: 8443, type: vmess, uuid: 606f0d8e-b3d6-493b-bd5d-f3483c21fd3e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 14|LT_speednode_0096, server: 86.38.214.186, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: "🇸🇬 SG #2", server: 175.41.154.215, port: 19298, type: hysteria2, ports: 19298, password: Y5kSCRNcOSz5YQUkjehzVXeT2mk, sni: bing.com, skip-cert-verify: true}
+  - {name: "ViP RGB🚀 #13", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: 413c8b50-96bf-4457-82f2-54dfa8685f53, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "Channel id: @ShadowProxy66🇭🇰", server: 154.204.181.230, port: 50256, type: hysteria2, ports: 50256, password: cc83a02b-90ea-403b-9c76-27e4be95f637, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇬🇧 GB 🇬🇧 | @v2xay, server: 185.85.242.177, port: 1443, type: hysteria2, ports: 1443, password: cf125f42-759d-4112-82c3-014d2ffcb1e7, sni: gbr1.587458.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇺🇸 美国96 | ⬇️ 2.4MB/s, server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net}
+  - {name: US_speednode_0279, server: 172.67.77.127, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: "🇺🇸 美国10 付费推荐：https://dafei.de #4", server: 107.174.41.101, port: 45000, type: hysteria2, ports: 45000, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "ViP RGB🚀 #33", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 14|AM_speednode_0017, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 10|🛡️ @FreakConfig, server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: AM_speednode_0015, server: 188.164.159.43, port: 2083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 🇬🇧 10|GB 🇬🇧 | @v2xay, server: 185.85.242.177, port: 1443, type: hysteria2, ports: 1443, password: cf125f42-759d-4112-82c3-014d2ffcb1e7, sni: gbr1.587458.xyz, skip-cert-verify: true}
+  - {name: "10|ViP RGB🚀 #1", server: 172.252.236.213, port: 46502, type: hysteria2, ports: 46502, password: 0cb527d9-6117-4bcf-a52b-1704b3458cef, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇺🇸 12|🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /ctdmgeIg3NII3ibrzzKXJGy3S1, headers: {Host: xXcdvFgt.191268.XYz}}}
+  - {name: "🇸🇬 新加坡 #1", server: 8.222.183.55, port: 33131, type: hysteria2, ports: 33131, password: lPK6OZ9ouqyXrCghO6ohUbbN5g, sni: bing.com, skip-cert-verify: true}
+  - {name: AM_speednode_0011, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: 🇺🇸 美国2, server: uuk2.tok8888.com, port: 25851, type: hysteria2, ports: 25851, password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82, obfs: salamander, obfs-password: LNAnPYDfFyesRAVn, sni: uuk2.tok8888.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41, server: e977bef7-sv4n40-swfla6-1rdqg.hk3.p5pv.com, port: 80, type: vmess, uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e977bef7-sv4n40-swfla6-1rdqg.hk3.p5pv.com}}}
+  - {name: 2|🇫🇷1 |  3.4MB/s|15%|Openai, server: hy2-1.694463.xyz, port: 4489, type: hysteria2, ports: 4489, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇰🇷 13|韩国2|@ripaojiedian, server: 43.201.7.128, port: 9898, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg}
+  - {name: US_speednode_0264, server: 161.145.150.29, port: 2083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgb.aimercc.dpdns.org}}}
+  - {name: "ViP RGB🚀 #1", server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: 07c122ad-50b2-4f61-9435-efcf112bb10b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "10|@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
+  - {name: "10|@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-8jPSOxErXG.download.microsoft.com}}
+  - {name: 2|🇺🇸108 |  1.4MB/s, server: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net, port: 8443, type: hysteria2, ports: 8443, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net}
+  - {name: 10|ViP RGB🚀, server: 185.126.255.78, port: 59494, type: hysteria2, ports: 59494, password: 07c122ad-50b2-4f61-9435-efcf112bb10b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "@EXPRESSVPN_420 ➠ همه اپراتو...", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -252,246 +328,320 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - 🇭🇰 香港7|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -507,59 +657,78 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|未命名 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇲🇽 墨西哥 - 克雷塔罗 - The Constant Company - 1
-      - "@V2rayNG3 #7"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 20
-      - "️ @FreakConfig #1"
-      - 🇵🇭 菲律宾 - Makati City - Eastern Telecommunications Philippines, Inc. - 1
-      - "10|ViP RGB🚀 #10"
-      - 🇫🇷 FR 2 🇫🇷 | @v2xay
-      - 🇯🇵 东京
-      - 🇨🇳 中国 - 广州市 - China Mobile - 4
-      - "🇭🇰 香港 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|ViP RGB🚀 #15"
-      - 🇯🇵 12|🇯🇵 日本6|@ripaojiedian
-      - 🇺🇸 美国🇺🇸
-      - 🇨🇳 江苏省 移动
-      - "@Selinc"
-      - 🇩🇪 德国1
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 17
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇫🇷 10|FR 2 🇷 | @v2xay
-      - "10|@V2rayNG3 #6"
-      - 1|🇺🇸121 |  1.2MB/s
+      - "9|Telegram:@config_proxy 😍 #1"
       - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 2
+      - "🇯🇵 JP #1"
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "ViP RGB🚀 #12"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "9|未命名 #1"
+      - 9,10|🇬@FreakConfig
+      - "MCI-@Tunder_vpn #1"
+      - 🇯🇵 日本4|@ripaojiedian
+      - 14|US_speednode_0249
+      - 🇯🇵 日本
+      - 🇺🇸 美国3|@ripaojiedian
+      - "10|MCI-@Tunder_vpn #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇲🇾 马来西亚 - 吉隆坡 - EVOXT - 1
+      - 14|AM_speednode_0016
       - "10|ViP RGB🚀 #19"
-      - 🇬🇧 10|GB 🇬🇧 | @v2xay
-      - "10|RGB🚀 #3"
-      - "ViP RGB🚀 #7"
-      - 🇸🇬 新加坡
-      - 9|🇺🇸
-      - "10|ViP RGB🚀 #34"
-      - "@Daily_Configs #1"
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - "ViP RGB🚀 #36"
-      - 1|🇰🇷2 |  1.5MB/s|44%|Openai
-      - 🇩🇪 德国 - 法兰克福 - SEBEK sp. z o.o - 1
-      - 未知节点
-      - 1|🇺🇸108 |  1.4MB/s
-      - 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-      - "10|ViP RGB🚀 #23"
-      - "9|Channel id: @ShadowProxy66🇷"
-      - 10|剩余：1
+      - 🇺🇸 美国|@ripaojiedian
+      - US_speednode_0268
+      - 14|US_speednode_0272
+      - "ViP RGB🚀 #10"
+      - 🇸🇬 SG
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 14|JP_speednode_0067
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 14|US_speednode_0246
+      - "10|RGB🚀 #4"
+      - "ViP RGB🚀 #28"
+      - 🇯🇵 日本6|@ripaojiedian
+      - 🇭🇰 9|🇭🇰HK
+      - 2|🇺🇸103 |  3.2MB/s
+      - 🇨🇳 中国 - 广州市 - China Mobile - 4
+      - "@V2rayNG3 #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
+      - KR_speednode_0079
+      - 14|HK_speednode_0062
+      - KR_speednode_0076
+      - US_speednode_0246
       - "防范境外势*渗透 #1"
-      - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 1|🇺🇸96 |  2.4MB/s
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 5
-      - 🇺🇸 美国 - 盐湖城 - FiberPower LLC - 1
+      - 14|LT_speednode_0096
+      - "🇸🇬 SG #2"
+      - "ViP RGB🚀 #13"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇬🇧 GB 🇬🇧 | @v2xay
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇺🇸 美国96 | ⬇️ 2.4MB/s
+      - US_speednode_0279
+      - "🇺🇸 美国10 付费推荐：https://dafei.de #4"
+      - "ViP RGB🚀 #33"
+      - 14|AM_speednode_0017
+      - 10|🛡️ @FreakConfig
+      - AM_speednode_0015
+      - 🇬🇧 10|GB 🇬🇧 | @v2xay
+      - "10|ViP RGB🚀 #1"
+      - 🇺🇸 12|🇺🇸 美国|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - AM_speednode_0011
+      - 🇺🇸 美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
+      - 2|🇫🇷1 |  3.4MB/s|15%|Openai
+      - 🇰🇷 13|韩国2|@ripaojiedian
+      - US_speednode_0264
+      - "ViP RGB🚀 #1"
+      - "10|@V2rayNG3 #6"
+      - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 🇯🇵 日本|@ripaojiedian
+      - 2|🇺🇸108 |  1.4MB/s
+      - 10|ViP RGB🚀
+      - "@EXPRESSVPN_420 ➠ همه اپراتو..."
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
