@@ -5,171 +5,183 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202508150964186-3bI5FffInl.download.microsoft.com}}
-  - {name: "9|Channel id: @@singbox1🇨🇦 #1", server: 192.18.150.167, port: 54530, type: hysteria2, ports: 54530, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 防范境外势力渗透, server: 127.0.0.53, port: 80, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 香港 #2", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
-  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: hanguo01.tmdns-sing.top, port: 13882, type: ss, cipher: ss, password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4, server: 50018.20250808iplcin.top, port: 50018, type: vmess, uuid: d086274c-9628-4dc2-80e2-1284f4baaa12, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|🧁80@oneclickvpnkeys, server: hsels.huasuan666.top, port: 22160, type: hysteria2, ports: 22160, password: 651a72ad-40c6-4ffb-b468-747fe3df9ef0, sni: hsels.huasuan666.top, skip-cert-verify: true}
-  - {name: US_speednode_0301, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}}
-  - {name: "Channel id: @ShadowProxy66🇺🇸 #3", server: 45.136.245.177, port: 33079, type: hysteria2, ports: 33079, password: c8631767-f45c-4f48-bf19-5405e6d18679, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
-  - {name: "Channel id: @@singbox1🇯🇵", server: 153.121.42.218, port: 443, type: hysteria2, ports: 443, password: 262100bd-a0c7-4412-a62d-a07d01f11a6a, sni: www.microsoft.com, skip-cert-verify: true}
-  - {name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 未命名, server: sumibi.org.sumibi.org, port: 40725, type: hysteria2, ports: 40725, password: 01telegram-ID-free_vpn0088, obfs: salamander, obfs-password: 7859542545, skip-cert-verify: true}
-  - {name: 🇭🇰 13|香港5|@ripaojiedian, server: hk1-20250813213806be3c17japantm01.tmdns-sing.top, port: 13872, type: ss, cipher: ss, password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx}
-  - {name: 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 52.215.235.115, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: usa022.tmdns-sing.top, port: 13892, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1}
-  - {name: "Channel id: @@singbox1🇨🇦 #1", server: 192.18.150.167, port: 54530, type: hysteria2, ports: 54530, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.156.102.125, port: 1256, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.156.102.78, port: 22006, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国10 付费推荐：https://dafei.de, server: 23.80.81.213, port: 45000, type: hysteria2, ports: 45000, password: 27e473f8-d610-4b04-bdf7-d0c39b47c897, sni: www.apple.com, skip-cert-verify: true}
-  - {name: "🇯🇵 9|JP #1", server: 54.199.157.111, port: 26036, type: hysteria2, ports: 26036, password: yn3gMvdZ0hpReiimChE1H1BFvE, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇭🇰 香港2 #1", server: 89.185.27.133, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇻🇳 12|🇻🇳 越南|@ripaojiedian, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138, server: 50007.20250808iplcin.top, port: 50007, type: vmess, uuid: d086274c-9628-4dc2-80e2-1284f4baaa12, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|🧁79@oneclickvpnkeys, server: jph1.youxuan.wiki, port: 8080, type: hysteria2, ports: 8080, password: 0076436c-9459-458b-8c6f-57c379acbbe3, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #5", server: p1.punchline.ir, port: 19037, type: hysteria2, ports: 19037, password: AtTK3tiEA0, obfs: salamander, obfs-password: bipbip, skip-cert-verify: true}
   - {name: "@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
-  - {name: 🇭🇰 9|HK, server: 54.169.144.240, port: 2166, type: hysteria2, ports: 2166, password: Cyi3TPih9FtQRwsZAh8aT6ynGJk, skip-cert-verify: true}
-  - {name: 2@oneclickvpnkeys, server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
-  - {name: 10|@V2ray1_Ng, server: 45.129.2.108, port: 50850, type: hysteria2, ports: 50850, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: US_speednode_0304, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
-  - {name: "🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3", server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gyde.aifjj.asia}}}
-  - {name: 🇨🇳 广东省广州市 电信, server: xinjiapo.tmdns-sing.top, port: 13886, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: "@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 US, server: 209.38.144.136, port: 34321, type: hysteria2, ports: 34321, password: HfK3UK4MoXxYUccnp7qzx3Y3o, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 #3", server: 13.212.75.22, port: 10264, type: hysteria2, ports: 10264, password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, sni: bing.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #3", server: s15.serv00.com, port: 7777, type: hysteria2, ports: 7777, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.190, port: 21186, type: vmess, uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 HK, server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137, server: 50002.20250808iplcin.top, port: 50002, type: vmess, uuid: d086274c-9628-4dc2-80e2-1284f4baaa12, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: tg频道:@ripaojiedian, server: 52.215.235.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #1", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
+  - {name: "Channel id: @@singbox1🇨🇦 #1", server: 192.18.150.167, port: 54530, type: hysteria2, ports: 54530, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #7", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
+  - {name: US_speednode_0283, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
+  - {name: 🇮🇳 India, server: 143.244.140.87, port: 8460, type: hysteria2, ports: 8460, password: ok6aX0A7QX9SkYo6R0GBBJDUsK4, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: hanguo01.tmdns-sing.top, port: 13882, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: 183.240.245.239, port: 42272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "@V2rayNG3 #7", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
+  - {name: 🇺🇸 9|🇸US, server: 143.110.156.170, port: 13438, type: hysteria2, ports: 13438, password: Wjes5mJnUmH7kwzpgZX5d2BeCs, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: zPb5RRsckD, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: "9|Channel id: @ShadowProxy66🇨🇦", server: 129.153.52.235, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 未命名, server: sumibi.org.sumibi.org, port: 40725, type: hysteria2, ports: 40725, password: 01telegram-ID-free_vpn0088, obfs: salamander, obfs-password: 7859542545, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gyde.aifjj.asia}}}
+  - {name: ️ @FreakConfig, server: flydg.flylink.cyou, port: 35230, type: hysteria2, ports: 35230, password: 30cd031e-b4a6-4bc7-a99a-9642259fdeff, obfs: salamander, obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==, sni: flydg.flylink.cyou, skip-cert-verify: true}
+  - {name: 9|🚜57@oneclickvpnkeys, server: 138.197.185.116, port: 7444, type: hysteria2, ports: 7444, password: wxiTacqUnFMT6QPG1xHX578Omo, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: xinjiapo.tmdns-sing.top, port: 13886, type: ss, cipher: ss, password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: hanguo01.tmdns-sing.top, port: 13882, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "10|未命名 #4", server: sumibi.org.sumibi.org, port: 40725, type: hysteria2, ports: 40725, password: 01telegram-ID-free_vpn0088, obfs: salamander, obfs-password: 7859542545, skip-cert-verify: true}
+  - {name: 14|US_speednode_0282, server: 104.18.3.108, port: 8443, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocost-dy.wmlefl.cc}}}
   - {name: 🇭🇰 9|香港, server: ssssssssssssssssssssssssssss-mualhk229.hizui.cn, port: 10880, type: hysteria2, ports: 10880, password: 38589924-caf7-4857-812b-80020febd3ff, sni: ssssssssssssssssssssssssssss-mualhk229.hizui.cn, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: 36.156.102.125, port: 461, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "9|Channel id: @ShadowProxy66🇭🇰 #1", server: 45.207.222.138, port: 8888, type: hysteria2, ports: 8888, password: nfsn666, sni: hk.nfsn666.gq, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -188,49 +200,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 13|香港5|@ripaojiedian
+      - "🇭🇰 香港2 #1"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
       - 🇭🇰 9|香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -238,128 +258,137 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -375,43 +404,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|Channel id: @@singbox1🇨🇦 #1"
-      - 防范境外势力渗透
-      - "🇭🇰 香港 #2"
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 4
-      - 9|🧁80@oneclickvpnkeys
-      - US_speednode_0301
-      - "Channel id: @ShadowProxy66🇺🇸 #3"
-      - "10|@V2rayNG3 #1"
-      - "Channel id: @@singbox1🇯🇵"
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 未命名
-      - 🇭🇰 13|香港5|@ripaojiedian
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "13|tg频道:@ripaojiedian #1"
-      - "@V2rayNG3 #9"
-      - 🇺🇸 美国|@ripaojiedian
-      - "Channel id: @@singbox1🇨🇦 #1"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国10 付费推荐：https://dafei.de
-      - "🇯🇵 9|JP #1"
+      - "🇭🇰 香港2 #1"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 138
+      - 9|🧁79@oneclickvpnkeys
+      - "10|@V2rayNG3 #5"
       - "@V2rayNG3 #4"
-      - 🇭🇰 9|HK
-      - 2@oneclickvpnkeys
-      - 10|@V2ray1_Ng
-      - US_speednode_0304
-      - 🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      - 🇨🇳 广东省广州市 电信
-      - 🇻🇳 越南|@ripaojiedian
-      - "@V2rayNG3 #8"
-      - 🇺🇸 US
-      - "🇸🇬 新加坡 #3"
-      - "@V2rayNG3 #3"
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 137
+      - 🇭🇰 香港 电讯盈科有限公司
+      - tg频道:@ripaojiedian
+      - "Channel id: @ShadowProxy66🇺🇸 #1"
+      - "Channel id: @@singbox1🇨🇦 #1"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|@V2rayNG3 #7"
+      - US_speednode_0283
+      - 🇮🇳 India
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇺🇸 9|🇸US
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 11
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - "9|Channel id: @ShadowProxy66🇨🇦"
+      - 未命名
+      - 🇺🇸 美国 CloudFlare节点
+      - ️ @FreakConfig
+      - 9|🚜57@oneclickvpnkeys
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "10|未命名 #4"
+      - 14|US_speednode_0282
       - 🇭🇰 9|香港
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - "9|Channel id: @ShadowProxy66🇭🇰 #1"
+      - 🇺🇸 美国3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
