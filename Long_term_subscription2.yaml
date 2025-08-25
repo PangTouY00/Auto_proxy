@@ -5,175 +5,199 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇸🇬 SG, server: 47.129.224.62, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 江苏省 移动, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: "9|未命名 #2", server: 54.169.224.169, port: 17193, type: hysteria2, ports: 17193, password: 5OiuCsPmULZ0lJwts89fegLJE, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 9|🇯🇵日本东京, server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇮🇳 India, server: 143.244.140.87, port: 8460, type: hysteria2, ports: 8460, password: ok6aX0A7QX9SkYo6R0GBBJDUsK4, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 SG #1", server: 54.255.144.66, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
-  - {name: "@Daily_Configs #3", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
-  - {name: "10|@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@Selinc", server: 108.181.5.130, port: 63015, type: hysteria2, ports: 63015, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 #2", server: 8.222.183.55, port: 33131, type: hysteria2, ports: 33131, password: lPK6OZ9ouqyXrCghO6ohUbbN5g, sni: bing.com, skip-cert-verify: true}
-  - {name: "Channel id: @ShadowProxy66🇺🇸", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.150.215.141, port: 48397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: v1-dy.ixigua.com, skip-cert-verify: true}
-  - {name: "9,10|ان های ی د نل ترا💎 Config_Raye...", server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇯🇵 9|JP, server: 18.183.180.34, port: 11534, type: hysteria2, ports: 11534, password: oCt1QU5QUB9vPtoBq3SzGrjlBTU, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇯🇵 9|JP #2", server: 54.199.157.111, port: 26036, type: hysteria2, ports: 26036, password: yn3gMvdZ0hpReiimChE1H1BFvE, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 36.150.215.141, port: 51281, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: v1-dy.ixigua.com, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.40.147.211, port: 8880, type: vmess, uuid: 7a384b65-fcc9-32b1-bff4-d2494705b7b1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: TG.WangCai2.s4.db-link02.top}}}
-  - {name: 🇯🇵 JP, server: 18.183.180.34, port: 11534, type: hysteria2, ports: 11534, password: oCt1QU5QUB9vPtoBq3SzGrjlBTU, sni: bing.com, skip-cert-verify: true}
-  - {name: 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true}}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: zPb5RRsckD, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "@V2ray1_Ng", server: 45.129.2.108, port: 50850, type: hysteria2, ports: 50850, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇸🇬 9|🇸🇬SG, server: 47.237.23.83, port: 4763, type: hysteria2, ports: 4763, password: KYIFgW1don6L8TaDBJHynafxZ0, sni: bing.com, skip-cert-verify: true}
-  - {name: "@", server: hshl.huasuan666.top, port: 22157, type: hysteria2, ports: 22157, password: 366dad01-dd99-47be-92fa-6beddd09fff9, sni: hshl.huasuan666.top, skip-cert-verify: true}
-  - {name: "none #3", server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 6bf726db-fb0b-405b-899a-3e263f092eda, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "Channel id: @ShadowProxy66🇺🇸 #2", server: 45.136.245.177, port: 33079, type: hysteria2, ports: 33079, password: c8631767-f45c-4f48-bf19-5405e6d18679, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.150.215.141, port: 320, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 9|新加坡, server: sg3.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a914681a-8dda-4c98-8468-c313f5539b14, sni: sg3.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 10| @Cyber_Ta🌐, server: us.myyfqh.tech, port: 443, type: hysteria2, ports: 443, password: 0a0f1f4a-40d9-47b4-aca5-0b281daea3bb, sni: us.myyfqh.tech, skip-cert-verify: false}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.251.45, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: v1-dy.ixigua.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
+  - {name: "10|@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇻🇳 12|🇻🇳 越南|@ripaojiedian, server: yuenan02.tmdns-sing.top, port: 13878, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1}
+  - {name: 10|v2raybluecrystal3, server: 185.219.81.33, port: 50757, type: hysteria2, ports: 50757, password: 4VDmo53kWX, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #6", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
+  - {name: ️98@oneclickvpnkeys, server: 51.158.218.2, port: 50066, type: hysteria2, ports: 50066, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "10|v2raybluecrystal #2", server: 78.138.118.228, port: 37804, type: hysteria2, ports: 37804, password: mItioklzVp, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: "🇭🇰 香港2 #1", server: 89.185.27.133, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|Channel id: @ShadowProxy66🇸", server: 192.227.152.86, port: 61001, type: hysteria2, ports: 61001, password: 5CBqBh6MeDq6GajcilBiDg%3D%3D, sni: 192-227-152-86.nip.io, skip-cert-verify: true}
+  - {name: 9|2@oneclickvpnkeys, server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: n9OgQprayM, sni: android.yas-nowin.ir, skip-cert-verify: false}
   - {name: "10|@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: "🇭🇰 9|🇭🇰香港 #1", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
+  - {name: v2raybluecrystal-ger, server: 185.211.101.15, port: 20358, type: hysteria2, ports: 20358, password: F6HtMurQGt, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 183.240.245.241, port: 48383, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 9|🇸🇬新加坡, server: aws-linkhy10.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90, sni: www.teslaautomation.de, skip-cert-verify: true}
+  - {name: 9|🧁78@oneclickvpnkeys, server: zl.youxuan.wiki, port: 8080, type: hysteria2, ports: 8080, password: 0076436c-9459-458b-8c6f-57c379acbbe3, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.135.17, port: 30397, type: vmess, uuid: 7364bf26-0eb6-40cc-b7e6-fb1a4b6bf69c, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 香港 #2", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
+  - {name: "🇭🇰 香港 #1", server: 47.242.195.121, port: 12854, type: hysteria2, ports: 12854, password: XK52yierGckONMJWbJnuskD3unI, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202508100385405-YeOFla7vv5.download.microsoft.com}}
+  - {name: 🇭🇰 HK, server: 54.169.144.240, port: 2166, type: hysteria2, ports: 2166, password: Cyi3TPih9FtQRwsZAh8aT6ynGJk, skip-cert-verify: true}
+  - {name: "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: Bz0jKM83wa, sni: android.yas-nowin.ir}
+  - {name: 🇯🇵 东京, server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.150.215.141, port: 48397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: v1-dy.ixigua.com, skip-cert-verify: true}
+  - {name: "@V2rayNG3", server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
+  - {name: "@Cyber_Ta🌐", server: hg.myyfqh.tech, port: 443, type: hysteria2, ports: 443, password: 0a0f1f4a-40d9-47b4-aca5-0b281daea3bb, sni: hg.myyfqh.tech, skip-cert-verify: false}
+  - {name: → @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 防范境外势力渗透, server: 127.0.0.53, port: 80, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本东京2, server: 154.85.18.233, port: 443, type: hysteria2, ports: 443, password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 9|🇭🇰香港, server: 47.74.34.102, port: 29282, type: hysteria2, ports: 29282, password: Wo9rLCYw6gzcfTgIu11mhBVciVs, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇮🇳 v2raybluecrystal-ind, server: 160.191.183.244, port: 11282, type: hysteria2, ports: 11282, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: Hysteria, server: 43.207.119.98, port: 4410, type: hysteria2, ports: 4410, password: 1JA6CF8JMUDvoz6zfm5qHwlN3Wo, skip-cert-verify: true}
+  - {name: "🇭🇰 HK #1", server: 47.76.83.25, port: 11243, type: hysteria2, ports: 11243, password: L60nS04NhsoMpN2DDGbnMqLP8DY, sni: bing.com, skip-cert-verify: true}
+  - {name: "v2raybluecrystal #2", server: 78.138.118.228, port: 37804, type: hysteria2, ports: 37804, password: mItioklzVp, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: 10|none, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1045aedf-053c-4585-875d-e2fc3f3ea6dd, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "none #4", server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+  - {name: v2raybluecrystal3-la, server: 165.140.166.78, port: 41003, type: hysteria2, ports: 41003, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
+  - {name: "v2raybluecrystal #3", server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net, port: 37804, type: hysteria2, ports: 37804, password: mItioklzVp, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
+  - {name: v2raybluecrystal2-la, server: 165.140.166.78, port: 17083, type: hysteria2, ports: 17083, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian 2, server: 36.150.215.141, port: 48397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: v1-dy.ixigua.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,183 +216,210 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "🇭🇰 香港2 #1"
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇭🇰 9|🇭🇰香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -384,44 +435,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
-      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 SG
-      - 🇨🇳 江苏省 移动
-      - "9|未命名 #2"
-      - 🇯🇵 9|🇯🇵日本东京
-      - 🇮🇳 India
-      - "🇸🇬 SG #1"
-      - "@Daily_Configs #3"
-      - "@V2rayNG3 #1"
-      - "10|@V2rayNG3 #2"
-      - "@Selinc"
-      - "🇸🇬 新加坡 #2"
-      - "Channel id: @ShadowProxy66🇺🇸"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9,10|ان های ی د نل ترا💎 Config_Raye...
-      - 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
-      - 🇯🇵 9|JP
-      - "🇯🇵 9|JP #2"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇯🇵 JP
-      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #4"
-      - "@V2ray1_Ng"
-      - "@V2rayNG3 #9"
-      - 🇸🇬 9|🇸🇬SG
-      - "@"
-      - "none #3"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "Channel id: @ShadowProxy66🇺🇸 #2"
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 9|新加坡
-      - 10| @Cyber_Ta🌐
+      - 🇯🇵 日本4|@ripaojiedian
+      - "10|@V2rayNG3 #1"
+      - "10|@V2rayNG3 #9"
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - 10|v2raybluecrystal3
+      - "10|@V2rayNG3 #6"
+      - ️98@oneclickvpnkeys
+      - "10|v2raybluecrystal #2"
+      - "🇭🇰 香港2 #1"
+      - "9|Channel id: @ShadowProxy66🇸"
+      - 9|2@oneclickvpnkeys
+      - "10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
       - 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - "🇭🇰 9|🇭🇰香港 #1"
+      - v2raybluecrystal-ger
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 9|🇸🇬新加坡
+      - 9|🧁78@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - "🇭🇰 香港 #2"
+      - "🇭🇰 香港 #1"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #1"
+      - 🇯🇵 东京
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "@V2rayNG3"
+      - "@Cyber_Ta🌐"
+      - → @Hddify
+      - 防范境外势力渗透
+      - 🇯🇵 日本东京2
+      - 🇭🇰 9|🇭🇰香港
+      - "@V2rayNG3 #8"
+      - 🇮🇳 v2raybluecrystal-ind
+      - Hysteria
+      - "🇭🇰 HK #1"
+      - "v2raybluecrystal #2"
+      - 10|none
+      - "none #4"
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
+      - v2raybluecrystal3-la
+      - "v2raybluecrystal #3"
+      - v2raybluecrystal2-la
+      - 🇸🇬 新加坡2|@ripaojiedian 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
