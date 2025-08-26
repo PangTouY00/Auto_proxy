@@ -5,425 +5,239 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 过滤掉3条线路, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇭🇰 ss(广移)香港1, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇭🇰 ss(广移)香港2, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇸🇬 ss(广移)新加坡 1, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇸🇬 ss(广移)新加坡 2, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇯🇵 ss(广移)日本1, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇯🇵 ss(广移)日本2, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇯🇵 ss(广移)日本4, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇯🇵 ss(广移)日本3, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇨🇳 ss(广移)台湾1, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇨🇳 ss(广移)台湾2, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇨🇳 ss(广移)台湾2-1, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇨🇳 ss(广移)台湾2-2, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇺🇸 ss(广移)美国1, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇺🇸 ss(广移)美国2, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇺🇸 ss(广移)美国2-1, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇺🇸 ss(广移)美国2-2, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇰🇷 ss(广移)韩国1, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇰🇷 ss(广移)韩国2, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇲🇾 ss(广移)马来西亚1, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇲🇾 ss(广移)马来西亚2, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇮🇱 ss(广移)以色列1, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇮🇱 ss(广移)以色列2, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇮🇳 ss(广移)印度1, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇮🇳 ss(广移)印度2, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇹🇷 ss(广移)土耳其1, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇹🇷 ss(广移)土耳其2, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇮🇸 ss(广移)冰岛1, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇮🇸 ss(广移)冰岛2, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇧🇷 ss(广移) 巴西1, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇧🇷 ss(广移)巴西2, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇲🇽 ss(广移)墨西哥1, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇲🇽 ss(广移)墨西哥2, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇹🇭 ss(广移)泰国1, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 🇹🇭 ss(广移)泰国2, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 148b0d87-892d-4279-bdb9-ec017b59056f}
-  - {name: 过滤掉3条线路 2, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇭🇰 ss(广移)香港1 2, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇭🇰 ss(广移)香港2 2, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇸🇬 ss(广移)新加坡 1 2, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇸🇬 ss(广移)新加坡 2 2, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇯🇵 ss(广移)日本1 2, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇯🇵 ss(广移)日本2 2, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇯🇵 ss(广移)日本4 2, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇯🇵 ss(广移)日本3 2, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇨🇳 ss(广移)台湾1 2, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇨🇳 ss(广移)台湾2 2, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇨🇳 ss(广移)台湾2-1 2, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇨🇳 ss(广移)台湾2-2 2, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇺🇸 ss(广移)美国1 2, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇺🇸 ss(广移)美国2 2, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇺🇸 ss(广移)美国2-1 2, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇺🇸 ss(广移)美国2-2 2, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇰🇷 ss(广移)韩国1 2, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇰🇷 ss(广移)韩国2 2, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇲🇾 ss(广移)马来西亚1 2, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇲🇾 ss(广移)马来西亚2 2, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇮🇱 ss(广移)以色列1 2, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇮🇱 ss(广移)以色列2 2, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇮🇳 ss(广移)印度1 2, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇮🇳 ss(广移)印度2 2, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇹🇷 ss(广移)土耳其1 2, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇹🇷 ss(广移)土耳其2 2, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇮🇸 ss(广移)冰岛1 2, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇮🇸 ss(广移)冰岛2 2, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇧🇷 ss(广移) 巴西1 2, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇧🇷 ss(广移)巴西2 2, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇲🇽 ss(广移)墨西哥1 2, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇲🇽 ss(广移)墨西哥2 2, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇹🇭 ss(广移)泰国1 2, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇹🇭 ss(广移)泰国2 2, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: b0ae90db-fdee-4cee-beb5-2f25ea186771}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: f97e574c-2e85-415b-a28e-23349d40201f, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: f97e574c-2e85-415b-a28e-23349d40201f, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: f97e574c-2e85-415b-a28e-23349d40201f, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: f97e574c-2e85-415b-a28e-23349d40201f, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: f97e574c-2e85-415b-a28e-23349d40201f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 70a7517c-5d5c-4749-a1b2-827181ffa682}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 70a7517c-5d5c-4749-a1b2-827181ffa682}
-  - {name: 🇺🇸 美国-v6|01, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-v6|02, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-v6|04, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-v6|05, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-v6|06, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-v6|07, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰-v6|01*0.5x, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰-v6|02*0.5x, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰-v6|03*0.5x, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰-v6|04*0.5x, server: naran4.616626.xyz, port: 22310, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国-v6|01*0.5x, server: netcp1.616626.xyz, port: 22305, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国-v6|02*0.5x, server: netcp2.616626.xyz, port: 22306, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国-v6|03*0.5x, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-v6|05*0.5x, server: nathk.91ai.de, port: 18002, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-v6|06, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-v6|07, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-v6|08, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-v4|02, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: hkvm4.656888.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港03, server: hytro.91ai.de, port: 10022, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: hytro.91ai.de, skip-cert-verify: true}
-  - {name: 🇯🇵 日本01, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: greenjp2.yueyun.de, skip-cert-verify: true}
-  - {name: 🇯🇵 日本02, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: vpsjp.yueyun.de, skip-cert-verify: true}
-  - {name: 🇯🇵 日本03, server: cloud.yueyun.de, port: 10389, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: cloud.yueyun.de, skip-cert-verify: true}
-  - {name: 🇳🇱 【荷兰05】*0.5x, server: nara.189.ovh, port: 10027, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: nara.189.ovh, skip-cert-verify: true}
-  - {name: 🇩🇪 【德国06】*0.5x, server: netcp4.616626.xyz, port: 10027, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: netcp4.616626.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国01, server: vir732.189.ovh, port: 10026, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: vir732.189.ovh, skip-cert-verify: true}
-  - {name: 🇺🇸 美国02, server: vir11.189.ovh, port: 10022, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: vir11.189.ovh, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-v6|01 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: d87bca4c-cd60-4fb5-9d73-b4829a126820, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国04, server: layercloud.189.ovh, port: 10021, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: layercloud.189.ovh, skip-cert-verify: true}
-  - {name: 🇺🇸 美国05, server: advin.189.ovh, port: 10027, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: advin.189.ovh, skip-cert-verify: true}
-  - {name: 🇺🇸 美国07, server: vir694.189.ovh, port: 10021, type: trojan, password: d87bca4c-cd60-4fb5-9d73-b4829a126820, sni: vir694.189.ovh, skip-cert-verify: true}
-  - {name: 🇺🇸 美国01|高速, server: 129.146.5.211, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: 5wPb4MHbqtqgn5iG, sni: us04.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇺🇸 美国02|高速, server: 161.153.15.57, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: OoBKDILCRlc4e8DQ, sni: us05.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇺🇸 美国03|优化, server: 107.172.50.179, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: VFq8tvsToD0vFx7A, sni: us01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇺🇸 美国04|优化, server: 107.175.32.216, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: o2RF1kccTQ6kPbTm, sni: us02.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇮🇩 印尼01|高速, server: 168.110.200.225, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: zLhiQaQCko8hmEeB, sni: id01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇮🇩 印尼02|高速, server: 168.110.193.182, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: gWyGLQbpeBlCVs6h, sni: id02.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇭🇰 香港01|优化, server: 45.149.92.115, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: oIn1MW6nFGpgamNS, sni: hk01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇭🇰 香港02|优化, server: 95.182.100.175, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: Q54kXSOI6MZKs9IS, sni: hk02.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇯🇵 日本01|优化, server: 185.141.219.11, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: pGXyfZ1zxQq5BnZg, sni: jp01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇫🇷 法国01|优化, server: 31.57.109.244, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: oaEuemiwXTsTExVh, sni: fr01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇫🇮 芬兰01|优化, server: 31.57.93.11, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: JifT07aQLVr8Tecg, sni: fi01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰01|优化, server: 103.146.119.121, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: M1LjTmQTpqHbD8v8, sni: nl01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 🇮🇪 爱尔兰01|优化, server: 194.87.245.235, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: DfSmNPD4VyhO1BEN, sni: ie01.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: 群组：t.me/NekoCloud1, server: 161.153.15.57, port: 2053, type: hysteria2, ports: 2053, password: 88d221c0-8400-40cd-98f2-029779a790b4, obfs: salamander, obfs-password: OoBKDILCRlc4e8DQ, sni: us05.kittycdn.pp.ua, skip-cert-verify: true}
-  - {name: tw01|1001, server: 125.229.191.100, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1002, server: 1.165.67.48, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1003, server: 36.234.97.113, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1004, server: 125.230.12.33, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1005, server: 1.165.93.28, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1006, server: 118.170.246.125, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1007, server: 125.229.191.101, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1008, server: 125.231.70.75, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1009, server: 1.165.71.150, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1010, server: 1.165.73.91, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1011, server: 118.170.224.156, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1012, server: 114.46.88.93, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1013, server: 118.170.211.57, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1014, server: 118.170.242.161, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1015, server: 125.230.8.220, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1016, server: 1.165.72.251, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1017, server: 118.170.224.63, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1018, server: 1.165.79.111, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1019, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1020, server: 1.165.108.213, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1021, server: 1.165.98.106, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1022, server: 118.170.228.117, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1023, server: 125.229.191.103, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1024, server: 1.165.72.140, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1025, server: 1.165.83.47, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1026, server: 118.170.218.123, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1027, server: 1.165.101.192, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1028, server: 118.170.206.97, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1029, server: 1.165.69.73, port: 10029, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1030, server: 1.165.109.220, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1031, server: 118.170.231.42, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1032, server: 1.165.100.2, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1033, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1034, server: 1.165.79.32, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1035, server: 1.165.72.230, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1036, server: 118.170.228.68, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1037, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1038, server: 114.46.92.220, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1039, server: 1.165.107.71, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1040, server: 1.165.71.211, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1041, server: 1.165.103.13, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1042, server: 36.234.116.8, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1043, server: 114.46.69.196, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1044, server: 36.234.126.230, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1045, server: 36.234.106.69, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1046, server: 36.234.65.150, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1047, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1048, server: 125.231.86.134, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1049, server: 114.46.107.33, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1050, server: 125.231.68.107, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1051, server: 36.234.106.51, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1052, server: 114.46.125.40, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1053, server: 114.46.112.253, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1054, server: 118.170.200.140, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1055, server: 36.234.92.136, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1056, server: 114.46.90.10, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1057, server: 114.46.72.5, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1058, server: 59.126.32.1, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1059, server: 1.165.114.223, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1060, server: 114.46.114.253, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1061, server: 1.165.127.41, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1062, server: 36.234.79.175, port: 10062, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1063, server: 36.234.109.221, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1064, server: 36.234.88.145, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1065, server: 114.46.90.37, port: 10065, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1066, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1067, server: 36.234.80.245, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1068, server: 114.46.79.253, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1069, server: 1.165.88.120, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1070, server: 114.46.94.65, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1071, server: 114.46.91.182, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1072, server: 36.234.97.104, port: 10072, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1073, server: 59.126.32.188, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1074, server: 114.46.93.14, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1075, server: 36.234.120.74, port: 10075, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1076, server: 114.46.111.220, port: 10076, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1077, server: 125.231.79.154, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1078, server: 36.234.95.185, port: 10078, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1079, server: 36.234.75.219, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|1080, server: 114.46.87.46, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2001, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2002, server: 36.235.17.93, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2003, server: 1.170.5.127, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2004, server: 1.170.51.75, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2005, server: 36.235.5.227, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2006, server: 1.170.38.202, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2007, server: 1.170.39.247, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2008, server: 1.170.33.217, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2009, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2010, server: 36.235.19.127, port: 10090, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2011, server: 1.170.2.14, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2012, server: 36.235.7.41, port: 10092, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2013, server: 1.170.42.243, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2014, server: 1.170.11.60, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2015, server: 1.170.41.120, port: 10095, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2016, server: 1.170.22.169, port: 10096, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2017, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2018, server: 36.232.92.83, port: 10098, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2019, server: 1.170.50.80, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2020, server: 1.170.2.154, port: 10100, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2021, server: 1.170.41.78, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2022, server: 1.170.33.52, port: 10102, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2023, server: 1.170.23.40, port: 10103, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2024, server: 1.170.12.144, port: 10104, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2025, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2026, server: 1.170.53.35, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2027, server: 36.235.10.223, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2028, server: 1.170.37.241, port: 10108, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2029, server: 1.170.15.229, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2030, server: 1.170.55.48, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2031, server: 36.235.20.152, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2032, server: 1.170.4.249, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2033, server: 125.228.31.10, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2034, server: 36.232.80.194, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2035, server: 1.170.47.127, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2036, server: 36.235.1.4, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2037, server: 1.170.18.49, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2038, server: 1.170.32.139, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2039, server: 1.170.29.178, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2040, server: 1.170.43.234, port: 10120, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2041, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2042, server: 36.232.127.4, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2043, server: 36.232.88.152, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2044, server: 111.253.211.207, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2045, server: 36.232.76.188, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2046, server: 36.232.85.107, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2047, server: 111.253.200.241, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2048, server: 36.232.119.195, port: 10128, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2049, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2050, server: 36.232.70.36, port: 10130, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2051, server: 36.232.94.99, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2052, server: 36.232.84.173, port: 10132, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2053, server: 1.170.6.140, port: 10133, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2054, server: 36.232.80.11, port: 10134, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2055, server: 36.232.90.197, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2056, server: 36.232.94.130, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2057, server: 125.228.162.163, port: 10137, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2058, server: 111.253.204.28, port: 10138, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2059, server: 36.232.119.217, port: 10139, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2060, server: 36.232.78.214, port: 10140, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2061, server: 36.232.71.250, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2062, server: 36.232.83.160, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2063, server: 111.253.194.209, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2064, server: 111.253.199.144, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2065, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2066, server: 36.232.100.121, port: 10146, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2067, server: 36.232.91.227, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2068, server: 111.253.195.205, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2069, server: 36.232.83.98, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2070, server: 36.232.84.27, port: 10150, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2071, server: 111.253.192.138, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: tw01|2072, server: 1.170.53.208, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 03d6de84-b58f-4564-bf8c-6b1c117242a5}
-  - {name: 国内直连网站都是临时的，挂梯子可直接进, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 3x备用专线台湾1, server: xh.dashuai.cyou, port: 50050, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 3x备用专线香港1, server: xh.dashuai.cyou, port: 50051, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国, server: fg.dashuai.cyou, port: 19901, type: vmess, uuid: b77e0b16-d754-4313-9575-d45b0c6c2ef1, alterId: 0, cipher: auto, tls: false}
-  - {name: 过滤掉3条线路 3, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇭🇰 ss(广移)香港1 3, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇭🇰 ss(广移)香港2 3, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇸🇬 ss(广移)新加坡 1 3, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇸🇬 ss(广移)新加坡 2 3, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇯🇵 ss(广移)日本1 3, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇯🇵 ss(广移)日本2 3, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇯🇵 ss(广移)日本4 3, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇯🇵 ss(广移)日本3 3, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇨🇳 ss(广移)台湾1 3, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇨🇳 ss(广移)台湾2 3, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇨🇳 ss(广移)台湾2-1 3, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇨🇳 ss(广移)台湾2-2 3, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇺🇸 ss(广移)美国1 3, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇺🇸 ss(广移)美国2 3, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇺🇸 ss(广移)美国2-1 3, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇺🇸 ss(广移)美国2-2 3, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇰🇷 ss(广移)韩国1 3, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇰🇷 ss(广移)韩国2 3, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇲🇾 ss(广移)马来西亚1 3, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇲🇾 ss(广移)马来西亚2 3, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇮🇱 ss(广移)以色列1 3, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇮🇱 ss(广移)以色列2 3, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇮🇳 ss(广移)印度1 3, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇮🇳 ss(广移)印度2 3, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇹🇷 ss(广移)土耳其1 3, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇹🇷 ss(广移)土耳其2 3, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇮🇸 ss(广移)冰岛1 3, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇮🇸 ss(广移)冰岛2 3, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇧🇷 ss(广移) 巴西1 3, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇧🇷 ss(广移)巴西2 3, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇲🇽 ss(广移)墨西哥1 3, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇲🇽 ss(广移)墨西哥2 3, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇹🇭 ss(广移)泰国1 3, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 🇹🇭 ss(广移)泰国2 3, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 912dd540-61aa-44c5-90d4-1ea02e97e1d0}
-  - {name: 距离下次重置剩余：7 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1db5bd79-8b3a-4178-a6bb-ec4e0c6a0747, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1db5bd79-8b3a-4178-a6bb-ec4e0c6a0747, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-v6|01, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-v6|02, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-v6|04, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-v6|05, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-v6|06, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-v6|07, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰-v6|01*0.5x, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰-v6|02*0.5x, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰-v6|03*0.5x, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰-v6|04*0.5x, server: naran4.616626.xyz, port: 22310, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国-v6|01*0.5x, server: netcp1.616626.xyz, port: 22305, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国-v6|02*0.5x, server: netcp2.616626.xyz, port: 22306, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国-v6|03*0.5x, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-v6|05*0.5x, server: nathk.91ai.de, port: 18002, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-v6|06, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-v6|07, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-v6|08, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-v4|02, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: hkvm4.656888.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港03, server: hytro.91ai.de, port: 10022, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: hytro.91ai.de, skip-cert-verify: true}
+  - {name: 🇯🇵 日本01, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: greenjp2.yueyun.de, skip-cert-verify: true}
+  - {name: 🇯🇵 日本02, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: vpsjp.yueyun.de, skip-cert-verify: true}
+  - {name: 🇯🇵 日本03, server: cloud.yueyun.de, port: 10389, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: cloud.yueyun.de, skip-cert-verify: true}
+  - {name: 🇳🇱 【荷兰05】*0.5x, server: nara.189.ovh, port: 10027, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: nara.189.ovh, skip-cert-verify: true}
+  - {name: 🇩🇪 【德国06】*0.5x, server: netcp4.616626.xyz, port: 10027, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: netcp4.616626.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国01, server: vir732.189.ovh, port: 10026, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: vir732.189.ovh, skip-cert-verify: true}
+  - {name: 🇺🇸 美国02, server: vir11.189.ovh, port: 10022, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: vir11.189.ovh, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-v6|01 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: d534b290-9325-4a00-8f05-79f9af30f07e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国04, server: layercloud.189.ovh, port: 10021, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: layercloud.189.ovh, skip-cert-verify: true}
+  - {name: 🇺🇸 美国05, server: advin.189.ovh, port: 10027, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: advin.189.ovh, skip-cert-verify: true}
+  - {name: 🇺🇸 美国07, server: vir694.189.ovh, port: 10021, type: trojan, password: d534b290-9325-4a00-8f05-79f9af30f07e, sni: vir694.189.ovh, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：1 天, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 国内直连网站都是临时的，挂梯子可直接进, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾1(GPT等流媒体1.5x）, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾2(GPT等流媒体1.5x）, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 3x备用专线台湾1, server: xh.dashuai.cyou, port: 50050, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.1（GPT奈飞等）, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港NO.2（GPT奈飞等）, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 3x备用专线香港1, server: xh.dashuai.cyou, port: 50051, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.1（GPT）, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国NO.2（GPT）, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (IEPL)英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 (隧道)英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO1", server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 [3x]韩国 专线NO2", server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国, server: fg.dashuai.cyou, port: 19901, type: vmess, uuid: 1c27274d-954f-41df-83f3-1b8e40d067eb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国03|优化, server: 107.172.50.179, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: VFq8tvsToD0vFx7A, sni: us01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇺🇸 美国04|优化, server: 107.175.32.216, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: o2RF1kccTQ6kPbTm, sni: us02.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇭🇰 香港01|优化, server: 45.149.92.115, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: oIn1MW6nFGpgamNS, sni: hk01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇭🇰 香港02|优化, server: 95.182.100.175, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: Q54kXSOI6MZKs9IS, sni: hk02.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇯🇵 日本01|优化, server: 185.141.219.11, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: pGXyfZ1zxQq5BnZg, sni: jp01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇫🇷 法国01|优化, server: 31.57.109.244, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: oaEuemiwXTsTExVh, sni: fr01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇫🇮 芬兰01|优化, server: 31.57.93.11, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: JifT07aQLVr8Tecg, sni: fi01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰01|优化, server: 103.146.119.121, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: M1LjTmQTpqHbD8v8, sni: nl01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: 🇮🇪 爱尔兰01|优化, server: 194.87.245.235, port: 2053, type: hysteria2, ports: 2053, password: 3cd5f3e1-1cf9-4600-8840-a0ca1ed79fa1, obfs: salamander, obfs-password: DfSmNPD4VyhO1BEN, sni: ie01.kittycdn.pp.ua, skip-cert-verify: true}
+  - {name: tw01|1001, server: 125.229.191.100, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1002, server: 1.165.67.48, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1003, server: 36.234.97.113, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1004, server: 125.230.12.33, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1005, server: 1.165.93.28, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1006, server: 118.170.246.125, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1007, server: 125.229.191.101, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1008, server: 125.231.70.75, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1009, server: 1.165.71.150, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1010, server: 1.165.73.91, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1011, server: 118.170.224.156, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1012, server: 114.46.88.93, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1013, server: 118.170.211.57, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1014, server: 118.170.242.161, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1015, server: 125.230.8.220, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1016, server: 1.165.72.251, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1017, server: 118.170.224.63, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1018, server: 1.165.79.111, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1019, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1020, server: 1.165.108.213, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1021, server: 1.165.98.106, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1022, server: 118.170.228.117, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1023, server: 125.229.191.103, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1024, server: 1.165.72.140, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1025, server: 1.165.83.47, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1026, server: 118.170.218.123, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1027, server: 1.165.101.192, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1028, server: 118.170.206.97, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1029, server: 1.165.69.73, port: 10029, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1030, server: 1.165.109.220, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1031, server: 118.170.231.42, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1032, server: 1.165.100.2, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1033, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1034, server: 1.165.79.32, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1035, server: 1.165.72.230, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1036, server: 118.170.228.68, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1037, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1038, server: 114.46.92.220, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1039, server: 1.165.107.71, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1040, server: 1.165.71.211, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1041, server: 1.165.103.13, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1042, server: 36.234.116.8, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1043, server: 114.46.69.196, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1044, server: 36.234.126.230, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1045, server: 36.234.106.69, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1046, server: 36.234.65.150, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1047, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1048, server: 125.231.86.134, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1049, server: 114.46.107.33, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1050, server: 125.231.68.107, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1051, server: 36.234.106.51, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1052, server: 114.46.125.40, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1053, server: 114.46.112.253, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1054, server: 118.170.200.140, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1055, server: 36.234.92.136, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1056, server: 114.46.90.10, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1057, server: 114.46.72.5, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1058, server: 59.126.32.1, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1059, server: 1.165.114.223, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1060, server: 114.46.114.253, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1061, server: 1.165.127.41, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1062, server: 36.234.79.175, port: 10062, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1063, server: 36.234.109.221, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1064, server: 36.234.88.145, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1065, server: 114.46.90.37, port: 10065, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1066, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1067, server: 36.234.80.245, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1068, server: 114.46.79.253, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1069, server: 1.165.88.120, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1070, server: 114.46.94.65, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1071, server: 114.46.91.182, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1072, server: 36.234.97.104, port: 10072, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1073, server: 59.126.32.188, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1074, server: 114.46.93.14, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1075, server: 36.234.120.74, port: 10075, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1076, server: 114.46.111.220, port: 10076, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1077, server: 125.231.79.154, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1078, server: 36.234.95.185, port: 10078, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1079, server: 36.234.75.219, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|1080, server: 114.46.87.46, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2001, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2002, server: 36.235.17.93, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2003, server: 1.170.5.127, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2004, server: 1.170.51.75, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2005, server: 36.235.5.227, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2006, server: 1.170.38.202, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2007, server: 1.170.39.247, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2008, server: 1.170.33.217, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2009, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2010, server: 36.235.19.127, port: 10090, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2011, server: 1.170.2.14, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2012, server: 36.235.7.41, port: 10092, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2013, server: 1.170.42.243, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2014, server: 1.170.11.60, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2015, server: 1.170.41.120, port: 10095, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2016, server: 1.170.22.169, port: 10096, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2017, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2018, server: 36.232.92.83, port: 10098, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2019, server: 1.170.50.80, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2020, server: 1.170.2.154, port: 10100, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2021, server: 1.170.41.78, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2022, server: 1.170.33.52, port: 10102, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2023, server: 1.170.23.40, port: 10103, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2024, server: 1.170.12.144, port: 10104, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2025, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2026, server: 1.170.53.35, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2027, server: 36.235.10.223, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2028, server: 1.170.37.241, port: 10108, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2029, server: 1.170.15.229, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2030, server: 1.170.55.48, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2031, server: 36.235.20.152, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2032, server: 1.170.4.249, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2033, server: 125.228.31.10, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2034, server: 36.232.80.194, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2035, server: 1.170.47.127, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2036, server: 36.235.1.4, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2037, server: 1.170.18.49, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2038, server: 1.170.32.139, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2039, server: 1.170.29.178, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2040, server: 1.170.43.234, port: 10120, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2041, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2042, server: 36.232.127.4, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2043, server: 36.232.88.152, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2044, server: 111.253.211.207, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2045, server: 36.232.76.188, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2046, server: 36.232.85.107, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2047, server: 111.253.200.241, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2048, server: 36.232.119.195, port: 10128, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2049, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2050, server: 36.232.70.36, port: 10130, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2051, server: 36.232.94.99, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2052, server: 36.232.84.173, port: 10132, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2053, server: 1.170.6.140, port: 10133, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2054, server: 36.232.80.11, port: 10134, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2055, server: 36.232.90.197, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2056, server: 36.232.94.130, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2057, server: 125.228.162.163, port: 10137, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2058, server: 111.253.204.28, port: 10138, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2059, server: 36.232.119.217, port: 10139, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2060, server: 36.232.78.214, port: 10140, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2061, server: 36.232.71.250, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2062, server: 36.232.83.160, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2063, server: 111.253.194.209, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2064, server: 111.253.199.144, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2065, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2066, server: 36.232.100.121, port: 10146, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2067, server: 36.232.91.227, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2068, server: 111.253.195.205, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2069, server: 36.232.83.98, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2070, server: 36.232.84.27, port: 10150, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2071, server: 111.253.192.138, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: tw01|2072, server: 1.170.53.208, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: f1e35546-8b01-4d2b-b8ab-e0176f076ca7}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 002c44aa-5f2a-42c7-9ec9-030e7f4ad88c, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 002c44aa-5f2a-42c7-9ec9-030e7f4ad88c, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 002c44aa-5f2a-42c7-9ec9-030e7f4ad88c, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 002c44aa-5f2a-42c7-9ec9-030e7f4ad88c, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 002c44aa-5f2a-42c7-9ec9-030e7f4ad88c, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：8 天, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5de88b32-c943-4af5-8526-f65f91436aad, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5de88b32-c943-4af5-8526-f65f91436aad, sni: kr-qingyun.dwyun.me, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: b8f3b0fd-e117-4688-b80f-0cfcf82b0157}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: b8f3b0fd-e117-4688-b80f-0cfcf82b0157}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -454,12 +268,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -467,7 +304,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -620,151 +456,20 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -795,12 +500,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -808,7 +536,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -961,152 +688,21 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -1137,12 +733,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -1150,7 +769,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -1303,69 +921,15 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1384,83 +948,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -1491,172 +978,7 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
-      - 🇺🇸 美国03|优化
-      - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
-      - 🇭🇰 香港01|优化
-      - 🇭🇰 香港02|优化
-      - 🇯🇵 日本01|优化
-      - 🇫🇷 法国01|优化
-      - 🇫🇮 芬兰01|优化
-      - 🇳🇱 荷兰01|优化
-      - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
-      - tw01|1001
-      - tw01|1002
-      - tw01|1003
-      - tw01|1004
-      - tw01|1005
-      - tw01|1006
-      - tw01|1007
-      - tw01|1008
-      - tw01|1009
-      - tw01|1010
-      - tw01|1011
-      - tw01|1012
-      - tw01|1013
-      - tw01|1014
-      - tw01|1015
-      - tw01|1016
-      - tw01|1017
-      - tw01|1018
-      - tw01|1019
-      - tw01|1020
-      - tw01|1021
-      - tw01|1022
-      - tw01|1023
-      - tw01|1024
-      - tw01|1025
-      - tw01|1026
-      - tw01|1027
-      - tw01|1028
-      - tw01|1029
-      - tw01|1030
-      - tw01|1031
-      - tw01|1032
-      - tw01|1033
-      - tw01|1034
-      - tw01|1035
-      - tw01|1036
-      - tw01|1037
-      - tw01|1038
-      - tw01|1039
-      - tw01|1040
-      - tw01|1041
-      - tw01|1042
-      - tw01|1043
-      - tw01|1044
-      - tw01|1045
-      - tw01|1046
-      - tw01|1047
-      - tw01|1048
-      - tw01|1049
-      - tw01|1050
-      - tw01|1051
-      - tw01|1052
-      - tw01|1053
-      - tw01|1054
-      - tw01|1055
-      - tw01|1056
-      - tw01|1057
-      - tw01|1058
-      - tw01|1059
-      - tw01|1060
-      - tw01|1061
-      - tw01|1062
-      - tw01|1063
-      - tw01|1064
-      - tw01|1065
-      - tw01|1066
-      - tw01|1067
-      - tw01|1068
-      - tw01|1069
-      - tw01|1070
-      - tw01|1071
-      - tw01|1072
-      - tw01|1073
-      - tw01|1074
-      - tw01|1075
-      - tw01|1076
-      - tw01|1077
-      - tw01|1078
-      - tw01|1079
-      - tw01|1080
-      - tw01|2001
-      - tw01|2002
-      - tw01|2003
-      - tw01|2004
-      - tw01|2005
-      - tw01|2006
-      - tw01|2007
-      - tw01|2008
-      - tw01|2009
-      - tw01|2010
-      - tw01|2011
-      - tw01|2012
-      - tw01|2013
-      - tw01|2014
-      - tw01|2015
-      - tw01|2016
-      - tw01|2017
-      - tw01|2018
-      - tw01|2019
-      - tw01|2020
-      - tw01|2021
-      - tw01|2022
-      - tw01|2023
-      - tw01|2024
-      - tw01|2025
-      - tw01|2026
-      - tw01|2027
-      - tw01|2028
-      - tw01|2029
-      - tw01|2030
-      - tw01|2031
-      - tw01|2032
-      - tw01|2033
-      - tw01|2034
-      - tw01|2035
-      - tw01|2036
-      - tw01|2037
-      - tw01|2038
-      - tw01|2039
-      - tw01|2040
-      - tw01|2041
-      - tw01|2042
-      - tw01|2043
-      - tw01|2044
-      - tw01|2045
-      - tw01|2046
-      - tw01|2047
-      - tw01|2048
-      - tw01|2049
-      - tw01|2050
-      - tw01|2051
-      - tw01|2052
-      - tw01|2053
-      - tw01|2054
-      - tw01|2055
-      - tw01|2056
-      - tw01|2057
-      - tw01|2058
-      - tw01|2059
-      - tw01|2060
-      - tw01|2061
-      - tw01|2062
-      - tw01|2063
-      - tw01|2064
-      - tw01|2065
-      - tw01|2066
-      - tw01|2067
-      - tw01|2068
-      - tw01|2069
-      - tw01|2070
-      - tw01|2071
-      - tw01|2072
+      - 距离下次重置剩余：1 天
       - 国内直连网站都是临时的，挂梯子可直接进
       - 🇨🇳 台湾1(GPT等流媒体1.5x）
       - 🇨🇳 台湾2(GPT等流媒体1.5x）
@@ -1683,69 +1005,192 @@ proxy-groups:
       - 🇫🇷 法国1
       - 🇫🇷 法国2
       - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇺🇸 美国03|优化
+      - 🇺🇸 美国04|优化
+      - 🇭🇰 香港01|优化
+      - 🇭🇰 香港02|优化
+      - 🇯🇵 日本01|优化
+      - 🇫🇷 法国01|优化
+      - 🇫🇮 芬兰01|优化
+      - 🇳🇱 荷兰01|优化
+      - 🇮🇪 爱尔兰01|优化
+      - tw01|1001
+      - tw01|1002
+      - tw01|1003
+      - tw01|1004
+      - tw01|1005
+      - tw01|1006
+      - tw01|1007
+      - tw01|1008
+      - tw01|1009
+      - tw01|1010
+      - tw01|1011
+      - tw01|1012
+      - tw01|1013
+      - tw01|1014
+      - tw01|1015
+      - tw01|1016
+      - tw01|1017
+      - tw01|1018
+      - tw01|1019
+      - tw01|1020
+      - tw01|1021
+      - tw01|1022
+      - tw01|1023
+      - tw01|1024
+      - tw01|1025
+      - tw01|1026
+      - tw01|1027
+      - tw01|1028
+      - tw01|1029
+      - tw01|1030
+      - tw01|1031
+      - tw01|1032
+      - tw01|1033
+      - tw01|1034
+      - tw01|1035
+      - tw01|1036
+      - tw01|1037
+      - tw01|1038
+      - tw01|1039
+      - tw01|1040
+      - tw01|1041
+      - tw01|1042
+      - tw01|1043
+      - tw01|1044
+      - tw01|1045
+      - tw01|1046
+      - tw01|1047
+      - tw01|1048
+      - tw01|1049
+      - tw01|1050
+      - tw01|1051
+      - tw01|1052
+      - tw01|1053
+      - tw01|1054
+      - tw01|1055
+      - tw01|1056
+      - tw01|1057
+      - tw01|1058
+      - tw01|1059
+      - tw01|1060
+      - tw01|1061
+      - tw01|1062
+      - tw01|1063
+      - tw01|1064
+      - tw01|1065
+      - tw01|1066
+      - tw01|1067
+      - tw01|1068
+      - tw01|1069
+      - tw01|1070
+      - tw01|1071
+      - tw01|1072
+      - tw01|1073
+      - tw01|1074
+      - tw01|1075
+      - tw01|1076
+      - tw01|1077
+      - tw01|1078
+      - tw01|1079
+      - tw01|1080
+      - tw01|2001
+      - tw01|2002
+      - tw01|2003
+      - tw01|2004
+      - tw01|2005
+      - tw01|2006
+      - tw01|2007
+      - tw01|2008
+      - tw01|2009
+      - tw01|2010
+      - tw01|2011
+      - tw01|2012
+      - tw01|2013
+      - tw01|2014
+      - tw01|2015
+      - tw01|2016
+      - tw01|2017
+      - tw01|2018
+      - tw01|2019
+      - tw01|2020
+      - tw01|2021
+      - tw01|2022
+      - tw01|2023
+      - tw01|2024
+      - tw01|2025
+      - tw01|2026
+      - tw01|2027
+      - tw01|2028
+      - tw01|2029
+      - tw01|2030
+      - tw01|2031
+      - tw01|2032
+      - tw01|2033
+      - tw01|2034
+      - tw01|2035
+      - tw01|2036
+      - tw01|2037
+      - tw01|2038
+      - tw01|2039
+      - tw01|2040
+      - tw01|2041
+      - tw01|2042
+      - tw01|2043
+      - tw01|2044
+      - tw01|2045
+      - tw01|2046
+      - tw01|2047
+      - tw01|2048
+      - tw01|2049
+      - tw01|2050
+      - tw01|2051
+      - tw01|2052
+      - tw01|2053
+      - tw01|2054
+      - tw01|2055
+      - tw01|2056
+      - tw01|2057
+      - tw01|2058
+      - tw01|2059
+      - tw01|2060
+      - tw01|2061
+      - tw01|2062
+      - tw01|2063
+      - tw01|2064
+      - tw01|2065
+      - tw01|2066
+      - tw01|2067
+      - tw01|2068
+      - tw01|2069
+      - tw01|2070
+      - tw01|2071
+      - tw01|2072
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇭🇰 香港-线路1
       - 🇭🇰 香港-v6|05*0.5x
       - 🇭🇰 香港-v6|06
       - 🇭🇰 香港-v6|07
       - 🇭🇰 香港-v6|08
       - 🇭🇰 香港-v4|02
       - 🇭🇰 香港03
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - tw01|1001
@@ -1900,101 +1345,16 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇭🇰 香港-线路1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -2025,12 +1385,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -2038,7 +1421,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -2191,151 +1573,20 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -2366,12 +1617,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -2379,7 +1653,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -2532,152 +1805,21 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -2708,12 +1850,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -2721,7 +1886,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -2874,69 +2038,15 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2952,83 +2062,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 过滤掉3条线路
-      - 🇭🇰 ss(广移)香港1
-      - 🇭🇰 ss(广移)香港2
-      - 🇸🇬 ss(广移)新加坡 1
-      - 🇸🇬 ss(广移)新加坡 2
-      - 🇯🇵 ss(广移)日本1
-      - 🇯🇵 ss(广移)日本2
-      - 🇯🇵 ss(广移)日本4
-      - 🇯🇵 ss(广移)日本3
-      - 🇨🇳 ss(广移)台湾1
-      - 🇨🇳 ss(广移)台湾2
-      - 🇨🇳 ss(广移)台湾2-1
-      - 🇨🇳 ss(广移)台湾2-2
-      - 🇺🇸 ss(广移)美国1
-      - 🇺🇸 ss(广移)美国2
-      - 🇺🇸 ss(广移)美国2-1
-      - 🇺🇸 ss(广移)美国2-2
-      - 🇰🇷 ss(广移)韩国1
-      - 🇰🇷 ss(广移)韩国2
-      - 🇲🇾 ss(广移)马来西亚1
-      - 🇲🇾 ss(广移)马来西亚2
-      - 🇮🇱 ss(广移)以色列1
-      - 🇮🇱 ss(广移)以色列2
-      - 🇮🇳 ss(广移)印度1
-      - 🇮🇳 ss(广移)印度2
-      - 🇹🇷 ss(广移)土耳其1
-      - 🇹🇷 ss(广移)土耳其2
-      - 🇮🇸 ss(广移)冰岛1
-      - 🇮🇸 ss(广移)冰岛2
-      - 🇧🇷 ss(广移) 巴西1
-      - 🇧🇷 ss(广移)巴西2
-      - 🇲🇽 ss(广移)墨西哥1
-      - 🇲🇽 ss(广移)墨西哥2
-      - 🇹🇭 ss(广移)泰国1
-      - 🇹🇭 ss(广移)泰国2
-      - 过滤掉3条线路 2
-      - 🇭🇰 ss(广移)香港1 2
-      - 🇭🇰 ss(广移)香港2 2
-      - 🇸🇬 ss(广移)新加坡 1 2
-      - 🇸🇬 ss(广移)新加坡 2 2
-      - 🇯🇵 ss(广移)日本1 2
-      - 🇯🇵 ss(广移)日本2 2
-      - 🇯🇵 ss(广移)日本4 2
-      - 🇯🇵 ss(广移)日本3 2
-      - 🇨🇳 ss(广移)台湾1 2
-      - 🇨🇳 ss(广移)台湾2 2
-      - 🇨🇳 ss(广移)台湾2-1 2
-      - 🇨🇳 ss(广移)台湾2-2 2
-      - 🇺🇸 ss(广移)美国1 2
-      - 🇺🇸 ss(广移)美国2 2
-      - 🇺🇸 ss(广移)美国2-1 2
-      - 🇺🇸 ss(广移)美国2-2 2
-      - 🇰🇷 ss(广移)韩国1 2
-      - 🇰🇷 ss(广移)韩国2 2
-      - 🇲🇾 ss(广移)马来西亚1 2
-      - 🇲🇾 ss(广移)马来西亚2 2
-      - 🇮🇱 ss(广移)以色列1 2
-      - 🇮🇱 ss(广移)以色列2 2
-      - 🇮🇳 ss(广移)印度1 2
-      - 🇮🇳 ss(广移)印度2 2
-      - 🇹🇷 ss(广移)土耳其1 2
-      - 🇹🇷 ss(广移)土耳其2 2
-      - 🇮🇸 ss(广移)冰岛1 2
-      - 🇮🇸 ss(广移)冰岛2 2
-      - 🇧🇷 ss(广移) 巴西1 2
-      - 🇧🇷 ss(广移)巴西2 2
-      - 🇲🇽 ss(广移)墨西哥1 2
-      - 🇲🇽 ss(广移)墨西哥2 2
-      - 🇹🇭 ss(广移)泰国1 2
-      - 🇹🇭 ss(广移)泰国2 2
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 🇮🇪 爱尔兰-都柏林
-      - 🇭🇰 香港-线路1
       - 🇺🇸 美国-v6|01
       - 🇯🇵 日本-v6|02
       - 🇯🇵 日本-v6|04
@@ -3059,12 +2092,35 @@ proxy-groups:
       - 🇺🇸 美国04
       - 🇺🇸 美国05
       - 🇺🇸 美国07
-      - 🇺🇸 美国01|高速
-      - 🇺🇸 美国02|高速
+      - 距离下次重置剩余：1 天
+      - 国内直连网站都是临时的，挂梯子可直接进
+      - 🇨🇳 台湾1(GPT等流媒体1.5x）
+      - 🇨🇳 台湾2(GPT等流媒体1.5x）
+      - 🇨🇳 3x备用专线台湾1
+      - 🇭🇰 香港NO.1（GPT奈飞等）
+      - 🇭🇰 香港NO.2（GPT奈飞等）
+      - 🇭🇰 3x备用专线香港1
+      - 🇺🇸 美国NO.1（GPT）
+      - 🇺🇸 美国NO.2（GPT）
+      - 🇬🇧 (IEPL)英国1
+      - 🇬🇧 (隧道)英国2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 新加坡NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本NO.2
+      - 🇰🇷 [3x]韩国 专线NO1
+      - 🇰🇷 [3x]韩国 专线NO2
+      - 🇦🇺 澳大利亚原生1
+      - 🇦🇺 澳大利亚原生2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度2
+      - 🇫🇷 法国1
+      - 🇫🇷 法国2
+      - 🇫🇷 法国
       - 🇺🇸 美国03|优化
       - 🇺🇸 美国04|优化
-      - 🇮🇩 印尼01|高速
-      - 🇮🇩 印尼02|高速
       - 🇭🇰 香港01|优化
       - 🇭🇰 香港02|优化
       - 🇯🇵 日本01|优化
@@ -3072,7 +2128,6 @@ proxy-groups:
       - 🇫🇮 芬兰01|优化
       - 🇳🇱 荷兰01|优化
       - 🇮🇪 爱尔兰01|优化
-      - 群组：t.me/NekoCloud1
       - tw01|1001
       - tw01|1002
       - tw01|1003
@@ -3225,69 +2280,15 @@ proxy-groups:
       - tw01|2070
       - tw01|2071
       - tw01|2072
-      - 国内直连网站都是临时的，挂梯子可直接进
-      - 🇨🇳 台湾1(GPT等流媒体1.5x）
-      - 🇨🇳 台湾2(GPT等流媒体1.5x）
-      - 🇨🇳 3x备用专线台湾1
-      - 🇭🇰 香港NO.1（GPT奈飞等）
-      - 🇭🇰 香港NO.2（GPT奈飞等）
-      - 🇭🇰 3x备用专线香港1
-      - 🇺🇸 美国NO.1（GPT）
-      - 🇺🇸 美国NO.2（GPT）
-      - 🇬🇧 (IEPL)英国1
-      - 🇬🇧 (隧道)英国2
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本NO.2
-      - 🇰🇷 [3x]韩国 专线NO1
-      - 🇰🇷 [3x]韩国 专线NO2
-      - 🇦🇺 澳大利亚原生1
-      - 🇦🇺 澳大利亚原生2
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇮🇳 印度1
-      - 🇮🇳 印度2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国2
-      - 🇫🇷 法国
-      - 过滤掉3条线路 3
-      - 🇭🇰 ss(广移)香港1 3
-      - 🇭🇰 ss(广移)香港2 3
-      - 🇸🇬 ss(广移)新加坡 1 3
-      - 🇸🇬 ss(广移)新加坡 2 3
-      - 🇯🇵 ss(广移)日本1 3
-      - 🇯🇵 ss(广移)日本2 3
-      - 🇯🇵 ss(广移)日本4 3
-      - 🇯🇵 ss(广移)日本3 3
-      - 🇨🇳 ss(广移)台湾1 3
-      - 🇨🇳 ss(广移)台湾2 3
-      - 🇨🇳 ss(广移)台湾2-1 3
-      - 🇨🇳 ss(广移)台湾2-2 3
-      - 🇺🇸 ss(广移)美国1 3
-      - 🇺🇸 ss(广移)美国2 3
-      - 🇺🇸 ss(广移)美国2-1 3
-      - 🇺🇸 ss(广移)美国2-2 3
-      - 🇰🇷 ss(广移)韩国1 3
-      - 🇰🇷 ss(广移)韩国2 3
-      - 🇲🇾 ss(广移)马来西亚1 3
-      - 🇲🇾 ss(广移)马来西亚2 3
-      - 🇮🇱 ss(广移)以色列1 3
-      - 🇮🇱 ss(广移)以色列2 3
-      - 🇮🇳 ss(广移)印度1 3
-      - 🇮🇳 ss(广移)印度2 3
-      - 🇹🇷 ss(广移)土耳其1 3
-      - 🇹🇷 ss(广移)土耳其2 3
-      - 🇮🇸 ss(广移)冰岛1 3
-      - 🇮🇸 ss(广移)冰岛2 3
-      - 🇧🇷 ss(广移) 巴西1 3
-      - 🇧🇷 ss(广移)巴西2 3
-      - 🇲🇽 ss(广移)墨西哥1 3
-      - 🇲🇽 ss(广移)墨西哥2 3
-      - 🇹🇭 ss(广移)泰国1 3
-      - 🇹🇭 ss(广移)泰国2 3
-      - 距离下次重置剩余：7 天
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：8 天
       - 🇰🇷 韩国-三网优化2
+      - 🇮🇪 爱尔兰-都柏林
+      - 🇭🇰 香港-线路1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
