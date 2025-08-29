@@ -5,187 +5,167 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 11|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: "@FreakConfig", server: 47.236.104.81, port: 30308, type: hysteria2, ports: 30308, password: RzQrEkAmnGs86IhmSVUk9Q5cn9M, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 36.150.215.203, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本, server: 52.193.71.150, port: 18219, type: hysteria2, ports: 18219, password: oATw4IRtuUOozpOLFflGnWjtg, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国, server: 129.146.215.233, port: 443, type: hysteria2, ports: 443, password: 51de9de9-3445-4dd3-8ac9-f42dc0baa230, sni: cn.cremedelamer.com, skip-cert-verify: true}
-  - {name: "9|@Daily_Configs #6", server: 203.174.82.145, port: 43057, type: hysteria2, ports: 43057, password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 11|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103}
-  - {name: "🇸🇬 8|SG #1", server: 54.255.144.66, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 8|东京, server: zp2.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp2.eyujichang.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 8|🇯🇵日本东京, server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: 125.230.12.246, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: 72ba05a3-632e-490b-ad00-158578664c18}
-  - {name: "tg频道:@ripaojiedian #1", server: 108.129.163.206, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.150.215.203, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇯🇵 8|日本 #1", server: 52.193.71.150, port: 18219, type: hysteria2, ports: 18219, password: oATw4IRtuUOozpOLFflGnWjtg, sni: bing.com, skip-cert-verify: true}
-  - {name: "防范境外势力渗透 #3", server: 127.0.0.53, port: 83, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 香港 #1", server: 47.242.195.121, port: 12854, type: hysteria2, ports: 12854, password: XK52yierGckONMJWbJnuskD3unI, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇺🇸 美国 #1", server: us2.1010991.xyz, port: 3001, type: hysteria2, ports: 3001, password: de8854c7-fa17-4266-ae18-50a9732a0c4e, sni: us2.1010991.xyz, skip-cert-verify: true}
-  - {name: 🇩🇪 8|DE, server: 3.75.180.49, port: 7414, type: hysteria2, ports: 7414, password: 7JnRmdeMP4gsvp0nXjYofBNvsdk, sni: bing.com, skip-cert-verify: true}
-  - {name: "防范境外势力渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.150.215.203, port: 3043, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 香港, server: ssssssssssssssssssssssssssss-mualhk229.hizui.cn, port: 10880, type: hysteria2, ports: 10880, password: 38589924-caf7-4857-812b-80020febd3ff, sni: ssssssssssssssssssssssssssss-mualhk229.hizui.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 8|🇺🇸美国, server: us2.1010991.xyz, port: 3001, type: hysteria2, ports: 3001, password: de8854c7-fa17-4266-ae18-50a9732a0c4e, sni: us2.1010991.xyz, skip-cert-verify: true}
-  - {name: 防范境外势力渗透, server: 127.0.0.53, port: 80, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "@ELFV2RAY #1", server: 91.98.34.130, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "🇭🇰 11,12|香港6|@ripaojiedian", server: 42.2.237.179, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 11|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
-  - {name: "🇸🇬 8|新加坡 #1", server: 8.222.183.55, port: 33131, type: hysteria2, ports: 33131, password: lPK6OZ9ouqyXrCghO6ohUbbN5g, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7, server: 77h9d-g05.jp01-0986-vm0.entry.fr0307a.art, port: 21585, type: vmess, uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781, alterId: 1, cipher: auto, tls: true}
-  - {name: "防范境外势力渗透 #7", server: 127.0.0.53, port: 87, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国 - 惠州市 - China Mobile - 6, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "8|Channel id: @proxy_kafee🇺🇸 #2", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 108.129.163.206, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇭🇰 12|香港3|@ripaojiedian, server: 183.240.245.250, port: 47272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "@V2rayNG3 #7", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
+  - {name: 🇩🇪 8|DE, server: 3.75.180.49, port: 7414, type: hysteria2, ports: 7414, password: 7JnRmdeMP4gsvp0nXjYofBNvsdk, sni: bing.com, skip-cert-verify: true}
+  - {name: "@ELFV2RAY", server: 91.98.34.130, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 🇺🇸 美国, server: 129.146.215.233, port: 443, type: hysteria2, ports: 443, password: 51de9de9-3445-4dd3-8ac9-f42dc0baa230, sni: cn.cremedelamer.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202508150964186-5vnd5Hsmlh.download.microsoft.com}}
+  - {name: 🇭🇰 HK, server: 54.169.144.240, port: 2166, type: hysteria2, ports: 2166, password: Cyi3TPih9FtQRwsZAh8aT6ynGJk, skip-cert-verify: true}
+  - {name: 🇺🇸 8|美国🇺🇸, server: 35.94.124.236, port: 34060, type: hysteria2, ports: 34060, password: RKrGw4dSUwK3YAvqdQI8tcqNl0, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 11|🇺🇸 美国|@ripaojiedian, server: awes35lesl.blhao0o.dpdns.org, port: 12023, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 36.150.215.203, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 8|🇭🇰香港2, server: 89.185.27.133, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}}
+  - {name: "@Change_IP1-HYS #3", server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: UiIoI79ktLVSpD8Fh6vTq5l5, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
+  - {name: "@Daily_Configs #4", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
   - {name: "8,9|@FreakConfig #1", server: 47.236.104.81, port: 30308, type: hysteria2, ports: 30308, password: RzQrEkAmnGs86IhmSVUk9Q5cn9M, sni: bing.com, skip-cert-verify: true}
-  - {name: 8|🇸, server: 129.146.215.233, port: 443, type: hysteria2, ports: 443, password: 51de9de9-3445-4dd3-8ac9-f42dc0baa230, sni: cn.cremedelamer.com, skip-cert-verify: true}
-  - {name: 9| @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: Bz0jKM83wa, sni: android.yas-nowin.ir}
-  - {name: 🇭🇰 8|🇭🇰HK, server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, sni: bing.com, skip-cert-verify: true}
+  - {name: "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: zPb5RRsckD, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: "8,9|@Daily_Configs", server: 47.129.224.62, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 108.129.163.206, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "🇯🇵 JP #2", server: 54.199.157.111, port: 26036, type: hysteria2, ports: 26036, password: yn3gMvdZ0hpReiimChE1H1BFvE, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SG, server: 47.237.23.83, port: 4763, type: hysteria2, ports: 4763, password: KYIFgW1don6L8TaDBJHynafxZ0, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇭🇰 8|🇭🇰香港 #2", server: hk1.1010991.xyz, port: 3001, type: hysteria2, ports: 3001, password: de8854c7-fa17-4266-ae18-50a9732a0c4e, sni: hk1.1010991.xyz, skip-cert-verify: true}
+  - {name: 9|@ELFV2RAY, server: 91.98.34.130, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: "🇯🇵 8|日本 #1", server: 52.193.71.150, port: 18219, type: hysteria2, ports: 18219, password: oATw4IRtuUOozpOLFflGnWjtg, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 11|🇭🇰 香港3|@ripaojiedian, server: 183.240.245.250, port: 47272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇸🇬 SG #5", server: 175.41.154.215, port: 19298, type: hysteria2, ports: 19298, password: Y5kSCRNcOSz5YQUkjehzVXeT2mk, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 US, server: 209.38.144.136, port: 34321, type: hysteria2, ports: 34321, password: HfK3UK4MoXxYUccnp7qzx3Y3o, sni: bing.com, skip-cert-verify: true}
+  - {name: "9|@V2rayNG3 #3", server: s15.serv00.com, port: 7777, type: hysteria2, ports: 7777, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: aws-linkhy10.liangxin1.xyz, port: 443, type: hysteria2, ports: 443, password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90, sni: www.teslaautomation.de, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.150.215.203, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3, server: t492d-g05.jp04-3771-vm0.entry.fr0307a.art, port: 448, type: vmess, uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781, alterId: 1, cipher: auto, tls: false}
+  - {name: "🇺🇸 US #1", server: 166.88.164.9, port: 27704, type: hysteria2, ports: 27704, password: peEduuHzbExjK7UQHzazXwqgA, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港6|@ripaojiedian", server: 36.150.215.188, port: 1546, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇨🇳 12|台湾|@ripaojiedian, server: 36.232.74.25, port: 10148, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4N2RiMjk1NS0wNDhiLTRhYzktYmY4ZC1mYjFiZmU3NjBlNzE}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,197 +184,177 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾|@ripaojiedian
-      - "🇭🇰 香港 #1"
-      - 🇭🇰 香港
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
+      - 🇨🇳 12|台湾|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,47 +370,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇺🇸 美国
-      - "9|@Daily_Configs #6"
-      - 🇯🇵 11|🇯🇵 日本2|@ripaojiedian
-      - "🇸🇬 8|SG #1"
-      - 🇯🇵 8|东京
-      - 🇯🇵 8|🇯🇵日本东京
-      - "@V2rayNG3 #2"
-      - 🇨🇳 台湾|@ripaojiedian
-      - "tg频道:@ripaojiedian #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "🇯🇵 8|日本 #1"
-      - "防范境外势力渗透 #3"
-      - "🇭🇰 香港 #1"
-      - "🇺🇸 美国 #1"
-      - 🇩🇪 8|DE
-      - "防范境外势力渗透 #1"
       - 🇸🇬 新加坡|@ripaojiedian
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港
-      - 🇺🇸 8|🇺🇸美国
-      - 防范境外势力渗透
-      - "@ELFV2RAY #1"
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
-      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
-      - "🇸🇬 8|新加坡 #1"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 7
-      - "防范境外势力渗透 #7"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
-      - 🇨🇳 中国 - 惠州市 - China Mobile - 6
-      - "8|Channel id: @proxy_kafee🇺🇸 #2"
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "@V2rayNG3 #7"
+      - 🇩🇪 8|DE
+      - "@ELFV2RAY"
+      - 🇺🇸 美国
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 HK
+      - 🇺🇸 8|美国🇺🇸
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇺🇸 11|🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇭🇰 8|🇭🇰香港2
+      - 🇺🇸 美国 CloudFlare节点
+      - "@Change_IP1-HYS #3"
+      - "@Daily_Configs #4"
       - "8,9|@FreakConfig #1"
-      - 8|🇸
-      - 9| @Hddify
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - 🇭🇰 8|🇭🇰HK
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3"
+      - 8,9|@Daily_Configs
+      - tg频道:@ripaojiedian
+      - "🇯🇵 JP #2"
+      - 🇸🇬 SG
+      - "🇭🇰 8|🇭🇰香港 #2"
+      - 9|@ELFV2RAY
+      - "🇯🇵 8|日本 #1"
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - "🇸🇬 SG #5"
+      - 🇺🇸 US
+      - "9|@V2rayNG3 #3"
+      - 🇸🇬 新加坡
+      - "@V2rayNG3 #4"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
+      - "🇺🇸 US #1"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
+      - 🇨🇳 12|台湾|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
