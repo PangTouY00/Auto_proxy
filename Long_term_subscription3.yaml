@@ -5,163 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: → @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇺🇸 8|🇺🇸美国, server: us2.1010991.xyz, port: 3001, type: hysteria2, ports: 3001, password: de8854c7-fa17-4266-ae18-50a9732a0c4e, sni: us2.1010991.xyz, skip-cert-verify: true}
-  - {name: "🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: 120.26.55.225, port: 50112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇭🇰 香港 #2", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 9969db7a2f51, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /fgsauuoqxwx, tls: true, mux: true}}
+  - {name: 🇭🇰 10|🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 9969db7a2f51}
+  - {name: 🇨🇳 江苏省 移动, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.150.215.203, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "🇸🇬 7|新加坡 #1", server: 8.222.183.55, port: 33131, type: hysteria2, ports: 33131, password: lPK6OZ9ouqyXrCghO6ohUbbN5g, sni: bing.com, skip-cert-verify: true}
+  - {name: "7|未命名 #3", server: asg.pagate.top, port: 10086, type: hysteria2, ports: 10086, password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1}
+  - {name: 🇬🇧 UK, server: 206.189.20.193, port: 7197, type: hysteria2, ports: 7197, password: 3C8h8X6kimbOX68joVe3kTERw, sni: bing.com, skip-cert-verify: true}
+  - {name: 10|tg频道:@ripaojiedian, server: 18.195.55.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: tg频道:@ripaojiedian, server: 18.195.55.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇭🇰 10,11|香港6|@ripaojiedian", server: 36.150.215.188, port: 1546, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇭🇰 HK, server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, sni: bing.com, skip-cert-verify: true}
+  - {name: "→ @Hddify #1", server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 942b9cb8-92fa-46ac-ae91-f69c8234434b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇭🇰 7|HK, server: 54.169.144.240, port: 2166, type: hysteria2, ports: 2166, password: Cyi3TPih9FtQRwsZAh8aT6ynGJk, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: 118.170.208.178, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: 34393fa0-a7d3-4c4a-bd18-c70764f73a6d}
   - {name: 🇸🇬 新加坡4|@ripaojiedian, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 8|美国🇺🇸, server: 35.94.124.236, port: 34060, type: hysteria2, ports: 34060, password: RKrGw4dSUwK3YAvqdQI8tcqNl0, sni: bing.com, skip-cert-verify: true}
-  - {name: 9|@Change_IP1-HYS, server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: JLsEBzvWlyyTmM7yND0jXjQg, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
-  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "@Daily_Configs #3", server: hsxjp.huasuan666.top, port: 22154, type: hysteria2, ports: 22154, password: 8b583292-c936-4723-a8c7-8adb8ecf5044, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.150.215.203, port: 3270, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "@Change_IP1-HYS #3", server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: UiIoI79ktLVSpD8Fh6vTq5l5, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
-  - {name: 🇯🇵 日本3|@ripaojiedian 2, server: 36.150.215.203, port: 3270, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 8|🇸🇬SG, server: 47.237.23.83, port: 4763, type: hysteria2, ports: 4763, password: KYIFgW1don6L8TaDBJHynafxZ0, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇩🇪 8|DE, server: 3.75.180.49, port: 7414, type: hysteria2, ports: 7414, password: 7JnRmdeMP4gsvp0nXjYofBNvsdk, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇯🇵 东京 #1", server: zp2.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 37d19f09-5fa4-4ad0-8484-55050b582a29, sni: zp2.eyujichang.xyz, skip-cert-verify: true}
-  - {name: 🇬🇧 8|UK, server: 206.189.20.193, port: 7197, type: hysteria2, ports: 7197, password: 3C8h8X6kimbOX68joVe3kTERw, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 223.111.144.13, port: 6928, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港6|@ripaojiedian", server: 36.150.215.188, port: 1546, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "@Change_IP1-HYS #4", server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: wieZ9G0FbEecGx2kXaZLchtt, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
+  - {name: 🇸🇬 7|🇸🇬SG, server: 47.237.23.83, port: 4763, type: hysteria2, ports: 4763, password: KYIFgW1don6L8TaDBJHynafxZ0, sni: bing.com, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
   - {name: "Channel id: @singbox1🇺🇸 #2", server: 195.133.5.41, port: 33079, type: hysteria2, ports: 33079, password: 9363eedf-00e9-4b14-8d66-e596b02538bc, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.150.215.203, port: 7177, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "9|@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "@FreakConfig", server: 108.181.5.130, port: 63015, type: hysteria2, ports: 63015, password: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-  - {name: "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2", server: yapc-1.adamhayward.co.uk, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: Bz0jKM83wa, sni: android.yas-nowin.ir}
-  - {name: "Channel id: @proxy_kafee🇺🇸 #3", server: 45.136.245.177, port: 33079, type: hysteria2, ports: 33079, password: c8631767-f45c-4f48-bf19-5405e6d18679, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 183.240.245.250, port: 47272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇺🇸 8|🇸US, server: 143.110.156.170, port: 13438, type: hysteria2, ports: 13438, password: Wjes5mJnUmH7kwzpgZX5d2BeCs, sni: bing.com, skip-cert-verify: true}
-  - {name: Hysteria, server: 43.207.119.98, port: 4410, type: hysteria2, ports: 4410, password: 1JA6CF8JMUDvoz6zfm5qHwlN3Wo, skip-cert-verify: true}
-  - {name: 🇺🇸 US, server: 143.110.156.170, port: 13438, type: hysteria2, ports: 13438, password: Wjes5mJnUmH7kwzpgZX5d2BeCs, sni: bing.com, skip-cert-verify: true}
-  - {name: "8|未命名 #2", server: 54.169.224.169, port: 17193, type: hysteria2, ports: 17193, password: 5OiuCsPmULZ0lJwts89fegLJE, sni: bing.com, skip-cert-verify: true}
-  - {name: "@Daily_Configs #1", server: 47.129.224.62, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇯🇵 JP #1", server: 47.245.0.72, port: 27789, type: hysteria2, ports: 27789, password: yD0mxkCA18WgPD1uVGd3Eu1dc, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇬🇧 UK家宽, server: 158.41.110.234, port: 10820, type: hysteria2, ports: 10820, password: 7GEEGxAfgQaVPQX0PGk7lIuj3I, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本东京, server: 154.85.19.63, port: 443, type: hysteria2, ports: 443, password: b866d83a-d301-4270-b699-40f322bf52fb, sni: www.bing.com, skip-cert-verify: true}
+  - {name: → @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "@V2rayNG3", server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
+  - {name: 未知节点, server: asg.pagate.top, port: 10086, type: hysteria2, ports: 10086, password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1}
+  - {name: "8|@V2rayNG3 #7", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "🇭🇰 HK #1", server: 47.76.83.25, port: 11243, type: hysteria2, ports: 11243, password: L60nS04NhsoMpN2DDGbnMqLP8DY, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 223.111.144.13, port: 6928, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "🇯🇵 7|日本 #1", server: 52.193.71.150, port: 18219, type: hysteria2, ports: 18219, password: oATw4IRtuUOozpOLFflGnWjtg, sni: bing.com, skip-cert-verify: true}
+  - {name: "8|@V2rayNG3 #8", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "🇸🇬 7|SG #2", server: 52.221.210.182, port: 17193, type: hysteria2, ports: 17193, password: 5OiuCsPmULZ0lJwts89fegLJE, sni: bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,171 +168,161 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "🇭🇰 香港 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -360,41 +338,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - → @Hddify
-      - 🇺🇸 8|🇺🇸美国
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "🇭🇰 香港 #2"
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 江苏省 移动
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "🇸🇬 7|新加坡 #1"
+      - "7|未命名 #3"
+      - 🇬🇧 UK
+      - 10|tg频道:@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 10,11|香港6|@ripaojiedian
       - 🇭🇰 HK
+      - "→ @Hddify #1"
+      - 🇭🇰 7|HK
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 8|美国🇺🇸
-      - 9|@Change_IP1-HYS
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "@Daily_Configs #3"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "@Change_IP1-HYS #3"
-      - 🇯🇵 日本3|@ripaojiedian 2
-      - 🇸🇬 8|🇸🇬SG
-      - 🇩🇪 8|DE
-      - "🇯🇵 东京 #1"
-      - 🇬🇧 8|UK
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Change_IP1-HYS #4"
+      - 🇸🇬 7|🇸🇬SG
+      - "@V2rayNG3 #9"
       - "Channel id: @singbox1🇺🇸 #2"
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
-      - "@FreakConfig"
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
-      - "Channel id: @proxy_kafee🇺🇸 #3"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 8|🇸US
-      - Hysteria
-      - 🇺🇸 US
-      - "8|未命名 #2"
-      - "@Daily_Configs #1"
+      - "🇯🇵 JP #1"
+      - 🇬🇧 UK家宽
+      - 🇯🇵 日本东京
+      - → @Hddify
+      - "@V2rayNG3"
+      - 未知节点
+      - "8|@V2rayNG3 #7"
+      - "🇭🇰 HK #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "🇯🇵 7|日本 #1"
+      - "8|@V2rayNG3 #8"
+      - "🇸🇬 7|SG #2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
