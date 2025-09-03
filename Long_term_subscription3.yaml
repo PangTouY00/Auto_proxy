@@ -5,175 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 13|CR_speednode_0008, server: 190.93.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.150, port: 443, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936}
-  - {name: "9|@V2rayNG3 #6", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: xx.baku7.com, port: 4613, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: "8|未命名 #3", server: asg.pagate.top, port: 10086, type: hysteria2, ports: 10086, password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1}
-  - {name: 8|🇺, server: 192.9.165.40, port: 443, type: hysteria2, ports: 443, password: a52663f7-bd8e-4553-a5de-ff6403a0ccfc, sni: cn.cremedelamer.com, skip-cert-verify: true}
-  - {name: US_speednode_0031, server: aio.proxybox.dpdns.org, port: 443, type: trojan, password: 318cab24-ec99-40a6-a54a-0db9c661a3d0, sni: aio.proxybox.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /188.34.160.97-2053, headers: {Host: aio.proxybox.dpdns.org}}}
-  - {name: 🇭🇰 8|🇭🇰香港, server: 47.74.34.102, port: 29282, type: hysteria2, ports: 29282, password: Wo9rLCYw6gzcfTgIu11mhBVciVs, skip-cert-verify: true}
-  - {name: RU_speednode_0022, server: 194.53.53.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: "8|Channel id: @singbox1🇺🇸 #2", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 9969db7a2f51, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /fgsauuoqxwx, tls: true, mux: true}}
-  - {name: 🇭🇰 香港, server: ssssssssssssssssssssssssssss-mualhk229.hizui.cn, port: 10880, type: hysteria2, ports: 10880, password: 38589924-caf7-4857-812b-80020febd3ff, sni: ssssssssssssssssssssssssssss-mualhk229.hizui.cn, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港6|@ripaojiedian", server: xx.avxqx.cn, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 #2", server: 13.212.75.22, port: 10264, type: hysteria2, ports: 10264, password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 SG #3", server: 47.129.100.149, port: 17193, type: hysteria2, ports: 17193, password: 5OiuCsPmULZ0lJwts89fegLJE, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: xx.baku7.com, port: 3206, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: "🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3", server: 120.26.55.225, port: 50112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202508150964186-YHuMkhj2A5.download.microsoft.com}}
-  - {name: "🇸🇬 SG #7", server: 122.248.205.111, port: 15221, type: hysteria2, ports: 15221, password: XON4wZ0sXe1YaqFY2FeM7uZY4, sni: bing.com, skip-cert-verify: true}
-  - {name: Telegram:@config_proxy 😍, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 218.102.206.179, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇭🇰 HK, server: 54.169.144.240, port: 2166, type: hysteria2, ports: 2166, password: Cyi3TPih9FtQRwsZAh8aT6ynGJk, skip-cert-verify: true}
-  - {name: 🇺🇸 8|🇸US, server: 143.110.156.170, port: 13438, type: hysteria2, ports: 13438, password: Wjes5mJnUmH7kwzpgZX5d2BeCs, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇭🇰 8|🇭🇰香港 #1", server: ovo.5188666.xyz, port: 63518, type: hysteria2, ports: 63518, password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c, skip-cert-verify: true}
-  - {name: "🇯🇵 8|日本 #1", server: 52.193.71.150, port: 18219, type: hysteria2, ports: 18219, password: oATw4IRtuUOozpOLFflGnWjtg, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇸🇬 8|SG #2", server: 54.255.144.66, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
   - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "🇯🇵 8|JP #3", server: 47.245.0.72, port: 27789, type: hysteria2, ports: 27789, password: yD0mxkCA18WgPD1uVGd3Eu1dc, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇺🇸 8|US #1", server: 166.88.164.9, port: 27704, type: hysteria2, ports: 27704, password: peEduuHzbExjK7UQHzazXwqgA, sni: bing.com, skip-cert-verify: true}
-  - {name: 28YB5qK!5t#U&insecure-1&sni-ww..., server: donate1.mahsa.homes, port: 16396, type: hysteria2, ports: 16396, password: freehomesvpnmahsa3, obfs: salamander}
-  - {name: "9|@Change_IP1-HYS #3", server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: UiIoI79ktLVSpD8Fh6vTq5l5, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
-  - {name: "9|@Daily_Configs #3", server: hsxjp.huasuan666.top, port: 22154, type: hysteria2, ports: 22154, password: 8b583292-c936-4723-a8c7-8adb8ecf5044, skip-cert-verify: true}
-  - {name: "@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202508150964186-YHuMkhj2A5.download.microsoft.com}}
-  - {name: 🇸🇬 新加坡 Amazon数据中心, server: singapore2.helloshuai.com, port: 443, type: vmess, uuid: 14a79148-3d75-41d6-a998-2be9edef88cb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /39cb4/, headers: {Host: singapore2.helloshuai.com}}}
-  - {name: "🇭🇰 11,12|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "9|🇳🇱@FreakConfig #1", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾2|@ripaojiedian, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3", server: 120.26.55.225, port: 50112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 12|香港3|@ripaojiedian, server: 38.147.188.96, port: 47405, type: vmess, uuid: 84513b8e-2aad-4151-956e-09593c5f107c, alterId: 0, cipher: auto, tls: false}
+  - {name: "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: 13|CH_speednode_0001, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "9|@FreakConfig #1", server: hsyg.huasuan666.top, port: 22156, type: hysteria2, ports: 22156, password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf, sni: hsyg.huasuan666.top, skip-cert-verify: true}
+  - {name: "9|@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 9|@FreakConfig, server: 172.252.236.213, port: 58718, type: hysteria2, ports: 58718, password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9, sni: real.getafreenode.sbs, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,186 +84,73 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 8|🇭🇰香港
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇭🇰 12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -387,44 +166,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 13|CR_speednode_0008
-      - 🇯🇵 日本2|@ripaojiedian
-      - "9|@V2rayNG3 #6"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "8|未命名 #3"
-      - 8|🇺
-      - US_speednode_0031
-      - 🇭🇰 8|🇭🇰香港
-      - RU_speednode_0022
-      - "8|Channel id: @singbox1🇺🇸 #2"
-      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "🇸🇬 新加坡 #2"
-      - "🇸🇬 SG #3"
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
-      - 🇯🇵 日本|@ripaojiedian
-      - "🇸🇬 SG #7"
-      - Telegram:@config_proxy 😍
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 HK
-      - 🇺🇸 8|🇸US
-      - "🇭🇰 8|🇭🇰香港 #1"
-      - "🇯🇵 8|日本 #1"
-      - "🇸🇬 8|SG #2"
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - "🇯🇵 8|JP #3"
-      - "🇺🇸 8|US #1"
-      - 28YB5qK!5t#U&insecure-1&sni-ww...
-      - "9|@Change_IP1-HYS #3"
-      - "9|@Daily_Configs #3"
-      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇸🇬 新加坡 Amazon数据中心
-      - 🇭🇰 11,12|香港|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - "9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1"
+      - 🇸🇬 11|🇸🇬 新加坡4|@ripaojiedian
+      - 13|CH_speednode_0001
+      - "9|@FreakConfig #1"
+      - 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+      - 9|@FreakConfig
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
