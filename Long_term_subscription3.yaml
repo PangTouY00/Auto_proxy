@@ -5,147 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian, server: 125.231.72.120, port: 10065, type: ss, cipher: chacha20-ietf-poly1305, password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9}
-  - {name: 10|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: "@Daily_Configs IPv4", server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: daily_configs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: ubuntu com, skip-cert-verify: true}
-  - {name: 14|US_speednode_0045, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|US_speednode_0049, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇸🇦 沙特阿拉伯 V2CROSS.COM, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe}
-  - {name: 14|US_speednode_0041, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: xingxing.jiasu123.org, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 12|tg频道:@ripaojiedian, server: 18.195.55.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 14|US_speednode_0044, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: US_speednode_0047, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 10|🇳🇱@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 18.162.147.157, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.247.134.80, port: 28677, type: vmess, uuid: f9575b63-7410-4c76-88db-91c24a429ea8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: 125.231.72.120, port: 10065, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNjkwY2Q2Zi02YzUwLTQyZTItOGI1MS01NzBlOTVhOWJlMTk}
-  - {name: 14|AT_speednode_0001, server: 212.183.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|GB_speednode_0019, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇸🇬 立陶宛 NGS新闻, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: FR_speednode_0016, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: RU_speednode_0038, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|ES_speednode_0014, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 10|@vpnserverrr👈, server: yue-ru.yuetoto.net, port: 21053, type: hysteria2, ports: 21053, password: c9edf5cb-67ef-4440-8684-b3d301df6488, sni: yue-ru.yuetoto.net, skip-cert-verify: false}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: xingxing.jiasu123.org, port: 4801, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 140e4cb2-a874-414b-a58b-c0300720fa7d}
-  - {name: 10|@Daily_Configs, server: 40.233.102.224, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: US_speednode_0042, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: kr2.qiangdong.xyz, port: 1052, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "@Daily_Configs #8", server: 203.174.82.145, port: 43057, type: hysteria2, ports: 43057, password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: xingxing.jiasu123.org, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.142.150, port: 443, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936}
   - {name: "@Change_IP1-HYS #2", server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: MomB5gcusrDl2k67OfsTUEJK, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
+  - {name: 🇱🇺 卢森堡 root.lu数据中心, server: 188.42.89.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 12|tg频道:@ripaojiedian, server: 18.195.55.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.150, port: 443, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jpxw9v1.dashengjs.net, path: /wrdfiatyd, tls: true, mux: false}}
+  - {name: US_speednode_0045, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: J7VnJazPBw, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 14|RU_speednode_0035, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 10|@Daily_Configs <-- کانال تلگرا..., server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: dailyconfigs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 219.77.97.194, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 10|All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #5", server: 47.236.104.81, port: 30308, type: hysteria2, ports: 30308, password: RzQrEkAmnGs86IhmSVUk9Q5cn9M, sni: bing.com, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 18.195.55.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 14|RU_speednode_0039, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: US_speednode_0047, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "@FreakConfig", server: hsyg.huasuan666.top, port: 22156, type: hysteria2, ports: 22156, password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf, sni: hsyg.huasuan666.top, skip-cert-verify: true}
+  - {name: 14|CY_speednode_0007, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "10|@Change_IP1-HYS #4", server: 147.45.154.150, port: 443, type: hysteria2, ports: 443, password: wieZ9G0FbEecGx2kXaZLchtt, obfs: salamander, obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q, sni: anymath.ir}
+  - {name: "@Daily_Configs #4", server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, skip-cert-verify: true}
+  - {name: "Channel id: @proxy_kafee🇯🇵", server: 8.209.223.212, port: 22712, type: hysteria2, ports: 22712, password: qq4Wc9UakExypzw4Jd00fWqrDTY, sni: bing.com, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #1", server: 47.129.224.62, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
+  - {name: "@FreakConfig 2", server: 172.252.236.213, port: 58718, type: hysteria2, ports: 58718, password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "@Daily_Configs <-- کانال تلگرا...", server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: dailyconfigs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: slack.com, skip-cert-verify: true}
+  - {name: "@SaghiVpnXBOT 🇩🇪[🇩🇪]", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: xnChC7dKZ8, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: tg频道:@ripaojiedian 2, server: 18.195.55.29, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "10|🇩🇪@FreakConfig #2", server: 77.90.50.59, port: 20340, type: hysteria2, ports: 20340, password: 88984417-da74-4a6e-a6fe-9336adf8e644, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,157 +168,158 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,37 +335,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - "@Daily_Configs IPv4"
-      - 14|US_speednode_0045
-      - 14|US_speednode_0049
-      - 🇸🇦 沙特阿拉伯 V2CROSS.COM
-      - 14|US_speednode_0041
-      - 🇺🇸 美国4|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 14|US_speednode_0044
-      - US_speednode_0047
-      - 10|🇳🇱@FreakConfig
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 14|AT_speednode_0001
-      - 14|GB_speednode_0019
-      - 🇸🇬 立陶宛 NGS新闻
-      - FR_speednode_0016
-      - RU_speednode_0038
-      - 14|ES_speednode_0014
-      - 10|@vpnserverrr👈
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾3|@ripaojiedian
-      - 10|@Daily_Configs
-      - US_speednode_0042
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #8"
-      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - "@Change_IP1-HYS #2"
+      - 🇱🇺 卢森堡 root.lu数据中心
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
+      - 12|tg频道:@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - US_speednode_0045
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #2"
+      - 14|RU_speednode_0035
+      - 10|@Daily_Configs <-- کانال تلگرا...
+      - 🇭🇰 香港4|@ripaojiedian
+      - 10|All-@IRAN_V2RAY1
+      - "10|@Daily_Configs #5"
+      - tg频道:@ripaojiedian
+      - 14|RU_speednode_0039
+      - All-@IRAN_V2RAY1
+      - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0047
+      - "@FreakConfig"
+      - 14|CY_speednode_0007
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - "10|@Change_IP1-HYS #4"
+      - "@Daily_Configs #4"
+      - "Channel id: @proxy_kafee🇯🇵"
+      - "10|@Daily_Configs #1"
+      - "@FreakConfig 2"
+      - "@Daily_Configs <-- کانال تلگرا..."
+      - "@SaghiVpnXBOT 🇩🇪[🇩🇪]"
+      - tg频道:@ripaojiedian 2
+      - "10|🇩🇪@FreakConfig #2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
