@@ -20,39 +20,39 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 397`
+`Total number of merge nodes: 389`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.comPangTouY00/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription5`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 47`
+`Total number of merge nodes: 46`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `22`
-Updata：`2025-09-10 10:56:17`
+### Try the number of high-speed subscriptions: `21`
+Updata：`2025-09-10 22:14:48`
 
 
 <details>
@@ -22794,134 +22794,153 @@ Updata：`2025-09-10 10:56:17`
 
 
 
->Trial subscription：
-`https://ld88.nxxbbf.com/api/v1/client/subscribe?token=9e95b75540e2678cdeda5fde28b5e130`
 
 
 
 
->Trial subscription：
-`https://dash.tuzivip02.top/api/v1/client/subscribe?token=f421302c7386f678630c122a633bf27e`
 
 
 
 
->Trial subscription：
-`https://dash.tuzivip03.top/api/v1/client/subscribe?token=8a8260f1523270d255b0fd93dee16507`
 
 
 
 
->Trial subscription：
-`https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=ce1d353d3b224eb52c9024e290a6de81`
 
 
 
 
->Trial subscription：
-`https://nekocloud.xx.kg/api/v1/client/subscribe?token=2f2f69a489330ef933cc717e05065b54`
+
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://kuailefeng.xyz/api/v1/client/subscribe?token=87a009c875a098c64cdbcb8e3d5bb7c7`
+`https://dash.tuzivip03.top/api/v1/client/subscribe?token=1e6074b4c0f02f72769e114ed62f6b25`
 
 
 
 
 >Trial subscription：
-`https://www.huojian2.xyz/api/v1/client/subscribe?token=2cae84eb553680b21e6bc138a11be180`
+`https://kuailefeng.xyz/api/v1/client/subscribe?token=160ed1c2ace0d86070b6c8f1a0f02098`
 
 
 
 
 >Trial subscription：
-`https://dashuai.us/api/v1/client/subscribe?token=ba51a194a5bb9f972cf54ae6b00ffc63`
+`https://ld88.nxxbbf.com/api/v1/client/subscribe?token=72d45e030167997066c780ab9ce1cf0c`
 
 
 
 
 >Trial subscription：
-`https://dl.vfkum.website/api/v1/client/subscribe?token=cba8ea7245d59fd1c41ccffbebf5b032`
+`http://tinnyrick8888.com/api/v1/client/subscribe?token=2b28188602bcd0ab911f7cc7d60e3344`
 
 
 
 
 >Trial subscription：
-`https://guanwang.1010520.click/api/v1/client/subscribe?token=b531cb1ddf30b211b679cb5102cbc7b5`
+`https://cfvpn.com/api/v1/client/subscribe?token=2e5c52630bc4e084bad6a730c7b76c5a`
 
 
 
 
 >Trial subscription：
-`https://xiaohuolongjc.top/api/v1/client/subscribe?token=bc2d3ce50571f901930743cdd25d6e04`
+`https://dl.vfkum.website/api/v1/client/subscribe?token=f15702af0e85f0dea763935667a414fb`
 
 
 
 
 >Trial subscription：
-`https://nekocloud.qzz.io/api/v1/client/subscribe?token=2115d2758023038718ca90b1c1cadb3c`
+`https://dash.tuzivip02.top/api/v1/client/subscribe?token=e2100c60d98962f9b86ae3b8c5a69ffc`
 
 
 
 
 >Trial subscription：
-`https://sdvpapi.meytsoyxx.com/api/v1/client/subscribe?token=6911c9d978268d9f9bc8cb791c439f6d`
+`https://nekocloud.xx.kg/api/v1/client/subscribe?token=f2b591db4d8265329b7856ebcce54a8a`
 
 
 
 
 >Trial subscription：
-`https://ldld.whtjdasha.com/api/v1/client/subscribe?token=02c84bc0a71585d83fcc4dab7999b303`
+`https://yywhale.com/api/v1/client/subscribe?token=8bdae85cd23a89672120e0f29373f84e`
 
 
 
 
 >Trial subscription：
-`https://www.eeevpn.com/api/v1/client/subscribe?token=68345378c45f31478338704b753ba065`
+`https://dashuai.us/api/v1/client/subscribe?token=43f96b631d0aa7d4213ec3b14922f1cc`
 
 
 
 
 >Trial subscription：
-`https://v2b.zyrhk.top/api/v1/client/subscribe?token=c47b84a9982c756e09fb92c0060ca216`
+`https://dash.tuzivip01.top/api/v1/client/subscribe?token=609b22216b766d76dd8ae672d6544bde`
 
 
 
 
 >Trial subscription：
-`http://tinnyrick8888.com/api/v1/client/subscribe?token=9951f8ef41bf4496cc1b42e6763e6c7a`
+`https://ldld.whtjdasha.com/api/v1/client/subscribe?token=5ca9bf496e18e00a8d13a3c61a1f8c9f`
 
 
 
 
 >Trial subscription：
-`https://kingfisher.top/api/v1/client/subscribe?token=e646fd43c0df3a66e5c65b1a0489e7bf`
+`https://xiaohuolongjc.top/api/v1/client/subscribe?token=9a7aef4fe14377ceb58940ad1ad4cb03`
 
 
 
 
 >Trial subscription：
-`https://cfvpn.com/api/v1/client/subscribe?token=3336b818c716340afe390cd40a56ffde`
+`https://v2b.zyrhk.top/api/v1/client/subscribe?token=c59fb219f32b8d4d442747eff330a71c`
 
 
 
 
 >Trial subscription：
-`https://go.yueyun.de/api/v1/client/subscribe?token=3591507a670fc488e9be61c318346529`
+`https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=d5a02059718f1b423a1bb3c18844401e`
 
 
 
 
 >Trial subscription：
-`https://dash.tuzivip01.top/api/v1/client/subscribe?token=f4ced24f66509fa71e9182743f5d524c`
+`https://guanwang.1010520.click/api/v1/client/subscribe?token=9cabf13713de9541fed44fe99159ed8a`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=81f6839eef54d2c59801b95579d722cd`
+`https://www.eeevpn.com/api/v1/client/subscribe?token=ec3c15eb65b6faf01b172853476645c2`
+
+
+
+
+>Trial subscription：
+`https://www.huojian2.xyz/api/v1/client/subscribe?token=5ef80709c99dee28911df045da8eb062`
+
+
+
+
+>Trial subscription：
+`https://kingfisher.top/api/v1/client/subscribe?token=f48be47d5b6ff14740aa1593a3894508`
+
+
+
+
+>Trial subscription：
+`https://go.yueyun.de/api/v1/client/subscribe?token=754c40cae869c47953c9b217d93c47ae`
+
+
+
+
+>Trial subscription：
+`https://nekocloud.qzz.io/api/v1/client/subscribe?token=459386254e719ef37590f383d8eeefca`
 
 
 
