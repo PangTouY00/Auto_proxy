@@ -5,195 +5,207 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: RU_speednode_0059, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: xingxing.jiasu123.org, port: 2966, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇭🇰 香港7|@ripaojiedian, server: shenzhen99.fkfkd.cn, port: 4772, type: ss, cipher: chacha20-ietf-poly1305, password: cb9d4649-57e9-422b-9154-c53ca65a543c}
-  - {name: DE_speednode_0018, server: 188.244.122.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: ES_speednode_0028, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|RU_speednode_0058, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|US_speednode_0066, server: 192.200.160.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: AU_speednode_0006, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|GB_speednode_0038, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: xingxing.jiasu123.org, port: 4613, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: US_speednode_0074, server: 209.46.30.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2", server: yapc-1.adamhayward.co.uk, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: RU_speednode_0058, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: US_speednode_0071, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 10|All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: d37e4030-8c42-4f17-9738-0cfe17780b14, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
-  - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: 43.247.134.211, port: 46981, type: vmess, uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 14|AU_speednode_0006, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: 9c0487fe-1725-46f3-9acf-f4f6e707ab1f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
-  - {name: 14|RU_speednode_0057, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|US_speednode_0067, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|GB_speednode_0037, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: US_speednode_0062, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: "10|@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 14|US_speednode_0064, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram@ShadowProxy66, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: v32.emoyes.top, port: 8443, type: vmess, uuid: 08b24d8d-10ab-4c5a-990e-4e0e194870af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v32.emoyes.top}}}
-  - {name: US_speednode_0065, server: 198.62.62.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: US_speednode_0087, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramShadowProxy66, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: ES_speednode_0023, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 10|→ @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 942b9cb8-92fa-46ac-ae91-f69c8234434b, sni: real.getafreenode.sbs, skip-cert-verify: false}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.211, port: 46981, type: vmess, uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b, alterId: 0, cipher: auto, tls: false}
+  - {name: US_speednode_0076, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: ES_speednode_0028, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: US_speednode_0067, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇯🇵 13|日本5|@ripaojiedian, server: 35.77.6.3, port: 16888, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206YW1hem9uZ3JlYXR2cG4}
+  - {name: 14|RU_speednode_0058, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "10|All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: eb65ffb6-b126-4bf6-bba5-bd8b3eb211d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
+  - {name: 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian, server: 125.230.23.59, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: 5bc0537c-ffdd-42f4-9012-f8d88efe785d}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 14|ES_speednode_0028, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "@V2RAYNG_1378", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 14|LU_speednode_0043, server: 188.42.89.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: bee6d2ff-1467-4314-9637-e1d52c4bfe69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
+  - {name: 14|FR_speednode_0034, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 立陶宛 NGS新闻, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.77, port: 391, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 14|US_speednode_0062, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: US_speednode_0063, server: 198.62.62.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: ES_speednode_0022, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹U0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
   - {name: 🇨🇳 台湾|@ripaojiedian, server: 118.170.202.197, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: b542ec52-5ae8-483f-b041-145d07a3ab26}
-  - {name: ES_speednode_0026, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|US_speednode_0073, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹@ShadowProxy66, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: NL_speednode_0046, server: 188.164.248.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: xingxing.jiasu123.org, port: 316, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: → @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 54.46.125.88, port: 16888, type: ss, cipher: aes-256-gcm, password: amazongreatvpn}
-  - {name: 14|ES_speednode_0021, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.150, port: 443, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936}
-  - {name: 10|@vpnserverrr, server: yue-ru.yuetoto.net, port: 21053, type: hysteria2, ports: 21053, password: c9edf5cb-67ef-4440-8684-b3d301df6488, sni: yue-ru.yuetoto.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|US_speednode_0060, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡®ðŸ‡·ShadowProxy66, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 14|US_speednode_0080, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1EEU0001F1F7ShadowProxy66, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 10|🇪@FreakConfig, server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: dailyconfigs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: ec3e9866-4625-495e-875a-9c15a5af3d84, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
+  - {name: 🇺🇸 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: 9239e586-61e8-4b07-a666-b9b73ff6f56f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7", server: 120.26.55.225, port: 50112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 14|US_speednode_0061, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇭🇰 13|香港7|@ripaojiedian, server: shenzhen99.fkfkd.cn, port: 4772, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjlkNDY0OS01N2U5LTQyMmItOTE1NC1jNTNjYTY1YTU0M2M}
+  - {name: 10|🇳🇱@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: shenzhen99.fkfkd.cn, port: 4772, type: ss, cipher: chacha20-ietf-poly1305, password: cb9d4649-57e9-422b-9154-c53ca65a543c}
+  - {name: 14|LU_speednode_0042, server: 188.42.89.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: HR_speednode_0040, server: 213.182.199.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: FR_speednode_0032, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram@ShadowProxy66, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: 992a0e9a-7197-484a-a1b7-2dd56d73a803, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
+  - {name: 14|RU_speednode_0059, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: AU_speednode_0007, server: 185.207.197.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: CY_speednode_0010, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: ES_speednode_0025, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 14|US_speednode_0065, server: 198.62.62.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /ç”±é›¶å¼€å§‹, headers: {Host: ocost-dy.wmlefl.cc}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,204 +224,217 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 🇭🇰 香港7|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -425,49 +450,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_speednode_0059
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - DE_speednode_0018
-      - ES_speednode_0028
-      - 14|RU_speednode_0058
-      - 14|US_speednode_0066
-      - AU_speednode_0006
-      - 14|GB_speednode_0038
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - US_speednode_0074
-      - "☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2"
-      - RU_speednode_0058
-      - 🇺🇸 美国2|@ripaojiedian
-      - US_speednode_0071
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 15
-      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
-      - 14|AU_speednode_0006
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 14
-      - 14|RU_speednode_0057
-      - 14|US_speednode_0067
-      - 14|GB_speednode_0037
-      - US_speednode_0062
-      - "10|@IRAN_V2RAY1 #1"
-      - 14|US_speednode_0064
-      - 🇺🇸 美国 CloudFlare节点
-      - US_speednode_0065
+      - US_speednode_0087
+      - ES_speednode_0023
+      - 10|→ @Hddify
       - 🇭🇰 香港3|@ripaojiedian
+      - US_speednode_0076
+      - ES_speednode_0028
+      - US_speednode_0067
+      - 🇯🇵 13|日本5|@ripaojiedian
+      - 14|RU_speednode_0058
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 23
+      - 🇨🇳 12|🇹🇼 台湾2|@ripaojiedian
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 10
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|ES_speednode_0028
+      - "@V2RAYNG_1378"
+      - 14|LU_speednode_0043
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 1
+      - 14|FR_speednode_0034
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 立陶宛 NGS新闻
+      - 🇭🇰 香港4|@ripaojiedian
+      - 14|US_speednode_0062
+      - US_speednode_0063
+      - ES_speednode_0022
       - 🇨🇳 台湾|@ripaojiedian
-      - ES_speednode_0026
-      - 14|US_speednode_0073
-      - NL_speednode_0046
-      - 🇯🇵 日本3|@ripaojiedian
-      - → @Hddify
-      - 🇭🇰 香港5|@ripaojiedian
-      - 14|ES_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|@vpnserverrr
-      - 🇺🇸 美国 V2CROSS.COM
-      - 14|US_speednode_0060
-      - 14|US_speednode_0080
-      - 10|🇪@FreakConfig
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 17
+      - 🇺🇸 12|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 8
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
+      - 14|US_speednode_0061
+      - 🇭🇰 13|香港7|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇭🇰 香港7|@ripaojiedian
+      - 14|LU_speednode_0042
+      - HR_speednode_0040
+      - FR_speednode_0032
+      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 20
+      - 14|RU_speednode_0059
+      - AU_speednode_0007
+      - CY_speednode_0010
+      - ES_speednode_0025
+      - 14|US_speednode_0065
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
