@@ -5,111 +5,115 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 36.150.215.200, port: 13855, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: "@FreakConfig", server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: dailyconfigs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: slack.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.150.215.200, port: 13855, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "@FreakConfig #1", server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: dailyconfigs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: ubuntu com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 UCloud, server: 165.154.112.107, port: 12000, type: trojan, password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: xingxing.jiasu123.org, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: 077fe029-27cd-42d8-b45f-079122625d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
-  - {name: 9|@Mr_Config_Group✌️, server: chervhill.hajalii.com, port: 29662, type: hysteria2, ports: 29662, password: 10822856-7452-43ec-b35b-6f24ea33530f, obfs: salamander, obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon, sni: chervhill.hajalii.com, skip-cert-verify: false}
-  - {name: 9|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 13|CN_speednode_0004, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34031, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 443, type: ss, cipher: aes-256-gcm, password: 8808e9f11454}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 36.156.102.121, port: 392, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.121, port: 392, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7", server: info.andishehnegariran.ir, port: 8443, type: vmess, uuid: 218153f3-f0cf-4707-bbb7-717e349e7666, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: info.andishehnegariran.ir}}}
-  - {name: SG_speednode_0016, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}}
-  - {name: → @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "@FreakConfig", server: 176.124.204.248, port: 443, type: hysteria2, ports: 443, password: dailyconfigs, obfs: salamander, obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN, sni: ubuntu com, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "🇺🇸 12,13|美国4|@ripaojiedian", server: xingxing.jiasu123.org, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇯🇵", server: 133.18.163.202, port: 443, type: hysteria2, ports: 443, password: fabd2b79-693a-4a37-827c-6d299e8813b1, sni: www.microsoft.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1, server: 43.167.226.254, port: 13892, type: vmess, uuid: bcec480c-c466-4780-c749-366c73c596d9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2, server: 170.239.86.176, port: 23680, type: vmess, uuid: d9744eb6-2870-41e5-b867-0bebfc67f66f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: tg频道:@ripaojiedian, server: 51.21.249.115, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.199.87.121, port: 16888, type: ss, cipher: aes-256-gcm, password: amazongreatvpn}
   - {name: All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: xingxing.jiasu123.org, port: 3043, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17, server: 119.29.98.43, port: 56532, type: vmess, uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: codepen.io, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: farid.1.berozha.ir}}}
+  - {name: 🇯🇵 日本5|@ripaojiedian, server: 18.178.135.125, port: 16888, type: ss, cipher: aes-256-gcm, password: amazongreatvpn}
+  - {name: 12|tg频道:@ripaojiedian, server: 51.21.249.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: xingxing.jiasu123.org, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
+  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.155.116, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
+  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3, server: 119.29.98.43, port: 11399, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 10|@Mr_Config_Group✌️, server: chervhill.hajalii.com, port: 29662, type: hysteria2, ports: 29662, password: 10822856-7452-43ec-b35b-6f24ea33530f, obfs: salamander, obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon, sni: chervhill.hajalii.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,122 +132,120 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港 UCloud
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -259,28 +261,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
       - "@FreakConfig"
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@FreakConfig #1"
-      - 🇭🇰 香港 UCloud
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian 2
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 11
-      - 9|@Mr_Config_Group✌️
-      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 13|CN_speednode_0004
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Cloudflare, Inc. - 7
-      - SG_speednode_0016
-      - → @Hddify
       - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - "Channel id: @ShadowProxy66🇯🇵"
+      - 🇯🇵 日本 - 东京 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇨🇱 智利 - 庫里科 - ZAM LTDA. - 2
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - All--@IRAN_V2RAY1
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 5
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇯🇵 日本5|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - WI-FI--@IRAN_V2RAY1
+      - 🇻🇳 13|越南|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 13
+      - 10|@Mr_Config_Group✌️
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
