@@ -5,87 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.28, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
+  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.155.28, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
   - {name: → @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 10|All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 36.151.251.6, port: 9160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 10|→ @Hddify, server: 185.126.255.78, port: 43429, type: hysteria2, ports: 43429, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.251.6, port: 9160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国4|@ripaojiedian", server: 153.121.76.9, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 13|香港5|@ripaojiedian, server: 18.163.190.75, port: 16888, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206YW1hem9uZ3JlYXR2cG4}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 203.218.158.199, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true}
+  - {name: "@V2RAYNG_1378", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 153.121.73.102, port: 3294, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hDcp24etDx.download.microsoft.com}}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 153.121.73.102, port: 3294, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1", server: api.jquery.com, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: api.jquery.com}}}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 149.104.15.178, port: 21201, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hDcp24etDx.download.microsoft.com}}
-  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10, server: 119.29.98.43, port: 20521, type: vmess, uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.251.6, port: 1806, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1, server: 103.229.124.3, port: 20521, type: vmess, uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: tg频道:@ripaojiedian, server: 51.21.249.115, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.163.190.75, port: 16888, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206YW1hem9uZ3JlYXR2cG4}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5}
-  - {name: 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: zPb5RRsckD, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17, server: 119.29.98.43, port: 56532, type: vmess, uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 153.121.76.9, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian 2, server: 103.186.155.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "10| ➠ 𝐞: @V2Gatee", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,96 +116,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -209,22 +231,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇻🇳 越南|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - → @Hddify
-      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 11
-      - 10|All-@IRAN_V2RAY1
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
+      - 10|→ @Hddify
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - "@V2RAYNG_1378"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 1
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 10
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
-      - tg频道:@ripaojiedian
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 10|🇩🇪𝗻 ➠ همه اپراتورها دنو برامه ...
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 17
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian 2
+      - "10| ➠ 𝐞: @V2Gatee"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
