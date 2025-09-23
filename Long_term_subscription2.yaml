@@ -5,103 +5,75 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12, server: 119.29.98.43, port: 11399, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 205.233.181.3, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: farid.1.berozha.ir}}}
-  - {name: 13|US_speednode_0019, server: connect.appagent.net, port: 28333, type: trojan, password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D, skip-cert-verify: false}
-  - {name: 🇭🇰 香港7|@ripaojiedian, server: gw.liangyuandianwan.com, port: 35602, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNDQ2OTMxMC0wMGZjLTQ1MjctOGFmYS03MTc4OGIzYmNlZjc}
-  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港7|@ripaojiedian 2, server: gw.liangyuandianwan.com, port: 35602, type: ss, cipher: chacha20-ietf-poly1305, password: e4469310-00fc-4527-8afa-71788b3bcef7}
-  - {name: "9|@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 9|usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-Aja8hFXVWh.download.microsoft.com}}
-  - {name: US_speednode_0019, server: connect.appagent.net, port: 28333, type: trojan, password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 12|香港7|@ripaojiedian, server: gw.liangyuandianwan.com, port: 35602, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNDQ2OTMxMC0wMGZjLTQ1MjctOGFmYS03MTc4OGIzYmNlZjc}
-  - {name: 9|@V2RAYNG_1378, server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.196.59, port: 1802, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: "10|All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇨🇳 12|🇹🇼 台湾|@ripaojiedian, server: 103.236.227.7, port: 49795, type: vmess, uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 13|香港5|@ripaojiedian, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MTc3ZGUxYS1hZWZmLTQzZjEtOTNhNi03ZGQwOGEyZmRjNDE}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 153.121.45.139, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: "Join -> Telegram: @V2Gatee", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.117.182, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 443, type: ss, cipher: aes-256-gcm, password: 8808e9f11454}
+  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 160.16.117.182, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 13|NL_speednode_0010, server: 5.255.102.41, port: 17590, type: trojan, password: 02XtoczO7V, sni: mooshali.arshiacomplus.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /hishhhh123, headers: {Host: mooshali.arshiacomplus.dpdns.org}}}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 160.16.72.33, port: 3294, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,34 +92,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -155,77 +118,56 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -241,26 +183,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 13|US_speednode_0019
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
-      - 🇭🇰 香港7|@ripaojiedian 2
-      - "9|@IRAN_V2RAY1 #1"
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - US_speednode_0019
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 12|香港7|@ripaojiedian
-      - 9|@V2RAYNG_1378
-      - 🇯🇵 日本3|@ripaojiedian
-      - "All-@IRAN_V2RAY1 #1"
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇭🇰 13|香港5|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - "Join -> Telegram: @V2Gatee"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1"
+      - All-@IRAN_V2RAY1
+      - 🇯🇵 日本2|@ripaojiedian
+      - کانفیگ های بیشتر در چنل تلگرا...
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
       - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 13|NL_speednode_0010
-      - 🇺🇸 美国4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
