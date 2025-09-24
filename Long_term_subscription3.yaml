@@ -5,83 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-d3qOpZwqIw.download.microsoft.com}}
-  - {name: "9|WI-FI--@IRAN_V2RAY1 #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 153.121.45.139, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 443, type: ss, cipher: aes-256-gcm, password: 8808e9f11454, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /nvcnjrmkggoy, tls: true, mux: false}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.117.182, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "10|All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 443, type: ss, cipher: aes-256-gcm, password: 8808e9f11454}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-d3qOpZwqIw.download.microsoft.com}}
-  - {name: "9|telegram-@ISVvpn #1", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
-  - {name: 🇺🇸 11|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: dddvvbn.931.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: dddvvbn.931.pp.ua}}}
-  - {name: "Join -> Telegram: @V2Gatee", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "Join -> Telegram: @V2Gatee #2", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "WI-FI--@IRAN_V2RAY1 #1", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو..., server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian 2, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-d3qOpZwqIw.download.microsoft.com}}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 18.159.61.225, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇭🇰 香港4|@ripaojiedian 2, server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: a.lyazzz.online, port: 41317, type: vmess, uuid: c76b20d5-7f82-4990-9687-4bde24397493, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}}
+  - {name: 10|WI-FI--@IRAN_V2RAY1, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,90 +100,90 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -199,21 +199,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - telegram-@ISVvpn
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 9
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - "9|telegram-@ISVvpn #1"
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - "Join -> Telegram: @V2Gatee"
-      - "Join -> Telegram: @V2Gatee #2"
+      - "WI-FI--@IRAN_V2RAY1 #1"
+      - 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|WI-FI--@IRAN_V2RAY1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
