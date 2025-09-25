@@ -5,83 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: 160.16.68.250, port: 3160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - WAP.AC LTD - 14, server: nnertn.vxzjv.xyz, port: 39056, type: vmess, uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: auto.wgnmdgfw.com, port: 16327, type: trojan, password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3, sni: eplcgame.com}
-  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
-  - {name: "10|All-@IRAN_V2RAY1 #3", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 9bb3115e-3cec-488d-81d6-4d3cbfbcf090, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: cloudgetservice.mcloudservice.site}}}
-  - {name: 🇭🇰 香港HK|@ripaojiedian, server: 38.147.188.112, port: 24939, type: vmess, uuid: 928408df-3114-4b57-b852-f8d120ce056c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: "🇩🇪 10|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
-  - {name: 🇫🇷 法国 鲁贝OVH数据中心, server: 51.75.160.237, port: 443, type: vmess, uuid: 3adba462-318f-4a6c-ad7a-2923bc74f207, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: blazE-Uk-237.BLaZEsERVERs1.sItE}}}
-  - {name: "@V2RAYNG_1378", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国4|@ripaojiedian", server: 160.16.117.182, port: 3296, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: xiaoniu.v.jsqcdn.bid, port: 41311, type: vmess, uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.231.103, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: xiaoniu.v.jsqcdn.bid, port: 41311, type: vmess, uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}}
+  - {name: "9|💎کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇰🇷 12|韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
+  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5, server: 119.29.98.43, port: 56532, type: vmess, uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇭🇰 11|🇭🇰 香港5|@ripaojiedian, server: 45.89.233.236, port: 57586, type: vmess, uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5}
+  - {name: tg频道:@ripaojiedian, server: 18.185.56.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 160.16.236.32, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
+  - {name: "🇭🇰 11,12|香港6|@ripaojiedian", server: 160.16.236.32, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,91 +100,93 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇭🇰 11,12|香港6|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,21 +202,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 12,13|日本4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #3"
-      - 🇨🇦 加拿大 - Beauharnois - OVH SAS - 1
-      - 🇭🇰 香港HK|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本|@ripaojiedian
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇫🇷 法国 鲁贝OVH数据中心
-      - "@V2RAYNG_1378"
-      - 🇺🇸 12,13|美国4|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇭🇰 11|🇭🇰 香港5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - telegram-@vpnserverrr
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "telegram-@ISVvpn #2"
+      - 🇭🇰 11,12|香港6|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
