@@ -5,75 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 9|telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: "Channel id: @vpnserverrr🇸🇬", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}}
-  - {name: "9|All-@IRAN_V2RAY1 #3", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509242154338-Zr8tJCX9sq.download.microsoft.com}}
   - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "Channel id: @vpnserverrr🇸🇬", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
+  - {name: telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
+  - {name: 🇺🇸 9|usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
   - {name: "9|telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
-  - {name: 🇺🇸 usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: "کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|@ripaojiedian 2, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 126.116.225.149, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "9|r♡ya #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇩🇪 9|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,81 +84,73 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,19 +166,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|telegram-@vpnserverrr
-      - "Channel id: @vpnserverrr🇸🇬"
-      - 🇭🇰 11,12|香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - All--@IRAN_V2RAY1
-      - 🇺🇸 美国 CloudFlare节点
-      - "9|All-@IRAN_V2RAY1 #3"
-      - 🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
+      - "@IRAN_V2RAY1 #1"
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - "Channel id: @vpnserverrr🇸🇬"
+      - telegram-@vpnserverrr
+      - 🇺🇸 9|usa-telegram-@ISVvpn
       - "9|telegram-@ISVvpn #2"
-      - 🇺🇸 usa-telegram-@ISVvpn
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - "9|r♡ya #1"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - WI-FI--@IRAN_V2RAY1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
