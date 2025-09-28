@@ -5,99 +5,75 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 9|telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
+  - {name: "Channel id: @vpnserverrr🇸🇬", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "10|All-@IRAN_V2RAY1 #2", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian 2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.135.86, port: 44601, type: vmess, uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.87.174, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2, server: 119.29.98.43, port: 48536, type: vmess, uuid: 057caba1-2237-41e6-a54d-ec03509898a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.68.250, port: 3160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1, server: fa.fxlcn.com, port: 45237, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 12|tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 14|AU_speednode_0002, server: 176.97.68.153, port: 8443, type: trojan, password: installshield, sni: 176.97.68.153, skip-cert-verify: true}
-  - {name: 10|All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian 3, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇻🇳 越南|@ripaojiedian 2, server: 103.186.155.28, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: "10|@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 广东省广州市 UCloud, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}}
+  - {name: "9|All-@IRAN_V2RAY1 #3", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509242154338-Zr8tJCX9sq.download.microsoft.com}}
+  - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "9|telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
+  - {name: 🇺🇸 usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: "کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian 2, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,107 +92,81 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -232,25 +182,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 9|telegram-@vpnserverrr
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 12|tg频道:@ripaojiedian
-      - 14|AU_speednode_0002
-      - 10|All--@IRAN_V2RAY1
-      - 🇭🇰 香港2|@ripaojiedian 3
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian 2
-      - "10|@IRAN_V2RAY1 #1"
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - All--@IRAN_V2RAY1
+      - 🇺🇸 美国 CloudFlare节点
+      - "9|All-@IRAN_V2RAY1 #3"
+      - 🇯🇵 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "9|telegram-@ISVvpn #2"
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 日本|@ripaojiedian 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
