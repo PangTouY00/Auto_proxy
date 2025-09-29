@@ -5,67 +5,91 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "Channel id: @vpnserverrr🇸🇬", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
-  - {name: telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: 🇺🇸 9|usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: "9|telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 126.116.225.149, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "9|r♡ya #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "🇩🇪 9|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
+  - {name: "@Daily_Configs #4", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "@Daily_Configs IPv4", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs, obfs: salamander, obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs, sni: slack.com, skip-cert-verify: true}
+  - {name: "@Daily_Configs IPv4 #2", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: kanale_dailyconfigs, obfs: salamander, obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs, sni: slack.com, skip-cert-verify: true}
+  - {name: "@Daily_Configs #2", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1, server: lt.fxlcn.com, port: 45210, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: "@Daily_Configs #7", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.89.176, port: 3160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 10|🇩🇪@EXPRESSVPN_420, server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 10|telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "@Daily_Configs «-- کانال", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: joindailyconfigs, obfs: salamander, obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 10|🇳🇱@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.57.238, port: 449, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 221.128.195.239, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,73 +108,98 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,17 +215,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg频道:@ripaojiedian
-      - "@IRAN_V2RAY1 #1"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "Channel id: @vpnserverrr🇸🇬"
-      - telegram-@vpnserverrr
-      - 🇺🇸 9|usa-telegram-@ISVvpn
-      - "9|telegram-@ISVvpn #2"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|r♡ya #1"
-      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
-      - WI-FI--@IRAN_V2RAY1
+      - "@Daily_Configs #4"
+      - "@Daily_Configs IPv4"
+      - "@Daily_Configs IPv4 #2"
+      - "@Daily_Configs #2"
+      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
+      - "@Daily_Configs #7"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
+      - 10|🇩🇪@EXPRESSVPN_420
+      - 10|telegram-@vpnserverrr
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs «-- کانال"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇳🇱@FreakConfig
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
