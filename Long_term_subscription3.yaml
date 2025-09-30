@@ -5,115 +5,103 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 126.116.225.149, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1, server: lt.fxlcn.com, port: 45210, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: "@Daily_Configs IPv4 #1", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: kanale_dailyconfigs, obfs: salamander, obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs, sni: slack.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "Channel id: @vpnserverrr🇺🇸", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.231.103, port: 3160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 45.94.68.13, port: 10755, type: vmess, uuid: a844b289-6fd7-407b-8312-d600ec2efcd4, alterId: 0, cipher: auto, tls: false}
-  - {name: "telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.117.182, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "@Daily_Configs #10", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "@FreakConfig #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "@FreakConfig", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
-  - {name: 🇩🇪 德国 - 法兰克福 - OVH SAS - 1, server: lt.fxlcn.com, port: 45228, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.12.83.217, port: 30002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 10|🇩🇪@EXPRESSVPN_420, server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
-  - {name: 10|🇺🇲@FreakConfig, server: pouria.3dfigures.ir, port: 28777, type: hysteria2, ports: 28777, password: lHoYmNZmLe, obfs: salamander, obfs-password: wcancmaocnewrivbkacmlmsvwuvdfsv, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1, server: fa.fxlcn.com, port: 45237, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇩 13|印度尼西亚|@ripaojiedian, server: ppy-boardv2.02ijp4uos1.download, port: 26144, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|🇺🇲@FreakConfig, server: pouria.3dfigures.ir, port: 28777, type: hysteria2, ports: 28777, password: lHoYmNZmLe, obfs: salamander, obfs-password: wcancmaocnewrivbkacmlmsvwuvdfsv, skip-cert-verify: true}
+  - {name: 9|All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "@Daily_Configs #2", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: biadailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
   - {name: "@Daily_Configs", server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
+  - {name: "🇩🇪 9|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "9|🇳🇱@FreakConfig #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1, server: ys.fxlcn.com, port: 45236, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: "9|@Daily_Configs <-- کانال تلگرا... #1", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: daily_configs, obfs: salamander, obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs, sni: slack.com, skip-cert-verify: true}
+  - {name: "9|telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1, server: 119.29.98.43, port: 11399, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇺🇸 9|usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|@ripaojiedian 2, server: 160.16.117.182, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 45.94.68.13, port: 10755, type: vmess, uuid: a844b289-6fd7-407b-8312-d600ec2efcd4, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|🇩🇪@FreakConfig, server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian 2, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,36 +120,30 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -169,86 +151,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -264,29 +237,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
-      - "@Daily_Configs IPv4 #1"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸"
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - "telegram-@ISVvpn #2"
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "@Daily_Configs #10"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
-      - "@FreakConfig #1"
-      - "@FreakConfig"
-      - "All-@IRAN_V2RAY1 #1"
-      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 10|🇩🇪@EXPRESSVPN_420
-      - WI-FI--@IRAN_V2RAY1
-      - 10|🇺🇲@FreakConfig
-      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
-      - 🇮🇩 13|印度尼西亚|@ripaojiedian
+      - 9|🇺🇲@FreakConfig
+      - 9|All--@IRAN_V2RAY1
+      - 🇻🇳 越南|@ripaojiedian
+      - "@Daily_Configs #2"
       - "@Daily_Configs"
+      - "🇩🇪 9|DE-telegram-@ISVvpn   :"
+      - 🇨🇳 江苏省 移动
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇷🇴 罗马尼亚 - Timișoara - Unmanaged LTD - 1
+      - "9|@Daily_Configs <-- کانال تلگرا... #1"
+      - "9|telegram-@ISVvpn #2"
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - 🇺🇸 美国|@ripaojiedian 2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - 🇻🇳 越南|@ripaojiedian 2
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

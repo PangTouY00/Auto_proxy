@@ -5,87 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "r♡ya #3", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "10|@Daily_Configs #7", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: 🇻🇳 12|🇻🇳 越南|@ripaojiedian, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: "@Daily_Configs #5", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: 10|کای ها یش ر ن ترا💎 Config_Raye..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省东莞市 电信, server: aflzzul.meiquankongjian.com, port: 52513, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}}
-  - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.231.103, port: 3160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
-  - {name: 10|telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: "@Daily_Configs #7", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: "@Daily_Configs <-- کانال تلگرا... #2", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: daily_configs, obfs: salamander, obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs, sni: slack.com, skip-cert-verify: true}
-  - {name: 10|@Daily_Configs <-- کانا تلگرام, server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: daily_configs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
-  - {name: All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "10|@Daily_Configs #6", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 160.16.231.103, port: 3160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "9|@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - 法兰克福 - OVH SAS - 1, server: lt.fxlcn.com, port: 45228, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 160.16.117.182, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "Channel id: @vpnserverrr🇸🇬", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 126.116.225.149, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "9|@Daily_Configs #8", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇨🇳 江苏省 移动, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}}
+  - {name: 🇮🇩 印度尼西亚|@ripaojiedian, server: ppy-boardv2.02ijp4uos1.download, port: 26144, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "@Daily_Configs #13", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: 9|@FreakConfig, server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|Channel id: @vpnserverrr🇺", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: "@V2rayNGVPN <- کانفیگ رایگان", server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, ports: 2083, password: siEk2SjZFG, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii, sni: ghasem.kotlet.org, skip-cert-verify: true}
+  - {name: Telegram:@Daily_Configs, server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: telegramchannel_daily_configs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 203.198.123.174, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,92 +112,101 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,22 +222,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "r♡ya #3"
-      - "10|@Daily_Configs #7"
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - "@Daily_Configs #5"
-      - 10|کای ها یش ر ن ترا💎 Config_Raye...
-      - 🇨🇳 广东省东莞市 电信
-      - tg频道:@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - telegram-@ISVvpn
-      - 10|telegram-@vpnserverrr
-      - "@Daily_Configs #7"
-      - "@Daily_Configs <-- کانال تلگرا... #2"
-      - 10|@Daily_Configs <-- کانا تلگرام
-      - All-@IRAN_V2RAY1
-      - "10|@Daily_Configs #6"
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - "9|@IRAN_V2RAY1 #1"
+      - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - "9|@Daily_Configs #8"
+      - 🇨🇳 江苏省 移动
+      - 🇮🇩 印度尼西亚|@ripaojiedian
+      - 🇺🇸 usa-telegram-@ISVvpn
+      - WI-FI--@IRAN_V2RAY1
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #13"
+      - 9|@FreakConfig
+      - "9|Channel id: @vpnserverrr🇺"
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - Telegram:@Daily_Configs
+      - 🇭🇰 香港6|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
