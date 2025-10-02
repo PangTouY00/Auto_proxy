@@ -5,39 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.236.32, port: 449, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.130.66, port: 3296, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: "@Daily_Configs #10", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: "@Daily_Configs", server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
+  - {name: "@Daily_Configs #5", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: "🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2", server: buyix.qzz.io, port: 8443, type: vmess, uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm, headers: {Host: buyix.qzz.io}}}
+  - {name: "@FreakConfig #1", server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 153.121.51.29, port: 409, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "10|Channel id: @vpnserverrr🇺", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: "@Daily_Configs #14", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, sni: ubuntu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
+  - {name: tg频道:@ripaojiedian, server: 3.107.151.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "10|@Daily_Configs #15", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
+  - {name: 10|🇺🇲@FreakConfig, server: pouria.3dfigures.ir, port: 28777, type: hysteria2, ports: 28777, password: lHoYmNZmLe, obfs: salamander, obfs-password: wcancmaocnewrivbkacmlmsvwuvdfsv, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #5", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: MCI-@IRAN_V2RAY1, server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1, server: fa.fxlcn.com, port: 45237, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,44 +116,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,10 +231,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg频道:@ripaojiedian
+      - "@Daily_Configs #10"
+      - "@Daily_Configs"
+      - "@Daily_Configs #5"
+      - 🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2
+      - "@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|Channel id: @vpnserverrr🇺"
+      - "@Daily_Configs #14"
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - "10|@Daily_Configs #15"
+      - 🇻🇳 越南|@ripaojiedian
+      - telegram-@ISVvpn
+      - 10|🇺🇲@FreakConfig
+      - "10|@Daily_Configs #5"
+      - MCI-@IRAN_V2RAY1
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
+      - 🇦🇺 澳大利亚 - 悉尼 - The Constant Company - 1
+      - 🇭🇰 香港|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -5,43 +5,111 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 126.116.225.149, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.138.24, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "@FreakConfig", server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 - 东京 - Ipxo LLC - 2, server: 158.51.110.111, port: 18639, type: vmess, uuid: 7e368916-ff86-4758-b99e-31bbbb5917fc, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
+  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.154.198, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.138.24, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.130.66, port: 3296, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "10|@Daily_Configs #1", server: 185.92.220.240, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
   - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "10|@FreakConfig #1", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 3.107.151.161, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇩🇪 10|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: 10|All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "@FreakConfig 2", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 14|CN_speednode_0003, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true}
+  - {name: "telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
+  - {name: 10|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "WI-FI--@IRAN_V2RAY1 #2", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|@FreakConfig, server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 10|🇩🇪@FreakConfig, server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,49 +128,116 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,11 +253,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4|@ripaojiedian
+      - "@FreakConfig"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇻🇳 13|越南|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "10|@Daily_Configs #1"
+      - All--@IRAN_V2RAY1
       - 🇨🇳 江苏省 移动
+      - "10|@FreakConfig #1"
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - 10|All--@IRAN_V2RAY1
+      - "@FreakConfig 2"
+      - 14|CN_speednode_0003
+      - "telegram-@ISVvpn #2"
+      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 10|@FreakConfig
+      - 10|🇩🇪@FreakConfig
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
