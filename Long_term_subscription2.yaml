@@ -5,39 +5,39 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 庆祝中华人民共和国成立76周年！, server: 0.0.0.0, port: 3, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, servername: web.51.la}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 如有需要，自行搭建, server: web.51.la, port: 443, type: vmess, uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b, alterId: 0, cipher: auto, tls: true, servername: web.51.la}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 153.121.51.29, port: 409, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.236.32, port: 449, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.130.66, port: 3296, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,43 +56,44 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +109,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 庆祝中华人民共和国成立76周年！
-      - 🇰🇷 韩国|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇯🇵 日本3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
