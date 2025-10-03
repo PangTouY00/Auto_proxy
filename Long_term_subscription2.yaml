@@ -5,99 +5,119 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: "@Daily_Configs «-- کانال تلگرا...", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: joindailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
-  - {name: "@Daily_Configs #6", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 36.156.102.88, port: 3296, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 36.156.102.88, port: 1806, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
-  - {name: 10|MCI-@IRAN_V2RAY1, server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0006, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true}
-  - {name: "@Daily_Configs #12", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - Ipxo LLC - 2, server: 158.51.110.111, port: 18639, type: vmess, uuid: 7e368916-ff86-4758-b99e-31bbbb5917fc, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: "10|@Daily_Configs #5", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: biadailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: 10|All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 10|🇩🇪@EXPRESSVPN_420, server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "10|@Daily_Configs #14", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
-  - {name: "@Daily_Configs", server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
-  - {name: 10|@Daily_Configs, server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 3.107.151.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 36.156.102.88, port: 1806, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市 UCloud, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true}
+  - {name: "@Daily_Configs #17", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: joindailyconfigschanel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #13", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: "10|@freenettir #1", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 1045aedf-053c-4585-875d-e2fc3f3ea6dd, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 221.128.195.217, port: 444, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "10|@freenettir #19", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 9c859345-959f-491b-b6fc-65cd7a57aeb3, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "10|@freenettir #21", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: ‍☠️@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "@Daily_Configs #13", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigsdailyconfigsdailyconfigsdailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: 10|کانفیگ ها یش ر ن تگا💎 Config_R..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}}
+  - {name: 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:..., server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: "@Daily_Configs #11", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 36.156.102.88, port: 3296, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "@FreakConfig #2", server: pouria.3dfigures.ir, port: 53713, type: hysteria2, ports: 53713, password: lHoYmNZmLe, obfs: salamander, obfs-password: uvahwuicbhwabhvlhv, skip-cert-verify: true}
+  - {name: "@Daily_Configs #10", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #2", server: 185.92.220.240, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: "WI-FI--@IRAN_V2RAY1 #2", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 10|🇺🇲@FreakConfig, server: pouria.3dfigures.ir, port: 28777, type: hysteria2, ports: 28777, password: lHoYmNZmLe, obfs: salamander, obfs-password: wcancmaocnewrivbkacmlmsvwuvdfsv, skip-cert-verify: true}
+  - {name: 10|🇩🇪@FreakConfig, server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
+  - {name: "10|@freenettir #30", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "10|@freenettir #23", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,104 +136,128 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,25 +273,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - telegram-@vpnserverrr
-      - "@Daily_Configs «-- کانال تلگرا..."
-      - "@Daily_Configs #6"
+      - "@Daily_Configs #17"
+      - "10|@Daily_Configs #13"
+      - "10|@freenettir #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - "10|@freenettir #19"
+      - "10|@freenettir #21"
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - ‍☠️@FreakConfig
+      - "@Daily_Configs #13"
+      - 10|کانفیگ ها یش ر ن تگا💎 Config_R...
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@Daily_Configs #11"
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 10|MCI-@IRAN_V2RAY1
-      - 14|CN_speednode_0006
-      - "@Daily_Configs #12"
-      - 🇯🇵 日本 - 东京 - Ipxo LLC - 2
-      - "10|@Daily_Configs #5"
-      - 10|All-@IRAN_V2RAY1
-      - 10|🇩🇪@EXPRESSVPN_420
-      - "10|@Daily_Configs #14"
-      - "@Daily_Configs"
-      - 10|@Daily_Configs
-      - tg频道:@ripaojiedian
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 广东省广州市 UCloud
+      - "@FreakConfig #2"
+      - "@Daily_Configs #10"
+      - "10|@Daily_Configs #2"
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇭🇰 香港|@ripaojiedian
+      - 10|🇺🇲@FreakConfig
+      - 10|🇩🇪@FreakConfig
+      - "10|@freenettir #30"
+      - "10|@freenettir #23"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
