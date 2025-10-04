@@ -5,123 +5,111 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "10|@freenettir #8", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
-  - {name: "@freenettir #35", server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, ports: 2083, password: siEk2SjZFG, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii, sni: ghasem.kotlet.org, skip-cert-verify: true}
-  - {name: "10|@freenettir #3", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 23125f6e-ec56-4c26-9714-0bbacdb53d01, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: "10|@Daily_Configs #10", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: "10|WI-FI--@IRAN_V2RAY1 #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 176.97.68.153, port: 8443, type: trojan, password: installshield}
-  - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 103.224.80.49, port: 12114, type: vmess, uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78, alterId: 0, cipher: auto, tls: false}
-  - {name: "10|@Daily_Configs #8", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 221.128.195.217, port: 444, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "@freenettir #2", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 1045aedf-053c-4585-875d-e2fc3f3ea6dd, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2, server: panel-nl2.turkcloud.ir, port: 8443, type: vmess, uuid: 6b3a7034-39ec-f057-377d-cf6af57b4db4, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "@freenettir #9", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 13|CN_speednode_0006, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 103.224.80.49, port: 12114, type: vmess, uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78, alterId: 0, cipher: auto, tls: false}
-  - {name: "10|@freenettir #6", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 29fbd51f-03c8-4d76-849a-436e54d58317, sni: real.getafreenode.sbs, skip-cert-verify: false}
-  - {name: "10|@Daily_Configs #15", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
+  - {name: "@freenettir #22", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "@FreakConfig", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 电信, server: 221.149.11.173, port: 35591, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
   - {name: "Channel id: @vpnserverrr🇺🇸", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4, server: 104.168.94.41, port: 32301, type: vmess, uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: "🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: hn.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hn.xn--wlqw1swrj04ju56d.com}}}
-  - {name: "@EXPRESSVPN_420 -> همه اپرات...", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "@Daily_Configs #12", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 34.245.185.129, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 12|tg频道:@ripaojiedian, server: 34.245.185.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "10|@Daily_Configs #12", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "9|Channel id: @vpnserverrr🇺🇸", server: mg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg1.mangshe.xyz, skip-cert-verify: true}
+  - {name: "9|@Daily_Configs #7", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "Channel id: @vpnserverrr🇸🇬", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
+  - {name: 9|Telegram:@Daily_Configs, server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: telegramchannel_daily_configs, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
+  - {name: "@Daily_Configs", server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.156.102.88, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.124.55, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 58.152.25.156, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "@freenettir #14", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 942b9cb8-92fa-46ac-ae91-f69c8234434b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: 🇭🇰 香港3|@ripaojiedian 2, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.138.24, port: 2283, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "@Daily_Configs #17", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,131 +128,119 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -280,31 +256,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@freenettir #8"
-      - telegram-@ISVvpn
-      - "@freenettir #35"
-      - "10|@freenettir #3"
-      - "10|@Daily_Configs #10"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "10|@Daily_Configs #8"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "@freenettir #2"
-      - 🇳🇱 荷兰 - Dronten - The Infrastructure Group B.V. - 2
+      - 9|All--@IRAN_V2RAY1
+      - "@freenettir #9"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 7
+      - 13|CN_speednode_0006
       - 🇭🇰 香港3|@ripaojiedian
-      - "10|@freenettir #6"
-      - "10|@Daily_Configs #15"
+      - "@freenettir #22"
+      - "@FreakConfig"
+      - 🇰🇷 韩国 电信
+      - 🇭🇰 香港2|@ripaojiedian
       - "Channel id: @vpnserverrr🇺🇸"
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 - 圣克拉拉 - HostPapa - 4
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - "@Daily_Configs #12"
-      - tg频道:@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - "10|@Daily_Configs #12"
+      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #7"
+      - "Channel id: @vpnserverrr🇸🇬"
+      - 9|Telegram:@Daily_Configs
+      - "@Daily_Configs"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@freenettir #14"
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇸🇬 新加坡|@ripaojiedian
+      - "@Daily_Configs #17"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
