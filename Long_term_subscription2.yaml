@@ -5,95 +5,147 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@FreakConfig #1", server: pouria.3dfigures.ir, port: 28777, type: hysteria2, ports: 28777, password: lHoYmNZmLe, obfs: salamander, obfs-password: wcancmaocnewrivbkacmlmsvwuvdfsv, skip-cert-verify: true}
-  - {name: "10|@Daily_Configs #15", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: joindailyconfigschanel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "10|@freenettir #7", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "10|@freenettir #22", server: 40.233.103.51, port: 47262, type: hysteria2, ports: 47262, password: 862e90e1-2f26-4506-b8b9-0adf20da05fc, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "10|@freenettir #25", server: vn.gomeow.online, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: TTEmefHq1OlFElQr, sni: vn.gomeow.online, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: 1ecaf43c-5b0c-4ed6-bb19-5423084071ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ac14afb6e6a4050c1803dc03874ffd7d.mobgslb.tbcache.com}}}
+  - {name: "10|@freenettir #47", server: sg-nb-02.linlujs.pw, port: 24785, type: hysteria2, ports: 24785, password: e743a3ef-d3b0-4fe1-895c-2ea97626c527, sni: sg-nb-02.linlujs.pw, skip-cert-verify: false}
+  - {name: telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
+  - {name: 10|@FreakConfig, server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163", server: cg1c14.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c14.waimaojd.com}}}
+  - {name: "telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1, server: 7cmy5-g03.jp04-1d-vm0.entry.fr0528.art, port: 446, type: vmess, uuid: 0a503c30-d319-31c1-9346-038ecbb13de8, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.156.102.88, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: "10|@freenettir #39", server: pepslgy1.pepsl.top, port: 14568, type: hysteria2, ports: 14568, password: bd6b264b-c9fe-452d-a98b-533b3d8a2756, sni: pepslgy1.pepsl.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.124.55, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Sharktech - 183, server: cg1c04.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c04.waimaojd.com}}}
+  - {name: "All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: 🇨🇳 江苏省盐城市 移动, server: 36.156.102.88, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "10|@freenettir #33", server: yapc-1.adamhayward.co.uk, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 - Slough - DIGITALOCEAN - 3, server: cg1c12.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c12.waimaojd.com}}}
+  - {name: "10|@freenettir #27", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #8", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #10", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "10|@freenettir #12", server: 172.252.236.213, port: 52368, type: hysteria2, ports: 52368, password: 48c2c901-72e6-46d4-ac78-169d73264cbf, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "10|@freenettir #16", server: 172.252.236.213, port: 52368, type: hysteria2, ports: 52368, password: 6bf726db-fb0b-405b-899a-3e263f092eda, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 36.156.102.86, port: 22000, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian, server: laeg.hsymanuscript.top, port: 49513, type: vmess, uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6, alterId: 0, cipher: auto, tls: false}
   - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 221.128.195.217, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "10|🇺🇲@FreakConfig #1", server: pouria.3dfigures.ir, port: 53713, type: hysteria2, ports: 53713, password: lHoYmNZmLe, obfs: salamander, obfs-password: uvahwuicbhwabhvlhv, skip-cert-verify: true}
-  - {name: 10|telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: "🇩🇪 10|DE-telegram-@ISVvpn   : یا", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "@FreakConfig #2", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "@Daily_Configs #17", server: 95.181.174.31, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, obfs: salamander, obfs-password: sk8JqhGcrazoMtCeqlBX76nwlPaypmnP, sni: slack.com, skip-cert-verify: true}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "10|All-@IRAN_V2RAY1 #2", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇨🇳 江苏省 移动 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: "@Daily_Configs", server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
-  - {name: "10|WI-FI--@IRAN_V2RAY1 #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.124.55, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: hn.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hn.xn--wlqw1swrj04ju56d.com}}}
+  - {name: "10|@freenettir #20", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "10|@freenettir #9", server: 185.126.255.78, port: 50440, type: hysteria2, ports: 50440, password: 29fbd51f-03c8-4d76-849a-436e54d58317, sni: real.getafreenode.sbs, skip-cert-verify: false}
+  - {name: "@Daily_Configs #8", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,101 +164,153 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -222,24 +326,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@FreakConfig #1"
-      - "10|@Daily_Configs #15"
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - "10|🇺🇲@FreakConfig #1"
-      - 10|telegram-@vpnserverrr
-      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
-      - All--@IRAN_V2RAY1
-      - "@FreakConfig #2"
-      - "@Daily_Configs #17"
-      - 🇨🇳 江苏省 移动
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "10|All-@IRAN_V2RAY1 #2"
-      - 🇨🇳 江苏省 移动 2
-      - "@Daily_Configs"
-      - "10|WI-FI--@IRAN_V2RAY1 #1"
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - "10|@freenettir #7"
+      - "10|@freenettir #22"
+      - "10|@freenettir #25"
+      - 🇬🇧 英国 - 倫敦金融城 - OVH SAS - 2
+      - "10|@freenettir #47"
+      - telegram-@vpnserverrr
+      - 10|@FreakConfig
+      - 🇺🇸 美国 - Douglasville - DigitalOcean, LLC - 163
+      - "telegram-@ISVvpn #2"
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|@freenettir #39"
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 4
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 183
+      - "All-@IRAN_V2RAY1 #1"
+      - 🇨🇳 江苏省盐城市 移动
+      - 🇻🇳 越南|@ripaojiedian
+      - "10|@freenettir #33"
+      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
+      - "10|@freenettir #27"
+      - "10|@Daily_Configs #8"
+      - "10|@Daily_Configs #10"
+      - "10|@freenettir #12"
+      - "10|@freenettir #16"
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@freenettir #20"
+      - "10|@freenettir #9"
+      - "@Daily_Configs #8"
+      - 🇭🇰 香港3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
