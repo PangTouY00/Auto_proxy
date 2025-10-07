@@ -5,123 +5,127 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 160.16.144.208, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "9|All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
-  - {name: telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 上海市 电信IDC机房, server: entrance02.qqa678.cc, port: 47081, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false}
-  - {name: "9|@Daily_Configs #1", server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, ports: 37771, password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 - Slough - DIGITALOCEAN - 3, server: cg1c12.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c12.waimaojd.com}}}
-  - {name: 9|@IRAN_V2RAY1, server: 40.233.82.111, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130, server: mvxpzpxc.xn--fiqs8sjz2bull.com, port: 48506, type: vmess, uuid: 16b0c0a5-b393-4145-b51c-aab99d8c43b8, alterId: 0, cipher: auto, tls: false}
-  - {name: "9|Channel id: @vpnserverrr🇺🇸", server: mg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123", server: us11g.easylink1.com, port: 13077, type: vmess, uuid: c9b1a9ec-c4a2-3780-9743-a17165966530, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us11g.easylink1.com}}}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1, server: 7cmy5-g03.jp04-1d-vm0.entry.fr0528.art, port: 446, type: vmess, uuid: 0a503c30-d319-31c1-9346-038ecbb13de8, alterId: 1, cipher: auto, tls: false}
-  - {name: "9|Channel id: @vpnserverrr🇺", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: "9|@Daily_Configs #5", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: biadailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 阿里云, server: 8.217.158.92, port: 49761, type: vmess, uuid: b224875e-98a6-4477-a1ee-533887b6701d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
   - {name: "@Daily_Configs #1", server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, ports: 37771, password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true}
-  - {name: "@sunflowerplato", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
-  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
-  - {name: 🇭🇰 12|香港3|@ripaojiedian, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|@Daily_Configs, server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153, server: mvxpzpxc.xn--fiqs8sjz2bull.com, port: 17392, type: vmess, uuid: 16b0c0a5-b393-4145-b51c-aab99d8c43b8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: laeg.hsymanuscript.top, port: 49513, type: vmess, uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.156.102.86, port: 26295, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "9|All-@IRAN_V2RAY1 #2", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇸🇬 12|新加坡3|@ripaojiedian, server: laeg.hsymanuscript.top, port: 49513, type: vmess, uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130, server: mvxpzpxc.xn--fiqs8sjz2bull.com, port: 48506, type: vmess, uuid: 16b0c0a5-b393-4145-b51c-aab99d8c43b8, alterId: 0, cipher: auto, tls: false}
+  - {name: "@IRAN_V2RAY1 #2", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: "9|@sunflowerplato🌻 #2", server: qing-kz.mxtn.net, port: 443, type: hysteria2, ports: 443, password: c3054d61-c708-4594-9797-f50acd24de2a, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 221.128.195.218, port: 4431, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: 9|telegram-@vpnserverrr, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
+  - {name: "@Daily_Configs", server: 5.231.70.79, port: 443, type: hysteria2, ports: 443, password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D, sni: bing.com, skip-cert-verify: true}
+  - {name: "@FreakConfig", server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|@Daily_Configs #6", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian, server: laeg.hsymanuscript.top, port: 49513, type: vmess, uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 阿里云, server: 47.238.0.200, port: 44567, type: vmess, uuid: e5e2f6e1-4db1-4a9e-9a22-ad478318e01e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "9|Channel id: @vpnserverrr🇺", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 34.245.185.129, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇺🇸 美国 - 芝加哥 - Sharktech - 160, server: cg1c05.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c05.waimaojd.com}}}
+  - {name: "@FreakConfig #3", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 阿里云, server: 47.76.182.117, port: 38281, type: vmess, uuid: bd15ba37-61c8-4f75-aa53-fe62010becbc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: "@Daily_Configs #14", server: 45.58.38.153, port: 40112, type: hysteria2, ports: 40112, password: miaoge110, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|@sunflowerplato🌻 #1", server: 185.92.220.240, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Sharktech - 159, server: cg1c07.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c07.waimaojd.com}}}
+  - {name: "@EXPRESSVPN_420 -> همه اپرات...", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
+  - {name: 9|All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "9|@Daily_Configs #15", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, sni: ubuntu.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,133 +144,136 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - 🇭🇰 香港 阿里云
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -282,31 +289,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #1"
-      - telegram-@vpnserverrr
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
-      - 🇨🇳 上海市 电信IDC机房
-      - 🇭🇰 香港3|@ripaojiedian
-      - "9|@Daily_Configs #1"
-      - 🇬🇧 英国 - Slough - DIGITALOCEAN - 3
-      - 9|@IRAN_V2RAY1
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
-      - "9|Channel id: @vpnserverrr🇺🇸"
+      - "9|@Daily_Configs #5"
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国 - 德雷珀 - FiberState, LLC - 123
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "9|Channel id: @vpnserverrr🇺"
       - "@Daily_Configs #1"
-      - "@sunflowerplato"
-      - WI-FI--@IRAN_V2RAY1
-      - 🇭🇰 12|香港3|@ripaojiedian
-      - 9|@Daily_Configs
-      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 153
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|All-@IRAN_V2RAY1 #2"
-      - 🇸🇬 12|新加坡3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 130
+      - "@IRAN_V2RAY1 #2"
+      - "9|@sunflowerplato🌻 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 9|telegram-@vpnserverrr
+      - "@Daily_Configs"
+      - "@FreakConfig"
+      - "9|@Daily_Configs #6"
+      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 阿里云
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+      - "9|Channel id: @vpnserverrr🇺"
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 - 芝加哥 - Sharktech - 160
+      - "@FreakConfig #3"
+      - 🇭🇰 香港 阿里云
+      - "@Daily_Configs #14"
+      - "9|@sunflowerplato🌻 #1"
+      - 🇺🇸 美国 - 洛杉矶 - Sharktech - 159
+      - "@EXPRESSVPN_420 -> همه اپرات..."
+      - 9|All--@IRAN_V2RAY1
+      - "9|@Daily_Configs #15"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
