@@ -5,107 +5,123 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: kf5uhgscrdl73kmihv8c.appsworld.shop, port: 21791, type: vmess, uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cbf7f6acabd0dde4bef067580c126fed77a00de7, headers: {Host: www.baidu.com}}}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 160.16.81.84, port: 1536, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 10|🇳🇱@FreakConfig, server: hshl.huasuan666.top, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hshl.huasuan666.top, skip-cert-verify: true}
-  - {name: "10|@IRAN_V2RAY1 #2", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 10|All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "WI-FI--@IRAN_V2RAY1 #2", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: MCI-@IRAN_V2RAY1, server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.81.84, port: 1536, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "@Daily_Configs #4", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.184, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: "@IRAN_V2RAY1", server: 40.233.82.111, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 36.156.102.84, port: 3271, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
+  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: kf5uhgscrdl73kmihv8c.appsworld.shop, port: 21791, type: vmess, uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cbf7f6acabd0dde4bef067580c126fed77a00de7, headers: {Host: www.baidu.com}}}
+  - {name: "@Daily_Configs #7", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11, server: kf5uhgscrdl73kmihv8c.appsworld.shop, port: 21791, type: vmess, uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cbf7f6acabd0dde4bef067580c126fed77a00de7, headers: {Host: www.baidu.com}}}
   - {name: "10|All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
-  - {name: 🇭🇰 13|香港3|@ripaojiedian, server: 149.104.15.178, port: 34310, type: vmess, uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c, alterId: 0, cipher: auto, tls: false}
-  - {name: "@IRAN_V2RAY1 #2", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
-  - {name: JP_speednode_0034, server: 160.16.136.130, port: 4451, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "@sunflowerplato🌻", server: de1.jueduibupao.top, port: 43836, type: hysteria2, ports: 43836, password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336, sni: de1.jueduibupao.top, skip-cert-verify: true}
+  - {name: "🇩🇪 10|DE-telegram-@ISVvpn   : یا", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: "@FreakConfig", server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94, sni: bing.com, skip-cert-verify: true}
+  - {name: 10|🇺🇲@FreakConfig, server: 208.87.243.187, port: 22222, type: hysteria2, ports: 22222, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: US_speednode_0074, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nodes.830901.xyz}}}
+  - {name: 10|telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "@Daily_Configs #2", server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, ports: 37771, password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 34.245.185.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.63.16, port: 3271, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: 218.237.185.230, port: 4652, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: "10|@Daily_Configs #11", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #2", server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, ports: 37771, password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true}
+  - {name: "10|@Daily_Configs #6", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: biadailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: kf5uhgscrdl73kmihv8c.appsworld.shop, port: 21791, type: vmess, uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cbf7f6acabd0dde4bef067580c126fed77a00de7, headers: {Host: www.baidu.com}}}
+  - {name: telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
+  - {name: 10|🇩🇪@FreakConfig, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,115 +140,132 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -248,27 +281,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 10|🇳🇱@FreakConfig
-      - "10|@IRAN_V2RAY1 #2"
-      - 10|All-@IRAN_V2RAY1
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - MCI-@IRAN_V2RAY1
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #4"
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - "@IRAN_V2RAY1"
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 3
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "@Daily_Configs #7"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 11
       - "10|All-@IRAN_V2RAY1 #1"
-      - 🇭🇰 13|香港3|@ripaojiedian
-      - "@IRAN_V2RAY1 #2"
-      - "telegram-@ISVvpn #2"
-      - JP_speednode_0034
-      - "@sunflowerplato🌻"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   : یا"
+      - "@FreakConfig"
+      - 10|🇺🇲@FreakConfig
+      - US_speednode_0074
+      - 10|telegram-@ISVvpn
+      - 🇯🇵 日本|@ripaojiedian
+      - "@Daily_Configs #2"
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - "10|@Daily_Configs #11"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #1"
+      - "10|@Daily_Configs #2"
+      - "10|@Daily_Configs #6"
+      - 🇰🇷 韩国 - 春川市 - Oracle Corporation - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - telegram-@ISVvpn
+      - 🇭🇰 香港2|@ripaojiedian
+      - 10|🇩🇪@FreakConfig
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
