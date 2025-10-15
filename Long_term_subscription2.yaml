@@ -5,147 +5,135 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Daily_Configs #13", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 36.156.102.84, port: 5321, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "10|@sunflowerplato #1", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
-  - {name: "@sunflowerplato", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
-  - {name: "10|@Daily_Configs #10", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: biadailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: "10|🇲@FreakConfig #1", server: 192.3.60.176, port: 41951, type: hysteria2, ports: 41951, password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.156.102.84, port: 5321, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "@Daily_Configs #15", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigschannel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 阿里云, server: 47.239.141.74, port: 11886, type: vmess, uuid: 0d36b017-6d7c-493d-bb12-55c34faf6efc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 10|🇹🇷@FreakConfig, server: 46.203.248.72, port: 50443, type: hysteria2, ports: 50443, password: 09fceaf1-5813-4745-b8ad-725fc5a8c426, skip-cert-verify: true}
-  - {name: "@FreakConfig", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "@FreakConfig #9", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2, server: 106.14.75.114, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "@AblNet7 🇸🇪 机场推荐", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "10|@Daily_Configs #13", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.27, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
+  - {name: 🇨🇳 中国 阿里云, server: 8.217.127.167, port: 32209, type: vmess, uuid: 65799f4c-f5ea-40bd-88ac-4b49837f569f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: "@Daily_Configs #1", server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, ports: 54265, password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 5.44.249.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
+  - {name: "9| @AblNet7 🇺🇸 机场推荐 #1", server: 108.165.213.197, port: 23891, type: hysteria2, ports: 23891, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus01.mistea.top, skip-cert-verify: true}
+  - {name: "9|All-@IRAN_V2RAY1 #3", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "9|💎کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇯🇵 12|日本4|@ripaojiedian, server: 194.68.27.76, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
+  - {name: 9|All-@IRAN_V2RAY1, server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.156.102.84, port: 3271, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net}
   - {name: "@AblNet7 🇺🇸 机场推荐 #1", server: 113.192.61.19, port: 63979, type: hysteria2, ports: 63979, password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "telegram-@ISVvpn #1", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: "All-@IRAN_V2RAY1 #3", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: "10| ➠ 𝐞: @V2Gatee", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|Tel:@Daily_Configs, server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: perspoliszibatarineshghjahan, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
-  - {name: "All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
-  - {name: Tel:@Daily_Configs, server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: perspoliszibatarineshghjahan, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 221.128.195.222, port: 4400, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 58.152.53.162, port: 443, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: fe2.update.microsoft.com, skip-cert-verify: true}
-  - {name: 10|کای ها یش ر ن را💎 Config_Rayeg..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇰🇷 韩国|@ripaojiedian 2, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}}
-  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5, server: 119.29.98.43, port: 20521, type: vmess, uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.156.102.84, port: 2173, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
+  - {name: "9|Channel id: @vpnserverrr🇺", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 12|香港3|@ripaojiedian, server: 43.247.135.17, port: 41522, type: vmess, uuid: ea897b9a-0894-4f17-ab5b-7e059678734d, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|🇹🇷@FreakConfig, server: 46.203.248.72, port: 50443, type: hysteria2, ports: 50443, password: 09fceaf1-5813-4745-b8ad-725fc5a8c426, skip-cert-verify: true}
+  - {name: 🇭🇰 11|🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
+  - {name: "9|@Daily_Configs #17", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: joindailyconfigschanel, obfs: salamander, obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS, sni: microsoft.com, skip-cert-verify: true}
+  - {name: 9|🔐 @AblNet7  机场推荐, server: 150.230.28.100, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "Join -> Telegram: @V2Gatee", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 221.128.195.222, port: 4400, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 13.39.112.103, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10, server: 148.135.184.84, port: 35500, type: vmess, uuid: 869b6722-799d-4d3b-b930-bebd42fd1e28, alterId: 0, cipher: auto, tls: false}
+  - {name: "9|@Daily_Configs #1", server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, ports: 54265, password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 36.156.102.84, port: 5321, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "@AblNet7 🇺🇸 机场推荐", server: 836902-20.9966661.xyz, port: 3000, type: hysteria2, ports: 3000, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 836902-20.9966661.xyz, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,154 +152,144 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -327,37 +305,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Daily_Configs #13"
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@sunflowerplato #1"
-      - "@sunflowerplato"
-      - "10|@Daily_Configs #10"
-      - "10|🇲@FreakConfig #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - "@Daily_Configs #15"
-      - 🇺🇸 美国 阿里云
-      - 10|🇹🇷@FreakConfig
-      - "@FreakConfig"
-      - "@FreakConfig #9"
-      - 🇨🇳 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
-      - "@AblNet7 🇸🇪 机场推荐"
-      - "10|@Daily_Configs #13"
-      - 🇻🇳 越南|@ripaojiedian
+      - 🇨🇳 中国 阿里云
+      - "@Daily_Configs #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "9| @AblNet7 🇺🇸 机场推荐 #1"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "9|💎کانفیگ های بیشتر در چنل تلگرا... #1"
+      - 🇯🇵 12|日本4|@ripaojiedian
+      - 9|All-@IRAN_V2RAY1
+      - 🇯🇵 日本3|@ripaojiedian
       - "@AblNet7 🇺🇸 机场推荐 #1"
-      - "telegram-@ISVvpn #1"
-      - "All-@IRAN_V2RAY1 #3"
-      - "10| ➠ 𝐞: @V2Gatee"
-      - 10|Tel:@Daily_Configs
-      - "All-@IRAN_V2RAY1 #1"
-      - Tel:@Daily_Configs
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 10|کای ها یش ر ن را💎 Config_Rayeg...
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian 2
-      - 🇳🇱 荷兰 - Meppel - PQ HOSTING PLUS S.R.L. - 8
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - "9|Channel id: @vpnserverrr🇺"
+      - 🇭🇰 12|香港3|@ripaojiedian
+      - 9|🇹🇷@FreakConfig
+      - 🇭🇰 11|🇭🇰 香港2|@ripaojiedian
+      - "9|@Daily_Configs #17"
+      - 9|🔐 @AblNet7  机场推荐
+      - "Join -> Telegram: @V2Gatee"
+      - 🇨🇳 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 8
+      - 🇭🇰 香港4|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - 盐湖城 - Bage Cloud LLC - 10
+      - "9|@Daily_Configs #1"
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - "@AblNet7 🇺🇸 机场推荐"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
