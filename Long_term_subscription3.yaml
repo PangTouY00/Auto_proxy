@@ -5,115 +5,127 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 160.16.144.208, port: 2381, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 16.176.178.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "9|🇳🇱@FreakConfig #6", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇻🇳 11|🇻🇳 越南|@ripaojiedian, server: 103.186.154.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 47.245.106.193, port: 22286, type: vmess, uuid: 8646218f-a600-4b73-8721-aa5d4567819e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "کانفیگ های بیشتر در چنل تلگرا... #2", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 9|🔐 @AblNet7  机场推荐, server: 150.230.28.100, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@EXPRESSVPN_420 -> همه اپرات...", server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: "🇭🇰 11,12|香港6|@ripaojiedian", server: 203.198.123.249, port: 443, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "Channel id: @vpnserverrr🇺🇸 #1", server: mg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg1.mangshe.xyz, skip-cert-verify: true}
-  - {name: "@FreakConfig #9", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.144.208, port: 1331, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 9|All--@IRAN_V2RAY1, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 45b46edb-679b-4ea5-befd-88c05bb94f80, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.144.208, port: 2381, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "Telegram: @Daily_Configs", server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: theredarmy, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@sunflowerplato🌻", server: qing-kz.mxtn.net, port: 443, type: hysteria2, ports: 443, password: c3054d61-c708-4594-9797-f50acd24de2a, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 9|@FreakConfig, server: 31.57.241.25, port: 7009, type: hysteria2, ports: 7009, password: 30c075af-9555-4671-b70e-43e3cfb2e707, sni: d.eans.top, skip-cert-verify: true}
+  - {name: 9|🔐 @AblNet7 🇸 机场推荐, server: 836902-20.9966661.xyz, port: 3000, type: hysteria2, ports: 3000, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 836902-20.9966661.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
+  - {name: 🇺🇸 9|usa-telegram-@ISVvpn, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: "@Daily_Configs #15", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, sni: ubuntu.com, skip-cert-verify: true}
+  - {name: "9|🇩🇪@FreakConfig #1", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
   - {name: 9|🇩🇪@EXPRESSVPN_420, server: android.yas-nowin.ir, port: 443, type: hysteria2, ports: 443, password: 3QlSMKyqLp, sni: android.yas-nowin.ir, skip-cert-verify: false}
-  - {name: 🇬🇧 英国|@ripaojiedian, server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO}
-  - {name: "🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43", server: 168.93.198.17, port: 443, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq}}
+  - {name: 9|🔐 @AblNet7 🇪 机场推荐, server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: id.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11}
+  - {name: "WI-FI--@IRAN_V2RAY1 #2", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: d4cbbb2:42774}}
+  - {name: "@Daily_Configs #14", server: 45.58.38.153, port: 40112, type: hysteria2, ports: 40112, password: miaoge110, sni: www.bing.com, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 16.176.178.192, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 9|🇩🇪@FreakConfig, server: d.eans.top, port: 7009, type: hysteria2, ports: 7009, password: 30c075af-9555-4671-b70e-43e3cfb2e707, sni: d.eans.top, skip-cert-verify: true}
+  - {name: "9|WI-FI--@IRAN_V2RAY1 #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.106.144, port: 316, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "9|@Daily_Configs #15", server: 103.249.133.79, port: 443, type: hysteria2, ports: 443, password: zanzendegiazadi, sni: ubuntu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
+  - {name: "All-@IRAN_V2RAY1 #3", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 153.121.56.122, port: 5321, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: "9|@sunflowerplato #1", server: 185.184.68.7.sslip.io, port: 46129, type: hysteria2, ports: 46129, password: df36ace8-640b-42bb-8169-198901af6d9e, obfs: salamander, obfs-password: JBPVtqk1kMBGleBcLZ, skip-cert-verify: true}
+  - {name: "9|Telegram: @Daily_Configs", server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: theredarmy, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
+  - {name: "@FreakConfig", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: "@FreakConfig #5", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "9|All-@IRAN_V2RAY1 #1", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,122 +144,132 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 11,12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -263,29 +285,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - "9|🇳🇱@FreakConfig #6"
-      - 🇻🇳 11|🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - "کانفیگ های بیشتر در چنل تلگرا... #2"
-      - 9|🔐 @AblNet7  机场推荐
-      - "@EXPRESSVPN_420 -> همه اپرات..."
-      - 🇭🇰 11,12|香港6|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "Channel id: @vpnserverrr🇺🇸 #1"
-      - "@FreakConfig #9"
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|All--@IRAN_V2RAY1
-      - 🇺🇸 美国|@ripaojiedian
-      - "Telegram: @Daily_Configs"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻"
+      - 🇭🇰 11,12|香港|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇸🇬 11|🇸🇬 新加坡5|@ripaojiedian
+      - 🇺🇸 9|usa-telegram-@ISVvpn
+      - "@Daily_Configs #15"
+      - "9|🇩🇪@FreakConfig #1"
       - 9|🇩🇪@EXPRESSVPN_420
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇺🇸 美国 - 紐華克 - Cloudflare, Inc. - 43
+      - 9|🔐 @AblNet7 🇪 机场推荐
+      - 🇮🇳 印度 V2CROSS.COM
+      - "WI-FI--@IRAN_V2RAY1 #2"
+      - 🇸🇬 新加坡4|@ripaojiedian
+      - "@Daily_Configs #14"
+      - tg频道:@ripaojiedian
+      - 9|🇩🇪@FreakConfig
+      - "9|WI-FI--@IRAN_V2RAY1 #1"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "9|@Daily_Configs #15"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "All-@IRAN_V2RAY1 #3"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "9|@sunflowerplato #1"
+      - "9|Telegram: @Daily_Configs"
+      - "@FreakConfig"
+      - "@FreakConfig #5"
+      - "9|All-@IRAN_V2RAY1 #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
