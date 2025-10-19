@@ -5,119 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇳🇱 - NL - @freeOnlineVPN #13", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1, server: jp35g.wi-fi-ai.com, port: 80, type: vmess, uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [jp35g.wi-fi-ai.com]}}}
-  - {name: "🇳🇱 - NL - @freeOnlineVPN #5", server: 206.71.158.37, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: 57.128.189.253, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kapelleng.com}}}
-  - {name: 🇭🇺 匈牙利 V2CROSS.COM, server: 109.61.39.28, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.131.243, port: 316, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 153.121.41.97, port: 5041, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "10|telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
-  - {name: "Telegram: @Daily_Configs", server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: theredarmy, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 58.152.30.92, port: 443, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "WI-FI--@IRAN_V2RAY1 #2", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省台北市 V2CROSS.COM, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}}
-  - {name: "MCi--@IRAN_V2RAY1 #3", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 153.121.41.97, port: 2467, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "@FreakConfig #2", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "10|Telegram: @Daily_Configs", server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: theredarmy, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
-  - {name: "@FreakConfig #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: "10|@FreakConfig #2", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "🇩🇪 10|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
-  - {name: "10|@FreakConfig #1", server: 31.57.241.25, port: 7009, type: hysteria2, ports: 7009, password: 30c075af-9555-4671-b70e-43e3cfb2e707, sni: d.eans.top, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com}}}
+  - {name: "9|@Daily_Configs #2", server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, ports: 54265, password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true}
+  - {name: 9|@FreakConfig, server: 129.153.59.26, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇻🇳 12|越南|@ripaojiedian, server: 103.186.154.217, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
+  - {name: "9|@FreakConfig #2", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 13.236.160.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "9|MCi--@IRAN_V2RAY1 #3", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: "9|🇱@FreakConfig #2", server: nl2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ada5516d-f772-414f-b11c-2faec29b5424, sni: bing.com, skip-cert-verify: true}
+  - {name: 9|🔐 @AblNet7 🇸 机场推荐, server: 836902-20.9966661.xyz, port: 3000, type: hysteria2, ports: 3000, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 836902-20.9966661.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 - 广州市 - China Mobile - 18, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21", server: 120.26.137.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,128 +84,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -273,30 +165,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 1
-      - "🇳🇱 - NL - @freeOnlineVPN #5"
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇭🇺 匈牙利 V2CROSS.COM
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|telegram-@ISVvpn #2"
-      - "Telegram: @Daily_Configs"
-      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
-      - 🇭🇰 香港4|@ripaojiedian
-      - "WI-FI--@IRAN_V2RAY1 #2"
-      - 🇨🇳 台湾省台北市 V2CROSS.COM
-      - "MCi--@IRAN_V2RAY1 #3"
-      - 🇺🇸 美国2|@ripaojiedian
-      - "@FreakConfig #2"
-      - "10|Telegram: @Daily_Configs"
-      - "@FreakConfig #1"
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - "10|@FreakConfig #2"
-      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
-      - "10|@FreakConfig #1"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - "9|@Daily_Configs #2"
+      - 9|@FreakConfig
+      - 🇻🇳 12|越南|@ripaojiedian
+      - "9|@FreakConfig #2"
+      - tg频道:@ripaojiedian
+      - "9|MCi--@IRAN_V2RAY1 #3"
+      - "9|🇱@FreakConfig #2"
+      - 9|🔐 @AblNet7 🇸 机场推荐
+      - 🇨🇳 中国 - 广州市 - China Mobile - 18
+      - 🇨🇳 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21
+      - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 19
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
