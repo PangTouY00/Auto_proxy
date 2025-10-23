@@ -5,131 +5,119 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "9|telegram-@ISVvpn #1", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 682c7978-e3eb-44e0-924c-607144495681, skip-cert-verify: false}
-  - {name: "@FreakConfig", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.81.84, port: 1331, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net}
-  - {name: WI-FI--@IRAN_V2RAY1, server: hl.dport.top, port: 33659, type: hysteria2, ports: 33659, password: 5fbe139f-c1e0-4b92-bb3c-7f68035962c3, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, sni: hl.dport.top, skip-cert-verify: true}
-  - {name: 9| @AblNet7 🇺🇸 机场推荐, server: 113.192.61.19, port: 63979, type: hysteria2, ports: 63979, password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.151.251.18, port: 2145, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇺🇸 11|🇺🇸 美国4|@ripaojiedian, server: 124.236.46.114, port: 47084, type: vmess, uuid: fd49381f-9fd8-4403-8698-48331a4d775d, alterId: 0, cipher: auto, tls: false}
-  - {name: tw01, server: tw01.tehuicloud.top, port: 57338, type: hysteria2, ports: 57338, password: a28e61d9-61f9-4058-be6c-cc4ad07e01a4, sni: tw01.tehuicloud.top, skip-cert-verify: true}
-  - {name: 11|tg频道:@ripaojiedian, server: 18.196.23.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7, server: 119.29.98.43, port: 20521, type: vmess, uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.81.84, port: 2381, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "9|🔐 @AblNet7  机场推荐 #1", server: 150.230.28.100, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "r♡ya #5", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: de01, server: de01.tehuicloud.top, port: 57338, type: hysteria2, ports: 57338, password: a28e61d9-61f9-4058-be6c-cc4ad07e01a4, sni: de01.tehuicloud.top, skip-cert-verify: true}
-  - {name: "9|@Daily_Configs #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "9|@meli_proxyy #1", server: 213.108.198.123, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
-  - {name: 9|kr01, server: kt01.tehuicloud.top, port: 57338, type: hysteria2, ports: 57338, password: a28e61d9-61f9-4058-be6c-cc4ad07e01a4, sni: kt01.tehuicloud.top, skip-cert-verify: true}
-  - {name: Tel:@Daily_Configs, server: 80.85.241.237, port: 443, type: hysteria2, ports: 443, password: perspoliszibatarineshghjahan, obfs: salamander, obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf, sni: stackoverflow.com, skip-cert-verify: true}
-  - {name: tw02, server: tw02.tehuicloud.top, port: 57338, type: hysteria2, ports: 57338, password: a28e61d9-61f9-4058-be6c-cc4ad07e01a4, sni: tw02.tehuicloud.top, skip-cert-verify: true}
-  - {name: "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19", server: yapc-1.adamhayward.co.uk, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.138, port: 4451, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: "🇳🇱 - NL - @freeOnlineVPN #6", server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 9|：期, server: us01.tehuicloud.top, port: 57238, type: hysteria2, ports: 57238, password: a28e61d9-61f9-4058-be6c-cc4ad07e01a4, sni: us01.tehuicloud.top, skip-cert-verify: true}
+  - {name: 10|🔐 @AblNet7 🇺🇸 机场推荐, server: 108.165.213.197, port: 23891, type: hysteria2, ports: 23891, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus01.mistea.top, skip-cert-verify: true}
+  - {name: "10|🔐 @AblNet7  机场推荐 #1", server: 150.230.28.100, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇯🇵 13|日本4|@ripaojiedian, server: lazy.rsqpq.cn, port: 32002, type: trojan, password: 82e0ff78-c281-4806-99ee-24c1d9912b4c, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 10|MCi--@IRAN_V2RAY1, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.81.84, port: 4452, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "10|MCi--@IRAN_V2RAY1 #3", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: "r♡ya #6", server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: "@AblNet7 🇸🇪 机场推荐", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: "🇩🇪 10|DE-telegram-@ISVvpn   :", server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: r♡ya, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
+  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "10|@Daily_Configs #8", server: de3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 36.156.102.115, port: 36698, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "@Daily_Configs #8", server: de3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: 10|rya, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
+  - {name: "10|r♡ya #5", server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: 10| @vistav2ray  👈کانا, server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: 10|کای  یش ر ن را💎 Config_Rayegan..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.156.102.115, port: 22443, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.81.84, port: 2467, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net}
+  - {name: 10|tw01, server: tw01.tehuicloud.top, port: 57338, type: hysteria2, ports: 57338, password: a28e61d9-61f9-4058-be6c-cc4ad07e01a4, sni: tw01.tehuicloud.top, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,138 +136,124 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港2|@ripaojiedian
-      - tw01
-      - tw02
+      - 10|tw01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -295,33 +269,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #27"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "9|telegram-@ISVvpn #1"
-      - "@FreakConfig"
-      - 🇯🇵 日本3|@ripaojiedian
-      - WI-FI--@IRAN_V2RAY1
-      - 9| @AblNet7 🇺🇸 机场推荐
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
-      - tw01
-      - 11|tg频道:@ripaojiedian
-      - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
-      - 🇺🇸 美国2|@ripaojiedian
-      - "9|🔐 @AblNet7  机场推荐 #1"
-      - "r♡ya #5"
-      - de01
-      - "9|@Daily_Configs #2"
-      - "9|@meli_proxyy #1"
-      - 9|kr01
-      - Tel:@Daily_Configs
-      - tw02
-      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #19"
-      - 🇨🇳 江苏省 移动
-      - "🇳🇱 - NL - @freeOnlineVPN #6"
-      - 9|：期
+      - 10|🔐 @AblNet7 🇺🇸 机场推荐
+      - "10|🔐 @AblNet7  机场推荐 #1"
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #10"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+      - 10|MCi--@IRAN_V2RAY1
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "10|MCi--@IRAN_V2RAY1 #3"
+      - "r♡ya #6"
+      - "@AblNet7 🇸🇪 机场推荐"
+      - "🇩🇪 10|DE-telegram-@ISVvpn   :"
+      - r♡ya
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "10|@Daily_Configs #8"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
+      - "@Daily_Configs #8"
+      - 10|rya
+      - "10|r♡ya #5"
+      - 10| @vistav2ray  👈کانا
+      - 10|کای  یش ر ن را💎 Config_Rayegan...
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 10|tw01
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
