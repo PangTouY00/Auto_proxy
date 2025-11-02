@@ -5,163 +5,147 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: telegram--MTMVPN 7, server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 6b71f268-sv4n40-tdh9w7-ahsb.hk3.p5pv.com, port: 80, type: vmess, uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: All-@V2rayAlpha--10, server: hsels.huasuan666.top, port: 22160, type: hysteria2, ports: 22160, password: 4ba709e6-6186-412d-a79d-bf256c7df57c, sni: hsels.huasuan666.top, skip-cert-verify: true}
-  - {name: "@meli_proxyy #4", server: xg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 36.150.215.197, port: 9713, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 954e8f8f-sv4n40-svs488-n09f.hk3.p5pv.com, port: 80, type: vmess, uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "10|@Daily_Configs #1", server: xg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xg1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 14|CN_speednode_0006, server: n001.xunxunmimisbs.sbs, port: 23100, type: trojan, password: f128c8a8-d184-4f9d-8aa2-503266130126, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: f42f46ca-sv0xs0-sv37gm-81nv.hk3.p5pv.com, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: f42f46ca-sv0xs0-sv37gm-81nv.hk3.p5pv.com}}}
+  - {name: CN_speednode_0005, server: 117.172.176.24, port: 5041, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 36.150.215.197, port: 51825, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN, server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true}
+  - {name: 9|@FreakConfig, server: rema.3dfigures.ir, port: 48979, type: hysteria2, ports: 48979, password: TkxSjbOR6w, obfs: salamander, obfs-password: telegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystal, skip-cert-verify: true}
+  - {name: "9|@Selinc #5", server: nl2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 117.172.176.24, port: 1332, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "MCi--@IRAN_V2RAY1 #1", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.150.215.236, port: 4492, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 9|@Selinc, server: 195.133.79.116, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, skip-cert-verify: true}
+  - {name: "9|@V2rayNG3 #18", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "9|🇳🇱@FreakConfig #1", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "9|@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false}
+  - {name: "@Daily_Configs #2", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: All--@V2ray_Alpha-1, server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 937f8940-ad8a-409f-93c3-4d6249af628f, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12", server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
   - {name: "@FreakConfig", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 9|@NoForcedheaven, server: 46.62.152.236, port: 443, type: hysteria2, ports: 443, password: a2678c97b8d79059, obfs: salamander, obfs-password: 9242a8bf, skip-cert-verify: true}
-  - {name: WiFi-@V2rayAlpha--6, server: qing-lu.mxtn.net, port: 443, type: hysteria2, ports: 443, password: c3054d61-c708-4594-9797-f50acd24de2a, skip-cert-verify: true}
-  - {name: "10|🇸🇪 - SE - @freeOnlineVPN #3", server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.150.215.236, port: 487, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 10|telegram--MTMVPN 11, server: 141.147.52.24, port: 44001, type: hysteria2, ports: 44001, password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 佛山市 - China Mobile - 2, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 10|@V2rayNG3, server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 00711758-sva740-tbrhck-1thqb.hk3.p5pv.com, port: 80, type: vmess, uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian 2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 5, server: 5c4dc91c-sv2sg0-tbnucr-1thfv.hk3.p5pv.com, port: 80, type: vmess, uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "10|@meli_proxyy #3", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 221.128.195.9, port: 22581, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: All-@V2rayAlpha--17, server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, ports: 2083, password: siEk2SjZFG, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii, sni: ghasem.kotlet.org, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 117.172.176.24, port: 2467, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 10|All-@V2rayAlpha--7, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, ports: 22155, password: 4ba709e6-6186-412d-a79d-bf256c7df57c, sni: hsdg.huasuan666.top, skip-cert-verify: true}
-  - {name: 10|All-@V2rayAlpha--1, server: 38.45.89.97, port: 23892, type: hysteria2, ports: 23892, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus02.mistea.top, skip-cert-verify: true}
-  - {name: All-@V2rayAlpha--16, server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "10|MCi--@IRAN_V2RAY1 #3", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "🇳🇱 - NL - @freeOnlineVPN #1", server: 185.92.220.240, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #12", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
-  - {name: telegram--MTMVPN 13, server: hsels.huasuan666.top, port: 22160, type: hysteria2, ports: 22160, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsels.huasuan666.top, skip-cert-verify: true}
-  - {name: All--@V2rayAlpha--2, server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: telegram--MTMVPN 6, server: nl2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
+  - {name: All-@V2rayAlpha--10, server: hsels.huasuan666.top, port: 22160, type: hysteria2, ports: 22160, password: 4ba709e6-6186-412d-a79d-bf256c7df57c, sni: hsels.huasuan666.top, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 117.172.176.24, port: 2381, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "9|@V2rayNG3 #9", server: s15.serv00.com, port: 7777, type: hysteria2, ports: 7777, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 9|All-@V2rayAlpha--6, server: 195.133.79.116, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, sni: ðŸ”’, skip-cert-verify: true}
+  - {name: "9|All-@V2rayAlpha--6 #1", server: els1.dimoyun.top, port: 40001, type: hysteria2, ports: 40001, password: 9faf4015-b6c0-44f9-b9d6-d77454a50a72, sni: els1.dimoyun.top, skip-cert-verify: true}
+  - {name: "9|All-@V2rayAlpha--8 #2", server: de.youyacloud.me, port: 443, type: hysteria2, ports: 443, password: 8da7bd17-70ab-472d-a925-cc827857dc35, obfs: salamander, obfs-password: qBbeISsJ8AK48fZW, sni: de.youyacloud.me, skip-cert-verify: true}
+  - {name: 9|All-@V2rayAlpha--3, server: hk.xn--9kqw1xbnu.shop, port: 443, type: hysteria2, ports: 443, password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, skip-cert-verify: true}
+  - {name: telegram--MTMVPN 7, server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: CN_speednode_0007, server: 117.172.176.24, port: 5321, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 9|All-@V2rayAlpha--16, server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "@V2rayNG3 #16", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.242, port: 4556, type: trojan, password: BxceQaOe, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,175 +164,154 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -364,41 +327,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - telegram--MTMVPN 7
-      - 🇭🇰 香港 电讯盈科有限公司
-      - All-@V2rayAlpha--10
-      - "@meli_proxyy #4"
+      - CN_speednode_0005
       - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - "10|@Daily_Configs #1"
-      - 14|CN_speednode_0006
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - "@FreakConfig"
-      - 9|@NoForcedheaven
-      - WiFi-@V2rayAlpha--6
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
+      - 🇬🇧 9|🇬🇧 - GB - @freeOnlineVPN
+      - 9|@FreakConfig
+      - "9|@Selinc #5"
+      - 🇯🇵 日本2|@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
       - 🇯🇵 日本|@ripaojiedian
-      - 10|telegram--MTMVPN 11
-      - 🇨🇳 中国 - 佛山市 - China Mobile - 2
-      - 10|@V2rayNG3
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - "10|@meli_proxyy #3"
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - All-@V2rayAlpha--17
-      - 🇺🇸 美国|@ripaojiedian
-      - 10|All-@V2rayAlpha--7
-      - 10|All-@V2rayAlpha--1
-      - All-@V2rayAlpha--16
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 - NL - @freeOnlineVPN #1"
-      - "10|@V2rayNG3 #12"
-      - telegram--MTMVPN 13
-      - All--@V2rayAlpha--2
-      - telegram--MTMVPN 6
+      - 9|@Selinc
+      - "9|@V2rayNG3 #18"
+      - "9|🇳🇱@FreakConfig #1"
+      - "9|@V2rayNG3 #2"
+      - 🇭🇰 香港6|@ripaojiedian
+      - "@Daily_Configs #2"
+      - All--@V2ray_Alpha-1
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #12"
+      - "@FreakConfig"
+      - All-@V2rayAlpha--10
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - "9|@V2rayNG3 #9"
+      - 9|All-@V2rayAlpha--6
+      - "9|All-@V2rayAlpha--6 #1"
+      - "9|All-@V2rayAlpha--8 #2"
+      - 9|All-@V2rayAlpha--3
+      - telegram--MTMVPN 7
+      - CN_speednode_0007
+      - 9|All-@V2rayAlpha--16
+      - 🇨🇳 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
+      - "@V2rayNG3 #16"
+      - 🇭🇰 香港4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
