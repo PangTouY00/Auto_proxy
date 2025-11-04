@@ -5,167 +5,187 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10|@Selinc #2", server: 85.208.9.189, port: 44001, type: hysteria2, ports: 44001, password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88, sni: www.bing.com, skip-cert-verify: true}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha--9, server: 213.108.198.123, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17, server: 78smy-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343, alterId: 1, cipher: auto, tls: false}
-  - {name: 10|rema, server: rema.3dfigures.ir, port: 48979, type: hysteria2, ports: 48979, password: IZ3V4BlqjL, obfs: salamander, obfs-password: telegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystal, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #13", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
-  - {name: "10|🇸🇪 - SE - @freeOnlineVPN #3", server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "9|Channel id: @ShadowProxy66🇺🇸 #1", server: 192.3.60.176, port: 41951, type: hysteria2, ports: 41951, password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|All-@V2rayAlpha--16, server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 3.9.17.198, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "10|@V2rayNG3 #12", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: d2d4314f-sv2sg0-t66zs1-1pq44.hk3.p5pv.com, port: 80, type: vmess, uuid: 3f194e88-8eac-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 10|v2raybluecrystal2-la, server: 165.140.166.78, port: 17083, type: hysteria2, ports: 17083, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: 🇮🇳 v2raybluecrystal-ind, server: 160.191.183.244, port: 11282, type: hysteria2, ports: 11282, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: ✅ @vistav2ray  👈👈کانال ما, server: 193.142.59.41, port: 23899, type: hysteria2, ports: 23899, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: hl01.mistea.top, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 80f0806d-szg740-t41p4y-1hpo0.hk3.p5pv.com, port: 80, type: vmess, uuid: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 10|v2raybluecrystal-la, server: 165.140.166.78, port: 50163, type: hysteria2, ports: 50163, password: Jj0FrgSd85, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false}
+  - {name: 10|All-@V2rayAlpha--10, server: hsels.huasuan666.top, port: 22160, type: hysteria2, ports: 22160, password: 4ba709e6-6186-412d-a79d-bf256c7df57c, sni: hsels.huasuan666.top, skip-cert-verify: true}
+  - {name: 🇮🇳 v2raybluecrystal3-ind, server: 160.191.183.244, port: 48004, type: hysteria2, ports: 48004, password: fzgdaH0cJ7, obfs: salamander, obfs-password: v2raybluecrystal3, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
+  - {name: All--@V2rayAlpha--7, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
+  - {name: All-@V2rayAlpha--1, server: 38.45.89.97, port: 23892, type: hysteria2, ports: 23892, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus02.mistea.top, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇻🇳 12|🇻🇳 越南|@ripaojiedian, server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: "10|@meli_proxyy #4", server: xg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, skip-cert-verify: true}
+  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3", server: dow9k-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc, alterId: 1, cipher: auto, tls: false}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 36.151.251.47, port: 53743, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇭🇰", server: 212.192.13.86, port: 31008, type: hysteria2, ports: 31008, password: d84e954e-0e96-4cd9-8b23-5b74ddc1b758, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian 2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 36.151.192.242, port: 4556, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: "10|@sunflowerplato🌻 #2", server: qing-kz.mxtn.net, port: 443, type: hysteria2, ports: 443, password: c3054d61-c708-4594-9797-f50acd24de2a, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #16", server: 46.17.41.189, port: 50717, type: hysteria2, ports: 50717, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.42, port: 443, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net}
+  - {name: "@FreakConfig", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 10|v2raybluecrystal2-hou, server: 146.19.56.21, port: 57418, type: hysteria2, ports: 57418, password: UnYCJJ9AQy, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 117.172.176.24, port: 316, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: 10|v2raybluecrystal2-ger, server: 185.211.101.15, port: 16666, type: hysteria2, ports: 16666, password: F6HtMurQGt, obfs: salamander, obfs-password: v2raybluecrystal2, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 10| @vistav2ray  👈کانا, server: 193.142.59.41, port: 23899, type: hysteria2, ports: 23899, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: hl01.mistea.top, skip-cert-verify: true}
+  - {name: "9|Channel id: @ShadowProxy66🇭🇰", server: 119.236.85.21, port: 443, type: hysteria2, ports: 443, password: f13f964e-f06c-11ec-a858-f23c91cfbbc9, sni: WangCai.hk2.hyhuawei.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5, server: s2on0-g01.jp03-j7-vm0.entry.fr0528.art, port: 21581, type: vmess, uuid: 763e08a1-c289-3a41-aa80-e63a56bc1447, alterId: 1, cipher: auto, tls: true}
+  - {name: "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5", server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: f51a53a1-sv0xs0-swbdgq-1iddy.hk3.p5pv.com, port: 80, type: vmess, uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 10|All-@V2rayAlpha--11, server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 5c4dc91c-sv2sg0-tbnucr-1thfv.hk3.p5pv.com, port: 80, type: vmess, uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 10|All-@V2rayAlpha--17, server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, ports: 2083, password: siEk2SjZFG, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii, sni: ghasem.kotlet.org, skip-cert-verify: true}
+  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1", server: tpatl-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc, alterId: 1, cipher: auto, tls: false}
+  - {name: "10|All-@V2rayAlpha--8 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 12|tg频道:@ripaojiedian, server: 3.9.17.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16, server: bupq7-g05.jp07-sh-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 8ee65c79-4487-32ff-b896-62c8dce05921, alterId: 1, cipher: auto, tls: false}
-  - {name: "@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: f92a4a6b-sv2sg0-swkmdk-1imi4.hk3.p5pv.com, port: 80, type: vmess, uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: "10|v2raybluecrystal3 #1", server: 78.138.118.228, port: 33113, type: hysteria2, ports: 33113, password: Ys1Z1iA996, obfs: salamander, obfs-password: v2raybluecrystal, skip-cert-verify: true}
-  - {name: "9|Channel id: @ShadowProxy66", server: 40.233.115.110, port: 13805, type: hysteria2, ports: 13805, password: dcdd09ad-4519-46f7-8107-4c4290a9b2a3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: All--@V2rayAlpha--3, server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: All--@V2ray_Alpha-1, server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 937f8940-ad8a-409f-93c3-4d6249af628f, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2", server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, ports: 12122, password: 22f2c759db51b3d0, obfs: salamander, obfs-password: de8287cd33b05fa3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: All-@V2ray_Alpha--2, server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "All-@V2rayAlpha--8 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "@Selinc #6", server: us4.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 5, server: 8afb0240-sv0xs0-sxi4nd-1o6fm.hk3.p5pv.com, port: 80, type: vmess, uuid: e03df6fc-97e8-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.53.42, port: 443, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 54.64.148.82, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @ripaojiedian)e9e4816:99990}}
+  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8", server: yapc-1.adamhayward.co.uk, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇺🇸 #2", server: 192.3.60.176, port: 41951, type: hysteria2, ports: 41951, password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "🇳🇱 - NL - @freeOnlineVPN #4", server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: "Channel id: @ShadowProxy66🇺🇸", server: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.242, port: 4556, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 36.150.215.236, port: 24392, type: trojan, password: BxceQaOe, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,178 +204,200 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -371,42 +413,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|@Selinc #2"
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - 10|All--@V2rayAlpha--9
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 17
-      - 10|rema
-      - "@V2rayNG3 #13"
-      - "10|🇸🇪 - SE - @freeOnlineVPN #3"
-      - "9|Channel id: @ShadowProxy66🇺🇸 #1"
-      - 10|All-@V2rayAlpha--16
-      - tg频道:@ripaojiedian
-      - "10|@V2rayNG3 #12"
+      - 10|All-@V2rayAlpha--10
+      - 🇮🇳 v2raybluecrystal3-ind
+      - 🇭🇰 香港2|@ripaojiedian
+      - All--@V2rayAlpha--7
+      - All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港|@ripaojiedian
+      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
+      - "10|@meli_proxyy #4"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 3
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - "@V2rayNG3 #2"
+      - "Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "10|@sunflowerplato🌻 #2"
+      - "10|@V2rayNG3 #16"
       - 🇭🇰 香港 电讯盈科有限公司
-      - 10|v2raybluecrystal2-la
-      - 🇮🇳 v2raybluecrystal-ind
-      - ✅ @vistav2ray  👈👈کانال ما
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 10|v2raybluecrystal-la
-      - 🇭🇰 香港6|@ripaojiedian
+      - "@FreakConfig"
+      - 10|v2raybluecrystal2-hou
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇻🇳 越南|@ripaojiedian
       - 10|v2raybluecrystal2-ger
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
+      - 10| @vistav2ray  👈کانا
+      - "9|Channel id: @ShadowProxy66🇭🇰"
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
+      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 10|All-@V2rayAlpha--11
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 10|All-@V2rayAlpha--17
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 1
+      - "10|All-@V2rayAlpha--8 #1"
+      - 12|tg频道:@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 16
-      - "@V2rayNG3 #1"
-      - 🇭🇰 香港 电讯盈科有限公司 4
-      - "10|v2raybluecrystal3 #1"
-      - "9|Channel id: @ShadowProxy66"
-      - All--@V2rayAlpha--3
-      - All--@V2ray_Alpha-1
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - "10|@V2rayNG3 #2"
-      - All-@V2ray_Alpha--2
-      - "All-@V2rayAlpha--8 #1"
-      - "@Selinc #6"
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #8"
+      - "Channel id: @ShadowProxy66🇺🇸 #2"
+      - "🇳🇱 - NL - @freeOnlineVPN #4"
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
