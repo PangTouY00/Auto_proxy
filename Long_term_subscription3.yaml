@@ -5,159 +5,155 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10|@meli_proxyy #27", server: 141.147.52.24, port: 44001, type: hysteria2, ports: 44001, password: 5001b8d8-76ce-474c-bc29-94e6caa61164, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "@V2rayNG3", server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: "@Selinc #6", server: us4.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #18", server: 62.60.231.189, port: 12123, type: hysteria2, ports: 12123, password: f8e40931bbb827df, obfs: salamander, obfs-password: dbc688df29e582d3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.57.238, port: 4211, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 10|@V2rayNG3, server: 192.3.85.237, port: 443, type: hysteria2, ports: 443, password: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 103.149.183.80, port: 8388, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY}
-  - {name: All-@V2rayAlpha--38, server: moxige1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: moxige1.nezhasu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 12|🇯🇵 日本4|@ripaojiedian, server: 3.112.229.1, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
-  - {name: "@FreakConfig #1", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "@NoForcedheaven", server: 46.62.152.236, port: 443, type: hysteria2, ports: 443, password: a2678c97b8d79059, obfs: salamander, obfs-password: 9242a8bf, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha--8, server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
-  - {name: کانفیگ های بیشتر در چنل تلگرا..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@sunflowerplato🌻 #4", server: de3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 172.105.217.136, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: e221b75:110505}}
-  - {name: 10|  (Hysteria), server: 132.226.162.10, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
-  - {name: "10|All--@V2rayAlpha--5 #1", server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: All-@V2rayAlpha--11, server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: All-@V2rayAlpha--39, server: 144.24.101.176, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 141.101.121.120, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.57.238, port: 1334, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 12|tg频道:@ripaojiedian, server: 3.9.17.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "MCi--@IRAN_V2RAY1 #1", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 10|WiFi-@V2rayAlpha--7, server: qing-es.mxtn.net, port: 443, type: hysteria2, ports: 443, password: c3054d61-c708-4594-9797-f50acd24de2a, skip-cert-verify: true}
+  - {name: "@sunflowerplato🌻", server: 129.153.59.26, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.151.196, port: 127, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net}
+  - {name: 10|rya@V2rayBaaz, server: dir.lightnright.com, port: 989, type: hysteria2, ports: 989, password: 6202ab997f570a6a180ae980b41f5789, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi", sni: jnir-x.pichondan.com, skip-cert-verify: false}
   - {name: "13|tg频道:@ripaojiedian #1", server: 3.9.17.198, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 10|MCI-@V2rayAlpha--5, server: hshl.huasuan666.top, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hshl.huasuan666.top, skip-cert-verify: true}
+  - {name: "🇩🇪 - DE - @freeOnlineVPN #2", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 10|All-@V2ray_Alpha--3, server: lundun3.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun3.nezhasu.com, skip-cert-verify: true}
   - {name: "@FreakConfig", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: MCI-IR--@V2rayAlpha-9, server: 193.142.59.41, port: 23899, type: hysteria2, ports: 23899, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: hl01.mistea.top, skip-cert-verify: true}
-  - {name: 10|All-@V2rayAlpha--7, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1, server: 216.227.168.157, port: 45229, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
   - {name: "@V2rayNG3 #10", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
-  - {name: "@FreakConfig #2", server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: All-@V2rayAlpha--3, server: hk.xn--9kqw1xbnu.shop, port: 443, type: hysteria2, ports: 443, password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, skip-cert-verify: true}
+  - {name: 10|All-@V2rayAlpha--11, server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 10|All-@V2ray_Alpha--4, server: lundun4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: true}
+  - {name: All--@V2rayAlpha--7, server: hsdg.huasuan666.top, port: 22155, type: hysteria2, ports: 22155, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hsdg.huasuan666.top, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.63.16, port: 2890, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net}
+  - {name: All-@V2ray_Alpha--2, server: lundun2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun2.nezhasu.com, skip-cert-verify: true}
+  - {name: 10|All-@V2rayAlpha--38, server: moxige1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: moxige1.nezhasu.com, skip-cert-verify: true}
+  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "All-@V2ray_Alpha--2 #1", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 680210f5-3b5f-4947-9983-e508a15cf169, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: All-@V2ray_Alpha--4, server: lundun4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #9", server: s15.serv00.com, port: 7777, type: hysteria2, ports: 7777, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
   - {name: 10|All-@V2rayAlpha--37, server: phoenix-1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: phoenix-1.nezhasu.com, skip-cert-verify: true}
-  - {name: 10|🇳🇱@FreakConfig, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "10|All-@V2rayAlpha--6 #1", server: us11.588878.xyz, port: 443, type: hysteria2, ports: 443, password: 59f5893e-b85a-44f7-911f-bd0b3f92069b, obfs: salamander, obfs-password: jjQQP9Av2l6BRdP5, sni: us11.588878.xyz, skip-cert-verify: true}
+  - {name: 10|MCI-IR--@V2rayAlpha-14, server: falankefu1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: falankefu1.nezhasu.com, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 153.121.65.107, port: 3169, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: tg频道:@ripaojiedian, server: 3.9.17.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 10|All-@V2rayAlpha--6, server: 195.133.79.116, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, sni: ðŸ”’, skip-cert-verify: true}
+  - {name: "@Selinc #6", server: us4.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
+  - {name: MCI-IR--@V2rayAlpha-14, server: falankefu1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: falankefu1.nezhasu.com, skip-cert-verify: true}
+  - {name: https://t.me/Selinc, server: 31.57.241.25, port: 7009, type: hysteria2, ports: 7009, password: 30c075af-9555-4671-b70e-43e3cfb2e707, sni: d.eans.top, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #12", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 153.121.65.107, port: 127, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net}
+  - {name: 10|@sunflowerplato🌻, server: xg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xg1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇳🇴 挪威 V2CROSS.COM, server: 146.59.85.226, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: pelang.org}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,165 +172,159 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -350,40 +340,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|@meli_proxyy #27"
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@V2rayNG3"
-      - "@Selinc #6"
-      - "@V2rayNG3 #18"
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|@V2rayNG3
-      - 🇭🇰 香港6|@ripaojiedian
-      - All-@V2rayAlpha--38
-      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
-      - "@FreakConfig #1"
-      - "@NoForcedheaven"
-      - 10|All--@V2rayAlpha--8
-      - کانفیگ های بیشتر در چنل تلگرا...
-      - "@sunflowerplato🌻 #4"
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|  (Hysteria)
-      - "10|All--@V2rayAlpha--5 #1"
-      - All-@V2rayAlpha--11
-      - All-@V2rayAlpha--39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - "MCi--@IRAN_V2RAY1 #1"
+      - 10|WiFi-@V2rayAlpha--7
+      - "@sunflowerplato🌻"
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|rya@V2rayBaaz
       - "13|tg频道:@ripaojiedian #1"
-      - 10|MCI-@V2rayAlpha--5
+      - "🇩🇪 - DE - @freeOnlineVPN #2"
+      - 10|All-@V2ray_Alpha--3
       - "@FreakConfig"
-      - MCI-IR--@V2rayAlpha-9
-      - 10|All-@V2rayAlpha--7
-      - 🇺🇦 乌克兰 - Kyiv - Green Floid LLC - 1
       - "@V2rayNG3 #10"
-      - "@FreakConfig #2"
-      - All-@V2rayAlpha--3
+      - 10|All-@V2rayAlpha--11
+      - 10|All-@V2ray_Alpha--4
+      - All--@V2rayAlpha--7
+      - 🇺🇸 美国|@ripaojiedian
+      - All-@V2ray_Alpha--2
+      - 10|All-@V2rayAlpha--38
+      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #7"
+      - "All-@V2ray_Alpha--2 #1"
+      - All-@V2ray_Alpha--4
+      - "@V2rayNG3 #9"
       - 10|All-@V2rayAlpha--37
-      - 10|🇳🇱@FreakConfig
-      - "10|All-@V2rayAlpha--6 #1"
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 10|All-@V2rayAlpha--6
+      - "@Selinc #6"
+      - MCI-IR--@V2rayAlpha-14
+      - https://t.me/Selinc
+      - "10|@V2rayNG3 #12"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|@sunflowerplato🌻
+      - 🇳🇴 挪威 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
