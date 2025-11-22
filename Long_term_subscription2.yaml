@@ -5,211 +5,243 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "- SE - @freeOnlineVPN #2", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "@V2rayNG3 #12", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 阿什本 - HostPapa - 35, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 10|All-@V2rayAlpha--43, server: sanjose.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: SanJose.nezhasu.com, skip-cert-verify: true}
+  - {name: "10|@sunflowerplato🌻 #1", server: 108.165.213.197, port: 23891, type: hysteria2, ports: 23891, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus01.mistea.top, skip-cert-verify: true}
+  - {name: 🇬🇧 13|英国|@ripaojiedian, server: 144.217.164.29, port: 12000, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09}
+  - {name: "All--@IRAN_V2RAY1 #5", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: "10|@FreakConfig #1", server: tr.xn--9kqx4sc0n.shop, port: 21325, type: hysteria2, ports: 21325, password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, skip-cert-verify: false}
+  - {name: 🇩🇪 德国|@ripaojiedian, server: 57.128.214.100, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==}
+  - {name: All-@V2rayAlpha--38, server: moxige1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: moxige1.nezhasu.com, skip-cert-verify: true}
+  - {name: MCI-IR--@V2rayAlpha-1, server: mumbai-1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-1.nezhasu.com, skip-cert-verify: true}
   - {name: 10|@sunflowerplato, server: 129.153.59.26, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "10|MCi--@IRAN_V2RAY1 #3", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34", server: 16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest, port: 2011, type: vmess, uuid: f0eed2b8-afac-4ebf-8035-24aaddbe8f20, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest]}}}
-  - {name: "10|r♡ya #5", server: hk2.mutoujs.top, port: 20000, type: hysteria2, ports: 20000, password: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a, obfs: salamander, obfs-password: QqvCBoJpDEflbOYm, skip-cert-verify: false}
-  - {name: 10|MCI-IR--@V2rayAlpha-8, server: 193.123.76.141, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, sni: du.wish.ml, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 160.16.214.6, port: 2760, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "10|🏴‍☠️@FreakConfig #1", server: tr.xn--9kqx4sc0n.shop, port: 21325, type: hysteria2, ports: 21325, password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, skip-cert-verify: false}
-  - {name: MCI-IR--@V2rayAlpha-3, server: mumbai-3.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-3.nezhasu.com, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha-2, server: sb2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: d3da4e16-9bef-4e54-9bd9-960d32740392, sni: bing.com, skip-cert-verify: true}
-  - {name: All-@V2ray_Alpha--4, server: lundun4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: true}
-  - {name: EE_speednode_0007, server: 37.252.5.75, port: 443, type: trojan, password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/37.252.5.75=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 116.49.237.130, port: 381, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 10|All-@V2rayAlpha--38, server: moxige1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: moxige1.nezhasu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 15.204.247.49, port: 12000, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09}
-  - {name: "10|@meli_proxyy #12", server: 94.249.197.95, port: 30000, type: hysteria2, ports: 30000, password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859, sni: bing.com, skip-cert-verify: true}
-  - {name: "All--@IRAN_V2RAY1🇺🇸 #5", server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, skip-cert-verify: false}
-  - {name: "@FreakConfig #2", server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, port: 443, type: hysteria2, ports: 443, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, skip-cert-verify: false}
-  - {name: "🇳🇱 - NL - @freeOnlineVPN #12", server: 206.71.158.37, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.18.124, port: 443, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 10|@FreakConfig, server: 107.167.18.123, port: 1743, type: hysteria2, ports: 1743, password: 16955d72-1794-11f0-a035-f23c95b6f51d, sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk, skip-cert-verify: false}
-  - {name: "@sunflowerplato🌻", server: 129.153.59.26, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: All-@V2rayAlpha--29, server: gy5.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: gy5.nezhasu.com, skip-cert-verify: true}
-  - {name: "https://t.me/V2ray_Tunnel_Plus... #2", server: p5.punchline.ir, port: 54075, type: hysteria2, ports: 54075, password: KYPSpQi9oC, obfs: salamander, obfs-password: qqodmxm9822E2Q8OC, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2", server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
-  - {name: 12|tg频道:@ripaojiedian, server: 3.9.17.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN, server: 185.92.220.240, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
-  - {name: All-@V2rayAlpha--6, server: 195.133.79.116, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, sni: ðŸ”’, skip-cert-verify: true}
-  - {name: 10|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false}
-  - {name: 10|MCI-IR--@V2rayAlpha-2, server: mumbai-2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-2.nezhasu.com, skip-cert-verify: true}
-  - {name: "10|🇳🇱@FreakConfig #4", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "10|telegram-@ISVvpn #2", server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, ports: 25684, password: f872db91-57c2-41c7-aad0-561b4cb674bf, skip-cert-verify: false}
-  - {name: 10|@sunflowerplato🌻, server: xg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xg1.mangshe.xyz, skip-cert-verify: true}
-  - {name: "10|@meli_proxyy #13", server: node.waifly.com, port: 28132, type: hysteria2, ports: 28132, password: 91bf574a-4a2f-42eb-bfa9-5824317f541c, obfs: salamander, obfs-password: 09fdd186-3d5b-482a-a7b6-285cc88a38c8, sni: example.com, skip-cert-verify: true}
-  - {name: "@FreakConfig #4", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4", server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 10|MCi--@IRAN_V2RAY1, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: 🇩🇪 10|🇪 - DE - @freeOnlineVPN, server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: telegram-@ISVvpn, server: fra-nb-02.linlujs.pw, port: 29854, type: hysteria2, ports: 29854, password: 6803bc9b-1157-431b-8f73-970a6deb741f, skip-cert-verify: false}
-  - {name: All-@V2ray_Alpha--9, server: 40.233.83.110, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@FreakConfig", server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "10|@sunflowerplato🌻 #2", server: de3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: All-@V2ray_Alpha--29, server: 51.81.223.22, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
   - {name: 🇬🇧 12|🇬🇧 英国|@ripaojiedian, server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==}
-  - {name: 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "?ed=2048"}}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 116.49.237.130, port: 381, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "@Selinc #8", server: nl2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
+  - {name: All-@V2rayAlpha--43, server: sanjose.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: SanJose.nezhasu.com, skip-cert-verify: true}
+  - {name: 10|MCI-IR--@V2rayAlpha-14, server: falankefu1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: falankefu1.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:..., server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, ports: 24568, password: 70197404-7b40-45e4-bb9c-8bc8995012ae, skip-cert-verify: false}
+  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه...", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 46gfRN8Pcy, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: "کانفیگ های بیشتر در چنل تلگرا... #2", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: MmKPeSinVL, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: کانال تلگرام MTMVPN@, server: speedhk1.jiasujd.top, port: 24955, type: hysteria2, ports: 24955, password: 09cc2935-0eb4-469a-9d67-2037c68440ca, obfs: salamander, obfs-password: Ey8WkRLz34SadllK, skip-cert-verify: false}
+  - {name: 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه..., server: 138.124.60.198, port: 8443, type: hysteria2, ports: 8443, password: jqH4W4nlHf, obfs: salamander, obfs-password: MiraCLeOPV2RayyNGvpntheBestt, sni: cdnjs.cloudflare.com, skip-cert-verify: true}
+  - {name: "10|All-@V2rayAlpha--2 #1", server: 43.201.45.216, port: 29609, type: hysteria2, ports: 29609, password: MxiGoEDnLJELZicwCXwsADPdF4, sni: bing.com, skip-cert-verify: true}
+  - {name: "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: iKVjRIc5Mm, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: "@Selinc #9", server: us4.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: true}
+  - {name: "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1", server: 138.124.60.198, port: 8443, type: hysteria2, ports: 8443, password: jqH4W4nlHf, obfs: salamander, obfs-password: MiraCLeOPV2RayyNGvpntheBestt, sni: cdnjs.cloudflare.com, skip-cert-verify: true}
+  - {name: 10|MCI-IR--@V2rayAlpha-1, server: mumbai-1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-1.nezhasu.com, skip-cert-verify: true}
+  - {name: "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: GZb2tDucUY, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.89.176, port: 702, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "All--@IRAN_V2RAY1🇺🇸 #2", server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk, port: 443, type: hysteria2, ports: 443, password: 92b2a3d4-f353-11ef-b714-f23c93136cb3, sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk, skip-cert-verify: false}
+  - {name: 10|All-@V2rayAlpha--1, server: 38.45.89.97, port: 23892, type: hysteria2, ports: 23892, password: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus02.mistea.top, skip-cert-verify: true}
+  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 7TsyG1ypRJ, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.89.176, port: 702, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.25.241, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇩🇪 - DE - @freeOnlineVPN #1", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: CA6haTDbz3, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: "10|@meli_proxyy #10", server: node.waifly.com, port: 28132, type: hysteria2, ports: 28132, password: 91bf574a-4a2f-42eb-bfa9-5824317f541c, obfs: salamander, obfs-password: 09fdd186-3d5b-482a-a7b6-285cc88a38c8, sni: example.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 153.121.51.221, port: 1821, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇬🇧 - GB - @freeOnlineVPN, server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, skip-cert-verify: true}
+  - {name: 10|https://t.me/V2ray_Tunnel_Plus..., server: p5.punchline.ir, port: 14055, type: hysteria2, ports: 14055, password: KYPSpQi9oC, obfs: salamander, obfs-password: AOICMIWHB892R8LNKDQX, skip-cert-verify: true}
+  - {name: 10|All-@V2rayAlpha--5, server: 204.44.110.129, port: 51541, type: hysteria2, ports: 51541, password: 20050105zhu, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "10|All--@IRAN_V2RAY1🇺🇸 #1", server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk, port: 443, type: hysteria2, ports: 443, password: 92b2a3d4-f353-11ef-b714-f23c93136cb3, sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk, skip-cert-verify: false}
+  - {name: 🇯🇵 13|日本4|@ripaojiedian, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇬🇧 - GB - @freeOnlineVPN #2", server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true}
+  - {name: MCI-IR--@V2rayAlpha-11, server: yn2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: yn2.nezhasu.com, skip-cert-verify: true}
+  - {name: NL_speednode_0097, server: 81.22.132.183, port: 443, type: trojan, password: ee339912-0c35-4fac-8d85-180b65bcd49c, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/81.22.132.183=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "‍☠️@FreakConfig #1", server: 140.245.68.133, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
+  - {name: "10|@meli_proxyy #9", server: 94.249.197.95, port: 30000, type: hysteria2, ports: 30000, password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859, sni: bing.com, skip-cert-verify: true}
+  - {name: "@V2RayyNGvpn🇱🇺همه اوپراتور ه...", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: 6fpNfkUmvR, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: "@V2rayNG3 #10", server: all-v4.dgi000.store, port: 443, type: hysteria2, ports: 443, password: "%40azadi_az_inja_migzare", obfs: salamander, obfs-password: "@azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false}
+  - {name: 10|All--@V2ray_Alpha-3, server: 185.92.220.240, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: Eb38tgzoKH, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -228,216 +260,249 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -453,53 +518,61 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "- SE - @freeOnlineVPN #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #16"
-      - "@V2rayNG3 #12"
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 35
+      - 10|All-@V2rayAlpha--43
+      - "10|@sunflowerplato🌻 #1"
+      - 🇬🇧 13|英国|@ripaojiedian
+      - "All--@IRAN_V2RAY1 #5"
+      - "10|@FreakConfig #1"
+      - 🇩🇪 德国|@ripaojiedian
+      - All-@V2rayAlpha--38
+      - MCI-IR--@V2rayAlpha-1
       - 10|@sunflowerplato
-      - "10|MCi--@IRAN_V2RAY1 #3"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #13"
-      - 🇺🇸 美国 - 堪薩斯城 - Nocix, LLC - 34
-      - "10|r♡ya #5"
-      - 10|MCI-IR--@V2rayAlpha-8
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "10|🏴‍☠️@FreakConfig #1"
-      - MCI-IR--@V2rayAlpha-3
-      - 10|All--@V2rayAlpha-2
-      - All-@V2ray_Alpha--4
-      - EE_speednode_0007
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 10|All-@V2rayAlpha--38
-      - 🇺🇸 美国4|@ripaojiedian
-      - "10|@meli_proxyy #12"
-      - "All--@IRAN_V2RAY1🇺🇸 #5"
-      - "@FreakConfig #2"
-      - "🇳🇱 - NL - @freeOnlineVPN #12"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|@FreakConfig
-      - "@sunflowerplato🌻"
-      - All-@V2rayAlpha--29
-      - "https://t.me/V2ray_Tunnel_Plus... #2"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #2"
-      - 12|tg频道:@ripaojiedian
-      - 🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN
-      - All-@V2rayAlpha--6
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇯🇵 日本4|@ripaojiedian
-      - 10|MCI-IR--@V2rayAlpha-2
-      - "10|🇳🇱@FreakConfig #4"
-      - "10|telegram-@ISVvpn #2"
-      - 10|@sunflowerplato🌻
-      - "10|@meli_proxyy #13"
-      - "@FreakConfig #4"
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #4"
-      - 10|MCi--@IRAN_V2RAY1
-      - 🇩🇪 10|🇪 - DE - @freeOnlineVPN
-      - telegram-@ISVvpn
-      - All-@V2ray_Alpha--9
-      - "@FreakConfig"
+      - "10|@sunflowerplato🌻 #2"
+      - All-@V2ray_Alpha--29
       - 🇬🇧 12|🇬🇧 英国|@ripaojiedian
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "کانفیگ های بیشتر در چنل تلگرا... #1"
+      - "@Selinc #8"
+      - All-@V2rayAlpha--43
+      - 10|MCI-IR--@V2rayAlpha-14
+      - 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه..."
+      - "کانفیگ های بیشتر در چنل تلگرا... #2"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
+      - 🇬🇧 英国 - 考文垂 - Nexeon Technologies - 6
+      - کانال تلگرام MTMVPN@
+      - 10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه...
+      - "10|All-@V2rayAlpha--2 #1"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - "@Selinc #9"
+      - "@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1"
+      - 10|MCI-IR--@V2rayAlpha-1
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5"
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - "All--@IRAN_V2RAY1🇺🇸 #2"
+      - 10|All-@V2rayAlpha--1
+      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇩🇪 - DE - @freeOnlineVPN #1"
+      - "10|@meli_proxyy #10"
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 - GB - @freeOnlineVPN
+      - 10|https://t.me/V2ray_Tunnel_Plus...
+      - 10|All-@V2rayAlpha--5
+      - "10|All--@IRAN_V2RAY1🇺🇸 #1"
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - "🇬🇧 - GB - @freeOnlineVPN #2"
+      - MCI-IR--@V2rayAlpha-11
+      - NL_speednode_0097
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "‍☠️@FreakConfig #1"
+      - "10|@meli_proxyy #9"
+      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه..."
+      - "@V2rayNG3 #10"
+      - 10|All--@V2ray_Alpha-3
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
