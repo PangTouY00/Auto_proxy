@@ -5,227 +5,403 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 10|All--@V2ray_Alpha-1, server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 937f8940-ad8a-409f-93c3-4d6249af628f, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.240.91, port: 4054, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: All--@V2rayAlpha--2, server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: "All-@V2ray_Alpha--4 #1", server: xjp2.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp2.mangshe.xyz, skip-cert-verify: true}
-  - {name: "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: dy9wtUUTs1, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
-  - {name: ES_speednode_0012, server: 45.86.229.28, port: 443, type: trojan, password: 9ccc3e1d-3df5-4348-aa05-738310149cc3, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.86.229.28=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 153.121.45.139, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, ports: 20309, password: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
-  - {name: "کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 10|All--@V2rayAlpha--2, server: de2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: MCI-IR--@V2rayAlpha-2, server: mumbai-2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-2.nezhasu.com, skip-cert-verify: true}
-  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: ExKneYKbzb, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: "🇩🇪 - DE - @freeOnlineVPN #1", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 7gRVZGuNHc, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: "10|All-@V2rayAlpha--2 #1", server: 43.201.45.216, port: 29609, type: hysteria2, ports: 29609, password: MxiGoEDnLJELZicwCXwsADPdF4, sni: bing.com, skip-cert-verify: true}
-  - {name: "@IRAN_V2RAY1", server: 40.233.82.111, port: 30300, type: hysteria2, ports: 30300, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|MCI-IR--@V2rayAlpha-16, server: lsyd1.lansecs.top, port: 58338, type: hysteria2, ports: 58338, password: 05fd3f79-dca0-4358-a803-c8d4711c17a3, sni: lsyd1.lansecs.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 160.16.242.183, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.198.91.31, port: 3579, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: iKVjRIc5Mm, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
-  - {name: "9,10|🇳🇱@FreakConfig", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1, server: 45.136.244.201, port: 49934, type: vmess, uuid: 90afa47d-341a-497d-ae25-1d81258804d5, alterId: 0, cipher: auto, tls: false}
+  - {name: "10|@Selinc #2", server: 195.133.79.116, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false}
+  - {name: "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: sKztXL5kZB, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: 未知 TROJAN-283@free-nodes, server: 120.226.39.25, port: 19241, type: trojan, password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd}
+  - {name: 未知 TROJAN-556@free-nodes, server: 176.31.83.90, port: 443, type: trojan, password: origin}
+  - {name: 未知 TROJAN-466@free-nodes, server: 86.107.197.239, port: 443, type: trojan, password: e683d757-b855-44c3-b0b6-22586444914a, sni: joss.gpj1.web.id}
+  - {name: 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN, server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 2cUfzeGOZG, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3", server: 91.99.225.11, port: 20820, type: hysteria2, ports: 20820, password: 8Er8TicySe, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-408@free-nodes, server: 219.94.250.108, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b}
+  - {name: 未知 TROJAN-322@free-nodes, server: 104.208.100.101, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, sni: uk.liangyuandian.top}
+  - {name: 🇰🇷 KR SS-90@free-nodes, server: 141.164.45.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 10|MCI-IR--@V2rayAlpha-4, server: mumbai-4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-4.nezhasu.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-576@free-nodes, server: 160.16.240.91, port: 2760, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 未知 TROJAN-463@free-nodes, server: jp.iamnotagoodman.com, port: 443, type: trojan, password: 8aab51da-6b67-4bd2-b6e6-5ab3008cf53e}
+  - {name: 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه..., server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 46gfRN8Pcy, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-551@free-nodes, server: t5.583181.xyz, port: 1258, type: trojan, password: 286d5fae-eb42-4cd2-96c5-c7dfaaae67ac, sni: www.baidu.com}
+  - {name: 14|NL_speednode_0025, server: 86.107.197.239, port: 443, type: trojan, password: e683d757-b855-44c3-b0b6-22586444914a, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/86.107.197.239=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 未知 TROJAN-212@free-nodes, server: 160.16.117.182, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-379@free-nodes, server: jp01a.roc-taiwan.net.ua, port: 65011, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b}
+  - {name: "10|MCi--@IRAN_V2RAY1 #1", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1, server: seoul03.zgjok.com, port: 443, type: vmess, uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: seoul03.zgjok.com}}}
+  - {name: 未知 TROJAN-331@free-nodes, server: 146.56.189.146, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.183.209.234, port: 2569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 202.181.103.235, port: 2760, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net}
+  - {name: 10|MCI-IR--@V2rayAlpha-8, server: 193.123.76.141, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, sni: du.wish.ml, skip-cert-verify: true}
+  - {name: 未知 TROJAN-536@free-nodes, server: 13.40.3.71, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 未知 TROJAN-549@free-nodes, server: hk-full.privateip.net, port: 443, type: trojan, password: e299faed-cb72-4c62-bb2e-f0a218aed72a}
+  - {name: "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: ihYxYCiGwv, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: 10|All--@V2rayAlpha--6, server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 未知 TROJAN-206@free-nodes, server: official.seoulcityhall.com.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b}
+  - {name: 未知 TROJAN-642@free-nodes, server: iplc.xiaohouzi.club, port: 20036, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: $$nazhk03.xiaohouzi.club}
+  - {name: 🇭🇰 HK TROJAN-20@free-nodes, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.117.182, port: 2890, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها, server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: yPUN7h9I8E, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: 未知 TROJAN-376@free-nodes, server: jp.mjt001.com, port: 443, type: trojan, password: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336, sni: jp.mjt001.com}
+  - {name: 未知 TROJAN-519@free-nodes, server: trs12.bolab.net, port: 22, type: trojan, password: 40c89b10235c40321e7a3cef82b53a03}
+  - {name: 🇭🇰 HK TROJAN-58@free-nodes, server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-395@free-nodes, server: a03.taipeicitygovernment.cn.ua, port: 3462, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610}
+  - {name: 未知 TROJAN-189@free-nodes, server: 43.198.91.31, port: 3579, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 未知 TROJAN-430@free-nodes, server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, sni: telewebion.com}
+  - {name: 未知 TROJAN-184@free-nodes, server: 103.172.116.196, port: 3389, type: trojan, password: 0c6a3341e8d5ab17}
+  - {name: 未知 TROJAN-239@free-nodes, server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-333@free-nodes, server: 121.78.213.3, port: 443, type: trojan, password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, sni: httah.freetrade.link}
+  - {name: 10|🏴‍☠️@FreakConfig, server: tr.xn--gmq00sc0nuve.shop, port: 21105, type: hysteria2, ports: 21105, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 未知 TROJAN-295@free-nodes, server: 160.16.236.32, port: 2760, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-386@free-nodes, server: 160.16.131.243, port: 1331, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com}
+  - {name: 未知 TROJAN-488@free-nodes, server: 144.24.76.54, port: 8443, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, sni: 2.hg.kr.cat77.cloud}
+  - {name: 10|MCI-IR--@V2rayAlpha-15, server: ashburn.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: ashburn.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JP TROJAN-104@free-nodes, server: 153.121.51.221, port: 1821, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian}
+  - {name: 未知 TROJAN-207@free-nodes, server: 43.206.67.76, port: 36306, type: trojan, password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb, sni: sunmoon02.abzoones.xyz}
   - {name: "10|@V2rayNG3 #12", server: p1.punchline.ir, port: 2087, type: hysteria2, ports: 2087, password: AtTK3tiEA0, obfs: salamander, obfs-password: bleepbloop, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: XnD9ETrM9w, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.117.182, port: 3169, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net}
-  - {name: "✅سرورهایبیشتردرکانال:prrofile_... #2", server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, ports: 2083, password: siEk2SjZFG, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii, sni: ghasem.kotlet.org, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #5", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: yPUN7h9I8E, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
-  - {name: "10|@V2rayNG3 #9", server: s15.serv00.com, port: 7777, type: hysteria2, ports: 7777, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6", server: 91.99.225.11, port: 20820, type: hysteria2, ports: 20820, password: Bf8SIGCNHy, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: p1zskFmlFN, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha-2, server: sb2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: d3da4e16-9bef-4e54-9bd9-960d32740392, sni: bing.com, skip-cert-verify: true}
-  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: VPcKd5VGwx, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 10|All-@V2ray_Alpha--39, server: hshl.huasuan666.top, port: 22157, type: hysteria2, ports: 22157, password: 571ec94e-613c-430a-93de-397d3d237475, sni: hshl.huasuan666.top, skip-cert-verify: true}
-  - {name: "10|🇳🇱@FreakConfig #1", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 7TsyG1ypRJ, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4, server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com, port: 80, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com}}}
-  - {name: 10|MCi--@IRAN_V2RAY1, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "All-@V2rayAlpha--2 #1", server: 43.201.45.216, port: 29609, type: hysteria2, ports: 29609, password: MxiGoEDnLJELZicwCXwsADPdF4, sni: bing.com, skip-cert-verify: true}
-  - {name: All--@V2rayAlpha-1, server: sb1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: d3da4e16-9bef-4e54-9bd9-960d32740392, sni: bing.com, skip-cert-verify: true}
-  - {name: "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: J9MCnSyy8y, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha--8, server: net2025.afsharidempire.uk, port: 30205, type: hysteria2, ports: 30205, password: 8864aa9f-7517-4fd5-aef1-32050eb3095d, obfs: salamander, obfs-password: GdQ4bgvT8RFwuWi2, sni: net2025.afsharidempire.uk, skip-cert-verify: true}
+  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: yrBnLOzhOi, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-215@free-nodes, server: 45.86.229.28, port: 443, type: trojan, password: 9ccc3e1d-3df5-4348-aa05-738310149cc3, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.86.229.28=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 🇺🇸 美国 - 費利蒙 - System In Place - 3, server: 74.117.196.232, port: 37934, type: vmess, uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest}}
+  - {name: 未知 TROJAN-600@free-nodes, server: 139.162.158.172, port: 443, type: trojan, password: 665c944d-047d-4659-80d5-3eaac70241a9, sni: de2-full.privateip.net}
+  - {name: 🇫🇷 FR TROJAN-03@free-nodes, server: 13.39.186.144, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 未知 TROJAN-245@free-nodes, server: 45.64.22.55, port: 443, type: trojan, password: xSYy8KOpEyOjgaNFCeC3a72DS6wBAcz90pDZRRSXnxquIFZlT5433ClYD38aeA, sni: yokoha.freetrade.link}
+  - {name: 未知 TROJAN-472@free-nodes, server: 43.198.12.229, port: 28443, type: trojan, password: ae7cc604-d970-4200-9a9b-eb45087b4fc1, sni: mzy.hruqoaw.cn}
+  - {name: 未知 TROJAN-353@free-nodes, server: tw01.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B}
+  - {name: 未知 TROJAN-489@free-nodes, server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, network: ws, ws-opts: {path: /yamtekodasayahhh, headers: {Host: kotlet.arshiacomplus.dpdns.org}}}
+  - {name: 未知 TROJAN-504@free-nodes, server: dcf741e8.epeius-2gy.pages.dev, port: 443, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}}
+  - {name: 未知 TROJAN-615@free-nodes, server: 153.121.70.134, port: 4451, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net}
   - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: Cp0LaDHbP7, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 10|MCI-IR--@V2rayAlpha-17, server: amsterdam.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: Amsterdam.nezhasu.com, skip-cert-verify: true}
-  - {name: 10|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}}
-  - {name: "10|@V2rayNG3 #13", server: p1.punchline.ir, port: 44929, type: hysteria2, ports: 44929, password: AtTK3tiEA0, obfs: salamander, obfs-password: bluhbluh, skip-cert-verify: true}
-  - {name: MCI-IR--@V2rayAlpha-15, server: ashburn.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: ashburn.nezhasu.com, skip-cert-verify: true}
-  - {name: MCI-IR--@V2rayAlpha-11, server: yn2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: yn2.nezhasu.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-494@free-nodes, server: 13.49.224.224, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 未知 TROJAN-612@free-nodes, server: 45.80.190.64, port: 443, type: trojan, password: bs6KJkPBW9MP74uHEa}
+  - {name: 未知 TROJAN-629@free-nodes, server: 38.150.13.140, port: 57063, type: trojan, password: Hu4CFM0wJ3, sni: 38.150.13.140}
+  - {name: 未知 TROJAN-219@free-nodes, server: official.taipeicitygovernment.cn.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b}
+  - {name: 未知 TROJAN-471@free-nodes, server: 160.16.106.144, port: 1331, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com}
+  - {name: 未知 TROJAN-506@free-nodes, server: 45.80.190.66, port: 443, type: trojan, password: bs6KJkPBW9MP74uHEa}
+  - {name: 10|All-@V2ray_Alpha--2, server: lundun2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun2.nezhasu.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-223@free-nodes, server: 212.24.103.3, port: 443, type: trojan, password: 4f9ca636-5195-406a-b48c-0388689dd9a7}
+  - {name: 🇯🇵 JP TROJAN-133@free-nodes, server: 160.16.144.208, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-262@free-nodes, server: hn.xiaohouzi.club, port: 18432, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club}
+  - {name: 未知 TROJAN-160@free-nodes, server: hk3.t.sgateway.link, port: 5223, type: trojan, password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS, sni: pod-hk-z1.psusercontent.com, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1, server: 45.136.244.201, port: 49934, type: vmess, uuid: 90afa47d-341a-497d-ae25-1d81258804d5, alterId: 0, cipher: auto, tls: false}
+  - {name: 未知 TROJAN-550@free-nodes, server: zi.you.usdtvfk.top, port: 443, type: trojan, password: 4d048fc6-d944-41dd-b327-10856adcc82d, sni: zi.you.usdtvfk.top}
+  - {name: 未知 TROJAN-513@free-nodes, server: 160.16.116.227, port: 4054, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 未知 TROJAN-644@free-nodes, server: 160.16.132.158, port: 2467, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com}
+  - {name: 未知 TROJAN-495@free-nodes, server: 58.152.18.98, port: 443, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-394@free-nodes, server: 36.156.102.84, port: 3272, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net}
+  - {name: 未知 TROJAN-173@free-nodes, server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 未知 TROJAN-275@free-nodes, server: hnm.xiaohouzi.club, port: 27482, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$$hnm.xiaohouzi.club}
+  - {name: 未知 TROJAN-526@free-nodes, server: 160.16.116.227, port: 127, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 未知 TROJAN-621@free-nodes, server: 18.162.187.235, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 未知 TROJAN-581@free-nodes, server: 193.233.114.58, port: 8443, type: trojan, password: d78d48df-b788-4a95-9e9f-77c9b2f69822, sni: joss.gpj1.web.id, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 未知 TROJAN-535@free-nodes, server: 104.21.12.87, port: 443, type: trojan, password: 0b65bb06-6b28-487a-8e3c-820dda51e977, sni: series-v1.samanehha.co, network: ws, ws-opts: {path: /43xf5zgeApzDAfhOHq, headers: {Host: series-v1.samanehha.co}}}
+  - {name: 未知 TROJAN-418@free-nodes, server: official.tokyometropolis.kharkov.ua, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b}
+  - {name: 未知 TROJAN-321@free-nodes, server: 160.16.242.183, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|MCI-IR--@V2rayAlpha-6, server: 91.149.238.71, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
+  - {name: 未知 TROJAN-191@free-nodes, server: 36.150.215.203, port: 4397, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com}
+  - {name: 未知 TROJAN-218@free-nodes, server: hn.xiaohouzi.club, port: 18835, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: $$feilvbin.xiaohouzi.club}
+  - {name: 🇷🇺 RU TROJAN-60@free-nodes, server: 37.18.14.33, port: 443, type: trojan, password: Qzy7tgpRhu, sni: m.vk.com, skip-cert-verify: true}
+  - {name: 未知 TROJAN-619@free-nodes, server: fbi.gov, port: 443, type: trojan, password: vip, sni: heihu880.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}}
+  - {name: 未知 TROJAN-627@free-nodes, server: 160.16.242.183, port: 2145, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,236 +420,408 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -489,57 +837,101 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|All--@V2ray_Alpha-1
-      - 🇺🇸 美国|@ripaojiedian
-      - All--@V2rayAlpha--2
-      - "All-@V2ray_Alpha--4 #1"
-      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9"
-      - ES_speednode_0012
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - "@V2rayNG3 #1"
-      - "کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--2
-      - MCI-IR--@V2rayAlpha-2
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8"
-      - "🇩🇪 - DE - @freeOnlineVPN #1"
-      - "10|All-@V2rayAlpha--2 #1"
-      - "@IRAN_V2RAY1"
-      - 10|MCI-IR--@V2rayAlpha-16
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12"
-      - 9,10|🇳🇱@FreakConfig
-      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      - "10|@V2rayNG3 #12"
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
-      - 🇯🇵 日本3|@ripaojiedian
-      - "✅سرورهایبیشتردرکانال:prrofile_... #2"
-      - "10|@V2rayNG3 #5"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17"
-      - "10|@V2rayNG3 #9"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
+      - "10|@Selinc #2"
+      - 🇰🇷 韩国|@ripaojiedian
       - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14"
-      - 10|All--@V2rayAlpha-2
-      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10"
-      - 10|All-@V2ray_Alpha--39
-      - "10|🇳🇱@FreakConfig #1"
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      - 10|MCi--@IRAN_V2RAY1
-      - "All-@V2rayAlpha--2 #1"
-      - All--@V2rayAlpha-1
-      - "@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
-      - 10|All--@V2rayAlpha--8
+      - 未知 TROJAN-283@free-nodes
+      - 未知 TROJAN-556@free-nodes
+      - 未知 TROJAN-466@free-nodes
+      - 🇩🇪 10|🇩🇪 - DE - @freeOnlineVPN
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
+      - 未知 TROJAN-408@free-nodes
+      - 未知 TROJAN-322@free-nodes
+      - 🇰🇷 KR SS-90@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-4
+      - 未知 TROJAN-576@free-nodes
+      - 未知 TROJAN-463@free-nodes
+      - 10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
+      - 未知 TROJAN-551@free-nodes
+      - 14|NL_speednode_0025
+      - 未知 TROJAN-212@free-nodes
+      - 未知 TROJAN-379@free-nodes
+      - "10|MCi--@IRAN_V2RAY1 #1"
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 未知 TROJAN-331@free-nodes
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 10|MCI-IR--@V2rayAlpha-8
+      - 未知 TROJAN-536@free-nodes
+      - 未知 TROJAN-549@free-nodes
+      - "10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11"
+      - 10|All--@V2rayAlpha--6
+      - 未知 TROJAN-206@free-nodes
+      - 未知 TROJAN-642@free-nodes
+      - 🇭🇰 HK TROJAN-20@free-nodes
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|🇪@V2RayyNGvpn🇩🇪همه اوپراتور ها
+      - 未知 TROJAN-376@free-nodes
+      - 未知 TROJAN-519@free-nodes
+      - 🇭🇰 HK TROJAN-58@free-nodes
+      - 未知 TROJAN-395@free-nodes
+      - 未知 TROJAN-189@free-nodes
+      - 未知 TROJAN-430@free-nodes
+      - 未知 TROJAN-184@free-nodes
+      - 未知 TROJAN-239@free-nodes
+      - 未知 TROJAN-333@free-nodes
+      - 10|🏴‍☠️@FreakConfig
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 未知 TROJAN-295@free-nodes
+      - 未知 TROJAN-386@free-nodes
+      - 未知 TROJAN-488@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-15
+      - 🇯🇵 JP TROJAN-104@free-nodes
+      - 未知 TROJAN-207@free-nodes
+      - "10|@V2rayNG3 #12"
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
+      - 未知 TROJAN-215@free-nodes
+      - 🇺🇸 美国 - 費利蒙 - System In Place - 3
+      - 未知 TROJAN-600@free-nodes
+      - 🇫🇷 FR TROJAN-03@free-nodes
+      - 未知 TROJAN-245@free-nodes
+      - 未知 TROJAN-472@free-nodes
+      - 未知 TROJAN-353@free-nodes
+      - 未知 TROJAN-489@free-nodes
+      - 未知 TROJAN-504@free-nodes
+      - 未知 TROJAN-615@free-nodes
       - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6"
-      - 10|MCI-IR--@V2rayAlpha-17
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 香港2|@ripaojiedian
-      - "10|@V2rayNG3 #13"
-      - MCI-IR--@V2rayAlpha-15
-      - MCI-IR--@V2rayAlpha-11
+      - 未知 TROJAN-494@free-nodes
+      - 未知 TROJAN-612@free-nodes
+      - 未知 TROJAN-629@free-nodes
+      - 未知 TROJAN-219@free-nodes
+      - 未知 TROJAN-471@free-nodes
+      - 未知 TROJAN-506@free-nodes
+      - 10|All-@V2ray_Alpha--2
+      - 未知 TROJAN-223@free-nodes
+      - 🇯🇵 JP TROJAN-133@free-nodes
+      - 未知 TROJAN-262@free-nodes
+      - 未知 TROJAN-160@free-nodes
+      - 🇷🇺 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      - 未知 TROJAN-550@free-nodes
+      - 未知 TROJAN-513@free-nodes
+      - 未知 TROJAN-644@free-nodes
+      - 未知 TROJAN-495@free-nodes
+      - 未知 TROJAN-394@free-nodes
+      - 未知 TROJAN-173@free-nodes
+      - 未知 TROJAN-275@free-nodes
+      - 未知 TROJAN-526@free-nodes
+      - 未知 TROJAN-621@free-nodes
+      - 未知 TROJAN-581@free-nodes
+      - 未知 TROJAN-535@free-nodes
+      - 未知 TROJAN-418@free-nodes
+      - 未知 TROJAN-321@free-nodes
+      - 10|MCI-IR--@V2rayAlpha-6
+      - 未知 TROJAN-191@free-nodes
+      - 未知 TROJAN-218@free-nodes
+      - 🇷🇺 RU TROJAN-60@free-nodes
+      - 未知 TROJAN-619@free-nodes
+      - 未知 TROJAN-627@free-nodes
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
