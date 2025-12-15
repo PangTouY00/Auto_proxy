@@ -5,147 +5,143 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.198.243.183, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇸🇬 8|SG #7", server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 11|🇭🇰 香港6|@ripaojiedian, server: 120.232.218.114, port: 49213, type: trojan, password: c9f83e78-e03b-4080-b882-d8676e52adaa, sni: t.me%2FWangCai2, skip-cert-verify: false}
-  - {name: 9|🇱@FreakConfig, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 9|All-#V2rayAlpha--17, server: us.xn--gmq00sc0nuve.shop, port: 21319, type: hysteria2, ports: 21319, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, sni: us.xn--gmq00sc0nuve.shop, skip-cert-verify: true}
-  - {name: 9|MCI-IR--@V2rayAlpha-3, server: mumbai-3.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: mumbai-3.nezhasu.com, skip-cert-verify: true}
-  - {name: "8,9|💎کانفیگ های بیشتر در چنل تلگرا...", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 9|All--@V2rayAlpha--26, server: 9b13ea8f-t70f40-t7t5pe-1s0a7.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, skip-cert-verify: true}
-  - {name: 🇺🇸 8|US, server: 166.88.164.9, port: 27704, type: hysteria2, ports: 27704, password: peEduuHzbExjK7UQHzazXwqgA, sni: bing.com, skip-cert-verify: true}
-  - {name: 9|All-@V2rayAlpha--38, server: moxige1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: moxige1.nezhasu.com, skip-cert-verify: true}
-  - {name: 9|All-@V2ray_Alpha--30, server: 140.245.68.133, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
-  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇸🇬 8|SG #2", server: 47.129.100.149, port: 17193, type: hysteria2, ports: 17193, password: 5OiuCsPmULZ0lJwts89fegLJE, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 52.195.194.77, port: 1924, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.151.196, port: 4054, type: trojan, password: 76d630f2af6619c4a5de0ef953df3c6a, sni: www.nintendogames.net}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.183.180.31, port: 507, type: trojan, password: 76d630f2af6619c4a5de0ef953df3c6a, sni: www.nintendogames.net}
-  - {name: "9|@IRAN_V2RAY1 #5", server: tr.xn--gmq00sc0nuve.shop, port: 21105, type: hysteria2, ports: 21105, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, skip-cert-verify: true}
-  - {name: "9|All--@IRAN_V2RAY1 #6", server: 81.168.83.89, port: 2083, type: hysteria2, ports: 2083, password: YwuvGJk36B, obfs: salamander, obfs-password: khameniiko@smad@ret, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true}
-  - {name: "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: yrBnLOzhOi, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 9|All-@V2rayAlpha--42, server: 158.180.77.90, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
-  - {name: "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: GsM2gHXMdz, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: "9|All--@IRAN_V2RAY1 #1", server: 70.34.215.221, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: 9|All--@V2rayAlpha--25, server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, skip-cert-verify: false}
   - {name: "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: uoGRSTIwX9, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
-  - {name: 9|All-@V2rayAlpha-26, server: dd.openaccessnode.com, port: 989, type: hysteria2, ports: 989, password: 77238c49bd20e407f05e0c073ad08fdb, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi", sni: dd.ircybersec.org, skip-cert-verify: true}
-  - {name: 8|未命名, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 16461a78-363c-457a-92f9-83b0a68edc37, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian, server: 16.162.21.116, port: 804, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.117, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇨🇳 8|TW, server: tw2.jueduibupao.top, port: 30078, type: hysteria2, ports: 30078, password: 84123645-b62d-4a3b-bd74-d58ea4023c65, sni: tw2.jueduibupao.top, skip-cert-verify: true}
-  - {name: "🇸🇬 8|SG #8", server: 8.219.232.60, port: 6467, type: hysteria2, ports: 6467, password: fWydUhyG3woKe4a0kcKKKdx78, sni: bing.com, skip-cert-verify: true}
-  - {name: 9|All-@V2rayAlpha--2, server: genshin-v4-oracle-amd.damaoooo.com, port: 443, type: hysteria2, ports: 443, password: 2408982813-20241210, skip-cert-verify: false}
+  - {name: "9|All--@IRAN_V2RAY1 #2", server: drhystuichdfy.samanidempire.org, port: 20335, type: hysteria2, ports: 20335, password: 80747420-96c4-4a2f-83e6-eea4e46beb09, obfs: salamander, obfs-password: U1wBrYQyFm, sni: drhystuichdfy.samanidempire.org, skip-cert-verify: true}
+  - {name: "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3", server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 9|All-#V2rayAlpha--21, server: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: c357a728-1211-11f0-9a65-f23c9164ca5d, sni: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com, skip-cert-verify: true}
+  - {name: "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: UUa5hFByN9, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: 9|MCI-IR--@V2rayAlpha-8, server: 193.123.76.141, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, sni: du.wish.ml, skip-cert-verify: true}
+  - {name: 9|MCI-IR--@V2rayAlpha-11, server: yn2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: yn2.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.116.227, port: 2760, type: trojan, password: e2722c0fb503f8a592436c12bce0509a, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 欧盟 V2CROSS.COM, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP}
+  - {name: "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: RZjK7qHG15, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4", server: 83.147.253.96, port: 2053, type: hysteria2, ports: 2053, password: p1zskFmlFN, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf, sni: webservice-admin.tgju.org, skip-cert-verify: true}
+  - {name: 🇫🇷 法国 OVH SAS, server: 91.134.8.101, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
+  - {name: "🇸🇬 8|SG #3", server: 52.221.210.182, port: 17193, type: hysteria2, ports: 17193, password: 5OiuCsPmULZ0lJwts89fegLJE, sni: bing.com, skip-cert-verify: true}
+  - {name: "9|28YB5qK!5t#U&insecure-1&sni-na... #1", server: channel1.saghetalaie.homes, port: 46914, type: hysteria2, ports: 46914, password: freehomesvpnchannel3, obfs: salamander}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.214.159, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian}
+  - {name: 9|MCI-IR--@V2rayAlpha-14, server: falankefu1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: falankefu1.nezhasu.com, skip-cert-verify: true}
+  - {name: "🇯🇵 8|JP #4", server: 47.245.0.72, port: 27789, type: hysteria2, ports: 27789, password: yD0mxkCA18WgPD1uVGd3Eu1dc, sni: bing.com, skip-cert-verify: true}
+  - {name: "8,9|🔸@IRAN_V2RAY1💘 #4", server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 9|All-@V2ray_Alpha--2, server: lundun2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun2.nezhasu.com, skip-cert-verify: true}
+  - {name: "🇭🇰 8|HK #2", server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, sni: bing.com, skip-cert-verify: true}
+  - {name: 11|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "9|All-@V2ray_Alpha--7 #1", server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, port: 443, type: hysteria2, ports: 443, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, skip-cert-verify: false}
+  - {name: 🇭🇰 8|🇭🇰 HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 8|⭕40@oneclickvpnkeys, server: 163.172.21.105, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "8,9|All-@V2ray_Alpha--8", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: 9|All-@V2ray_Alpha--4, server: lundun4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 13.231.191.82, port: 5156, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,155 +160,148 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -328,37 +317,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇸🇬 8|SG #7"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11|🇭🇰 香港6|@ripaojiedian
-      - 9|🇱@FreakConfig
-      - 9|All-#V2rayAlpha--17
-      - 9|MCI-IR--@V2rayAlpha-3
-      - 8,9|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 9|All--@V2rayAlpha--26
-      - 🇺🇸 8|US
-      - 9|All-@V2rayAlpha--38
-      - 9|All-@V2ray_Alpha--30
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "🇸🇬 8|SG #2"
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - "9|@IRAN_V2RAY1 #5"
-      - "9|All--@IRAN_V2RAY1 #6"
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
-      - 9|All-@V2rayAlpha--42
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9"
+      - "9|All--@IRAN_V2RAY1 #1"
+      - 9|All--@V2rayAlpha--25
       - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19"
-      - 9|All-@V2rayAlpha-26
-      - 8|未命名
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇨🇳 8|TW
-      - "🇸🇬 8|SG #8"
-      - 9|All-@V2rayAlpha--2
+      - "9|All--@IRAN_V2RAY1 #2"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #3"
+      - "🇳🇱 8,9|🇳🇱 - NL - @freeOnlineVPN #5"
+      - 9|All-#V2rayAlpha--21
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
+      - 9|MCI-IR--@V2rayAlpha-8
+      - 9|MCI-IR--@V2rayAlpha-11
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 欧盟 V2CROSS.COM
+      - "9|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12"
+      - "9|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
+      - 🇫🇷 法国 OVH SAS
+      - "🇸🇬 8|SG #3"
+      - "9|28YB5qK!5t#U&insecure-1&sni-na... #1"
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 9|MCI-IR--@V2rayAlpha-14
+      - "🇯🇵 8|JP #4"
+      - "8,9|🔸@IRAN_V2RAY1💘 #4"
+      - 9|All-@V2ray_Alpha--2
+      - "🇭🇰 8|HK #2"
+      - 11|tg频道:@ripaojiedian
+      - "9|All-@V2ray_Alpha--7 #1"
+      - 🇭🇰 8|🇭🇰 HK
+      - 8|⭕40@oneclickvpnkeys
+      - 8,9|All-@V2ray_Alpha--8
+      - 9|All-@V2ray_Alpha--4
+      - 🇯🇵 日本|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
