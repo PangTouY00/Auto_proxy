@@ -5,115 +5,111 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}}
-  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.155.23, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.116.227, port: 4054, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.57.238, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 10|@IRAN_V2RAY1, server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk, skip-cert-verify: false}
-  - {name: 10|All--@V2rayAlpha--21, server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 58.152.26.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港2|@ripaojiedian", server: 111.47.247.196, port: 16632, type: vmess, uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: abfba8affeca9988664697aab83c3851.mobgslb.tbcache.com}}}
-  - {name: 10|All-@V2rayAlpha--2, server: genshin-v4-oracle-amd.damaoooo.com, port: 443, type: hysteria2, ports: 443, password: 2408982813-20241210, skip-cert-verify: false}
-  - {name: 🇻🇳 12|🇻🇳 越南|@ripaojiedian, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 10|All-@V2ray_Alpha--9, server: 40.233.83.110, port: 45979, type: hysteria2, ports: 45979, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 阿什本 - HostPapa - 7, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 9|🎄84@oneclickvpnkeys, server: 974e2823-t6ngg0-t7j1ub-g3b3.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.116.227, port: 4054, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 95.40.14.227, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a, sni: green2.cdntencentmusic.com}
-  - {name: 10|ا ها ر ر ن ترا💎 Config_Rayegan..., server: 77.223.214.193, port: 31468, type: hysteria2, ports: 31468, password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 10|telegram  𝗶𝗻𝗮, server: 144.24.101.176, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
+  - {name: 10|All-@V2rayAlpha--41, server: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.107.37, port: 3169, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net}
+  - {name: 10|All-@V2ray_Alpha--6, server: tr.xn--9kqx4sc0n.shop, port: 21325, type: hysteria2, ports: 21325, password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, skip-cert-verify: false}
   - {name: 9|🎄80@oneclickvpnkeys, server: a6a24529-t6ngg0-t7fz1r-8rja.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, skip-cert-verify: true}
-  - {name: 14|HK_speednode_0016, server: 58.152.110.104, port: 443, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5, server: n1761214904.wpg27.xyz, port: 443, type: vmess, uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1761214904.wpg27.xyz}}}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 阿什本 - HostPapa - 7, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 10|All-@V2rayAlpha--37, server: phoenix-1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: phoenix-1.nezhasu.com, skip-cert-verify: true}
+  - {name: 10|All-@V2rayAlpha--46, server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 6286105c-fb6d-11ef-be96-f23c93136cb3, sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk, skip-cert-verify: false}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.204.136, port: 2890, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 10|telegram  𝗶𝗻𝗮, server: 144.24.101.176, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
+  - {name: 10|All-@V2ray_Alpha--8, server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: 9|🎄85@oneclickvpnkeys, server: 41f54602-t6ngg0-t7m3jq-1rnrp.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, skip-cert-verify: true}
+  - {name: 🇺🇸 13|美国4|@ripaojiedian, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 10|All--@V2rayAlpha--23, server: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, sni: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com, skip-cert-verify: false}
+  - {name: "🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9", server: 154.211.8.58, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: us.nbee.pp.ua}}}
+  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: 72SR90kxWa, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.107.37, port: 3093, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net}
+  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: wXh99oRDIt, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 58.152.25.71, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.26.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22", server: 91.99.225.11, port: 443, type: hysteria2, ports: 443, password: zdUcTseVJy, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle, sni: refersion.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,123 +128,118 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -264,29 +255,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 10|@IRAN_V2RAY1
-      - 10|All--@V2rayAlpha--21
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 10|All-@V2rayAlpha--2
-      - 🇻🇳 12|🇻🇳 越南|@ripaojiedian
-      - 10|All-@V2ray_Alpha--9
-      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
-      - 9|🎄84@oneclickvpnkeys
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|ا ها ر ر ن ترا💎 Config_Rayegan...
-      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2rayAlpha--41
+      - 🇯🇵 日本2|@ripaojiedian
+      - 10|All-@V2ray_Alpha--6
       - 9|🎄80@oneclickvpnkeys
-      - 14|HK_speednode_0016
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 5
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 阿什本 - HostPapa - 7
+      - 10|All-@V2rayAlpha--37
+      - 10|All-@V2rayAlpha--46
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 10|telegram  𝗶𝗻𝗮
+      - 10|All-@V2ray_Alpha--8
+      - 9|🎄85@oneclickvpnkeys
+      - 🇺🇸 13|美国4|@ripaojiedian
+      - 10|All--@V2rayAlpha--23
+      - 🇺🇸 美国 - 洛杉矶 - Cloudflare, Inc. - 9
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2"
+      - 🇯🇵 日本3|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - "10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
