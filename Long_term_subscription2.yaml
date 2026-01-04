@@ -5,231 +5,147 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 82, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 136, server: a0d03427-t70f40-tm23vf-1jk6u.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a0d03427-t70f40-tm23vf-1jk6u.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 91, server: f5514da0-t70f40-tc9wl2-py5w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: f5514da0-t70f40-tc9wl2-py5w.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 42, server: 89d85c51-t7h340-t8xdfw-1m0fq.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 89d85c51-t7h340-t8xdfw-1m0fq.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 260, server: 2ba4eb78-t6r5s0-taxf6m-ieln.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2ba4eb78-t6r5s0-taxf6m-ieln.hkt.gotochinatown.net}}}
-  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 54.199.47.127, port: 1933, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 77, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 28, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40639730-e027-11ea-87ad-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 10|🇱@FreakConfig, server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 58, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 207, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.154.251, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 21, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 93, server: bfc9a719-t70f40-t8biw1-44k4.hkt.gotochinatown.net, port: 80, type: vmess, uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bfc9a719-t70f40-t8biw1-44k4.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 163, server: 005c86dd-t70f40-t92wi1-1qkeg.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 005c86dd-t70f40-t92wi1-1qkeg.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 140, server: d3cc8573-t70f40-tm3dx0-1r9dt.hkt.gotochinatown.net, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d3cc8573-t70f40-tm3dx0-1r9dt.hkt.gotochinatown.net}}}
-  - {name: "10|All--@IRAN_V2RAY1 #8", server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, port: 443, type: hysteria2, ports: 443, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, skip-cert-verify: false}
-  - {name: 10|telegram  𝗶𝗻𝗮, server: 144.24.101.176, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
-  - {name: 10|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 145, server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 223, server: 2493a82a-t6r5s0-t7pjgr-11p9g.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2493a82a-t6r5s0-t7pjgr-11p9g.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 105, server: 6fdda999-t70f40-tlm64c-xm0q.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 6fdda999-t70f40-tlm64c-xm0q.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 161, server: 91b3b4c6-t70f40-tcmtfl-1qudp.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 91b3b4c6-t70f40-tcmtfl-1qudp.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 205, server: c90e7d9b-t6r5s0-tlm64c-xm0q.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c90e7d9b-t6r5s0-tlm64c-xm0q.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 227, server: 71ac3d4f-t6r5s0-t85e8f-141tv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 71ac3d4f-t6r5s0-t85e8f-141tv.hkt.gotochinatown.net}}}
-  - {name: 10|🔸@IRAN_V2RAY1💘, server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 197, server: 06c9d78c-t70f40-tcum62-se45.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d076280a-0d5f-11f0-8a7b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 06c9d78c-t70f40-tcum62-se45.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 201, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 263, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 74, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9d80dd14-ac44-11ee-a116-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 278, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 10|@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 269, server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72, server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net}}}
+  - {name: "10|@Hddify #1", server: 51.159.111.32, port: 5355, type: hysteria2, ports: 5355, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56, server: 2f3f0883-t6wps0-tifnix-1ro8s.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2f3f0883-t6wps0-tifnix-1ro8s.hkt.gotochinatown.net}}}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 54.199.47.127, port: 3901, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 10|All-#V2rayAlpha--10, server: uk2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 7b5cbc6a-90a1-4b6e-994e-4c198b85f80b, sni: bing.com, skip-cert-verify: true}
+  - {name: "10|@IRAN_V2RAY1 #6", server: tr.xn--gmq00sc0nuve.shop, port: 21105, type: hysteria2, ports: 21105, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 13.231.188.173, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|All-#V2rayAlpha--16, server: da6103f9-t6ngg0-tao3bn-ggww.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: da6103f9-t6ngg0-tao3bn-ggww.us.hyhuawei.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54, server: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net}}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 13.231.188.173, port: 3901, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 10|22@ConfigV2RayNG, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 18.163.28.248, port: 804, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇯🇵 9|JP #2", server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, ports: 37771, password: 97f8e11a-683a-493d-839a-3340a7bc63fb, sni: dg1.xiaohuolongjc.top}
+  - {name: "10|@IRAN_V2RAY1💘 #1", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 13.231.188.173, port: 1933, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
+  - {name: 10|All--@V2rayAlpha--17, server: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, sni: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com, skip-cert-verify: true}
+  - {name: 10|🇫🇷@TapsiVpn. join, server: fg.zhujue.us, port: 20501, type: hysteria2, ports: 20501, password: de63b3fa-fb7c-4ddd-8b09-5973a30168c6, sni: fg.zhujue.us, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 10|All--@V2rayAlpha-14, server: 84.8.134.242, port: 443, type: hysteria2, ports: 443, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: johannesburg-4.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44, server: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net}}}
+  - {name: 10|All-#V2rayAlpha--17, server: us.xn--gmq00sc0nuve.shop, port: 21319, type: hysteria2, ports: 21319, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, sni: us.xn--gmq00sc0nuve.shop, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10, server: 9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net, port: 80, type: vmess, uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net}}}
+  - {name: "9|未命名 #2", server: lsj3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: lsj3.mangshe.xyz, skip-cert-verify: true}
+  - {name: "10|All-@IRAN_V2RAY1 #2", server: lundun1.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun1.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|US_speednode_0021, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³WangCai2, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇯🇵 日本 东京Amazon数据中心, server: 13.231.188.173, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian}
   - {name: 14|US_speednode_0020, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epge.muarua.filegear-sg.me}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 192, server: 1da2ae9d-t70f40-tao3bn-ggww.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1da2ae9d-t70f40-tao3bn-ggww.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 206, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 271, server: 2eb3ab7d-t6hwg0-t7xcfs-1ldl3.hkt.gotochinatown.net, port: 80, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2eb3ab7d-t6hwg0-t7xcfs-1ldl3.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 39, server: 4387672b-t7xr40-0-1t0fu.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 4387672b-t7xr40-0-1t0fu.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 104, server: 168ec8b9-t70f40-tiqsce-t6fv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 168ec8b9-t70f40-tiqsce-t6fv.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 221, server: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 95, server: 22f6f969-t70f40-tkp3tl-1s09x.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 22f6f969-t70f40-tkp3tl-1s09x.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 86, server: b4c044e6-t70f40-t9byd7-1jfvb.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: b4c044e6-t70f40-t9byd7-1jfvb.hkt.gotochinatown.net}}}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 58.152.18.48, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 48, server: c321de88-t5xj40-t7d1t3-81nv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c321de88-t5xj40-t7d1t3-81nv.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 185, server: b4d8231e-t70f40-te0v28-1mh67.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: b4d8231e-t70f40-te0v28-1mh67.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 147, server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net}}}
-  - {name: 10|All--@IRAN_V2RAY1🇺🇸, server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 6286105c-fb6d-11ef-be96-f23c93136cb3, sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 288, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 10|All-#V2rayAlpha--21, server: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: c357a728-1211-11f0-9a65-f23c9164ca5d, sni: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 47, server: 4d565c78-t7bj40-tgr32b-wj6v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 4d565c78-t7bj40-tgr32b-wj6v.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -248,274 +164,160 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -531,58 +333,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 82
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 136
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 91
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 42
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 260
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 77
-      - tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 28
-      - 10|🇱@FreakConfig
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 58
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 207
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 93
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 163
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 140
-      - "10|All--@IRAN_V2RAY1 #8"
-      - 10|telegram  𝗶𝗻𝗮
-      - 10|💎کانفیگ های بیشتر در چنل تلگرا...
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 145
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 223
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 105
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 161
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 205
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 227
-      - 10|🔸@IRAN_V2RAY1💘
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 197
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 201
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 263
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 74
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 278
-      - 10|@FreakConfig
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 269
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 72
+      - "10|@Hddify #1"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 56
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--10
+      - "10|@IRAN_V2RAY1 #6"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|All-#V2rayAlpha--16
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 10|22@ConfigV2RayNG
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - "🇯🇵 9|JP #2"
+      - "10|@IRAN_V2RAY1💘 #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 10|All--@V2rayAlpha--17
+      - 10|🇫🇷@TapsiVpn. join
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      - 10|All--@V2rayAlpha-14
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 44
+      - 10|All-#V2rayAlpha--17
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+      - "9|未命名 #2"
+      - "10|All-@IRAN_V2RAY1 #2"
+      - 🇬🇧 英国 V2CROSS.COM
+      - 14|US_speednode_0021
+      - 🇯🇵 日本 东京Amazon数据中心
       - 14|US_speednode_0020
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 192
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 206
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 271
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 39
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 104
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 221
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 95
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 86
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 48
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 185
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 147
-      - 10|All--@IRAN_V2RAY1🇺🇸
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 288
-      - 10|All-#V2rayAlpha--21
-      - 🇭🇰 中国 - 香港 - Pccw IMS - 47
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
