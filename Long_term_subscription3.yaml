@@ -5,147 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18, server: 0da0d02c-t70f40-t7j1ub-g3b3.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 0da0d02c-t70f40-t7j1ub-g3b3.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14, server: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40639730-e027-11ea-87ad-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net}}}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 13.231.188.173, port: 1281, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65, server: 3a62be79-t70f40-tdfzix-fm2v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3a62be79-t70f40-tdfzix-fm2v.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54, server: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net}}}
-  - {name: "9,10|🔸@IRAN_V2RAY1💘 #5", server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "10|All-@IRAN_V2RAY1 #5", server: lundun4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: true}
-  - {name: 10|✅سرورهایبیشتردرکانال:prrofile_..., server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "10|🔸@IRAN_V2RAY1💘 #9", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "10|All--@IRAN_V2RAY1🇺🇸 #3", server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, port: 443, type: hysteria2, ports: 443, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, skip-cert-verify: false}
-  - {name: "9|未命名 #1", server: sg2.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 16461a78-363c-457a-92f9-83b0a68edc37, sni: sg2.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "🇸🇬 9|SG #8", server: 8.219.232.60, port: 6467, type: hysteria2, ports: 6467, password: fWydUhyG3woKe4a0kcKKKdx78, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50, server: de080c01-t6r5s0-t7scm6-1o20w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de080c01-t6r5s0-t7scm6-1o20w.hkt.gotochinatown.net}}}
-  - {name: "🇯🇵 9|JP #4", server: 47.245.0.72, port: 27789, type: hysteria2, ports: 27789, password: yD0mxkCA18WgPD1uVGd3Eu1dc, sni: bing.com, skip-cert-verify: true}
-  - {name: 9|未命名, server: hk.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 16461a78-363c-457a-92f9-83b0a68edc37, sni: hk.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha--19, server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: bf36227c-0191-11f0-aee1-f23c91cfbbc9, sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17, server: 83a930b1-t6r5s0-toa9ad-4w8.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 83a930b1-t6r5s0-toa9ad-4w8.hkt.gotochinatown.net}}}
-  - {name: 10|22@ConfigV2RayNG, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59, server: 49a50ffd-t6r5s0-tamumc-1lkbs.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 49a50ffd-t6r5s0-tamumc-1lkbs.hkt.gotochinatown.net}}}
+  - {name: "10|✅سرورهایبیشتردرکانال:prrofile_... #1", server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, ports: 2083, password: siEk2SjZFG, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii, sni: ghasem.kotlet.org, skip-cert-verify: true}
+  - {name: 14|US_speednode_0015, server: 64.181.227.82, port: 443, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³WangCai2, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 10|All--@V2rayAlpha-17, server: 152.67.50.33, port: 443, type: hysteria2, ports: 443, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: gysbl-2.nezhasu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 9|🇭🇰香港, server: hk1.1010991.xyz, port: 3001, type: hysteria2, ports: 3001, password: de8854c7-fa17-4266-ae18-50a9732a0c4e, sni: hk1.1010991.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 202.181.103.246, port: 3901, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 10|All-#V2rayAlpha--21, server: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: c357a728-1211-11f0-9a65-f23c9164ca5d, sni: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com, skip-cert-verify: true}
+  - {name: 🇺🇸 9|美国, server: mg1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg1.mangshe.xyz, skip-cert-verify: true}
+  - {name: "🇯🇵 9|JP #1", server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
   - {name: 🇭🇰 9|🇭🇰 HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
-  - {name: 🇩🇪 9|法兰克福, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 16461a78-363c-457a-92f9-83b0a68edc37, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1", server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "🇭🇰 12,13|香港2|@ripaojiedian", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "10|🔸@IRAN_V2RAY1💘 #11", server: hk.xn--gmq00sc0nuve.shop, port: 21268, type: hysteria2, ports: 21268, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27, server: 189f87a1-t6r5s0-tcop2n-tl32.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 189f87a1-t6r5s0-tcop2n-tl32.hkt.gotochinatown.net}}}
+  - {name: 10|All--@V2rayAlpha--25, server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com, skip-cert-verify: false}
+  - {name: 14|DE_speednode_0003, server: 193.23.197.183, port: 443, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramðŸ‡¨ðŸ‡³WangCai2, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 10|🔸@IRAN_V2RAY1💘, server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk, skip-cert-verify: false}
+  - {name: 10|✅سرورهایبیشتردرکانال:prrofile_..., server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
+  - {name: 10|@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: "🇯🇵 9|JP #3", server: 8.209.223.212, port: 22712, type: hysteria2, ports: 22712, password: qq4Wc9UakExypzw4Jd00fWqrDTY, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "10|[] ➠ @V2ray_official  رای بیشت...", server: 89.208.104.13, port: 443, type: hysteria2, ports: 443, password: asrnovin_ir, obfs: salamander, obfs-password: SjSQ10UvLYEztFdQKTJQFA8imEc4W, sni: bts.com, skip-cert-verify: true}
+  - {name: 🇭🇰 9|HK, server: hk2.jueduibupao.top, port: 44507, type: hysteria2, ports: 44507, password: 84123645-b62d-4a3b-bd74-d58ea4023c65, sni: hk2.jueduibupao.top, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 202.181.103.246, port: 1281, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,166 +116,105 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 🇭🇰 9|🇭🇰香港
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -339,37 +230,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 65
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 54
-      - "9,10|🔸@IRAN_V2RAY1💘 #5"
-      - "10|All-@IRAN_V2RAY1 #5"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 76
-      - "10|🔸@IRAN_V2RAY1💘 #9"
-      - "10|All--@IRAN_V2RAY1🇺🇸 #3"
-      - "9|未命名 #1"
-      - "🇸🇬 9|SG #8"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 50
-      - "🇯🇵 9|JP #4"
-      - 9|未命名
-      - 10|All--@V2rayAlpha--19
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
-      - 10|22@ConfigV2RayNG
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 59
+      - "10|✅سرورهایبیشتردرکانال:prrofile_... #1"
+      - 14|US_speednode_0015
+      - 10|All--@V2rayAlpha-17
+      - 🇭🇰 9|🇭🇰香港
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 10|All-#V2rayAlpha--21
+      - 🇺🇸 9|美国
+      - "🇯🇵 9|JP #1"
       - 🇭🇰 9|🇭🇰 HK
-      - 🇩🇪 9|法兰克福
-      - "🇳🇱 10|🇳🇱 - NL - @freeOnlineVPN #1"
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
-      - 🇭🇰 12,13|香港2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #11"
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 27
+      - 10|All--@V2rayAlpha--25
+      - 14|DE_speednode_0003
+      - 10|🔸@IRAN_V2RAY1💘
+      - 10|✅سرورهایبیشتردرکانال:prrofile_...
+      - 10|@FreakConfig
+      - "🇯🇵 9|JP #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 10|[] ➠ @V2ray_official  رای بیشت...
+      - 🇭🇰 9|HK
+      - 🇺🇸 12,13|美国2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
