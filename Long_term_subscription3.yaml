@@ -5,111 +5,139 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇸🇬 9|SG #6", server: 122.248.205.111, port: 15221, type: hysteria2, ports: 15221, password: XON4wZ0sXe1YaqFY2FeM7uZY4, sni: bing.com, skip-cert-verify: true}
-  - {name: "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 10|All--@V2rayAlpha--22, server: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, sni: 950c68df-t6t0g0-t85ssw-1bonh.hk1.hyhuawei.com, skip-cert-verify: false}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.196.59, port: 4006, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "10|🔸@IRAN_V2RAY1💘 #2", server: 37.18.14.169, port: 443, type: hysteria2, ports: 443, password: SNItest, sni: megafon.ru, skip-cert-verify: true}
-  - {name: 9|未命名, server: hk.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 16461a78-363c-457a-92f9-83b0a68edc37, sni: hk.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 🇬🇧 9|UK, server: 206.189.20.193, port: 7197, type: hysteria2, ports: 7197, password: 3C8h8X6kimbOX68joVe3kTERw, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "9|未命名 #2", server: zp1.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 16461a78-363c-457a-92f9-83b0a68edc37, sni: zp1.eyujichang.xyz, skip-cert-verify: true}
-  - {name: "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "10|ConfigV2RayNG #4", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 16.163.98.169, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha--14, server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com, skip-cert-verify: true}
-  - {name: "🇸🇬 9|SG #7", server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: "10|ConfigV2RayNG #3", server: 181.214.231.121, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "10|@V2ray1_Ng #4", server: dd.openaccessnode.com, port: 989, type: hysteria2, ports: 989, password: e20cc63dc06088fba56bf786860aadaf, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi", sni: dd.ircybersec.org, skip-cert-verify: false}
-  - {name: "🇯🇵 9|JP #2", server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, ports: 37771, password: 97f8e11a-683a-493d-839a-3340a7bc63fb, sni: dg1.xiaohuolongjc.top}
-  - {name: 🇰🇷 9|KR, server: cc1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: cc1.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇸🇬 9|SG #1", server: 47.129.224.62, port: 22509, type: hysteria2, ports: 22509, password: 3hszBhqVsUhqOOFWJlev6k6Tkc, sni: bing.com, skip-cert-verify: true}
-  - {name: 10|All--@V2rayAlpha--19, server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: bf36227c-0191-11f0-aee1-f23c91cfbbc9, sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com, skip-cert-verify: false}
-  - {name: "10|All--@IRAN_V2RAY1🇺🇸 #4", server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, skip-cert-verify: false}
+  - {name: "🇭🇰 8|HK #2", server: 47.239.220.214, port: 2428, type: hysteria2, ports: 2428, password: NjEkAYYNqFKUbrksyW1COBtdpU, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1", server: 51.178.55.157, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 8|♂️35@oneclickvpnkeys, server: d48a2b0e-t57ls0-t7r6w5-1ppvf.us.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 8da5616c-8566-11ee-9a21-f23c9164ca5d, sni: d48a2b0e-t57ls0-t7r6w5-1ppvf.us.hyhuawei.com, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5, server: gtm1.ktmwan.net, port: 12898, type: vmess, uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}}
+  - {name: "8,9|16♾️@ConfigV2RayNG", server: 193.123.76.84, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 160.16.144.208, port: 4006, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 9|@FreakConfig, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 9|All--@V2rayAlpha--17, server: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, sni: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com, skip-cert-verify: true}
+  - {name: "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2", server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1", server: gtm1.ktmwan.net, port: 12887, type: vmess, uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}}
+  - {name: 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6, server: vm1.as7akp.cn, port: 23913, type: vmess, uuid: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2, alterId: 0, cipher: auto, tls: false}
+  - {name: 8|♂️40@oneclickvpnkeys, server: 158.178.236.104, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: api.push.apple.com, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 43.199.160.78, port: 3127, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|All-#V2rayAlpha--10, server: uk2.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 7b5cbc6a-90a1-4b6e-994e-4c198b85f80b, sni: bing.com, skip-cert-verify: true}
+  - {name: 9|💎کانفیگ های بیشتر در چنل تلگرا..., server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.144.208, port: 1281, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
+  - {name: 9|All--@V2rayAlpha--14, server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com, skip-cert-verify: true}
+  - {name: 🇭🇰 8|🇭🇰香港, server: hk1.1010991.xyz, port: 3001, type: hysteria2, ports: 3001, password: de8854c7-fa17-4266-ae18-50a9732a0c4e, sni: hk1.1010991.xyz, skip-cert-verify: true}
+  - {name: 9|All--@V2rayAlpha--18, server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: de629d50-1711-11ed-bd7c-f23c913c8d2b, skip-cert-verify: true}
+  - {name: 🇭🇰 8|HK, server: hk2.jueduibupao.top, port: 44507, type: hysteria2, ports: 44507, password: 84123645-b62d-4a3b-bd74-d58ea4023c65, sni: hk2.jueduibupao.top, skip-cert-verify: true}
+  - {name: 🇸🇬 8|新加坡1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 9|All-@V2rayAlpha-26, server: dd.openaccessnode.com, port: 989, type: hysteria2, ports: 989, password: 77238c49bd20e407f05e0c073ad08fdb, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi", sni: dd.ircybersec.org, skip-cert-verify: true}
+  - {name: "9|All-@IRAN_V2RAY1 #5", server: lundun4.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun4.nezhasu.com, skip-cert-verify: true}
+  - {name: "9|All-@IRAN_V2RAY1 #3", server: lundun2.nezhasu.com, port: 443, type: hysteria2, ports: 443, password: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: lundun2.nezhasu.com, skip-cert-verify: true}
+  - {name: "🇯🇵 8|JP #1", server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.199.160.78, port: 3127, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "9|🔸@IRAN_V2RAY1💘 #9", server: dir.cybsecguru.com, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 9|All--@V2rayAlpha-15, server: 145.241.187.70, port: 443, type: hysteria2, ports: 443, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: johannesburg-2.nezhasu.com, skip-cert-verify: true}
+  - {name: 9|All-#V2rayAlpha--14, server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: 7b5cbc6a-90a1-4b6e-994e-4c198b85f80b, sni: bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,116 +156,145 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 🇭🇰 8|🇭🇰香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -253,28 +310,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - "🇸🇬 9|SG #6"
-      - "9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1"
-      - 10|All--@V2rayAlpha--22
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "10|🔸@IRAN_V2RAY1💘 #2"
-      - 9|未命名
-      - 🇬🇧 9|UK
-      - 🇬🇧 英国 V2CROSS.COM
-      - "9|未命名 #2"
-      - "🇳🇱 9,10|🇳🇱 - NL - @freeOnlineVPN #9"
-      - "10|ConfigV2RayNG #4"
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 10|All--@V2rayAlpha--14
-      - "🇸🇬 9|SG #7"
-      - "10|ConfigV2RayNG #3"
-      - "10|@V2ray1_Ng #4"
-      - "🇯🇵 9|JP #2"
-      - 🇰🇷 9|KR
-      - "🇸🇬 9|SG #1"
-      - 10|All--@V2rayAlpha--19
-      - "10|All--@IRAN_V2RAY1🇺🇸 #4"
+      - "🇭🇰 8|HK #2"
+      - "🇫🇷 9|🇷 - FR - @freeOnlineVPN #1"
+      - 8|♂️35@oneclickvpnkeys
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 5
+      - 8,9|16♾️@ConfigV2RayNG
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 9|@FreakConfig
+      - 9|All--@V2rayAlpha--17
+      - "🇳🇱 9|🇳🇱 - NL - @freeOnlineVPN #2"
+      - 🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 6
+      - 8|♂️40@oneclickvpnkeys
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|All-#V2rayAlpha--10
+      - 9|💎کانفیگ های بیشتر در چنل تلگرا...
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|All--@V2rayAlpha--14
+      - 🇭🇰 8|🇭🇰香港
+      - 9|All--@V2rayAlpha--18
+      - 🇭🇰 8|HK
+      - 🇸🇬 8|新加坡1
+      - 9|All-@V2rayAlpha-26
+      - "9|All-@IRAN_V2RAY1 #5"
+      - "9|All-@IRAN_V2RAY1 #3"
+      - "🇯🇵 8|JP #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - "9|🔸@IRAN_V2RAY1💘 #9"
+      - 9|All--@V2rayAlpha-15
+      - 9|All-#V2rayAlpha--14
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
