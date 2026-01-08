@@ -5,71 +5,119 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 10|telegram  𝗮, server: 144.24.101.176, port: 30102, type: hysteria2, ports: 30102, password: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: true}
-  - {name: "10|28YB5qK!5t#U&insecure-1&sni-ww... #1", server: channel3.saghetalaie.homes, port: 46914, type: hysteria2, ports: 46914, password: yhqy5AHofQq, obfs: salamander}
-  - {name: 10|✅سرورهایبیشتردرکانال:prrofile_..., server: nl1.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1, sni: bing.com, skip-cert-verify: true}
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
-  - {name: "9,10|♂️33@ConfigV2RayNG", server: 158.179.18.251, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: api.push.apple.com, skip-cert-verify: true}
-  - {name: "9,10|♂️38@ConfigV2RayNG", server: pq.us7.globals-download.com, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: www.apple.com, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.144.208, port: 1933, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 10|♂️71@oneclickvpnkeys, server: pq.us2.globals-download.com, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4, server: gtm1.ktmwan.net, port: 12888, type: vmess, uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9, server: jpus.fastcokeasdasd.com, port: 20067, type: vmess, uuid: 177446dd-9d98-472a-a656-0375facea6e8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8, server: hk.fastcokeasdasd.com, port: 21552, type: vmess, uuid: 177446dd-9d98-472a-a656-0375facea6e8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45, server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net}}}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5, server: jy-sg.kunlun07dns.com, port: 19230, type: vmess, uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24, server: 4d22b7cc-t70f40-t7pjgr-11p9g.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 4d22b7cc-t70f40-t7pjgr-11p9g.hkt.gotochinatown.net}}}
+  - {name: 9|All--@V2rayAlpha-17, server: 152.67.50.33, port: 443, type: hysteria2, ports: 443, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: gysbl-2.nezhasu.com, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 160.16.138.24, port: 4006, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇵🇱 波兰 - 华沙 - Private Customer - 2, server: jy-jp.kunlun07dns.com, port: 19239, type: vmess, uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52, server: 03199e4c-t6r5s0-tbnucr-1thfv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 03199e4c-t6r5s0-tbnucr-1thfv.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16, server: d810744e-t70f40-tcp4th-1c4g6.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d810744e-t70f40-tcp4th-1c4g6.hkt.gotochinatown.net}}}
+  - {name: 9|All--@V2rayAlpha-15, server: 145.241.187.70, port: 443, type: hysteria2, ports: 443, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: johannesburg-2.nezhasu.com, skip-cert-verify: true}
+  - {name: "8,9|41@ConfigV2RayNG", server: 152.67.95.183, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.162.123.56, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇰🇷 12|韩国|@ripaojiedian, server: 27.255.82.134, port: 5206, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23, server: 95930bfa-t70f40-t83bw1-1f596.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 95930bfa-t70f40-t83bw1-1f596.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "8,9|@FarazV2ray", server: 193.123.76.84, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: www.apple.com, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 160.16.138.24, port: 1281, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "9|🇳🇱@FreakConfig #1", server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.138.24, port: 1933, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 9|All--@V2rayAlpha-18, server: 129.151.115.91, port: 443, type: hysteria2, ports: 443, password: d9812081-7f61-456d-9340-a1fb8dfd603b, sni: glby1.nezhasu.com, skip-cert-verify: true}
+  - {name: 9|♂️71@ConfigV2RayNG, server: pq.us2.globals-download.com, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: www.apple.com, skip-cert-verify: true}
+  - {name: 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian, server: 202.122.145.125, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 46d46fd902d485e8}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,78 +136,132 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -175,18 +277,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|telegram  𝗮
-      - "10|28YB5qK!5t#U&insecure-1&sni-ww... #1"
-      - 10|✅سرورهایبیشتردرکانال:prrofile_...
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 9,10|♂️33@ConfigV2RayNG
-      - 9,10|♂️38@ConfigV2RayNG
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 10|♂️71@oneclickvpnkeys
-      - 🇨🇳 中国 - 台湾 - WAP.AC LTD - 4
-      - 🇺🇸 美国 - 洛杉矶 - Bage Cloud LLC - 9
-      - 🇭🇰 中国 - 香港 - DMIT Cloud Services - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 5
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 24
+      - 9|All--@V2rayAlpha-17
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇵🇱 波兰 - 华沙 - Private Customer - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 52
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 16
+      - 9|All--@V2rayAlpha-15
+      - 8,9|41@ConfigV2RayNG
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇰🇷 12|韩国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
+      - 8,9|@FarazV2ray
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - "9|🇳🇱@FreakConfig #1"
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 66
+      - 9|All--@V2rayAlpha-18
+      - 9|♂️71@ConfigV2RayNG
+      - 🇲🇾 11|🇲🇾 马来西亚|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
