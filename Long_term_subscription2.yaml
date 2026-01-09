@@ -5,95 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40, server: 8d58d307-t70f40-tb3p3s-lj7z.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8d58d307-t70f40-tb3p3s-lj7z.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39, server: 6bb95974-t70f40-t94bdb-mrtr.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 6bb95974-t70f40-t94bdb-mrtr.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43, server: 189f87a1-t6r5s0-tcop2n-tl32.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 189f87a1-t6r5s0-tcop2n-tl32.hkt.gotochinatown.net}}}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.68.250, port: 3901, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 27.255.82.134, port: 5206, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19, server: 2a8b036d-t6r5s0-t7enwo-1f1f1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2a8b036d-t6r5s0-t7enwo-1f1f1.hkt.gotochinatown.net}}}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.138.24, port: 4006, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: jy-hk.kunlun07dns.com, port: 19226, type: vmess, uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41, server: 2ce6219a-t6r5s0-tiaexf-ufc0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2ce6219a-t6r5s0-tiaexf-ufc0.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7, server: e9c33324-t70f40-tcdlur-1qwom.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e9c33324-t70f40-tcdlur-1qwom.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22, server: 822d4c12-t70f40-tgzvop-hns7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 822d4c12-t70f40-tgzvop-hns7.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78, server: jy-hk.kunlun07dns.com, port: 19225, type: vmess, uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8, server: 49a50ffd-t6r5s0-tamumc-1lkbs.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 49a50ffd-t6r5s0-tamumc-1lkbs.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30, server: 6fdda999-t70f40-tlm64c-xm0q.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 6fdda999-t70f40-tlm64c-xm0q.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37, server: 3eb6f843-t6pb40-tc2sod-1tizo.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3eb6f843-t6pb40-tc2sod-1tizo.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 12|🇯🇵 日本4|@ripaojiedian, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 18005, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c}
+  - {name: 14|DE_speednode_0002, server: 3.66.94.128, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
+  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 27.255.82.135, port: 3733, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.87.174, port: 3901, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net}
+  - {name: 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 18017, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 160.16.72.33, port: 1281, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,114 +68,55 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,24 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 40
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 39
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 63
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 43
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 14|DE_speednode_0002
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 41
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 7
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 22
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 28
-      - 🇭🇰 中国 - 香港 - Vertex Connectivity LLC - 78
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 30
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 65
+      - 🇸🇬 12|🇸🇬 新加坡4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

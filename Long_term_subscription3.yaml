@@ -5,71 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6, server: jy-sg.kunlun07dns.com, port: 19231, type: vmess, uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.68.250, port: 1281, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 20f87b02-0eaa-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18, server: 22f6f969-t70f40-tkp3tl-1s09x.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 22f6f969-t70f40-tkp3tl-1s09x.hkt.gotochinatown.net}}}
-  - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2, server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 18.179.20.173, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 18.179.20.173, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.72.33, port: 1281, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net}
   - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5, server: 8a441d34-t6r5s0-taj9mo-1tco3.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8a441d34-t6r5s0-taj9mo-1tco3.hkt.gotochinatown.net}}}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 58.152.18.21, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,82 +60,48 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,18 +117,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 6
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 62
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 18
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 2
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - "13|tg频道:@ripaojiedian #1"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 5
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
