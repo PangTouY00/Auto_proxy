@@ -5,47 +5,75 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 58.152.30.149, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.72.33, port: 3076, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: singapore02.zgjok.com, port: 443, type: vmess, uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: singapore02.zgjok.com}}}
-  - {name: 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6, server: 156.245.232.15, port: 55251, type: vmess, uuid: 7d0d84a2-5495-44b9-b918-8bcd8b58acb3, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x]}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38, server: 584ebfbe-t8pj40-tc5odo-1mh85.hkt.gotochinatown.net, port: 80, type: vmess, uuid: cf7331fa-bfeb-11ed-a807-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7, server: 7d833b55-t8pj40-thd0h1-1rz5s.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.199.60.168, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "9|telegram@V2rayBaaz◇⃟💜 #3", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32, server: 0312be33-t8pj40-t9zvpd-f1v1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇨🇳 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: db86510f-8f0e-4e0e-9534-746dd8e4d07e, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 160.16.70.180, port: 544, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41, server: 293beaf2-t8nog0-tk4rx8-1n7d9.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2, server: 9ef7d9d8-t8pj40-tr9h64-1f1f1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,54 +92,89 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -127,12 +190,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 中国 - 香港 - Zillion Network Inc. - 6
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 7
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      - "9|telegram@V2rayBaaz◇⃟💜 #3"
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+      - 🇭🇰 11,12|香港3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
