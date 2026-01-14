@@ -5,43 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.124.55, port: 5076, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 58.152.25.130, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "10|ConfigV2RayNG #7", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "10|@ConfigV2RayNG #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 10|28YB5qK!5t#U&insecure-1&sni-ww..., server: channel3.saghetalaie.homes, port: 46914, type: hysteria2, ports: 46914, password: yhqy5AHofQq, obfs: salamander}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.85.33, port: 5076, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3", server: n1761214918.74qxv.top, port: 443, type: vmess, uuid: b141803a-209c-47bd-be6e-14d6bc1e96be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1761214918.74qxv.top}}}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2", server: 8.210.184.105, port: 40374, type: vmess, uuid: 36b76373-7a4f-4669-9113-7d247bcf2704, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 160.16.89.176, port: 5076, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 10|All-@V2rayAlpha--1, server: 146.56.164.36, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: api.push.apple.com, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 58.152.25.130, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +76,67 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +152,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国|@ripaojiedian
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "10|ConfigV2RayNG #7"
-      - "10|@ConfigV2RayNG #1"
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 9|1
+      - 10|All-@V2rayAlpha--1
+      - 🇭🇰 12,13|香港4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
