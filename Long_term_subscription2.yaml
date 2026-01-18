@@ -5,55 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10|ConfigV2RayNG #2", server: yapc-1.adamhayward.co.uk, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: "10|telegram@V2rayBaaz◇⃟💜 #1", server: 181.214.231.121, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 - 东京 - Akile LTD - 5, server: cees.owwoedu.com, port: 49303, type: vmess, uuid: 5aa4437b-e03c-453e-a81f-0a3516eec742, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 160.16.72.33, port: 3901, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "10|@ConfigV2RayNG #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 52.195.185.240, port: 2053, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1, server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: zula.ir}}}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.72.33, port: 5076, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 10|telegram@V2rayBaaz, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@V2rayBaaz, sni: gavazn.55994421.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.87.174, port: 1933, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net}
+  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
   - {name: "10|ConfigV2RayNG #3", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2", server: n1761214902.wpg27.xyz, port: 443, type: vmess, uuid: 469e9a38-b64e-46c3-9793-234158942d3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1761214902.wpg27.xyz}}}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.72.33, port: 5076, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net}
+  - {name: 🇨🇳 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 505ab478-a7c5-413b-ac56-7cef17584a7c, sni: green2.cdntencentmusic.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +72,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇨🇳 台湾省台中市 中华电信
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +141,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|ConfigV2RayNG #2"
-      - "10|telegram@V2rayBaaz◇⃟💜 #1"
-      - 🇯🇵 日本 - 东京 - Akile LTD - 5
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - "10|@ConfigV2RayNG #1"
-      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 10|telegram@V2rayBaaz
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 9|DE
       - "10|ConfigV2RayNG #3"
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
