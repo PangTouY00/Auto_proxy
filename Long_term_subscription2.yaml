@@ -5,55 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1, server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: zula.ir}}}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.72.33, port: 5076, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 10|telegram@V2rayBaaz, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@V2rayBaaz, sni: gavazn.55994421.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.87.174, port: 1933, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net}
-  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "10|ConfigV2RayNG #3", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.72.33, port: 5076, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net}
-  - {name: 🇨🇳 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 505ab478-a7c5-413b-ac56-7cef17584a7c, sni: green2.cdntencentmusic.com}
+  - {name: 🇺🇸 9|美国2, server: mg2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg2.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25, server: d2704f09-t70f40-t74ix0-1m0fq.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d2704f09-t70f40-t74ix0-1m0fq.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67, server: d07f2c0a-t8pj40-t8xdsu-nx3b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d07f2c0a-t8pj40-t8xdsu-nx3b.hkt.gotochinatown.net}}}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 160.16.150.76, port: 3901, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 10|All-@V2rayAlpha--2, server: 152.69.220.212, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: api.push.apple.com, skip-cert-verify: true}
+  - {name: 🇯🇵 13|日本4|@ripaojiedian, server: 167.17.179.197, port: 20291, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206MDY5MDY1OTc0Njk4MGM0Ng}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54, server: 91330f2d-t8t8g0-ta42cg-1phla.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 91330f2d-t8t8g0-ta42cg-1phla.hkt.gotochinatown.net}}}
+  - {name: 🇯🇵 12|🇯🇵 日本4|@ripaojiedian, server: 167.17.179.197, port: 20291, type: ss, cipher: aes-256-gcm, password: 0690659746980c46}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 160.16.150.76, port: 5076, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 10| ConfigV2RayNG, server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.70.180, port: 3423, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23, server: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.150.76, port: 3901, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +100,92 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +201,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 10|telegram@V2rayBaaz
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - "10|ConfigV2RayNG #3"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 9|美国2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 25
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 67
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 10|All-@V2rayAlpha--2
+      - 🇯🇵 13|日本4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 48
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 54
+      - 🇯🇵 12|🇯🇵 日本4|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 10| ConfigV2RayNG
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 23
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
