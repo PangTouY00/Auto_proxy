@@ -5,67 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 10| ConfigV2RayNG, server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
-  - {name: 🇻🇳 13|越南|@ripaojiedian, server: 103.186.155.76, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
-  - {name: 🇸🇬 9|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 Amazon数据中心, server: ss.037.node-for-bigairport.win, port: 11688, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53}
+  - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 10|telegram@V2rayBaaz◇⃟💜, server: 206.71.158.37, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省广州市 电信, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 18005, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.163.116.85, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|28YB5qK!5t#U&insecure-1&sni-ww..., server: channel3.saghetalaie.homes, port: 46914, type: hysteria2, ports: 46914, password: yhqy5AHofQq, obfs: salamander}
   - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 10|All-@V2rayAlpha--1, server: 146.56.164.36, port: 443, type: hysteria2, ports: 443, password: e343471a-aad3-40da-9dea-72cc8c7dce5f, sni: api.push.apple.com, skip-cert-verify: true}
-  - {name: 10|22@ConfigV2RayNG, server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 153.121.38.213, port: 3423, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 54.238.101.170, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "10|ConfigV2RayNG #3", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, ports: 36300, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,73 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,17 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10| ConfigV2RayNG
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
-      - 🇻🇳 13|越南|@ripaojiedian
-      - 🇸🇬 9|SG
+      - 🇸🇬 新加坡 Amazon数据中心
+      - 🇭🇰 9| HK
+      - 10|telegram@V2rayBaaz◇⃟💜
+      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 美国3|@ripaojiedian
+      - 10|28YB5qK!5t#U&insecure-1&sni-ww...
       - 🇭🇰 13|香港|@ripaojiedian
-      - 10|All-@V2rayAlpha--1
-      - 10|22@ConfigV2RayNG
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - 🇨🇳 9|TW
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "10|ConfigV2RayNG #3"
+      - 🇩🇪 9|DE
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
