@@ -5,55 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1, server: 47.242.192.233, port: 34659, type: vmess, uuid: 8482671e-846f-45c7-aec4-531c79f775ec, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 16.162.252.215, port: 3042, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: ddDFHhj.922922.Shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: ddDFHhj.922922.Shop}}}
-  - {name: 13|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 10| ConfigV2RayNG, server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 10| @ConfigV2RayNG ( ), server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 54.238.172.125, port: 2053, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 58.152.18.124, port: 443, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 16.162.252.215, port: 3042, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.18.124, port: 443, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
+  - {name: 🇨🇳 8|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇳🇴 挪威 V2CROSS.COM, server: 83.143.87.9, port: 18581, type: trojan, password: RPyW62_b9aH.ztJKeArou, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 54.238.172.125, port: 2053, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.89.176, port: 5076, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
+  - {name: "9|ConfigV2RayNG #2", server: yapc-1.adamhayward.co.uk, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false}
+  - {name: 9|⚡Telegram - @SOSkeyNET, server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 6286105c-fb6d-11ef-be96-f23c93136cb3, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,61 +84,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,14 +167,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 1
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 13|tg频道:@ripaojiedian
-      - 10| ConfigV2RayNG
-      - 9|1
-      - 10| @ConfigV2RayNG ( )
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|ConfigV2RayNG #2"
+      - 9|⚡Telegram - @SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
