@@ -5,47 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 16.162.252.227, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆, server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点, server: 8.6.112.0, port: 2053, type: vmess, uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648, alterId: 0, cipher: auto, tls: true, servername: aliyedast.gwkaqq.lol, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: n1747624271.lie5d.cyou, port: 443, type: vmess, uuid: a231ba8b-8871-416c-813b-e2240bc66bb2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624271.lie5d.cyou}}}
   - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 58.152.18.124, port: 443, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1", server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com, skip-cert-verify: false}
+  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.130.21, port: 5076, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
+  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆, server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 219.76.135.98, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 3.112.224.244, port: 1691, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,53 +80,70 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 13|香港|@ripaojiedian
       - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +159,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 9| HK
+      - "10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1"
+      - 🇨🇳 9|TW
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 9|1
+      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

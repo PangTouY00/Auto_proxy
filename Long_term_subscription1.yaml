@@ -5,102 +5,126 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇰🇷 KR-IDC-节点1, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 8ae22a14-908a-4aeb-95fc-4ca20e9f1513}
-  - {name: 🇰🇷 KR-IDC-节点2, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 8ae22a14-908a-4aeb-95fc-4ca20e9f1513}
-  - {name: 🇯🇵 JP-IDC-NODE1, server: 146.56.132.194, port: 30003, type: vmess, uuid: 8ae22a14-908a-4aeb-95fc-4ca20e9f1513, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}}
-  - {name: PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 6e4aeb4c-abd7-4018-a786-4209dd20bfab, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
-  - {name: 🇺🇸 北美iplc专线, server: 1002.952326.xyz, port: 10000, type: hysteria2, ports: 10000, password: 10e3c856-03f5-418a-a429-6f7444b90e76, obfs: salamander, obfs-password: VAYpRqMdlHDFG7EA, sni: 1002.kingfisher.us.kg, skip-cert-verify: false}
-  - {name: 过滤掉2条线路, server: 91.149.236.68, port: 26125, type: vmess, uuid: 310449a9-947b-4b80-abb0-a87ef76e904d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: ❤️故障报修邮箱❤️, server: 91.149.236.68, port: 26125, type: vmess, uuid: 310449a9-947b-4b80-abb0-a87ef76e904d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: 91.149.236.68, port: 27126, type: vmess, uuid: 310449a9-947b-4b80-abb0-a87ef76e904d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端, server: 91.149.236.68, port: 23188, type: vmess, uuid: 310449a9-947b-4b80-abb0-a87ef76e904d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2, server: 120.241.40.34, port: 28888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9}
-  - {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 31114, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 32221, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 33311, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 34421, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 34422, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 34423, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 35b99fb4-561a-4bdd-9614-10741f97a7c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: 距离下次重置剩余：1 天, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 过滤掉3条线路, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 土耳其 (广港)1 x1, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 土耳其 (广港)2 x1, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 土耳其 (广港)3 x1, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 以色列 (广港)1x1, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 以色列 (广港)2 x1, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 以色列 (广港)3 x1, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 泰国 (广新)1  x1, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 泰国 (广新) 2  x1, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: 🇸🇬 泰国 (广新)3 x1, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: d4072ac0-6b1b-4625-a7fc-17905d734dc4}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 3ab8c88f-271d-4ad8-9cc2-cc5445809f77, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 3ab8c88f-271d-4ad8-9cc2-cc5445809f77, sni: empty.node, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国, server: sk.aoyate.com, port: 443, type: vmess, uuid: f94114c4-6a56-494d-8d95-8b2d6612cfac, alterId: 0, cipher: auto, tls: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: ac709bf5-3b34-4265-9e26-195c74ade05b, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: ac709bf5-3b34-4265-9e26-195c74ade05b, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: ac709bf5-3b34-4265-9e26-195c74ade05b, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: ac709bf5-3b34-4265-9e26-195c74ade05b, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: ac709bf5-3b34-4265-9e26-195c74ade05b, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 🇺🇸 北美iplc专线, server: 1002.952326.xyz, port: 10000, type: hysteria2, ports: 10000, password: 0ea12973-6e3b-4b18-9d98-32cfb60f1c6c, obfs: salamander, obfs-password: VAYpRqMdlHDFG7EA, sni: 1002.kingfisher.us.kg, skip-cert-verify: false}
+  - {name: 试用一小时2g, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 🇸🇬 购买后请更新订阅, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 购买后获取更多节点, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 🇭🇰 试用节点-香港, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 🇸🇬 试用节点-新加坡, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 🇨🇳 试用节点-台湾, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 🇺🇸 试用节点-美国, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 🇯🇵 试用节点-日本, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 4cd1ac49-f2e3-4d99-a37d-a95a89cb2f2a}
+  - {name: 过滤掉2条线路, server: 91.149.236.68, port: 26125, type: vmess, uuid: b8c09fc2-119b-484c-a30f-5557f6ed9657, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: ❤️故障报修邮箱❤️, server: 91.149.236.68, port: 26125, type: vmess, uuid: b8c09fc2-119b-484c-a30f-5557f6ed9657, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: 91.149.236.68, port: 27126, type: vmess, uuid: b8c09fc2-119b-484c-a30f-5557f6ed9657, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端, server: 91.149.236.68, port: 23188, type: vmess, uuid: b8c09fc2-119b-484c-a30f-5557f6ed9657, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 KR-IDC-节点1, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 18072b5e-90e6-43c6-aaf0-f337bf238052}
+  - {name: 🇰🇷 KR-IDC-节点2, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 18072b5e-90e6-43c6-aaf0-f337bf238052}
+  - {name: 🇯🇵 JP-IDC-NODE1, server: 146.56.132.194, port: 30003, type: vmess, uuid: 18072b5e-90e6-43c6-aaf0-f337bf238052, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}}
+  - {name: PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。, server: 120.241.40.34, port: 28888, type: ss, cipher: chacha20-ietf-poly1305, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7}
+  - {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 31114, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 32221, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 33311, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 34421, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 34422, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 34423, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: bd6c0e7b-c5c2-4bc4-8bac-082913c576e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 6220770c-ead8-45f1-a94a-0684e47a19e8, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 93a37afa-1fc7-45c4-9641-66317a1bb760, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 93a37afa-1fc7-45c4-9641-66317a1bb760, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 07f2982c-8de4-4b19-93f6-2eeb01b8355c, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 07f2982c-8de4-4b19-93f6-2eeb01b8355c, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 07f2982c-8de4-4b19-93f6-2eeb01b8355c, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 07f2982c-8de4-4b19-93f6-2eeb01b8355c, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 07f2982c-8de4-4b19-93f6-2eeb01b8355c, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国, server: sk.aoyate.com, port: 443, type: vmess, uuid: 32589a53-6d60-4b2c-bcd4-77c41bfba1cc, alterId: 0, cipher: auto, tls: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}}
+  - {name: 过滤掉2条线路 2, server: 91.149.236.68, port: 26125, type: vmess, uuid: 84eb994b-24c4-498e-b52f-a7f1d3ef6946, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: ❤️故障报修邮箱❤️ 2, server: 91.149.236.68, port: 26125, type: vmess, uuid: 84eb994b-24c4-498e-b52f-a7f1d3ef6946, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com 2, server: 91.149.236.68, port: 27126, type: vmess, uuid: 84eb994b-24c4-498e-b52f-a7f1d3ef6946, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2, server: 91.149.236.68, port: 23188, type: vmess, uuid: 84eb994b-24c4-498e-b52f-a7f1d3ef6946, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 过滤掉3条线路, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 土耳其 (广港)1 x1, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 土耳其 (广港)2 x1, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 土耳其 (广港)3 x1, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 以色列 (广港)1x1, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 以色列 (广港)2 x1, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 以色列 (广港)3 x1, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 泰国 (广新)1  x1, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 泰国 (广新) 2  x1, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
+  - {name: 🇸🇬 泰国 (广新)3 x1, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 81713621-6f49-4262-a5d7-ffe2f3311101}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -116,11 +140,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -133,7 +152,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -183,19 +213,24 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -211,11 +246,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -228,7 +258,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -278,20 +319,25 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -307,11 +353,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -324,7 +365,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -374,14 +426,6 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -400,6 +444,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -415,11 +472,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -432,7 +484,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -482,18 +545,12 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 试用节点-香港
+      - 🇨🇳 试用节点-台湾
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
@@ -504,6 +561,9 @@ proxy-groups:
       - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇨🇳 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -540,15 +600,25 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -564,11 +634,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -581,7 +646,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -631,19 +707,24 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -659,11 +740,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -676,7 +752,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -726,20 +813,25 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -755,11 +847,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -772,7 +859,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -822,14 +920,6 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -845,6 +935,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 北美iplc专线
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
+      - 过滤掉2条线路
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - 🇰🇷 KR-IDC-节点1
       - 🇰🇷 KR-IDC-节点2
       - 🇯🇵 JP-IDC-NODE1
@@ -860,11 +963,6 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁
-      - 🇺🇸 北美iplc专线
-      - 过滤掉2条线路
-      - ❤️故障报修邮箱❤️
-      - 邮箱:louwangzhiyu.org@gmail.com
-      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端
       - PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 2
       - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
@@ -877,7 +975,18 @@ proxy-groups:
       - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
       - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 2
-      - 距离下次重置剩余：1 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇰🇷 韩国
+      - 过滤掉2条线路 2
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇸🇬 免费节点目前仅有Hysteria2协议，请使用最新版客户端 2
       - 过滤掉3条线路
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -927,14 +1036,6 @@ proxy-groups:
       - 🇸🇬 泰国 (广新)1  x1
       - 🇸🇬 泰国 (广新) 2  x1
       - 🇸🇬 泰国 (广新)3 x1
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇰🇷 韩国
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
