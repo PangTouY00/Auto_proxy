@@ -5,43 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 52.195.170.6, port: 491, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 52.195.170.6, port: 491, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
-  - {name: 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆, server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 13.158.129.83, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
+  - {name: 14|CN_speednode_0001, server: mofahx2.til69.com, port: 59009, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 18.179.118.202, port: 5076, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
+  - {name: 14|PL_speednode_0019, server: 31.133.0.167, port: 2053, type: trojan, password: 42bbf526-5530-470a-aeec-3b919b21c58d, sni: 0000.hkvip.ip-ddns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 0000.hkvip.ip-ddns.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +60,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +75,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 9|TW
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 14|CN_speednode_0001
+      - 🇺🇸 美国|@ripaojiedian
+      - 14|PL_speednode_0019
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
