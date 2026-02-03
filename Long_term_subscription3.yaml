@@ -5,79 +5,87 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1", server: 47.237.0.177, port: 8080, type: vmess, uuid: 671848a3-e0da-4d47-a17e-6326cf3131e0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11, server: 6m483-g06.jp04-1d-vm0.entry.fr0528.art, port: 449, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3, server: almyk-g06.jp04-1d-vm0.entry.fr0528.art, port: 449, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.156, port: 2086, type: vmess, uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v205.19740822.xyz}}}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24, server: 2xj4sef-g03.jp02-e3-vm0.entry.fr0528.art, port: 11775, type: vmess, uuid: 5c44094f-43bb-301c-9878-37fd5e87d358, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon.com - 7, server: 7vjur-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: 763e08a1-c289-3a41-aa80-e63a56bc1447, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 210.217.18.68, port: 53532, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - Amazon.com - 1, server: xaeei-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: 48d89c0f-c8a1-3b38-b35e-79f83a0b3530, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 57.181.26.149, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 57.181.26.149, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.46.5.155, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10", server: 3evbn-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21, server: qopfzwv-g03.jp06-jz-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5, server: ac02ad1a-t9w4g0-td5oia-1m49t.hkt.gotochinatown.net, port: 80, type: vmess, uuid: c357a728-1211-11f0-9a65-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 10|All | @AZARBAYJAB1, server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20, server: d3g3gzf-g01.jp02-e3-vm0.entry.fr0528.art, port: 11773, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 3.112.197.3, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9, server: 5v8bn-g01.jp04-1d-vm0.entry.fr0528.art, port: 444, type: vmess, uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343, alterId: 1, cipher: auto, tls: false}
+  - {name: "10|@V2rayNG3 #3", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 57.181.26.149, port: 20539, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 157.120.36.210, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net}
+  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19", server: smgzgd4-g05.jp07-sh-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: f151b844-c067-3520-a654-791bf073b1a0, alterId: 1, cipher: auto, tls: false}
+  - {name: 10|🛩80@oneclickvpnkeys, server: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 152.42.254.150, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net}
+  - {name: 🇯🇵 日本 - 东京 - Amazon.com - 1, server: xaeei-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: 48d89c0f-c8a1-3b38-b35e-79f83a0b3530, alterId: 1, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,84 +104,95 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,20 +208,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
-      - 🇯🇵 日本 - 东京 - Amazon.com - 7
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇯🇵 日本 - 东京 - Amazon.com - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 10|All | @AZARBAYJAB1
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - "10|@V2rayNG3 #3"
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 9|1
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 19
+      - 10|🛩80@oneclickvpnkeys
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com - 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
