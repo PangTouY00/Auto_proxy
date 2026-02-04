@@ -5,63 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20, server: d3g3gzf-g01.jp02-e3-vm0.entry.fr0528.art, port: 11773, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false}
-  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13", server: n8kra-g05.jp02-e3-vm0.entry.fr0528.art, port: 11777, type: vmess, uuid: 8ee65c79-4487-32ff-b896-62c8dce05921, alterId: 1, cipher: auto, tls: false}
-  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7", server: 8.218.34.179, port: 8080, type: vmess, uuid: b8a604ad-8b1a-46eb-a28c-59cf57b6a4b2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8, server: zre7b-g05.jp05-h6-vm0.entry.fr0528.art, port: 46486, type: vmess, uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e, alterId: 1, cipher: auto, tls: false}
-  - {name: 10|78@ConfigV2RayNG, server: 134.195.101.191, port: 443, type: hysteria2, ports: 443, password: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e, sni: www.apple.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - Amazon.com - 25, server: 6lb5as4-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc, alterId: 1, cipher: auto, tls: false}
-  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10", server: 3evbn-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3, server: almyk-g06.jp04-1d-vm0.entry.fr0528.art, port: 449, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: false}
-  - {name: "🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1", server: 47.237.0.177, port: 8080, type: vmess, uuid: 671848a3-e0da-4d47-a17e-6326cf3131e0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24, server: 2xj4sef-g03.jp02-e3-vm0.entry.fr0528.art, port: 11775, type: vmess, uuid: 5c44094f-43bb-301c-9878-37fd5e87d358, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 38.180.193.194, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net}
+  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 203.198.84.150, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net}
+  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22", server: wopw4oh-g03.jp04-1d-vm0.entry.fr0528.art, port: 446, type: vmess, uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11, server: 6m483-g06.jp04-1d-vm0.entry.fr0528.art, port: 449, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21, server: qopfzwv-g03.jp06-jz-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru, skip-cert-verify: false}
+  - {name: 10|️@ATLAS_V2VPN️️197️, server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 20
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 13
-      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 7
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 8
-      - 10|78@ConfigV2RayNG
-      - 🇯🇵 日本 - 东京 - Amazon.com - 25
-      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 10
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 3
-      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 24
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 9|TW
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 22
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 11
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 21
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 10|️@ATLAS_V2VPN️️197️
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
