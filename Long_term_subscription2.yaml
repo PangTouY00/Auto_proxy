@@ -5,63 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 3.112.215.135, port: 8041, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.181.177.51, port: 3159, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 18.181.177.51, port: 3159, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 168.126.234.233, port: 25879, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 3.112.215.135, port: 8041, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click}
-  - {name: 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16, server: v46.hdacd.com, port: 30846, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14, server: nnnmjk.www890604.dpdns.org, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: nnnmjk.www890604.dpdns.org}}}
-  - {name: 🇳🇴 挪威 V2CROSS.COM, server: 83.143.87.9, port: 18581, type: trojan, password: RPyW62_b9aH.ztJKeArou, sni: 83.143.87.9, skip-cert-verify: false}
+  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 168.126.234.233, port: 25879, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 18.179.142.141, port: 3373, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: 168.126.234.233, port: 25879, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,67 +60,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +118,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 9|JP
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
-      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 12|tg频道:@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇰🇷 13|韩国|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
