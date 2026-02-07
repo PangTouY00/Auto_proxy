@@ -5,43 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 12|🇰🇷 韩国|@ripaojiedian, server: 168.126.234.233, port: 25879, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 18.179.142.141, port: 3373, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇰🇷 13|韩国|@ripaojiedian, server: 168.126.234.233, port: 25879, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 43.206.227.236, port: 20539, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16, server: v46.hdacd.com, port: 30846, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|All_7--@V2rayAlpha, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.152, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: ozon.ru}
+  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 160.16.63.16, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: NmK.288288.SHop, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: NMk.288288.shoP}}}
+  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,49 +68,55 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,11 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 12|tg频道:@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇰🇷 13|韩国|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 圣克拉拉 - ASSERTIVENET - 16
+      - 9|All_7--@V2rayAlpha
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 8|SG
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

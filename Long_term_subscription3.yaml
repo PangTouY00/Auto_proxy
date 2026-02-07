@@ -5,55 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.156, port: 2086, type: vmess, uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v205.19740822.xyz}}}
-  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12, server: kkkiuy.00890604.xyz, port: 80, type: vmess, uuid: 827beb2a-f97a-4b23-b733-adef30c98e17, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /HISLfofvqzd3a3izxYyZXOF, headers: {Host: kkkiuy.00890604.xyz}}}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 52.198.102.170, port: 3901, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
   - {name: 🇺🇸 美国 CloudFlare节点, server: rrrgt.2030.pp.ua, port: 80, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: rrrgt.2030.pp.ua}}}
-  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}}
-  - {name: 9|☢️5@oneclickvpnkeys, server: uk1.jueduibupao.top, port: 42958, type: hysteria2, ports: 42958, password: b99a0551-c00f-4508-86a8-67388a0710c0, sni: uk1.jueduibupao.top, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 52.194.222.6, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20, server: vvddvbg.00890604.xyz, port: 80, type: vmess, uuid: 827beb2a-f97a-4b23-b733-adef30c98e17, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /HISLfofvqzd3a3izxYyZXOF, headers: {Host: vvddvbg.00890604.xyz}}}
+  - {name: 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14, server: nnnmjk.www890604.dpdns.org, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: nnnmjk.www890604.dpdns.org}}}
+  - {name: 🇺🇸 美国 - 水牛城 - HostPapa - 19, server: ggbnhy.191262.xyz, port: 80, type: vmess, uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /GgigazFGDLgFWDItkD5XgXAL, headers: {Host: gGBnhY.191262.xYz}}}
+  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11, server: cvfgt.00890604.xyz, port: 80, type: vmess, uuid: 827beb2a-f97a-4b23-b733-adef30c98e17, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /HISLfofvqzd3a3izxYyZXOF, headers: {Host: cvfgt.00890604.xyz}}}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 12
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 8|1
       - 🇺🇸 美国 CloudFlare节点
-      - 9|1
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|☢️5@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 20
+      - 🇺🇸 美国 - Secaucus - Massivegrid LTD - 14
+      - 🇺🇸 美国 - 水牛城 - HostPapa - 19
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 11
+      - 🇬🇧 英国 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
