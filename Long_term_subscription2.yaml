@@ -5,79 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 3.112.14.249, port: 276, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: BbBBBBBh.hUAngsHANg.OnLINe, port: 443, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, headers: {Host: BBBBbbBh.HUangSHaNg.oNline}}}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 18.166.210.2, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - Oracle Corporation - 1, server: tokyo01.zgjok.com, port: 443, type: vmess, uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tokyo01.zgjok.com}}}
-  - {name: 🇭🇰 13|香港2|@ripaojiedian, server: hk3.network-cdn-gw-yd.net, port: 32058, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NmY4OTYyMS00OWYwLTQ3ODgtODVjZS1mOWE2MjUzN2E4ZTQ}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.98.0, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-162191099.sharghdaily.co}}}
-  - {name: 10|⚡Telegram - @prrofile_purple, server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇸🇬 9|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
-  - {name: 14|HK_speednode_0030, server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 43.199.47.199, port: 3292, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: eed4.7777125.xyz, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eszjp4nTT8TxDHFepMpfNkCk8, headers: {Host: eed4.7777125.xyz}}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 18.181.173.100, port: 1933, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net}
+  - {name: 14|HK_speednode_0031, server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click}
+  - {name: 14|HK_speednode_0034, server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.198.233.56, port: 381, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|☺️92@oneclickvpnkeys, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 52.195.8.127, port: 3373, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 54.249.105.25, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,84 +84,73 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,20 +166,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - Oracle Corporation - 1
-      - 🇭🇰 13|香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 10|⚡Telegram - @prrofile_purple
-      - 🇸🇬 9|SG
-      - 🇭🇰 9| HK
-      - 14|HK_speednode_0030
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇯🇵 日本2|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 14|HK_speednode_0034
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 9|☺️92@oneclickvpnkeys
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
