@@ -5,51 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1, server: 104.19.50.23, port: 443, type: vmess, uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 160.16.85.33, port: 127, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 14|US_speednode_0079, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epge.muarua.filegear-sg.me}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: BBBbBb.tAiWAn2028.IndEvs.In, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: BbBbBB.taIwAN2028.InDeVs.iN}}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.199.47.199, port: 3292, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 160.16.138.24, port: 3901, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.138.24, port: 3901, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net}
+  - {name: 14|HK_speednode_0031, server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 14|FR_speednode_0021, server: 135.125.232.253, port: 2053, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}}
   - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 43.199.47.199, port: 2569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 153.121.45.139, port: 3901, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,56 +68,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,13 +133,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 华盛顿特区 - Google LLC - 1
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 14|US_speednode_0079
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 9|JP
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 14|HK_speednode_0031
+      - 14|FR_speednode_0021
       - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
