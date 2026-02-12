@@ -5,47 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: d7190512-c1fa-466f-8dd5-07a736738ec0, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "10|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 38.180.193.206, port: 443, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.72.205, port: 3901, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, servername: TM_AZARBAYJAB1.new.99.workers.dev, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560", headers: {Host: tr1-smart.adelping.com.}}}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: nju.bb4.indevs.in}}}
+  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 38.180.193.206, port: 443, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 54.199.40.252, port: 1933, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net}
+  - {name: "9|@V2rayNG3 #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 18.183.242.254, port: 1196, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 63db9d3f-4149-4013-bbc8-bd7c53fd6ed5, sni: green2.cdntencentmusic.com, skip-cert-verify: true}
+  - {name: 🇩🇪 8|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 9|@icv2ray, server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.150.76, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,53 +88,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇨🇳 台湾省台中市 中华电信
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +173,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9|@V2rayNG3 #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇨🇳 台湾省台中市 中华电信
-      - "13|tg频道:@ripaojiedian #1"
-      - "10|@V2rayNG3 #1"
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 9|@icv2ray
+      - 🇯🇵 日本2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
