@@ -5,39 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 10|IR-@V2rayAlpha--5, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 54.248.12.71, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - San Jose - Oracle Corporation - 1, server: 89.116.180.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /f08369d1-5ee7-4b16-d786-30bce12fc33c}}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click}
+  - {name: 🇺🇸 美国 - San Jose - Oracle Corporation - 2, server: 45.142.120.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /f08369d1-5ee7-4b16-d786-30bce12fc33c}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.98.0, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nasnet-162191099.sharghdaily.co}}}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 153.121.65.107, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
+  - {name: 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
   - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 13.231.159.122, port: 2826, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.117.182, port: 193, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4, server: harper.sub-info.com, port: 33020, type: vmess, uuid: 76a837fa-a90f-4aee-9025-bc8d9d2943c6, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|ID_speednode_0019, server: qfdfsg.wsone.icu, port: 443, type: trojan, password: M7v%25w11Se%2A, sni: qfdfsg.wsone.icu, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,10 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -71,29 +101,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,10 +157,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|IR-@V2rayAlpha--5
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 1
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 1
       - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 4
+      - 14|ID_speednode_0019
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
