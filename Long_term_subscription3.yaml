@@ -5,55 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: nju.bb4.indevs.in}}}
+  - {name: 亚太地区 V2CROSS.COM, server: 36.50.90.241, port: 47790, type: vmess, uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88, alterId: 0, cipher: auto, tls: true, servername: sg.dalxy.eu.org, network: ws, ws-opts: {path: /, headers: {Host: sg.dalxy.eu.org}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 112.120.31.135, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nju.bb4.indevs.in}}}
+  - {name: 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
   - {name: 🇸🇬 9|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: "9,10|IR-@V2rayAlpha--5", server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 95.40.55.141, port: 3579, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: digitalocean.com, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /NASNET/cdn, headers: {Host: nasnet-571299667.rahavard365.co}}}
-  - {name: 9|💫8@oneclickvpnkeys, server: mlxy2.xiaoliyu.us, port: 2056, type: hysteria2, ports: 2056, password: 04c2a097-5ed8-49b6-9860-cb4667583745, sni: mlxy2.xiaoliyu.us, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.57.238, port: 400, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 203.198.123.162, port: 443, type: trojan, password: BxceQaOe, sni: 203.198.123.162, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3, server: harper.sub-info.com, port: 33020, type: vmess, uuid: 1aa24877-10da-ba0d-6c3b-cbd936f27aed, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.162.45.213, port: 28680, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.132.38, port: 193, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 9|84@oneclickvpnkeys, server: ru.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41aec03d-4345-4bff-9bab-69d36d80033c, sni: ru.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "10|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +88,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +173,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 9|SG
-      - 9,10|IR-@V2rayAlpha--5
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 9|💫8@oneclickvpnkeys
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇸🇬 9|SG
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 9|DE
       - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
+      - 9|84@oneclickvpnkeys
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

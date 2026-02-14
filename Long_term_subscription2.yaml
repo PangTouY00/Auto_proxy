@@ -5,63 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 57.180.43.205, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
   - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 57.180.14.50, port: 2890, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: yhj.tc1.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: yhj.tc1.ccwu.cc}}}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 43.207.171.246, port: 1820, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.144.208, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
-  - {name: 10|All_7--@V2rayAlpha, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.21.69.44, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 95.40.55.141, port: 2826, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|IR-@V2rayAlpha--5, server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 10|@icv2ray, server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.207.67.101, port: 3127, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 54.64.61.41, port: 2890, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: bnmj.wc6.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: bnmj.wc6.ccwu.cc}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.236.32, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
+  - {name: 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3, server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: tgju.org}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +80,68 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +157,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 9| HK
-      - 🇺🇸 美国2|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
-      - 10|All_7--@V2rayAlpha
-      - tg频道:@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 9| HK
+      - 10|IR-@V2rayAlpha--5
+      - 10|@icv2ray
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
