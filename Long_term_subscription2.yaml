@@ -5,67 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9, server: bnmj.wc6.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: bnmj.wc6.ccwu.cc}}}
-  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.198.96.56, port: 2569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.130.21, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 9|@Trick_mobil, server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: ðŸ”’, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: dfg.ae1autumn.cc.cd, port: 80, type: vmess, uuid: 13ad36e6-c091-43f2-8505-47d868dd544c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /YsmRouA9ZbxgW4, headers: {Host: dfg.ae1autumn.cc.cd}}}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.198.108.86, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 153.121.39.240, port: 3901, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
-  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省云浮市 移动, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.173.68, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/NASNET/cdn?ed=2560", headers: {Host: nasnet-571299667.rahavard365.co}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.154.192, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: mk.tc0.ccwu.cc}}}
-  - {name: 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4, server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lMnsZUN4/}}
-  - {name: 8|🅿️42@oneclickvpnkeys, server: 92.112.126.147, port: 50000, type: hysteria2, ports: 50000, password: a2f33600-7ff1-46c4-abc9-7deb843e88a3, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.130.21, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 160.16.236.32, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 9|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: "10|@V2rayngSeven #3", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: " [By EbraSha]", skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,22 +84,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -107,50 +106,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,17 +165,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 8|1
-      - 🇨🇳 广东省云浮市 移动
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 9|@Trick_mobil
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 8|🅿️42@oneclickvpnkeys
-      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 9|SG
+      - "10|@V2rayngSeven #3"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
