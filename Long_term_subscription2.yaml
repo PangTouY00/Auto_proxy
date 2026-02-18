@@ -5,55 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.228, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max}
-  - {name: "9|@Trick_mobil #1", server: ru.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41aec03d-4345-4bff-9bab-69d36d80033c, sni: ru.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.231.103, port: 400, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.161.245, port: 2673, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: nju.bb4.indevs.in}}}
-  - {name: 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3, server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: tgju.org}}}
-  - {name: 10|All_7--@V2rayAlpha, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru}
+  - {name: "10|🔥 Telegram: @wiki_tajrobe", server: 172.232.207.161, port: 443, type: hysteria2, ports: 443, password: flyzone, obfs: salamander, obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ, sni: www.azki.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.206.226.70, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 153.121.39.240, port: 3901, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "10|⚡Telegram - @SOSkeyNET #6", server: flkf2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 7dd10318-28fd-413f-81f0-cd0a286e4779, sni: flkf2.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.199.161.245, port: 2673, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,14 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -90,41 +100,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,14 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - "9|@Trick_mobil #1"
-      - 🇯🇵 12,13|日本3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 10|All_7--@V2rayAlpha
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - "10|🔥 Telegram: @wiki_tajrobe"
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - "10|⚡Telegram - @SOSkeyNET #6"
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
