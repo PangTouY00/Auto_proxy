@@ -5,63 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 43.207.73.82, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net}
-  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 10|@Selinc, server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 57.180.245.83, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 9|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 10|Telegram - @SOSkeyNET, server: hkbgp.jjxcloud.xyz, port: 8443, type: hysteria2, ports: 8443, password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4, sni: hkbgp.jjxcloud.xyz}
-  - {name: 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4, server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lMnsZUN4/}}
-  - {name: 🇨🇳 台湾省台中市 中华电信, server: 220.130.58.136, port: 31102, type: trojan, password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383, sni: green2.cdntencentmusic.com}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.236.32, port: 1281, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 - San Jose - Oracle Corporation - 5, server: 160.153.137.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /f08369d1-5ee7-4b16-d786-30bce12fc33c}}
+  - {name: "10|@V2rayNG3 #3", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
   - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "10|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 13.192.185.89, port: 9718, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: t65.o1o.indevs.in, port: 80, type: vmess, uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /GgigazFGDLgFWDItkD5XgXAL, headers: {Host: t65.O1o.InDEVS.in}}}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: a12.taipeicitygovernment.org.ua, port: 3462, type: trojan, password: 736cd94d-7b94-3e44-8106-3419f64eaf09, sni: 45.32.28.232, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.72.33, port: 3423, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +88,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇨🇳 台湾|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +173,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国|@ripaojiedian
-      - 9|1
-      - 10|@Selinc
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 9|SG
-      - 10|Telegram - @SOSkeyNET
-      - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 4
-      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - "10|@V2rayNG3 #3"
       - 🇨🇳 9|TW
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - "13|tg频道:@ripaojiedian #1"
+      - "10|@V2rayNG3 #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
