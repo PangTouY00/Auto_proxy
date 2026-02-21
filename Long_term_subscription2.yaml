@@ -5,63 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: nnmkl.2nn.ccwu.cc, port: 80, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nnmkl.2nn.ccwu.cc}}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru}
-  - {name: 9|@Trick_mobil, server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: ðŸ”’, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 57.180.15.244, port: 2255, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 9|HP71 (5), server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.105.192, port: 193, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: select-hk.ddnskunlun.com, port: 9006, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 153.121.51.29, port: 400, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
-  - {name: "🇨🇳 12,13|台湾|@ripaojiedian", server: a03.taipeicitygovernment.cn.ua, port: 3462, type: trojan, password: 736cd94d-7b94-3e44-8106-3419f64eaf09, sni: 45.32.28.232, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - San Jose - Oracle Corporation - 5, server: 160.153.137.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /f08369d1-5ee7-4b16-d786-30bce12fc33c}}
+  - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: nju.bb4.indevs.in}}}
+  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.105.192, port: 193, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 193.151.146.232, port: 17356, type: vmess, uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed, alterId: 0, cipher: auto, tls: false}
+  - {name: 10|All_7--@V2rayAlpha, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇭🇰 13|香港2|@ripaojiedian, server: select-hk.ddnskunlun.com, port: 9006, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 43.198.82.55, port: 3292, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: lop.bb3.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, servername: lop.bb3.indevs.in, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: lop.bb3.indevs.in}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,70 +80,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -159,16 +160,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 9|@Trick_mobil
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 9|HP71 (5)
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇩🇪 9|DE
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇨🇳 12,13|台湾|@ripaojiedian
+      - 🇺🇸 美国 - San Jose - Oracle Corporation - 5
+      - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 10|All_7--@V2rayAlpha
+      - 🇭🇰 13|香港2|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
