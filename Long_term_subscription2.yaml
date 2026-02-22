@@ -5,63 +5,75 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 英国 社会保险安全部, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: ipv6-tw02.cnddns.com, port: 16811, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 43.206.236.80, port: 3901, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3, server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: tgju.org}}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 153.121.39.240, port: 193, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
-  - {name: 9|🌀Telegram- @vpn_openet 🌀, server: dd.openaccessnode.com, port: 989, type: hysteria2, ports: 989, password: 75193bef8d8fe82341e02dd083dc1399, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi", sni: dd.ircybersec.org, skip-cert-verify: false}
-  - {name: 🇩🇪 8|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: 9|none, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 16.163.31.145, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|telegram @mtmvpn, server: 172.232.207.161, port: 443, type: hysteria2, ports: 443, password: freeflyzone1, obfs: salamander, obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ, sni: www.azki.com, skip-cert-verify: true}
+  - {name: "🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6", server: n1749032906.kzxds.cn, port: 443, type: vmess, uuid: c3337e26-c0e0-4625-ad62-bfa8d19991a4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1749032906.kzxds.cn}}}
+  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 9| Hysteria-TLS | @Express_alaki..., server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.14.85, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-162191099.sharghdaily.co}}}
+  - {name: 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560", headers: {Host: turk1.net.net}}}
+  - {name: 9|📤57@oneclickvpnkeys, server: 143.47.32.143, port: 35000, type: hysteria2, ports: 35000, password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac, sni: www.lamer.com.hk, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 3f60257b-9151-4018-838d-26249fda23d9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sgdaobk.1buigujj.ggff.net}}}
+  - {name: "9,10|@WedBaZTel #1", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.21.23.132, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: bnmj.wc6.ccwu.cc}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 13.115.245.122, port: 20539, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|@Spartan_YT, server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 57.180.245.83, port: 381, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +92,79 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +180,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国 社会保险安全部
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇫🇷 法国 - 瓦特勒洛 - OVH SAS - 3
-      - 🇯🇵 日本3|@ripaojiedian
-      - 9|🌀Telegram- @vpn_openet 🌀
-      - 🇩🇪 8|DE
-      - 9|none
-      - 🇭🇰 香港5|@ripaojiedian
-      - 9|telegram @mtmvpn
+      - 🇯🇵 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
+      - 🇨🇳 9|TW
+      - 9| Hysteria-TLS | @Express_alaki...
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
+      - 9|📤57@oneclickvpnkeys
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
+      - "9,10|@WedBaZTel #1"
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 10|@Spartan_YT
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 9|JP
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

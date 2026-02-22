@@ -5,67 +5,75 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.96.3, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, servername: t1.620720.xyz, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}}
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 52.192.209.59, port: 3419, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: nnmj.1x5.indevs.in, port: 80, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iSRWSKUJKNuXvVzsYHmsMrnO, headers: {Host: nnmj.1x5.indevs.in}}}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 13.114.30.172, port: 4920, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
-  - {name: 8|27@oneclickvpnkeys, server: 132.145.28.17, port: 65535, type: hysteria2, ports: 65535, password: f40ca239-4a76-4808-b56c-84d4e9969939, sni: www.microsoft.com, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 13.159.21.118, port: 4856, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 05.tokyometropolis.kiev.ua, port: 2053, type: trojan, password: 736cd94d-7b94-3e44-8106-3419f64eaf09, sni: 45.32.28.232, skip-cert-verify: true}
-  - {name: 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
-  - {name: 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 153.121.39.240, port: 193, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
+  - {name: "🇯🇵 12,13|日本4|@ripaojiedian", server: 05.tokyometropolis.kiev.ua, port: 2053, type: trojan, password: 736cd94d-7b94-3e44-8106-3419f64eaf09, sni: 45.32.28.232, skip-cert-verify: true}
+  - {name: 🇮🇸 冰岛 V2CROSS.COM, server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: false}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 16.163.31.145, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 0332fe0c-c33e-4d00-b30f-a18b4ff303f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sgdaobk.1buigujj.ggff.net}}}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 13.159.21.118, port: 4856, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
+  - {name: 10|کانفیگ ایان - t.me/arisping, server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6, sni: io.ozone.ru, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省 移动, server: a12.taipeicitygovernment.org.ua, port: 3462, type: trojan, password: 736cd94d-7b94-3e44-8106-3419f64eaf09, sni: 45.32.28.232}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 9|@Trick_mobil, server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, sni: đź”’, skip-cert-verify: true}
+  - {name: 🇭🇰 9| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 57.180.245.83, port: 381, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,72 +92,81 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,17 +182,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 8|1
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国|@ripaojiedian
-      - 8|27@oneclickvpnkeys
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 2
-      - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 12,13|日本4|@ripaojiedian
+      - 🇮🇸 冰岛 V2CROSS.COM
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
+      - 🇭🇰 香港3|@ripaojiedian
+      - 10|کانفیگ ایان - t.me/arisping
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇨🇳 广东省 移动
+      - "13|tg频道:@ripaojiedian #1"
+      - 9|@Trick_mobil
+      - 🇭🇰 9| HK
+      - 🇸🇬 新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
