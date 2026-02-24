@@ -5,75 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: aed57657-2478-4894-9129-2a57e83ce4dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg001.1buigujj.ggff.net}}}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6, sni: io.ozone.ru}
-  - {name: 10|@Spartan_YT, server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 52.192.108.21, port: 4920, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 160.16.89.176, port: 1281, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "10|@V2rayBaaz #1", server: dd.openaccessnode.com, port: 989, type: hysteria2, ports: 989, password: 75193bef8d8fe82341e02dd083dc1399, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi", sni: dd.ircybersec.org}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 367c4849-3d82-4496-839c-db16f3168165, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg001.1buigujj.ggff.net}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 54.150.211.34, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "9,10|@WedBaZTel #2", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 10|کان رایگان - t.me/arisping, server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: ipv6-tw03.cnddns.com, port: 16811, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 43.199.42.6, port: 23287, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 13.113.247.215, port: 2399, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 54.150.211.34, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 57.180.245.83, port: 381, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 3.113.29.187, port: 3901, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 🇨🇳 12|🇹🇼 台湾|@ripaojiedian, server: ipv6-tw03.cnddns.com, port: 16811, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 9|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,23 +76,20 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
       - 🔰 节点选择
@@ -117,56 +98,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,19 +151,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 10|@Spartan_YT
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - "10|@V2rayBaaz #1"
-      - 🇸🇬 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
+      - 🇯🇵 日本|@ripaojiedian
+      - "9,10|@WedBaZTel #2"
+      - 10|کان رایگان - t.me/arisping
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|1
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇩🇪 9|DE
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
       - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
+      - 🇸🇬 9|SG
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
