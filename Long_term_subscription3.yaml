@@ -5,67 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 13|美国4|@ripaojiedian, server: select-us.ddnskunlun.com, port: 9028, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|2, server: mg2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg2.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.198.227.190, port: 15363, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 18.163.116.51, port: 504, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg.ok12345.ggff.net}}}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "10| Telegram: @wiki_tajrobe", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: "9,10|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|65@oneclickvpnkeys, server: 107.174.181.241, port: 65160, type: hysteria2, ports: 65160, password: 0b8a288c, sni: en.snu.ac.kr, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 伦敦Microsoft公司, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1, server: 87.120.219.124, port: 2086, type: vmess, uuid: e6a866ca-1756-44ed-9866-a9949f2bad38, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fast.com]}}}
+  - {name: 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 613b8baf-f848-43b6-9055-63a37160f203, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg.ok12345.ggff.net}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 3.112.214.167, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|HP71 (5), server: 206.71.158.40, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org}
   - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 54.238.209.205, port: 1281, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.138.24, port: 193, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.198.185.201, port: 3292, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,73 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,17 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 13|美国4|@ripaojiedian
-      - 9|2
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 5
-      - "13|tg频道:@ripaojiedian #1"
-      - "10| Telegram: @wiki_tajrobe"
-      - "9,10|@V2rayNG3 #1"
-      - 🇭🇰 香港|@ripaojiedian
+      - 9|65@oneclickvpnkeys
+      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+      - 🇯🇵 日本 - 东京 - NewMedia Express Pte Ltd - 7
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|HP71 (5)
       - 🇯🇵 9|JP
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
