@@ -5,67 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5, server: 94cceb73-t70f40-tb224g-1h0r9.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 94cceb73-t70f40-tb224g-1h0r9.hkt.gotochinatown.net}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.14.137, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|🍪4@oneclickvpnkeys, server: 130.61.50.75, port: 6443, type: hysteria2, ports: 6443, password: zhangyang}
-  - {name: 10|/@en_vpn/, server: 132.145.28.17, port: 65535, type: hysteria2, ports: 65535, password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12, sni: www.microsoft.com, skip-cert-verify: true}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13", server: qwbtbw1.v2yunv2.com, port: 59718, type: vmess, uuid: d73c2cea-34e9-380d-8511-bb8521aa6183, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}}
+  - {name: 10|@Golestan_VPN -, server: 150.241.79.106, port: 443, type: hysteria2, ports: 443, password: germany_hysteria2_fastlane_5devbouui, sni: de2.h.fastlanehosting.ru, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 3.112.20.105, port: 3423, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
+  - {name: "9,10|کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
   - {name: 🇨🇳 广东省云浮市 移动, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: "🔒 [By EbraSha] "}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 54.46.4.240, port: 38780, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.198.13.210, port: 41973, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|@Trick_mobil, server: 107.174.181.241, port: 65160, type: hysteria2, ports: 65160, password: 0b8a288c, sni: en.snu.ac.kr, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1, server: 47.84.126.255, port: 443, type: vmess, uuid: 32285564-1664-485c-f4db-daa776321a52, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇩🇪 10| - DE - @FreeOnlineVPN #1", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org}
+  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,73 +68,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,17 +133,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 V2CROSS.COM
-      - 9|🍪4@oneclickvpnkeys
-      - 10|/@en_vpn/
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13
+      - 10|@Golestan_VPN -
+      - 🇯🇵 日本3|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
       - 🇨🇳 广东省云浮市 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|@Trick_mobil
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba.com LLC - 1
+      - "🇩🇪 10| - DE - @FreeOnlineVPN #1"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
