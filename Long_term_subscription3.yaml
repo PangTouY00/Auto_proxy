@@ -5,47 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 台湾省台中市 中华电信, server: 220.130.58.136, port: 35501, type: trojan, password: 8595b855-e4c4-40cd-834d-d34bb65ec928, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
-  - {name: 10|@irmeliy, server: 150.241.79.106, port: 443, type: hysteria2, ports: 443, password: germany_hysteria2_fastlane_wxue2k6d6, sni: de2.h.fastlanehosting.ru, skip-cert-verify: true}
-  - {name: 10|All_7--@V2rayAlpha, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省 移动, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 3.113.29.187, port: 2255, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
+  - {name: 8|@Trick_mobil, server: 107.174.181.241, port: 65160, type: hysteria2, ports: 65160, password: 0b8a288c, sni: en.snu.ac.kr, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 52.199.90.129, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 52.195.185.238, port: 1281, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
+  - {name: "9|کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - cognetcloud INC - 3, server: 149.88.95.94, port: 18937, type: vmess, uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 3.112.20.105, port: 400, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇳🇱 9| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 52.199.90.129, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: ip3.phonoma.ir, port: 443, type: vmess, uuid: 9bd3b246-212d-4994-b1c3-cda8ed02fce6, alterId: 0, cipher: auto, tls: true, servername: cdn.olaf.space, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cdn.olaf.space}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,53 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾省台中市 中华电信
-      - 10|@irmeliy
-      - 10|All_7--@V2rayAlpha
-      - 🇨🇳 9|TW
-      - 🇨🇳 广东省 移动
-      - 🇭🇰 香港3|@ripaojiedian
+      - 8|@Trick_mobil
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇭🇰 中国 - 香港 - cognetcloud INC - 3
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
