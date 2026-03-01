@@ -5,63 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.207.103.90, port: 2399, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|@VPNFARDAD, server: 188.166.71.213, port: 41086, type: hysteria2, ports: 41086, password: a336317d-834f-4571-aca8-f9aa4a8b9d38, obfs: salamander, obfs-password: cBmQKpbjFLXRD00Gxam3OOklIs6, sni: 188.166.71.213, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.162.51.53, port: 45285, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "8,9|کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "8|@Trick_mobil #1", server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 43.207.103.90, port: 388, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省云浮市 移动, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: 🇨🇳 广东省云浮市 移动 2, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da}
-  - {name: 8|2, server: mg2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg2.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 202.181.103.246, port: 3419, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
+  - {name: 10|13@oneclickvpnkeys, server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 18.162.142.234, port: 504, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.142.234, port: 504, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 52.199.90.129, port: 32536, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 阿里云, server: n1761214912.wpg27.xyz, port: 443, type: vmess, uuid: 4f86a909-836d-4643-b650-d812144a1fa9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1761214912.wpg27.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +72,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 12,13|香港5|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇭🇰 香港 阿里云
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +143,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 10|13@oneclickvpnkeys
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
       - 🇭🇰 香港5|@ripaojiedian
-      - 9|@VPNFARDAD
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8|@Trick_mobil #1"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇨🇳 广东省云浮市 移动
-      - 🇨🇳 广东省云浮市 移动 2
-      - 8|2
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇭🇰 香港 阿里云
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
