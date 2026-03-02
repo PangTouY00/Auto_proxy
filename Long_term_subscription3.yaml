@@ -5,51 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇯🇵 9|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
   - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 57.180.8.230, port: 34818, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "9,10|کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大|@ripaojiedian, server: board-02.ddnskunlun.com, port: 11985, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "10|@V2rayNG3 #3", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 9|@Trick_mobil, server: 107.174.181.241, port: 65160, type: hysteria2, ports: 65160, password: 0b8a288c, sni: en.snu.ac.kr, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.14.137, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6, sni: io.ozone.ru}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.162.142.234, port: 45947, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 52.195.233.42, port: 1281, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian, server: board-02.ddnskunlun.com, port: 11985, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 175.41.195.26, port: 4920, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 52.199.90.129, port: 1359, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2, server: pub.ap20251212.com, port: 64013, type: vmess, uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,56 +84,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,13 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵 9|JP
       - 9|1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
-      - "9,10|کانال تلگرام : Free_VPN_CH@"
-      - 🇨🇦 加拿大|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|@V2rayNG3 #3"
+      - 9|@Trick_mobil
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇨🇦 12|🇨🇦 加拿大|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇨🇦 荷兰 - Urk - Tangram Canada Inc. - 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

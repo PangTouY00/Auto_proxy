@@ -5,55 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 10|13@oneclickvpnkeys, server: yapc-1.adamhayward.co.uk, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 18.162.142.234, port: 504, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 52.199.90.129, port: 1359, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: bnhhy.1ll.ccwu.cc, port: 80, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iSRWSKUJKNuXvVzsYHmsMrnO, headers: {Host: bnhhy.1ll.ccwu.cc}}}
+  - {name: 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司, server: 198.71.191.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, servername: ous3.dean52.top, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.26.15.137, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.142.234, port: 504, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 52.199.90.129, port: 32536, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 阿里云, server: n1761214912.wpg27.xyz, port: 443, type: vmess, uuid: 4f86a909-836d-4643-b650-d812144a1fa9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1761214912.wpg27.xyz}}}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 175.41.195.26, port: 4920, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 13.231.56.214, port: 331, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,62 +76,67 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,14 +152,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|13@oneclickvpnkeys
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 13|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇯🇵 12,13|日本|@ripaojiedian
-      - 🇭🇰 香港 阿里云
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
