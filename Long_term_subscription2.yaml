@@ -5,59 +5,119 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 52.199.90.129, port: 1359, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: bnhhy.1ll.ccwu.cc, port: 80, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iSRWSKUJKNuXvVzsYHmsMrnO, headers: {Host: bnhhy.1ll.ccwu.cc}}}
-  - {name: 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司, server: 198.71.191.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, servername: ous3.dean52.top, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.26.15.137, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.142.234, port: 504, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 175.41.195.26, port: 4920, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 13.231.56.214, port: 331, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.15.137, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
+  - {name: "10|@V2rayNG3 #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19, server: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net}}}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124, server: c8b73bb9-t8wxs0-tasors-1tdqt.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96, server: de080c01-t6r5s0-t7scm6-1o20w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de080c01-t6r5s0-t7scm6-1o20w.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121, server: ac9bceef-t9sf40-tubliy-1la7v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60, server: 31460be3-tb89s0-tcopzl-ggww.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 31460be3-tb89s0-tcopzl-ggww.hkt.gotochinatown.net}}}
+  - {name: "🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2", server: cg1c13.waimaojd.com, port: 443, type: vmess, uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c13.waimaojd.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38, server: 05372524-t70f40-tg8syu-1nyy5.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 05372524-t70f40-tg8syu-1nyy5.hkt.gotochinatown.net}}}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122, server: 23958471-t9sf40-tcuz7t-1ta58.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127, server: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.198.151.38, port: 29666, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.72.205, port: 2001, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73, server: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44, server: a39b8d01-t70f40-ta5nd4-e06r.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a39b8d01-t70f40-ta5nd4-e06r.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58, server: 8605af28-tb0v40-tch27r-1j0a4.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8605af28-tb0v40-tch27r-1j0a4.hkt.gotochinatown.net}}}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 54.65.39.157, port: 4920, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37, server: 9fc33e40-t70f40-tbpu76-1thmd.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9fc33e40-t70f40-tbpu76-1thmd.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88, server: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,67 +136,139 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -152,15 +284,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 13|香港|@ripaojiedian
-      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 12,13|美国|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - tg频道:@ripaojiedian
+      - "10|@V2rayNG3 #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
