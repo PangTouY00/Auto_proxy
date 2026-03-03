@@ -5,119 +5,139 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.15.137, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}}
-  - {name: "10|@V2rayNG3 #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19, server: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net}}}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34, server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131, server: ae0f870e-t8wxs0-tc67m2-1tjc4.hkt.gotochinatown.net, port: 80, type: vmess, uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ae0f870e-t8wxs0-tc67m2-1tjc4.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53, server: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 4333a411-t7bj40-tkka1f-1k25p.hkt.gotochinatown.net}}}
   - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124, server: c8b73bb9-t8wxs0-tasors-1tdqt.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96, server: de080c01-t6r5s0-t7scm6-1o20w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de080c01-t6r5s0-t7scm6-1o20w.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121, server: ac9bceef-t9sf40-tubliy-1la7v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60, server: 31460be3-tb89s0-tcopzl-ggww.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 31460be3-tb89s0-tcopzl-ggww.hkt.gotochinatown.net}}}
-  - {name: "🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2", server: cg1c13.waimaojd.com, port: 443, type: vmess, uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c13.waimaojd.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38, server: 05372524-t70f40-tg8syu-1nyy5.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 05372524-t70f40-tg8syu-1nyy5.hkt.gotochinatown.net}}}
-  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122, server: 23958471-t9sf40-tcuz7t-1ta58.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127, server: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.198.151.38, port: 29666, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.72.205, port: 2001, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73, server: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44, server: a39b8d01-t70f40-ta5nd4-e06r.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a39b8d01-t70f40-ta5nd4-e06r.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58, server: 8605af28-tb0v40-tch27r-1j0a4.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8605af28-tb0v40-tch27r-1j0a4.hkt.gotochinatown.net}}}
-  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 54.65.39.157, port: 4920, type: trojan, password: 262f1d150049457ac1d6e66b020fa980, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37, server: 9fc33e40-t70f40-tbpu76-1thmd.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9fc33e40-t70f40-tbpu76-1thmd.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88, server: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: be9884d0-t6r5s0-t7dv8l-1szgv.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106, server: a6c282b7-t70f40-t8ivpf-z65w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a6c282b7-t70f40-t8ivpf-z65w.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33, server: 85a068af-t70f40-t7mzec-yjq0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 85a068af-t70f40-t7mzec-yjq0.hkt.gotochinatown.net}}}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 54.249.220.183, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145, server: e70cd76c-t8wxs0-ta6lxc-jjv2.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: e70cd76c-t8wxs0-ta6lxc-jjv2.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57, server: bd032d72-tb4kg0-tcjl4y-1qzi1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bd032d72-tb4kg0-tcjl4y-1qzi1.hkt.gotochinatown.net}}}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110, server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇨🇳 8|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: "9|@V2rayNG3 #3", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118, server: f130578b-t8ysg0-taxf6m-ieln.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 9|/@en_vpn/کانفیگ های بیشتر, server: 208.87.242.163, port: 50000, type: hysteria2, ports: 50000, password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15, server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net}}}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9, server: x0xzzfv-g03.jp06-jz-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 198.62.62.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, servername: ous3.dean52.top, network: ws, ws-opts: {path: /f08369d1-5ee7-4b16-d786-30bce12fc33c, headers: {Host: ous3.dean52.top}}}
+  - {name: 🇯🇵 8|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116, server: 01537585-t8wxs0-tgzvop-hns7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: "9|کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6", server: j4pkb-g05.jp02-e3-vm0.entry.fr0528.art, port: 11777, type: vmess, uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56, server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,139 +156,161 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,30 +326,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - "10|@V2rayNG3 #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 19
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 8| HK
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 34
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 131
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 53
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 124
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 96
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 121
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 60
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 38
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 122
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 127
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 79
-      - 🇸🇬 12,13|新加坡3|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 73
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 44
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 102
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 58
-      - 🇺🇸 12,13|美国2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 141
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 37
-      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 88
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 8
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 106
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 33
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 145
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 31
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 57
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 110
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 10
+      - 🇨🇳 8|TW
+      - "9|@V2rayNG3 #3"
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 118
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 94
+      - 9|/@en_vpn/کانفیگ های بیشتر
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 15
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 9
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇯🇵 8|JP
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 116
+      - "9|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6
+      - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 56
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
