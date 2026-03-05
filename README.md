@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 113`
+`Total number of merge nodes: 112`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 8`
+`Total number of merge nodes: 7`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `11`
-Updata：`2026-03-04 22:34:01`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-03-05 12:05:29`
 
 
 <details>
@@ -31042,68 +31042,82 @@ Updata：`2026-03-04 22:34:01`
 
 
 
->Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=06bf389605d448d090729cc9fa04bb18`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=aed6c65381409a6715ce1ce1bb6deab8`
+`https://xn--9kqt60cjmy.shop/api/v1/client/subscribe?token=287648794912e9ef84421bb5cb67b939`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=fd2ad65026dbf606e3e8a8d4402233d2`
+`https://tizi.bulehu.com/api/v1/client/subscribe?token=3415d8e3b25d072c557d0ad9e8536999`
 
 
 
 
 >Trial subscription：
-`https://tizi.bulehu.com/api/v1/client/subscribe?token=ab0dec2be4bb1d51f8aec1d456d7cca2`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=781ba85aae07ffc5e5f831d9d2b72bd8`
 
 
 
 
 >Trial subscription：
-`https://best.nxxbbf.com/api/v1/client/subscribe?token=27d53f0113dbca2519a492a016e84bc8`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=b8711161dc440b623a00e189a03af5ab`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=f25365b74fb35091dc1eb36148c5e523`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=e1326042c1c9c875b7448eb30cada1ff`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=7a6485206824890dccd915bef66c3c78`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=aaf338334371442a9fb469dced6e1738`
 
 
 
 
 >Trial subscription：
-`https://xn--9kqt60cjmy.shop/api/v1/client/subscribe?token=d7a219b23ccd3361b056ac653f02e29a`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=16c6cc7d9395784fb3d8cbbdae64b0aa`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=8959d139abaf3014a2366d261d7126c2`
+`https://yywhale.com/api/v1/client/subscribe?token=1b163f8ad8ef794168b54e643db70434`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=dfcbfcd381de789feeef1fd9e3301468`
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=c93222facb3d552729ca528a7be5cc32`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=f16ef0ec0fd3a4a1ae5d42638372253c`
+`https://xn--ehqa22b.site/api/v1/client/subscribe?token=d9b3567512f42fe1419633d61ea3dace`
+
+
+
+
+>Trial subscription：
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=0cebecac446ed7b9bf957843ceeb2048`
+
+
+
+
+>Trial subscription：
+`https://slianvpn.com/api/v1/client/subscribe?token=a10e0fd0ab3da2960e19c724d318cb67`
 
 
 
