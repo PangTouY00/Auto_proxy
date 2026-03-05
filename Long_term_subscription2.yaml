@@ -5,51 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 13.115.155.105, port: 4674, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "9|کانال تلگرام : Free_VPN_CH@ #3", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org@freenettir, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 - Ashburn - Oracle Corporation - 3, server: 132.145.154.72, port: 443, type: vmess, uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 57.180.36.84, port: 4937, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "8,9|کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "8,9|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 54.250.253.77, port: 50446, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 43.207.117.112, port: 38312, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 3.112.130.96, port: 331, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 13.230.112.99, port: 3419, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.228, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max, skip-cert-verify: false}
+  - {name: "9|@Trick_mobil #1", server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.230.112.99, port: 4920, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 18.181.193.208, port: 3057, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,56 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,13 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #3"
-      - 🇺🇸 美国 - Ashburn - Oracle Corporation - 3
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - "8,9|کانال تلگرام : Free_VPN_CH@"
-      - "8,9|@V2rayNG3 #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|1
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - "9|@Trick_mobil #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

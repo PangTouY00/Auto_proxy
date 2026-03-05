@@ -5,55 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "9|کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 13.192.169.190, port: 331, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net}
-  - {name: 8|2, server: mg2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg2.mangshe.xyz, skip-cert-verify: true}
-  - {name: "8|@Trick_mobil #1", server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk, port: 1743, type: hysteria2, ports: 1743, password: 17cdeb6c-f046-11ee-bdac-f23c93141fad, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 13.115.155.105, port: 4674, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.64.100, port: 25343, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 9|6@oneclickvpnkeys, server: 132.145.52.10, port: 65535, type: hysteria2, ports: 65535, password: edd0d9b9-d2ef-40a0-af10-0dca357351e3, sni: www.microsoft.com, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 13.230.112.99, port: 4920, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "9|@Trick_mobil #2", server: 91.132.51.160, port: 844, type: hysteria2, ports: 844, password: 5046SHWqk6}
+  - {name: 🇳🇱 10| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 9|@Trick_mobil, server: 107.174.181.241, port: 65160, type: hysteria2, ports: 65160, password: 0b8a288c, sni: en.snu.ac.kr, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省台中市 中华电信, server: 220.130.58.136, port: 31103, type: trojan, password: 20a3d819-ca7f-48a6-ba20-f7021e8dbbbe, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇨🇳 台湾省台中市 中华电信
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|کانال تلگرام : Free_VPN_CH@ #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 8|2
-      - "8|@Trick_mobil #1"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 8|1
-      - 9|6@oneclickvpnkeys
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - "9|@Trick_mobil #2"
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 9|@Trick_mobil
+      - 🇨🇳 台湾省台中市 中华电信
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
