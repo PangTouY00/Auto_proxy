@@ -5,59 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 中国 阿里云, server: n1753356361.lie5d.cyou, port: 443, type: vmess, uuid: cdfd9787-dac8-4c1e-9ae5-104e23a9d994, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1753356361.lie5d.cyou}}}
-  - {name: 🇫🇷 法国 - Paris - 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 18.162.54.136, port: 1792, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.72.33, port: 3419, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: zdqbk.cmvvb.online, port: 8443, type: vmess, uuid: 2a1bc67f-df39-4d67-9df2-8590ef1411a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zdqbk.cmvvb.online}}}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇩🇪 9|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
   - {name: 10|17@oneclickvpnkeys, server: 62.210.124.146, port: 22000, type: hysteria2, ports: 22000, password: dongtaiwang.com, sni: www.microsoft.com, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 电信IDC机房, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj}
-  - {name: 🇨🇳 9|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 10|🩵+@Azarakhsh_Proxy+🩷, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.207.71.166, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇫🇷 法国 - Paris - 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.72.33, port: 34818, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 160.16.72.33, port: 3419, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,65 +76,63 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 12,13|香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,15 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 中国 阿里云
-      - 🇫🇷 法国 - Paris - 4
-      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇩🇪 9|DE
+      - 9|1
       - 10|17@oneclickvpnkeys
-      - 🇨🇳 广东省广州市 电信IDC机房
-      - 🇨🇳 9|TW
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇭🇰 12,13|香港5|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
+      - 🇫🇷 法国 - Paris - 4
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
