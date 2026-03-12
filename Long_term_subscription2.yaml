@@ -5,51 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.228, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 13.230.215.64, port: 388, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇱 10| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 175.41.228.177, port: 921, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net}
-  - {name: 10|🌼13@oneclickvpnkeys, server: 150.241.79.106, port: 443, type: hysteria2, ports: 443, password: hysteria2_fastlane_qdx4o19um, sni: de2.h.fastlanehosting.ru, skip-cert-verify: true}
-  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "8|@Trick_mobil #2", server: 91.132.51.160, port: 844, type: hysteria2, ports: 844, password: 5046SHWqk6}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.214.104, port: 4674, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net}
+  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 52.68.96.91, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇨🇳 8|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 9|13@oneclickvpnkeys, server: 150.241.79.106, port: 443, type: hysteria2, ports: 443, password: hysteria2_fastlane_qdx4o19um, sni: de2.h.fastlanehosting.ru, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,58 +64,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -135,13 +124,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
-      - tg频道:@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 10|🌼13@oneclickvpnkeys
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - "8|@Trick_mobil #2"
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 9|13@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
