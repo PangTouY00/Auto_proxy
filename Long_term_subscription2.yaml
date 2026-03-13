@@ -5,79 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 - Lauterbourg - 1, server: pub.ap20260228.com, port: 64092, type: vmess, uuid: a739e782-1682-38a5-9153-aad09d779ae9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 54.238.164.64, port: 29666, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 10|⚡Telegram - @SOSkeyNET, server: 167.86.100.40, port: 11801, type: hysteria2, ports: 11801, password: 00a40f88-0900-4c29-9555-cf053a23071b, obfs: salamander, obfs-password: pGBT2RES32Gr7S8DQx, sni: 167.86.100.40, skip-cert-verify: true}
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "10|کانال تلگرام : Free_VPN_CH@ #3", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org@freenettir, skip-cert-verify: false}
-  - {name: 非洲地区 V2CROSS.COM, server: 102.37.237.190, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RoHaFyD4IpW8W2LC}
-  - {name: 9|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 54.178.24.255, port: 921, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "9|@Trick_mobil #1", server: 91.132.51.160, port: 844, type: hysteria2, ports: 844, password: 5046SHWqk6}
-  - {name: 🇮🇩 印度尼西亚 - Jakarta - 1, server: 18.143.76.130, port: 443, type: vmess, uuid: 462d9694-62b5-4781-a287-61a422b920e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vvip}}
-  - {name: 🇮🇩 印度尼西亚 - Jakarta - 5, server: 8.223.63.189, port: 443, type: vmess, uuid: 462d9694-62b5-4781-a287-61a422b920e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vvip}}
-  - {name: 🇺🇸 美国 - Chicago - 1, server: pub.ap20260228.com, port: 64014, type: vmess, uuid: a739e782-1682-38a5-9153-aad09d779ae9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇩 印度尼西亚 - Jakarta - 9, server: 149.104.30.17, port: 443, type: vmess, uuid: 462d9694-62b5-4781-a287-61a422b920e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vvip}}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 10|+@Azarakhsh_Proxy+, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
+  - {name: "10|@V2rayNG3 #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 18.163.182.91, port: 23287, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大 - Toronto - 1, server: pub.ap20260228.com, port: 64013, type: vmess, uuid: a739e782-1682-38a5-9153-aad09d779ae9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "9,10|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 95.40.5.151, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,84 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,20 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太地区 V2CROSS.COM
-      - 🇫🇷 法国 - Lauterbourg - 1
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 10|⚡Telegram - @SOSkeyNET
-      - 12|tg频道:@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #3"
-      - 非洲地区 V2CROSS.COM
-      - 9|1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - "9|@Trick_mobil #1"
-      - 🇮🇩 印度尼西亚 - Jakarta - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 5
-      - 🇺🇸 美国 - Chicago - 1
-      - 🇮🇩 印度尼西亚 - Jakarta - 9
+      - 🇬🇧 英国 V2CROSS.COM
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 10|+@Azarakhsh_Proxy+
+      - "10|@V2rayNG3 #2"
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇨🇦 加拿大 - Toronto - 1
+      - 🇭🇰 香港|@ripaojiedian
+      - "9,10|@V2rayNG3 #1"
+      - 🇭🇰 香港4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
