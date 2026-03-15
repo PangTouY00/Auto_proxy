@@ -5,71 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国 社会保险安全部, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "9|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 - 法兰克福 - 1, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 52.68.61.114, port: 4937, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇲🇾 马来西亚 - 吉隆坡 - 1, server: pub.ap20260228.com, port: 64021, type: vmess, uuid: a739e782-1682-38a5-9153-aad09d779ae9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 52.196.224.76, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇫🇷 法国 - 斯特拉斯堡 - 1, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.163.114.142, port: 50495, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 95.40.46.74, port: 50446, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 18.163.114.142, port: 50495, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "9,10|کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 紐約 - 3, server: 172.67.157.61, port: 80, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iSRWSKUJKNuXvVzsYHmsMrnO}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,76 +60,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,18 +118,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 社会保险安全部
-      - 🇭🇰 香港|@ripaojiedian
-      - "9|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇩🇪 德国 - 法兰克福 - 1
-      - 🇯🇵 日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - tg频道:@ripaojiedian
-      - 🇲🇾 马来西亚 - 吉隆坡 - 1
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - "9,10|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国 - 紐約 - 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

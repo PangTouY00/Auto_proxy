@@ -5,55 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇳🇱 荷兰 - Urk - 2, server: pub.ap20260228.com, port: 64013, type: vmess, uuid: a739e782-1682-38a5-9153-aad09d779ae9, alterId: 0, cipher: auto, tls: false}
-  - {name: "8|@Trick_mobil #2", server: 206.71.158.23, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, sni: 🔒, skip-cert-verify: true}
-  - {name: "9|@V2rayNG3 #3", server: 77.90.41.197, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 亚太地区 V2CROSS.COM, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.43.18, port: 29666, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "8|@Trick_mobil #4", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, sni: 🔒, skip-cert-verify: true}
-  - {name: "9|@V2rayNG3 #1", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 18.181.152.121, port: 4920, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 57.181.29.108, port: 34818, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 3.112.213.118, port: 4674, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 153.121.65.107, port: 4019, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇳🇱 10| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "9|@Trick_mobil #4", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, sni: 🔒, skip-cert-verify: true}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 18.162.133.174, port: 50495, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省佛山市 联通, server: cn02.365cloud5878.com, port: 6004, type: vmess, uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574, alterId: 0, cipher: auto, tls: false}
+  - {name: "9|@Trick_mobil #3", server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, ports: 45000, password: Telegram--%3E%40Ln2Ray, sni: 🔒, skip-cert-verify: true}
+  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 13|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,59 +84,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,14 +167,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 荷兰 - Urk - 2
-      - "8|@Trick_mobil #2"
-      - "9|@V2rayNG3 #3"
-      - 亚太地区 V2CROSS.COM
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "8|@Trick_mobil #4"
-      - "9|@V2rayNG3 #1"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - "9|@Trick_mobil #4"
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇨🇳 广东省佛山市 联通
+      - "9|@Trick_mobil #3"
+      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 13|香港|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
