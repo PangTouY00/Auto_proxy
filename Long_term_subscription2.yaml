@@ -5,59 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.181.212.23, port: 6313, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇨🇳 12|🇹🇼 台湾|@ripaojiedian, server: stream-cdn-asia-06.silver-line.digital, port: 38239, type: ss, cipher: chacha20-ietf-poly1305, password: dd9e4541-9be2-4c3f-9c49-7dde77c3480b}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 54.168.247.232, port: 921, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 57.180.246.216, port: 4937, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net}
-  - {name: 12|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 中国 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru}
-  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 160.16.214.104, port: 4019, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - 3, server: t.cnmjcn.cyou, port: 16632, type: vmess, uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com}}}
+  - {name: 14|AU_speednode_0002, server: engaged-ram.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - 5, server: t.cnmjcn.cyou, port: 16632, type: vmess, uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com}}}
+  - {name: "10|@V2rayNG3 #2", server: 206.71.158.41, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: jnir.pichondan.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 57.180.252.251, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click}
+  - {name: 🇯🇵 日本 - 东京 - 2, server: planb.mojcn.com, port: 16617, type: vmess, uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com}}}
+  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 78.159.131.12, port: 28259, type: trojan, password: MeaDiUmPlkWbZJ2BON8tz, sni: ads.x5.ru}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,67 +76,65 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -152,15 +150,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 12|🇹🇼 台湾|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 12|tg频道:@ripaojiedian
-      - 🇨🇳 中国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
+      - 14|AU_speednode_0002
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇭🇰 中国 - 香港 - 5
+      - "10|@V2rayNG3 #2"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇯🇵 日本 - 东京 - 2
+      - 🇧🇬 保加利亚 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
