@@ -5,102 +5,114 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 64c7623e-89b2-48bc-885b-a12a51372ce2, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 64c7623e-89b2-48bc-885b-a12a51372ce2, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 64c7623e-89b2-48bc-885b-a12a51372ce2, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 64c7623e-89b2-48bc-885b-a12a51372ce2, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 64c7623e-89b2-48bc-885b-a12a51372ce2, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 🇺🇸 美国汉堡包, server: 4837.skrspc.org, port: 35770, type: hysteria2, ports: 35770, password: d4577a7a-87e7-46e2-9179-8a577592aad1, obfs: salamander, obfs-password: tReJMxD1XGCKeLur, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾珍珠奶茶, server: hinet.skrspc.org, port: 20081, type: hysteria2, ports: 20081, password: d4577a7a-87e7-46e2-9179-8a577592aad1, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港A|1x, server: 59.37.143.195, port: 29114, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇭🇰 香港B|1x, server: 59.37.143.195, port: 29128, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇨🇳 台湾B|1x, server: 59.37.143.195, port: 29129, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇯🇵 日本A|1x, server: 59.37.143.195, port: 29101, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇯🇵 日本B|1x, server: 59.37.143.195, port: 29132, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇸🇬 新加坡A|1x, server: 59.37.143.195, port: 29120, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇸🇬 新加坡B|1x, server: 59.37.143.195, port: 29136, type: ss, cipher: aes-256-gcm, password: d4577a7a-87e7-46e2-9179-8a577592aad1}
-  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a9a05830-1897-4908-ab4f-51b43fd6e9de}
-  - {name: 🇺🇸 【北美洲】US |美国01, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa6b97e-72e0-41f7-a77d-357e55d55e43}
-  - {name: 🇺🇸 【北美洲】US |美国02, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa6b97e-72e0-41f7-a77d-357e55d55e43}
-  - {name: 🇺🇸 【北美洲】US |美国03, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa6b97e-72e0-41f7-a77d-357e55d55e43}
-  - {name: 🇺🇸 【北美洲】US |美国04, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa6b97e-72e0-41f7-a77d-357e55d55e43}
-  - {name: 🇺🇸 【北美洲】US |美国05, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa6b97e-72e0-41f7-a77d-357e55d55e43}
-  - {name: 🇺🇸 【北美洲】US |美国06, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa6b97e-72e0-41f7-a77d-357e55d55e43}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: be26c7f0-ddb2-4fb9-81cf-7e23cc2a1f2f, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: be26c7f0-ddb2-4fb9-81cf-7e23cc2a1f2f, sni: empty.node, skip-cert-verify: false}
-  - {name: 🇺🇸 美国汉堡包 2, server: 4837.skrspc.org, port: 35645, type: hysteria2, ports: 35645, password: c258477d-bdee-41bc-8946-e2b5de46883c, obfs: salamander, obfs-password: tReJMxD1XGCKeLur, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾珍珠奶茶 2, server: hinet.skrspc.org, port: 20081, type: hysteria2, ports: 20081, password: c258477d-bdee-41bc-8946-e2b5de46883c, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港A|1x 2, server: 59.37.143.195, port: 29114, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 🇭🇰 香港B|1x 2, server: 59.37.143.195, port: 29128, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 🇨🇳 台湾B|1x 2, server: 59.37.143.195, port: 29129, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 🇯🇵 日本A|1x 2, server: 59.37.143.195, port: 29101, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 🇯🇵 日本B|1x 2, server: 59.37.143.195, port: 29132, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 🇸🇬 新加坡A|1x 2, server: 59.37.143.195, port: 29120, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 🇸🇬 新加坡B|1x 2, server: 59.37.143.195, port: 29136, type: ss, cipher: aes-256-gcm, password: c258477d-bdee-41bc-8946-e2b5de46883c}
-  - {name: 试用一小时2g, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇸🇬 购买后请更新订阅, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 购买后获取更多节点, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇭🇰 试用节点-香港, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇸🇬 试用节点-新加坡, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇨🇳 试用节点-台湾, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇺🇸 试用节点-美国, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇯🇵 试用节点-日本, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 90785452-fc47-4557-afd3-49777906cd33}
-  - {name: 🇺🇸 【北美洲】US |美国01 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cdd2398e-4fbd-44b3-9e78-dfc264223868}
-  - {name: 🇺🇸 【北美洲】US |美国02 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cdd2398e-4fbd-44b3-9e78-dfc264223868}
-  - {name: 🇺🇸 【北美洲】US |美国03 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cdd2398e-4fbd-44b3-9e78-dfc264223868}
-  - {name: 🇺🇸 【北美洲】US |美国04 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cdd2398e-4fbd-44b3-9e78-dfc264223868}
-  - {name: 🇺🇸 【北美洲】US |美国05 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cdd2398e-4fbd-44b3-9e78-dfc264223868}
-  - {name: 🇺🇸 【北美洲】US |美国06 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cdd2398e-4fbd-44b3-9e78-dfc264223868}
-  - {name: 🇰🇷 韩国, server: sk.aoyate.com, port: 443, type: vmess, uuid: c4fe6d52-48de-4a72-b74e-aad6d284e919, alterId: 0, cipher: auto, tls: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}}
+  - {name: 距离下次重置剩余：1 天, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 试用一小时2g, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇸🇬 购买后请更新订阅, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 购买后获取更多节点, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇭🇰 试用节点-香港, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇸🇬 试用节点-新加坡, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇨🇳 试用节点-台湾, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇺🇸 试用节点-美国, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇯🇵 试用节点-日本, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 525836e3-abb0-4344-82cc-34fbe705ccda}
+  - {name: 🇺🇸 美国汉堡包, server: 4837.skrspc.org, port: 35499, type: hysteria2, ports: 35499, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c, obfs: salamander, obfs-password: tReJMxD1XGCKeLur, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾珍珠奶茶, server: hinet.skrspc.org, port: 20081, type: hysteria2, ports: 20081, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港A|1x, server: 59.37.143.195, port: 29114, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: 🇭🇰 香港B|1x, server: 59.37.143.195, port: 29128, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: 🇨🇳 台湾B|1x, server: 59.37.143.195, port: 29129, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: 🇯🇵 日本A|1x, server: 59.37.143.195, port: 29101, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: 🇯🇵 日本B|1x, server: 59.37.143.195, port: 29132, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: 🇸🇬 新加坡A|1x, server: 59.37.143.195, port: 29120, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: 🇸🇬 新加坡B|1x, server: 59.37.143.195, port: 29136, type: ss, cipher: aes-256-gcm, password: 937e9cd1-5d8c-420c-bd88-5f7a4ac5fd8c}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 96778274-a775-4bd6-99cd-248a4944bc54, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 96778274-a775-4bd6-99cd-248a4944bc54, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇺🇸 美国汉堡包 2, server: 4837.skrspc.org, port: 35739, type: hysteria2, ports: 35739, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e, obfs: salamander, obfs-password: tReJMxD1XGCKeLur, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾珍珠奶茶 2, server: hinet.skrspc.org, port: 20081, type: hysteria2, ports: 20081, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e, sni: iosapps.itunes.apple.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港A|1x 2, server: 59.37.143.195, port: 29114, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇭🇰 香港B|1x 2, server: 59.37.143.195, port: 29128, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇨🇳 台湾B|1x 2, server: 59.37.143.195, port: 29129, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇯🇵 日本A|1x 2, server: 59.37.143.195, port: 29101, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇯🇵 日本B|1x 2, server: 59.37.143.195, port: 29132, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇸🇬 新加坡A|1x 2, server: 59.37.143.195, port: 29120, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇸🇬 新加坡B|1x 2, server: 59.37.143.195, port: 29136, type: ss, cipher: aes-256-gcm, password: dc5837d4-cfbc-4d67-8b4a-299144c3cb8e}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: bd8601ef-427b-43b7-8cbe-65c1dddf63d1, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: bd8601ef-427b-43b7-8cbe-65c1dddf63d1, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: bd8601ef-427b-43b7-8cbe-65c1dddf63d1, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: bd8601ef-427b-43b7-8cbe-65c1dddf63d1, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: bd8601ef-427b-43b7-8cbe-65c1dddf63d1, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 🇺🇸 【北美洲】US |美国01, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 91ea4cce-eca1-43c5-b170-c92a8b8f83c3}
+  - {name: 🇺🇸 【北美洲】US |美国02, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 91ea4cce-eca1-43c5-b170-c92a8b8f83c3}
+  - {name: 🇺🇸 【北美洲】US |美国03, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 91ea4cce-eca1-43c5-b170-c92a8b8f83c3}
+  - {name: 🇺🇸 【北美洲】US |美国04, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 91ea4cce-eca1-43c5-b170-c92a8b8f83c3}
+  - {name: 🇺🇸 【北美洲】US |美国05, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 91ea4cce-eca1-43c5-b170-c92a8b8f83c3}
+  - {name: 🇺🇸 【北美洲】US |美国06, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 91ea4cce-eca1-43c5-b170-c92a8b8f83c3}
+  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 6f50b966-d000-4dec-a99f-64c5c96abde5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 6f50b966-d000-4dec-a99f-64c5c96abde5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 6f50b966-d000-4dec-a99f-64c5c96abde5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 6f50b966-d000-4dec-a99f-64c5c96abde5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 6f50b966-d000-4dec-a99f-64c5c96abde5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 6f50b966-d000-4dec-a99f-64c5c96abde5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇰🇷 韩国, server: sk.aoyate.com, port: 443, type: vmess, uuid: 479ac830-6f0a-480e-ba07-3af7fccb1ab0, alterId: 0, cipher: auto, tls: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}}
+  - {name: 🇺🇸 【北美洲】US |美国01 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 46fd88b3-3949-4681-a8c3-a9621b562019}
+  - {name: 🇺🇸 【北美洲】US |美国02 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 46fd88b3-3949-4681-a8c3-a9621b562019}
+  - {name: 🇺🇸 【北美洲】US |美国03 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 46fd88b3-3949-4681-a8c3-a9621b562019}
+  - {name: 🇺🇸 【北美洲】US |美国04 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 46fd88b3-3949-4681-a8c3-a9621b562019}
+  - {name: 🇺🇸 【北美洲】US |美国05 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 46fd88b3-3949-4681-a8c3-a9621b562019}
+  - {name: 🇺🇸 【北美洲】US |美国06 2, server: jpa1softbank.fengwio.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 46fd88b3-3949-4681-a8c3-a9621b562019}
+  - {name: 距离下次重置剩余：1 天 2, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
+  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: e5c932e8-e1a2-4e66-9a23-78ace46f759a}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -110,6 +122,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -149,48 +197,20 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -200,6 +220,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -239,49 +295,21 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -291,6 +319,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -330,38 +394,6 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -380,11 +412,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -394,6 +430,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -433,49 +505,23 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
+      - 🇭🇰 试用节点-香港
+      - 🇨🇳 试用节点-台湾
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
       - 🇭🇰 香港B|1x
       - 🇨🇳 台湾B|1x
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -506,23 +552,21 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇭🇰 试用节点-香港
-      - 🇨🇳 试用节点-台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -532,6 +576,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -571,48 +651,20 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -622,6 +674,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -661,49 +749,21 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -713,6 +773,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -752,38 +848,6 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -799,11 +863,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：1 天
+      - 试用一小时2g
+      - 🇸🇬 购买后请更新订阅
+      - 购买后获取更多节点
+      - 🇭🇰 试用节点-香港
+      - 🇸🇬 试用节点-新加坡
+      - 🇨🇳 试用节点-台湾
+      - 🇺🇸 试用节点-美国
+      - 🇯🇵 试用节点-日本
       - 🇺🇸 美国汉堡包
       - 🇨🇳 台湾珍珠奶茶
       - 🇭🇰 香港A|1x
@@ -813,6 +881,42 @@ proxy-groups:
       - 🇯🇵 日本B|1x
       - 🇸🇬 新加坡A|1x
       - 🇸🇬 新加坡B|1x
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 美国汉堡包 2
+      - 🇨🇳 台湾珍珠奶茶 2
+      - 🇭🇰 香港A|1x 2
+      - 🇭🇰 香港B|1x 2
+      - 🇨🇳 台湾B|1x 2
+      - 🇯🇵 日本A|1x 2
+      - 🇯🇵 日本B|1x 2
+      - 🇸🇬 新加坡A|1x 2
+      - 🇸🇬 新加坡B|1x 2
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 【北美洲】US |美国01
+      - 🇺🇸 【北美洲】US |美国02
+      - 🇺🇸 【北美洲】US |美国03
+      - 🇺🇸 【北美洲】US |美国04
+      - 🇺🇸 【北美洲】US |美国05
+      - 🇺🇸 【北美洲】US |美国06
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇰🇷 韩国
+      - 🇺🇸 【北美洲】US |美国01 2
+      - 🇺🇸 【北美洲】US |美国02 2
+      - 🇺🇸 【北美洲】US |美国03 2
+      - 🇺🇸 【北美洲】US |美国04 2
+      - 🇺🇸 【北美洲】US |美国05 2
+      - 🇺🇸 【北美洲】US |美国06 2
+      - 距离下次重置剩余：1 天 2
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -852,38 +956,6 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
-      - 🇺🇸 【北美洲】US |美国01
-      - 🇺🇸 【北美洲】US |美国02
-      - 🇺🇸 【北美洲】US |美国03
-      - 🇺🇸 【北美洲】US |美国04
-      - 🇺🇸 【北美洲】US |美国05
-      - 🇺🇸 【北美洲】US |美国06
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 美国汉堡包 2
-      - 🇨🇳 台湾珍珠奶茶 2
-      - 🇭🇰 香港A|1x 2
-      - 🇭🇰 香港B|1x 2
-      - 🇨🇳 台湾B|1x 2
-      - 🇯🇵 日本A|1x 2
-      - 🇯🇵 日本B|1x 2
-      - 🇸🇬 新加坡A|1x 2
-      - 🇸🇬 新加坡B|1x 2
-      - 试用一小时2g
-      - 🇸🇬 购买后请更新订阅
-      - 购买后获取更多节点
-      - 🇭🇰 试用节点-香港
-      - 🇸🇬 试用节点-新加坡
-      - 🇨🇳 试用节点-台湾
-      - 🇺🇸 试用节点-美国
-      - 🇯🇵 试用节点-日本
-      - 🇺🇸 【北美洲】US |美国01 2
-      - 🇺🇸 【北美洲】US |美国02 2
-      - 🇺🇸 【北美洲】US |美国03 2
-      - 🇺🇸 【北美洲】US |美国04 2
-      - 🇺🇸 【北美洲】US |美国05 2
-      - 🇺🇸 【北美洲】US |美国06 2
-      - 🇰🇷 韩国
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
