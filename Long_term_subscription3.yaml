@@ -5,55 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.199.248.9, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 14|MD_speednode_0028, server: 89.221.225.71, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}}
-  - {name: 🇬🇧 英国 Microsoft公司, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 亚太地区 V2CROSS.COM, server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO}
-  - {name: 10|🩵+@Azarakhsh_Proxy+🩷, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 圣路易斯 - 4, server: v46.hdacd.com, port: 30846, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇭🇰 中国 - 香港 - 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #3", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org@freenettir, skip-cert-verify: false}
+  - {name: 14|PL_speednode_0030, server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - 4, server: 2675373b-tbl8g0-tcjl4y-1qzi1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2675373b-tbl8g0-tcjl4y-1qzi1.hkt.gotochinatown.net}}}
+  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 54.199.36.40, port: 6313, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|12@oneclickvpnkeys, server: 62.210.124.146, port: 22000, type: hysteria2, ports: 22000, password: dongtaiwang.com, sni: www.microsoft.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +72,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +143,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5|@ripaojiedian
       - 14|MD_speednode_0028
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 Microsoft公司
-      - 亚太地区 V2CROSS.COM
-      - 10|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇭🇰 中国 - 香港 - 2
+      - "10|کانال تلگرام : Free_VPN_CH@ #3"
+      - 14|PL_speednode_0030
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 12,13|香港4|@ripaojiedian
+      - 10|12@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

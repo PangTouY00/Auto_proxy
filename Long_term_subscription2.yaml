@@ -5,51 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 1, server: 104.245.98.30, port: 26351, type: vmess, uuid: 827aa158-679f-4c5e-8a84-d8f7d142c9de, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 12,13|香港3|@ripaojiedian", server: 13.231.54.52, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214, server: nl-4.tr202507.com, port: 443, type: trojan, password: uThbm8eGmXZ7GKqnWy, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 95.40.26.104, port: 25343, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.115.190.132, port: 4019, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.199.36.40, port: 6313, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 13.192.204.27, port: 23255, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇳🇱 10| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.231.152.178, port: 4019, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: 🇬🇧 英国 - 伦敦 - 1, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,57 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 12,13|香港3|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -134,13 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇭🇰 12,13|香港3|@ripaojiedian
-      - 🇳🇱 荷兰阿姆斯特丹 xTom/AS3214
-      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 12,13|美国3|@ripaojiedian
+      - 🇳🇱 10| - NL - @FreeOnlineVPN
       - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
