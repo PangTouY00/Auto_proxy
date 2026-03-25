@@ -5,55 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 13.231.152.178, port: 4019, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 13.192.204.27, port: 23255, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.133.44, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 18.183.109.249, port: 34818, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: 🇭🇰 中国 - 香港 - 9, server: 103.143.238.196, port: 21879, type: vmess, uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmesswss}}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 16.162.188.92, port: 12070, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.70.180, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
   - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 54.199.36.40, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
-  - {name: 🇭🇰 中国 - 香港 - 1, server: 9b1dcda4-t70f40-t7m3jq-1rnrp.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9b1dcda4-t70f40-t7m3jq-1rnrp.hkt.gotochinatown.net}}}
-  - {name: 14|PL_speednode_0032, server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: false}
-  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 160.16.124.17, port: 34818, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - 6, server: 2bb9ebed-t70f40-t7hsj2-1gevg.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2bb9ebed-t70f40-t7hsj2-1gevg.hkt.gotochinatown.net}}}
+  - {name: 14|US_speednode_0065, server: 77.247.126.137, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +76,66 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇭🇰 中国 - 香港 - 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +151,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 9
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 1
-      - 14|PL_speednode_0032
-      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇭🇰 中国 - 香港 - 6
+      - 14|US_speednode_0065
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
