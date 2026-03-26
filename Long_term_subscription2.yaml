@@ -5,59 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 14|PL_speednode_0031, server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, sni: fluent-stingray.crayfish192.xyz, skip-cert-verify: true}
-  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 14|KR_speednode_0021, server: 211.110.32.47, port: 20000, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}}
-  - {name: 14|PL_speednode_0032, server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: false}
-  - {name: 🇨🇳 四川省达州市 移动, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 80.173.231.254, port: 12420, type: trojan, password: wp9IsiY82uQhcmgNC1eoBM, sni: www.semanticstaplegun.click, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 希尔斯伯勒 - 1, server: 15.204.50.250, port: 443, type: vmess, uuid: 64c58857-f224-4011-aaf3-5f7915a526b6, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [15.204.50.250]}}}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 18.183.109.249, port: 4937, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.106.99, port: 4937, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 95.40.2.4, port: 22045, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 13.113.229.223, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 Microsoft数据中心, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 14|US_speednode_0068, server: 194.33.45.157, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
+  - {name: 14|TW_speednode_0036, server: 85.237.206.249, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,15 +68,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -95,44 +85,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14|PL_speednode_0031
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 14|KR_speednode_0021
-      - 14|PL_speednode_0032
-      - 🇨🇳 四川省达州市 移动
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇪🇸 西班牙 V2CROSS.COM
-      - 🇺🇸 美国 - 希尔斯伯勒 - 1
-      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 Microsoft数据中心
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 14|US_speednode_0068
+      - 14|TW_speednode_0036
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
