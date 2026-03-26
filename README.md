@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 156`
+`Total number of merge nodes: 157`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 16`
+`Total number of merge nodes: 17`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `11`
-Updata：`2026-03-25 22:53:25`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-03-26 12:26:41`
 
 
 <details>
@@ -31528,68 +31528,82 @@ Updata：`2026-03-25 22:53:25`
 
 
 
->Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=5fcabd009b1ec37b54fb7a70c220b961`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=2dc202431b2df9b335291fad71e8a6c9`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=5e5f7e7a0468322f5404956a40591937`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=886d1a36dd1ea16867b5218c3127d1d3`
+`https://cloudaddy.top/api/v1/client/subscribe?token=70e5d64e1fbf0edb8f1b310e5c771785`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=d478e773db65ca62b0a851b890d9c67f`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=79a169d1d22e1edfc554705b85cb6a2f`
 
 
 
 
 >Trial subscription：
-`https://cloudaddy.top/api/v1/client/subscribe?token=c8ab245290591c95ad9b7ab616d02f44`
+`https://yywhale.com/api/v1/client/subscribe?token=f758757dd799c5e4953b768633a82fbc`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=8fac47d956624fa690574e477514b1f9`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=c6b73765b2b04efe36dba0fd2e1d85ac`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=b67a19fbe197fffa0c254b949bde6394`
+`https://tizi.bulehu.com/api/v1/client/subscribe?token=4e67e5a086241593f7d1f10acd1aaf38`
 
 
 
 
 >Trial subscription：
-`https://best.nxxbbf.com/api/v1/client/subscribe?token=7f393c998d8a3ad27876004444c09b7e`
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=889a44030ad95b78b2514c924fdfd0a7`
 
 
 
 
 >Trial subscription：
-`https://tizi.bulehu.com/api/v1/client/subscribe?token=546788f4b4285460b62531be2f6fb4c4`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=2511121cf45a4024cb95497fb4c21c53`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=d9adc916c8397b7f38aafe4f470782d3`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=1792064ca7d01353cdd5185fe964cbf5`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=d85c97b7a42fd9ded486da670b6b7a52`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=ef9564c89d7908f8bb894ff01d79d4c6`
+
+
+
+
+>Trial subscription：
+`https://slianvpn.com/api/v1/client/subscribe?token=cff8dd8a147f77d206869dc9e59c0bb4`
+
+
+
+
+>Trial subscription：
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=e5e0ce90ee5781674eae3717fa1fb008`
 
 
 
