@@ -5,51 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 Microsoft数据中心, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 52.195.4.144, port: 4674, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|AU_speednode_0004, server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: false}
+  - {name: 🇨🇳 四川省达州市 移动, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
   - {name: "🇺🇸 12,13|美国|@ripaojiedian", server: 13.230.200.237, port: 3057, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 亚太地区 V2CROSS.COM, server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO}
-  - {name: 🇳🇱 10| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 13.113.229.223, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 52.192.225.14, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: "🇸🇬 12,13|新加坡|@ripaojiedian", server: 52.195.4.144, port: 4674, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 14|PL_speednode_0031, server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, sni: fluent-stingray.crayfish192.xyz, skip-cert-verify: true}
+  - {name: 10|🧫35@oneclickvpnkeys, server: 144.31.118.145, port: 443, type: hysteria2, ports: 443, password: hysteria2_fastlane_bi5ckyc9g, sni: de8.h.fastlanehosting.ru}
+  - {name: 14|US_speednode_0065, server: 77.247.126.137, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 DXC Technology, server: 20.117.159.69, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: 14|SG_speednode_0034, server: 185.151.146.40, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,13 +84,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,38 +105,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇸🇬 12,13|新加坡|@ripaojiedian
-      - "13|tg频道:@ripaojiedian #1"
+      - 14|AU_speednode_0004
+      - 🇨🇳 四川省达州市 移动
       - 🇺🇸 12,13|美国|@ripaojiedian
-      - 亚太地区 V2CROSS.COM
-      - 🇳🇱 10| - NL - @FreeOnlineVPN
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 12,13|新加坡|@ripaojiedian
+      - 14|PL_speednode_0031
+      - 10|🧫35@oneclickvpnkeys
+      - 14|US_speednode_0065
+      - 🇺🇸 美国 DXC Technology
+      - 14|SG_speednode_0034
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
