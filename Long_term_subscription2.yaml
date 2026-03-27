@@ -5,47 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 14|TW_speednode_0036, server: 85.237.206.249, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 52.195.4.144, port: 4674, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
-  - {name: 14|PL_speednode_0029, server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: outgoing-ladybird.rooster465.autos, skip-cert-verify: false}
-  - {name: "🇺🇸 12,13|美国3|@ripaojiedian", server: 18.166.177.165, port: 49534, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "10|کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.166.177.165, port: 49534, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 社会保险安全部, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: 52.195.233.17, port: 4937, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "10|کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 52.195.233.17, port: 34818, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "13|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}}
+  - {name: 14|PL_speednode_0032, server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.72.205, port: 1524, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 18.166.228.88, port: 22045, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 95.40.26.214, port: 37223, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 10|🧫69@oneclickvpnkeys, server: 144.31.63.58, port: 443, type: hysteria2, ports: 443, password: hysteria2_fastlane_bwyx9htpr, sni: de4.h.fastlanehosting.ru}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,12 +84,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,35 +105,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14|TW_speednode_0036
+      - 🇬🇧 英国 社会保险安全部
+      - 🇯🇵 12,13|日本3|@ripaojiedian
+      - "10|کانال تلگرام : Free_VPN_CH@ #1"
+      - 🇯🇵 12,13|日本2|@ripaojiedian
+      - "13|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国 CloudFlare节点
+      - 14|PL_speednode_0032
       - 🇸🇬 新加坡|@ripaojiedian
-      - 14|PL_speednode_0029
-      - 🇺🇸 12,13|美国3|@ripaojiedian
-      - "10|کانال تلگرام : Free_VPN_CH@ #2"
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 10|🧫69@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
