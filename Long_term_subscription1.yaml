@@ -5,77 +5,78 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 【北美】美国 | 01, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: 45b11ebb-17fa-4128-8ded-8947c51a18fb, sni: go.microsoft.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 539b5087-1e8c-4fae-bd14-4e1441413c85}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 871de940-7315-4eaf-9670-d8a17cd717fd, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 871de940-7315-4eaf-9670-d8a17cd717fd, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 871de940-7315-4eaf-9670-d8a17cd717fd, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 871de940-7315-4eaf-9670-d8a17cd717fd, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 871de940-7315-4eaf-9670-d8a17cd717fd, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 🇭🇰 HK.香港, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇺🇸 US.美国, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇯🇵 JP.日本, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇸🇬 SGP.新加坡, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇲🇾 MY.马来西亚, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇦🇺 AU.澳大利亚, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇹🇭 TH.泰国, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇨🇳 TW.台湾, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇻🇳 VN.越南, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:MTg4YTc5YTQtZDQ3MS00MzBjLWE0ODAtOTg1YjQ2MGY=}
-  - {name: 🇹🇷 TR.土耳其, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇬🇧 UK.英国, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇵🇱 PL.波兰, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇷🇺 RU.俄罗斯, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇰🇷 KR.韩国, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇮🇩 IDN.印度尼西亚, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇫🇷 FR.法国, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 188a79a4-d471-430c-a480-985b460f29c3}
-  - {name: 🇺🇸 【北美】美国 | 01 2, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: e27e6127-5846-49c8-a073-78844fc7634f, sni: go.microsoft.com, skip-cert-verify: true}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 20a6006d-c91c-42bd-900a-6fbe2f24e684, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 20a6006d-c91c-42bd-900a-6fbe2f24e684, sni: empty.node, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：1 天, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: cad73e96-8381-4ec7-bf97-a97d7c1839f0}
+  - {name: 🇺🇸 【北美】美国 | 01, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: 8598c86e-8b5c-44e6-a83e-ad6cc9b1319a, sni: go.microsoft.com, skip-cert-verify: true}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 4e80ca94-65ad-4175-af11-fef4e794d367, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 4e80ca94-65ad-4175-af11-fef4e794d367, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇺🇸 【北美】美国 | 01 2, server: jpa1softbank.fengwio.top, port: 50002, type: trojan, password: be90e0a2-9c07-4b90-ac39-523b781dcabb, sni: go.microsoft.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: c1dfe765-ff77-47d6-832e-400fd2d09a27, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: c1dfe765-ff77-47d6-832e-400fd2d09a27, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: c1dfe765-ff77-47d6-832e-400fd2d09a27, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: c1dfe765-ff77-47d6-832e-400fd2d09a27, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: c1dfe765-ff77-47d6-832e-400fd2d09a27, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 🇭🇰 HK.香港, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇺🇸 US.美国, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇯🇵 JP.日本, server: jp.fastsoonlink.com, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇸🇬 SGP.新加坡, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇲🇾 MY.马来西亚, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇦🇺 AU.澳大利亚, server: frk.fastsoonlink.com, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇹🇭 TH.泰国, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇨🇳 TW.台湾, server: tw.fastsoonlink.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇻🇳 VN.越南, server: vn.fastsoonlink.com, port: 40021, type: ss, cipher: 2022-blake3-aes-256-gcm, password: NzllYjlkOGE2MWMxY2EwZWUwNmNkZjMwNjEyZGJjMjY=:ZDNiNWE0ODktODQzZS00MTkzLWEwM2EtMWE1MmFhNjM=}
+  - {name: 🇹🇷 TR.土耳其, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇬🇧 UK.英国, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇵🇱 PL.波兰, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇷🇺 RU.俄罗斯, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇰🇷 KR.韩国, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇮🇩 IDN.印度尼西亚, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
+  - {name: 🇫🇷 FR.法国, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: d3b5a489-843e-4193-a03a-1a52aa63f4b8}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -115,6 +116,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -136,15 +141,12 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -184,6 +186,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -205,16 +211,13 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -254,6 +257,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -275,9 +282,6 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -296,7 +300,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -336,6 +340,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -357,9 +365,6 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -405,7 +410,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -445,6 +450,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -466,15 +475,12 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -514,6 +520,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -535,16 +545,13 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -584,6 +591,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -605,9 +616,6 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -623,7 +631,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 【北美】美国 | 01
+      - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
       - 🇭🇰 香港 (广港)3 x1
@@ -663,6 +671,10 @@ proxy-groups:
       - 🇭🇰 墨西哥 (广港)1 x1
       - 🇭🇰 墨西哥 (广港)2 x1
       - 🇭🇰 墨西哥 (广港)3 x1
+      - 🇺🇸 【北美】美国 | 01
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 【北美】美国 | 01 2
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -684,9 +696,6 @@ proxy-groups:
       - 🇰🇷 KR.韩国
       - 🇮🇩 IDN.印度尼西亚
       - 🇫🇷 FR.法国
-      - 🇺🇸 【北美】美国 | 01 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
