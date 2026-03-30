@@ -5,35 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 18.163.28.243, port: 921, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 54.168.243.160, port: 21413, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 153.121.45.139, port: 34818, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.230.185.120, port: 3057, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net}
+  - {name: 🇸🇬 新加坡 - 新加坡 - 1, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 12,13|香港5|@ripaojiedian", server: 16.162.47.158, port: 921, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 12,13|新加坡3|@ripaojiedian", server: 95.40.39.213, port: 12070, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 16.162.47.158, port: 921, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian}
+  - {name: 14|AT_speednode_0002, server: 152.53.200.98, port: 8444, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,42 +72,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,9 +143,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 7
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 新加坡 - 新加坡 - 1
+      - 🇭🇰 12,13|香港5|@ripaojiedian
+      - 🇸🇬 12,13|新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 14|AT_speednode_0002
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
