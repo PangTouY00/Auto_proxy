@@ -5,35 +5,39 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 10|🦔93@oneclickvpnkeys, server: 130.61.50.75, port: 6443, type: hysteria2, ports: 6443, password: zhangyang, sni: dash.cloudflare.com, skip-cert-verify: true}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 160.16.124.17, port: 4674, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 DXC Technology, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 13.231.153.129, port: 3357, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 - 东京 - 1, server: abm96f00fby3.jkhkgj.xyz, port: 80, type: vmess, uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /market/jp1, headers: {Host: abm96f00fby3.jkhkgj.xyz}}}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 52.195.170.179, port: 34818, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,9 +56,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -65,26 +70,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,9 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10|🦔93@oneclickvpnkeys
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇯🇵 日本 - 东京 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇯🇵 日本3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
