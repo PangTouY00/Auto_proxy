@@ -5,51 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本 - 东京 - 1, server: abm96f00fby3.jkhkgj.xyz, port: 80, type: vmess, uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /market/jp1, headers: {Host: abm96f00fby3.jkhkgj.xyz}}}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 12,13|香港4|@ripaojiedian", server: 95.40.35.187, port: 9211, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 13.193.218.6, port: 921, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.106.99, port: 4674, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net}
-  - {name: "🇸🇬 12,13|新加坡2|@ripaojiedian", server: 3.113.31.8, port: 4674, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 160.16.106.99, port: 4937, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇺🇸 12,13|美国2|@ripaojiedian", server: 54.168.216.209, port: 4019, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 18.162.169.141, port: 28033, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇯🇵 12,13|日本2|@ripaojiedian", server: 54.168.216.209, port: 2001, type: trojan, password: 9f7d5cb76d1645101994d9b25891e3b7, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.168.216.209, port: 2001, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇯🇵 12,13|日本|@ripaojiedian", server: 54.238.193.143, port: 3122, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 华盛顿特区 - 7, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,57 +68,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -134,13 +134,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本 - 东京 - 1
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 12,13|香港4|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 12,13|新加坡2|@ripaojiedian
+      - 🇺🇸 12,13|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🇯🇵 12,13|日本2|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 12,13|日本|@ripaojiedian
+      - 🇺🇸 美国 - 华盛顿特区 - 7
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
