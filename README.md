@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `9`
-Updata：`2026-04-07 23:02:16`
+Updata：`2026-04-08 12:30:48`
 
 
 <details>
@@ -31819,56 +31819,65 @@ Updata：`2026-04-07 23:02:16`
 
 
 
->Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=d0c5de244155558ffda00d88d221508c`
 
 
 
 
->Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=50e7ab4d2c62d9894caaccc183142a87`
+
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=82f3a10739e8a8da0e4ab1a2d3ddfac2`
+`https://slianvpn.com/api/v1/client/subscribe?token=0664f22d094925487ac6de360ebab0a0`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=c4929a4a6b0f781b4ab21ebcf9c326bb`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=db0413df72ede8de6b0098ea29391abc`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=a751fe3243a15764f5a4608ff7944ba7`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=84982a00a970154673e58c369f4a4fe5`
 
 
 
 
 >Trial subscription：
-`https://best.nxxbbf.com/api/v1/client/subscribe?token=845005e55682ae762aba82f077e17b82`
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=7f0a5ca873615994dce9e4e824a55d35`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=00f740d2ec106cb28817dd5b30473aee`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=23f73a55164a08bbe795ab3ffdde1ad6`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=57e7b865f2226e8bfce277825db6d294`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=eb923e03c20cdbfb96cf4b68f11d4d1d`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=d4ea976d7cc194eb1b299a970c10545e`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=4f13b066feafd01aabdfeb01201aaa0e`
+
+
+
+
+>Trial subscription：
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=12ec1a000878e68dba2046642a3f5bae`
+
+
+
+
+>Trial subscription：
+`https://yywhale.com/api/v1/client/subscribe?token=8afe90601ebe6fd559c60a356c9a5ade`
 
 
 
