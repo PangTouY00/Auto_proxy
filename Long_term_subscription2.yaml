@@ -5,115 +5,107 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.26.155.237, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra5.chasem2026sud.com, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - 4, server: e6cb2dd4-t8wxs0-tphxte-1h5u7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 中国 - 香港 - 110, server: 7d833b55-t8pj40-thd0h1-1rz5s.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 7d833b55-t8pj40-thd0h1-1rz5s.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 120, server: sv3.wy888.us, port: 44302, type: vmess, uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 3.112.47.136, port: 9201, type: trojan, password: 187dda4498be9ac4f28db939d5940185, sni: www.nintendogames.net}
-  - {name: 🇭🇰 中国 - 香港 - 100, server: adb636cd-t70f40-tasftf-duku.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: adb636cd-t70f40-tasftf-duku.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 117, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 66, server: a39b8d01-t70f40-ta5nd4-e06r.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a39b8d01-t70f40-ta5nd4-e06r.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 86, server: 256a53b2-t8pj40-tm3dx0-1r9dt.hkt.gotochinatown.net, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 256a53b2-t8pj40-tm3dx0-1r9dt.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 33, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN, server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - 79, server: d90d72cd-t6r5s0-t95ncr-1slop.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d90d72cd-t6r5s0-t95ncr-1slop.hkt.gotochinatown.net}}}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 3.112.47.136, port: 4019, type: trojan, password: 187dda4498be9ac4f28db939d5940185, sni: www.nintendogames.net}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 16.162.187.2, port: 38692, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - 75, server: 6c4abe27-t70f40-tfjz9x-1t5n1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 6c4abe27-t70f40-tfjz9x-1t5n1.hkt.gotochinatown.net}}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 54.249.79.149, port: 4674, type: trojan, password: 187dda4498be9ac4f28db939d5940185, sni: www.nintendogames.net}
-  - {name: 🇭🇰 中国 - 香港 - 104, server: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 31, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 43, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f7d95364-607b-11ee-93af-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 中国 - 香港 - 35, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 67, server: bc655391-t70f40-tbpkla-1otc2.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bc655391-t70f40-tbpkla-1otc2.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 22, server: c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net, port: 80, type: vmess, uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 中国 - 香港 - 62, server: cfea7a92-t6r5s0-tonrqx-1khwf.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 92bd8c68-6434-11ee-b644-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cfea7a92-t6r5s0-tonrqx-1khwf.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 61, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 112, server: 347adbbc-t70f40-tbicd9-1go3q.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 347adbbc-t70f40-tbicd9-1go3q.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 45, server: ad3b4d67-t70f40-tjsm26-6gn6.hkt.gotochinatown.net, port: 80, type: vmess, uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ad3b4d67-t70f40-tjsm26-6gn6.hkt.gotochinatown.net}}}
   - {name: 🇭🇰 中国 - 香港 - 63, server: eabe4766-t6r5s0-tds6bp-1hzyr.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eabe4766-t6r5s0-tds6bp-1hzyr.hkt.gotochinatown.net}}}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - 106, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 25, server: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 43, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f7d95364-607b-11ee-93af-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇫🇷 法国 - 巴黎 - 8, server: static.cloudflareinsights.com, port: 80, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: static.cloudflareinsights.com}}}
+  - {name: 🇭🇰 中国 - 香港 - 46, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 107, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 52, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 160.16.132.38, port: 4674, type: trojan, password: 187dda4498be9ac4f28db939d5940185, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - 96, server: 1dacb9ee-t8nog0-tpw4i4-1pckg.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1dacb9ee-t8nog0-tpw4i4-1pckg.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 100, server: adb636cd-t70f40-tasftf-duku.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: adb636cd-t70f40-tasftf-duku.hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 中国 - 香港 - 92, server: eb894086-t70f40-t7luxf-tng5.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eb894086-t70f40-t7luxf-tng5.hkt.gotochinatown.net}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 3.113.10.3, port: 3122, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.26.155.3, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra34.chasem2026sud.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,134 +124,128 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -275,29 +261,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇭🇰 中国 - 香港 - 110
-      - 🇭🇰 中国 - 香港 - 120
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 100
-      - 🇭🇰 中国 - 香港 - 117
-      - 🇭🇰 中国 - 香港 - 66
-      - 🇭🇰 中国 - 香港 - 86
-      - 🇭🇰 中国 - 香港 - 33
-      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
-      - 🇭🇰 中国 - 香港 - 79
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 75
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 104
-      - 🇭🇰 中国 - 香港 - 31
-      - 🇭🇰 中国 - 香港 - 43
-      - 🇭🇰 中国 - 香港 - 35
+      - 🇭🇰 中国 - 香港 - 67
+      - 🇭🇰 中国 - 香港 - 22
+      - 🇭🇰 中国 - 香港 - 62
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 61
+      - 🇭🇰 中国 - 香港 - 112
+      - 🇭🇰 中国 - 香港 - 45
       - 🇭🇰 中国 - 香港 - 63
-      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 中国 - 香港 - 106
+      - 🇭🇰 中国 - 香港 - 25
+      - 🇭🇰 中国 - 香港 - 43
+      - 🇫🇷 法国 - 巴黎 - 8
+      - 🇭🇰 中国 - 香港 - 46
+      - 🇭🇰 中国 - 香港 - 107
+      - 🇭🇰 中国 - 香港 - 52
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 96
+      - 🇭🇰 中国 - 香港 - 100
+      - 🇭🇰 中国 - 香港 - 92
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇬🇧 英国 伦敦Virgin Media
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
