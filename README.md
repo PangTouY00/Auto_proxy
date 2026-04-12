@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `8`
-Updata：`2026-04-11 22:30:28`
+### Try the number of high-speed subscriptions: `7`
+Updata：`2026-04-12 12:41:17`
 
 
 <details>
@@ -31891,50 +31891,55 @@ Updata：`2026-04-11 22:30:28`
 
 
 
->Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=8c36ddc2a9fe880ff63cec8a7785c751`
 
 
 
 
->Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=b959b5d21f52b2d6b9cf0e65e67130e5`
 
 
 
-
->Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=785aa3c128c382b9dfc623444cf8e57a`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=087bd98e118c6cedc1dec8e03611ff15`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=bf401fdcd7c75fabfa874bf949cd83d2`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=7b3a2d9acfc09b37339f07c5fd896700`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=ff7ceaf157954124c70cddee90077b27`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=3e70c19d15e2632dae5c28268d6a1b73`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=69b21dc6f2b2d203da8a20247a69709b`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=acce2648b50085f6c0b8fe4488fb7c97`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=bb81e68d489aa743c88b061434c0384d`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=bd0410a0cf8054d4cd03ef29439d6a4d`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=86d00670bc9b39867e7d9b14d890404d`
+
+
+
+
+>Trial subscription：
+`https://slianvpn.com/api/v1/client/subscribe?token=880cbb488173c07079d041f8fa25d2f7`
+
+
+
+
+>Trial subscription：
+`https://yywhale.com/api/v1/client/subscribe?token=42265d7a50b76f8679183226396ace7e`
 
 
 
