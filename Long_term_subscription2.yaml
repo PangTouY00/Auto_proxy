@@ -5,43 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡 - 新加坡 - 1, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省新北市 中华电信, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}
-  - {name: 9|🪺1@oneclickvpnkeys, server: 89.23.107.251, port: 4433, type: hysteria2, ports: 4433, password: 7151e6b8-0d8e-4548-a9f2-af52ccc2cdfe, sni: nl1.xiaoliyu.cyou, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 160.16.72.205, port: 9201, type: trojan, password: 187dda4498be9ac4f28db939d5940185, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 9|🪺97@oneclickvpnkeys, server: 82.117.255.37, port: 444, type: hysteria2, ports: 444, password: strong-secret-pass-777, obfs: salamander, obfs-password: cry_me_a_r1ver_2026, sni: www.microsoft.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 18.177.145.165, port: 4674, type: trojan, password: 187dda4498be9ac4f28db939d5940185, sni: www.nintendogames.net}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.87.10.31, port: 23357, type: trojan, password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg, sni: sgp9.node-resource.click, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 圣克拉拉 - 10, server: 104.168.94.41, port: 32301, type: vmess, uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 13|NL_speednode_0027, server: 94.131.105.125, port: 4443, type: trojan, password: strong-secret-pass-777, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.69.179, port: 30726, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +68,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾省新北市 中华电信
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +133,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇨🇳 台湾省新北市 中华电信
-      - 9|🪺1@oneclickvpnkeys
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 9|🪺97@oneclickvpnkeys
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 - 圣克拉拉 - 10
+      - 13|NL_speednode_0027
+      - 🇸🇬 新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
