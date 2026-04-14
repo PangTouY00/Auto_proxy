@@ -5,39 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.181.175.112, port: 49534, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|🪺1@oneclickvpnkeys, server: 89.23.107.251, port: 4433, type: hysteria2, ports: 4433, password: 7151e6b8-0d8e-4548-a9f2-af52ccc2cdfe, sni: nl1.xiaoliyu.cyou, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.181.175.112, port: 49534, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 43.207.115.26, port: 4674, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 13|US_speednode_0023, server: 54.46.72.234, port: 8025, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN, server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 水牛城 - 9, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 52.194.222.108, port: 4674, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net}
+  - {name: 🇭🇰 中国 - 香港 - 3, server: 154.37.223.19, port: 52080, type: vmess, uuid: 16deda2c-b18b-4689-b83d-b333d92595b2, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/QQqun-737805443]}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,43 +68,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 中国 - 香港 - 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +133,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇺🇸 美国3|@ripaojiedian
-      - 9|🪺1@oneclickvpnkeys
-      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 13|US_speednode_0023
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇩🇪 8|🇩🇪 - DE - @FreeOnlineVPN
+      - 🇺🇸 美国 - 水牛城 - 9
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
