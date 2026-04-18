@@ -5,35 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 160.16.132.38, port: 4019, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 160.16.85.33, port: 4380, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 DXC Technology, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.132.38, port: 4019, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 16.162.188.94, port: 52687, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net}
+  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 13.115.246.132, port: 4019, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 16.162.188.94, port: 52687, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 13.231.60.220, port: 4674, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,39 +68,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,9 +134,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
