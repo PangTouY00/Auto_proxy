@@ -5,47 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 18.183.182.241, port: 50612, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 95.40.85.50, port: 52687, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 13.192.183.245, port: 1783, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 54.249.109.55, port: 4019, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net}
-  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.26.155.105, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra32.chasem2026sud.com}
+  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 18.183.89.184, port: 9201, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.72.205, port: 4019, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.181.203.85, port: 39507, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.166.177.72, port: 23255, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.87.10.31, port: 23357, type: trojan, password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg, sni: sgp9.node-resource.click}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,54 +64,53 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -127,12 +126,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
