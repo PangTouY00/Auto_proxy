@@ -5,13 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 英国 伦敦Microsoft公司, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 5, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 - 斯特拉斯堡 - 1, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.124.17, port: 4019, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net}
+  - {name: 🇬🇧 英国 伦敦Microsoft公司, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF}
+  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 美国 - 华盛顿特区 - 7, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 35.77.96.23, port: 4380, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 5, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 - 斯特拉斯堡 - 1, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 160.16.124.17, port: 4019, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 東京都 - 2, server: 103.127.243.66, port: 54291, type: vmess, uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,24 +20,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -44,12 +47,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -69,16 +73,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -86,24 +92,26 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -111,12 +119,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,12 +142,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 英国 伦敦Microsoft公司
-      - 🇺🇸 美国 - 洛杉矶 - 5
-      - 🇫🇷 法国 - 斯特拉斯堡 - 1
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🇺🇸 美国 - 华盛顿特区 - 7
       - 🇺🇸 美国 - 洛杉矶 - 1
-      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
