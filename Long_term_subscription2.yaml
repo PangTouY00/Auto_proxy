@@ -5,63 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 13|GB_speednode_0087, server: 148.253.215.61, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 52.193.48.211, port: 4019, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 13|DE_speednode_0059, server: 193.23.218.192, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
-  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.26.155.105, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra32.chasem2026sud.com}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 54.238.64.8, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.238.64.8, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 - 東京都 - 6, server: 103.127.243.59, port: 56738, type: vmess, uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 43.199.78.220, port: 9211, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 - 伦敦 - 1, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 13|AT_speednode_0005, server: 152.53.119.132, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
+  - {name: 13|SE_speednode_0125, server: 194.87.77.2, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
+  - {name: 13|LB_speednode_0112, server: 213.165.39.142, port: 2053, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
+  - {name: 🇫🇷 法国 - 斯特拉斯堡 - 1, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 中国 - 香港 - 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 13|US_speednode_0163, server: 144.31.188.6, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
+  - {name: 🇯🇵 日本 - 東京都 - 3, server: 103.127.243.66, port: 54291, type: vmess, uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/ABCDE]}}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 54.46.5.109, port: 25675, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 5, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1, server: 77.90.11.178, port: 80, type: vmess, uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 13.231.195.214, port: 4380, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 13|CH_speednode_0043, server: 138.124.28.173, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kfm-bn0.pages.dev}}}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 10, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
   - {name: 13|SC_speednode_0123, server: 45.9.116.160, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
-  - {name: 🇬🇧 英国 伦敦Virgin Media 2, server: 82.26.155.237, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra5.chasem2026sud.com}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 16.162.220.143, port: 25675, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 13|BG_speednode_0008, server: 93.123.84.194, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kfm-bn0.pages.dev}}}
+  - {name: 11|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +112,101 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港4|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +222,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 13|GB_speednode_0087
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 13|DE_speednode_0059
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇯🇵 日本 - 東京都 - 6
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇬🇧 英国 - 伦敦 - 1
+      - 13|AT_speednode_0005
+      - 13|SE_speednode_0125
+      - 13|LB_speednode_0112
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 13|US_speednode_0163
+      - 🇯🇵 日本 - 東京都 - 3
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 5
+      - 🇩🇪 德国 - 陶努斯山麓巴德索登 - 1
+      - 🇯🇵 11,12|日本2|@ripaojiedian
+      - 13|CH_speednode_0043
+      - 🇺🇸 美国 - 洛杉矶 - 10
       - 13|SC_speednode_0123
-      - 🇬🇧 英国 伦敦Virgin Media 2
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 13|BG_speednode_0008
+      - 11|tg频道:@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
