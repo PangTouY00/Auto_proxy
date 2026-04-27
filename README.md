@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 222`
+`Total number of merge nodes: 217`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 26`
+`Total number of merge nodes: 21`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `12`
-Updata：`2026-04-26 22:37:59`
+Updata：`2026-04-27 13:17:12`
 
 
 <details>
@@ -32197,74 +32197,86 @@ Updata：`2026-04-26 22:37:59`
 
 
 
->Trial subscription：
-`https://cloudaddy.top/api/v1/client/subscribe?token=ba1556f926b8c5bfb06199700338e4a5`
+
+
+
+
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=34097b46c2f1030d76d1412e8a322741`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=04b1bf01b297f473b7a68bf5f08d5b6f`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=2fdc7f5091bf1adbe6692cd27c66a5bc`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=e7818efe9379ffb834a943e041a4245a`
 
 
 
 
 >Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=1991b21a63889b64f90416dbb47472c6`
+`https://yywhale.com/api/v1/client/subscribe?token=94fcffb3e319be55a2f0a25ceb06a348`
 
 
 
 
 >Trial subscription：
-`https://lightningspeed.zh-a-fengniaogames.com/api/v1/client/subscribe?token=cf7de371874c6325bb9763084bd2219d`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=971d3f135f0395ee9aa7ed9c1ad4a539`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=48cc688820e6bda569e3a091fe82c007`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=bddee8589c3016e65aa1df1aa667bcad`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=da2d9c6cca9e6e5b137cf44771aaf076`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=82903de3cd2e09ec7caf0265fe4fab3e`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=6899444ca1d03fdf1dfe5cb7025c5568`
+`https://slianvpn.com/api/v1/client/subscribe?token=4ab67c45270ceb05e1db5e44d7d670ac`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=5392dc8b25a35c5fd65b6f7de4ea06fe`
+`https://lightningspeed.zh-a-fengniaogames.com/api/v1/client/subscribe?token=55ab7ed54e6fb391ea50798c7983d7b8`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=b97cc37efe8fdc0ec938c2ac08cb1bb2`
+`https://cloudaddy.top/api/v1/client/subscribe?token=9a457132cf0a2a2ce2cebd5898632fac`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=8712713f938d19cee19dcb71c107b700`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=fae94e745ce43ade4adb624a6eb20c05`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=68742198b0de96234e85582f8fc8e565`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=29a3716326f95bdf3bf8851f7d0b24b7`
+
+
+
+
+>Trial subscription：
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=25effdb06c67180c56a766fb182c2790`
 
 
 
