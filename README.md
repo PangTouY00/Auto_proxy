@@ -20,39 +20,39 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 220`
+`Total number of merge nodes: 204`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.comPangTouY00/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription5`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7`
-`Total number of merge nodes: 28`
+`Total number of merge nodes: 26`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 24`
+`Total number of merge nodes: 22`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `12`
-Updata：`2026-04-27 23:29:33`
+### Try the number of high-speed subscriptions: `14`
+Updata：`2026-04-28 13:24:56`
 
 
 <details>
@@ -32221,74 +32221,92 @@ Updata：`2026-04-27 23:29:33`
 
 
 
->Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=6e8875864c2141d5e9b7cf910e58fcce`
 
 
-
-
->Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=d0ddf596e6d9348a16230b011237f8f3`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=f8d1b7dead8caf1bcd61a2f109162637`
+`https://hm.hongm02.top/api/v1/client/subscribe?token=88d2fe20e7db4872b2aeadfc79d62780`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=7c92dae75043240615a3cb299eee1c2c`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=417f2490ee21f187fed8b3426cb119fd`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=682e7d9f041f0ad521edd0d6fa344387`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=6e28602db3998ac578c207337c0de28f`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=7d43721980fe7afced19debca942836f`
+`https://cainiao13.icu/api/v1/client/subscribe?token=95da141bd79049843e927e7464ad4dae`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=87b02f78d2f3a117832432309c4d3102`
+`https://lightningspeed.zh-a-fengniaogames.com/api/v1/client/subscribe?token=f4d49729ff1a4b562384665c03d1a69a`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=c295a73f26321e75e5eaa9855d29bfe7`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=926ce6d0df5ec1eb3fa288376834f975`
 
 
 
 
 >Trial subscription：
-`https://lightningspeed.zh-a-fengniaogames.com/api/v1/client/subscribe?token=9e821d452f07fc4ab4c987026288b60e`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=e1aa023cfd56e7b5f60e3b3ee95e7a87`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=da84565a4552e35db10467b95d0ed775`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=9a90920ad3f6a5e3da1694e69d6246bd`
 
 
 
 
 >Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=7817e7c69a60a6624e099f60e1e6bfcd`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=063d48ed7f5dad0e07228bc2e5100819`
 
 
 
 
 >Trial subscription：
-`https://cloudaddy.top/api/v1/client/subscribe?token=56c75d11dd92d32fe89abfc020c4edfd`
+`https://cloudaddy.top/api/v1/client/subscribe?token=093782534f5fb62b3a97d7d005db797e`
+
+
+
+
+>Trial subscription：
+`https://yywhale.com/api/v1/client/subscribe?token=49a89c9709adbd8735694ea1c24c9ca5`
+
+
+
+
+>Trial subscription：
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=70690d5e21edfd795e7c8f4bc99195dd`
+
+
+
+
+>Trial subscription：
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=bf5f178137d3eae76448a3328ee3b893`
+
+
+
+
+>Trial subscription：
+`https://slianvpn.com/api/v1/client/subscribe?token=f0a78be870af257706e8bd4d0981a293`
 
 
 
