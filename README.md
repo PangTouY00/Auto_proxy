@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 151`
+`Total number of merge nodes: 147`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 18`
+`Total number of merge nodes: 14`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `11`
-Updata：`2026-04-30 23:51:25`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-05-01 13:36:51`
 
 
 <details>
@@ -32299,68 +32299,82 @@ Updata：`2026-04-30 23:51:25`
 
 
 
->Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=c7663ee16c33b8a65224555e5ff039e4`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://cloudaddy.top/api/v1/client/subscribe?token=87ba84726a086384969c9a7a8ab638da`
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=ecfd01ae6f5065fe8b80eda676d8ad5d`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=e4e16fc479c826f502bc0c5d0333c0cc`
+`https://cloudaddy.top/api/v1/client/subscribe?token=85d62600f276b713b5987ae2720ceb4e`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=c1ab7dc17454fdba32569d34bfc515f0`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=6f6cef8c1a0682b9b3fe1d1a665da352`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=450d663e246f14c5f2d90027694a8e7f`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=10fef5bd18191786d8f78375818a0e93`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=0a10cd2407d738a520328ac9e298fc23`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=6050898dec8b9c69f27700f7a975d9d7`
 
 
 
 
 >Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=56150f5fceda76d6a6ba70ecb3902b1e`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=10456b1be821688f57f81a34410b8813`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=ab8ab23337bfddecac24b49d6d95fccb`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=e114a3bea29739ba15cbac29c5d957b9`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=ee2082b4be83ab12ee6adc92610c3b4c`
+`https://slianvpn.com/api/v1/client/subscribe?token=a4cfc390629a33203e2acd6614b66c00`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=d48b93437253696bc1ba8b2469be1bc1`
+`https://yywhale.com/api/v1/client/subscribe?token=ea464b599ced14d5a10ba0cc73618639`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=000305a5343d9b971a22c1979407c664`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=88dc3336216577ca64c56355bfce3c30`
+
+
+
+
+>Trial subscription：
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=fdb3d701de693b3ceb082dd1ce8305b5`
+
+
+
+
+>Trial subscription：
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=8958d1480719585da4c7df80baf0f16a`
 
 
 
