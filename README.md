@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 144`
+`Total number of merge nodes: 151`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 11`
+`Total number of merge nodes: 18`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `12`
-Updata：`2026-05-01 22:48:08`
+Updata：`2026-05-02 12:54:19`
 
 
 <details>
@@ -32319,74 +32319,86 @@ Updata：`2026-05-01 22:48:08`
 
 
 
->Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=71b891aaf8dae15129062cfecdaac104`
+
+
+
+
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=25d1bc1976d3ab7ce35bd9c6f87fab08`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=723dc3327819824b426f765f73d4dec2`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=1875c9ee905edf2912607c822b7ca0ee`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=0f02e6e5739dd4294a4ded1c6e490534`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=2f553899b30c73d1e846530fba3ad6db`
+`https://slianvpn.com/api/v1/client/subscribe?token=7d26727b2f5bd4c172929dcd6027d5f5`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=7fc026dfee415c265b821bbbe3db49a8`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=4e110f63e3cc336f98dd536588d38019`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=7767f7854e121c98435ff5b0975dcc9f`
+`https://yywhale.com/api/v1/client/subscribe?token=b46d7c8ff8089d54f5e429f390084865`
 
 
 
 
 >Trial subscription：
-`https://best.nxxbbf.com/api/v1/client/subscribe?token=123da21935b22732b3c8698c5423b338`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=1c2d5d95eeeefc84819efe010ce45a50`
 
 
 
 
 >Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=8526e0ecb9c1c84c847449a017df561a`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=378f965cac0a898d123c0a0dc1691990`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=ef2654b7e0401d89b93c7e64cea89cd2`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=ee979393bc06cf6b03b81108aa11bc61`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=3bbd3e39eb84e6d66d15700d39ce8c6c`
+`https://cloudaddy.top/api/v1/client/subscribe?token=a463b82b7849f289d15bebf9cfd9a59b`
 
 
 
 
 >Trial subscription：
-`https://cloudaddy.top/api/v1/client/subscribe?token=c0730139583eae10d39180b26f856777`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=09185d0321b051599fd2f324e1f3c2a2`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=090870270c06f9d3dd8f646493728060`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=b9db0dfee61cdc8e3a0cb4bde4b5a5a5`
+
+
+
+
+>Trial subscription：
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=6b5e26e3d97466e8d440edf6a0b8a9ce`
 
 
 
