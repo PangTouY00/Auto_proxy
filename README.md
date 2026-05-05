@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 153`
+`Total number of merge nodes: 152`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 13`
+`Total number of merge nodes: 12`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `11`
-Updata：`2026-05-04 23:54:58`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-05-05 12:55:09`
 
 
 <details>
@@ -32394,68 +32394,82 @@ Updata：`2026-05-04 23:54:58`
 
 
 
->Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=4babf1aae0a2fe740473c4d06cb44601`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=32d6781bf92d5af0d3218fe43567b72c`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=903c2c6c5f207295a9349c5a48faaa73`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=6ca3d3acb3d0ac4c03f3792f2c3e1fa4`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=246267516d66111c0027fe6d54fffa35`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=0e427e3062dc5b867286e1be91387150`
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=23887cc871ea78b7dc236f2083016848`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=8ec086bb9e7e317f16dbffe102a5f198`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=9547c24f3e654f707f1b21b3e553776b`
 
 
 
 
 >Trial subscription：
-`https://best.nxxbbf.com/api/v1/client/subscribe?token=cff9712304fcdfaac4822161ec7bc89b`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=6a8c3797191f87e4247fc0103482cadd`
 
 
 
 
 >Trial subscription：
-`https://cloudaddy.top/api/v1/client/subscribe?token=a1613f3e907df732b1d8b668740fdfc2`
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=4171f94650937f9a65d7d4bab3ba6ba7`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=1811073e8673c864df57d5102541d1db`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=61f244fe1d8b90c2e649f5666fa2adea`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=444c4126c99d5d3487da4b50df9d65de`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=69811b2c94f0138cdbe82d6897417338`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=381862f93799312df6221bd64af025e6`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=aabf743d4d60a6a8fe7eebd37f5aba1f`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=8ef5a6e458ad90e058881e05d8df2ab4`
+`https://cloudaddy.top/api/v1/client/subscribe?token=adafc08f8041646363408acb971fb51c`
+
+
+
+
+>Trial subscription：
+`https://slianvpn.com/api/v1/client/subscribe?token=394add547c2461c909bb02730aefbcc3`
+
+
+
+
+>Trial subscription：
+`https://yywhale.com/api/v1/client/subscribe?token=4d42374e3f96448477a8fbb4b42faa5e`
 
 
 
