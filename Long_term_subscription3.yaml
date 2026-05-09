@@ -5,51 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 52.197.26.190, port: 4840, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 4, server: cf.scpnb.top, port: 443, type: vmess, uuid: e380af93-d9e0-416a-8b35-445883344750, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /e380af93-d9e0-416a-8b35-445883344750-vm, headers: {Host: cf.scpnb.top}}}
-  - {name: 9|@i10VPN - Psiphon 50, server: x.kishonline.online, port: 443, type: hysteria2, ports: 443, password: Fa3JN012u2, obfs: salamander, obfs-password: kish-data, sni: x.kishonline.online, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 13.158.32.76, port: 4203, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 54.178.153.235, port: 2074, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 54.178.153.235, port: 2074, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 16.162.87.210, port: 24184, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 16.162.191.171, port: 4840, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 16.162.191.171, port: 53018, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 13|US_speednode_0021, server: bb.bejkn.cn, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 52.197.26.190, port: 11541, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 13.158.22.253, port: 3685, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 13.158.22.253, port: 3685, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|TEL;Father_vpn, server: srm.kishonline.online, port: 443, type: hysteria2, ports: 443, password: Kz0JGcGICb, obfs: salamander, obfs-password: kish-data-center, sni: srm.kishonline.online, skip-cert-verify: false}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,55 +84,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +167,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 9|@i10VPN - Psiphon 50
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 13|US_speednode_0021
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 9|TEL;Father_vpn
+      - 亚太地区 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
