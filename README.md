@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 147`
+`Total number of merge nodes: 146`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 14`
+`Total number of merge nodes: 13`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `11`
-Updata：`2026-05-10 22:45:12`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-05-11 13:52:31`
 
 
 <details>
@@ -32531,68 +32531,82 @@ Updata：`2026-05-10 22:45:12`
 
 
 
->Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=af71c048ff877d894ac876a7c79fad14`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=3d5fc83b5772c1adb16747fc9dba0417`
+`https://www.vpnmiao.site/api/v1/client/subscribe?token=4b04a910b71eea0e7341e92d5ea431b9`
 
 
 
 
 >Trial subscription：
-`https://best.nxxbbf.com/api/v1/client/subscribe?token=1c6fad831ae152b59a44598246d3d9b1`
+`https://yywhale.com/api/v1/client/subscribe?token=ffcb5f8768cef1f005df131ddeccd811`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=1a0b281740559c71e4fc7a9b14c1dfc3`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=41e203ab50dab27d54ecf978b99cc95d`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=5d0e0ff63861a94afb93381e81773215`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=c2240988a22399f76b150b71d3a64e3e`
 
 
 
 
 >Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=e830303c2486fedd2433de2607b44b01`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=8cbccf54b694387be4a107ef05e25948`
 
 
 
 
 >Trial subscription：
-`https://panel.shahramv1.site/api/v1/client/subscribe?token=41657fb8247c612f490115c3d396002f`
+`https://p1.shahramv1.site/api/v1/client/subscribe?token=8bfa162e990fdd4ac023c13b657c4353`
 
 
 
 
 >Trial subscription：
-`https://p1.shahramv1.site/api/v1/client/subscribe?token=655274905aa264d6180a87d25ed82642`
+`https://slianvpn.com/api/v1/client/subscribe?token=28a146e179f7a4feb09fbb02846a663b`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=bab906e77a4442b1eb7af19dd8fabe2b`
+`https://best.nxxbbf.com/api/v1/client/subscribe?token=fd62d9621405811a20152d86692ce2e7`
 
 
 
 
 >Trial subscription：
-`https://www.vpnmiao.site/api/v1/client/subscribe?token=106c1d1bb5ff3e1affd23631a1441470`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=99c3b5593564210f4668ecdf2272bd8b`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=b9c68eedaa1878a037e98bf85594d9b2`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=4920a0c510200d1d25249b986d0fe36f`
+
+
+
+
+>Trial subscription：
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=198067abbf84f1d1c4289896404c760a`
+
+
+
+
+>Trial subscription：
+`https://panel.shahramv1.site/api/v1/client/subscribe?token=44ed9425522acac68d12e5e04fd74ae2`
 
 
 
