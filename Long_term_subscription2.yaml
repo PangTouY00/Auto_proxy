@@ -5,63 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 18.167.12.175, port: 11541, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 12|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇭 柬埔寨 - 金边 - 1, server: t.tizi001.com, port: 23259, type: vmess, uuid: 9e51eb62-797c-42fa-a6af-e993a99e6ece, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 13, server: cf.scpnb.top, port: 443, type: vmess, uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm, headers: {Host: cf.scpnb.top}}}
-  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 16.163.157.213, port: 1031, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇴 挪威 - 奥斯陆 - 1, server: t.tizi001.com, port: 55886, type: vmess, uuid: 9e51eb62-797c-42fa-a6af-e993a99e6ece, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|@Proxy_Vpney v+p (3), server: 45.81.19.251, port: 443, type: hysteria2, ports: 443, password: DBUklcvOyH, sni: web.bale.ai, skip-cert-verify: true}
-  - {name: 🇺🇸 12|美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.65.55.47, port: 22222, type: trojan, password: telegram-id-privatevpns}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 11|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 16.163.146.66, port: 7337, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 52.195.174.119, port: 4840, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 149.28.255.6, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: GyZ5Xo0ht41vYmW3H4}
+  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM 3, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 - Koto-ku - 1, server: t.tizi001.com, port: 32117, type: vmess, uuid: 9e51eb62-797c-42fa-a6af-e993a99e6ece, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 3, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,68 +88,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,16 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇰🇭 柬埔寨 - 金边 - 1
-      - 🇺🇸 美国 - 洛杉矶 - 13
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇳🇴 挪威 - 奥斯陆 - 1
-      - 9|@Proxy_Vpney v+p (3)
-      - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇺🇸 美国 Amazon EC2服务器
+      - "12|tg频道:@ripaojiedian #1"
+      - 11|tg频道:@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM 3
+      - 🇯🇵 日本 - Koto-ku - 1
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 - 洛杉矶 - 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
