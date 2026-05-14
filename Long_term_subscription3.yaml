@@ -5,47 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 - 達拉斯 - 8, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: "9|Telegram : @V2ynpv", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 54.248.28.2, port: 2008, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 9, server: skk.moe, port: 80, type: vmess, uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess, headers: {Host: skk.moe}}}
+  - {name: 🇯🇵 日本 - 大阪市 - 1, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.64.143.245, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 11|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 35.75.5.164, port: 6604, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 11|🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 62.60.157.104, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇯🇵 日本大阪 xTom/AS4785, server: 103.150.8.160, port: 50888, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,53 +76,65 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +150,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 - 達拉斯 - 8
-      - 亚太地区 V2CROSS.COM
-      - "9|Telegram : @V2ynpv"
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 9
+      - 🇯🇵 日本 - 大阪市 - 1
       - 🇭🇰 香港4|@ripaojiedian
+      - 11|tg频道:@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇧🇬 保加利亚 V2CROSS.COM
+      - 🇯🇵 日本大阪 xTom/AS4785
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
