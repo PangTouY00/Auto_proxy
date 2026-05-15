@@ -5,55 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 佛罗里达州迈阿密市, server: 72.56.115.44, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 35.76.116.18, port: 44386, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 中国 - 香港 - 4, server: v13.zgtfqs.click, port: 30813, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 水牛城 - 7, server: 107.172.75.141, port: 10086, type: vmess, uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 阿里云, server: 8.222.195.24, port: 14706, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.183.247.220, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal, server: 103.127.243.49, port: 53224, type: vmess, uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 9, server: select-us.ddnskunlun.com, port: 9028, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 18.163.28.128, port: 5159, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 54.238.212.30, port: 6604, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 達拉斯 - 4, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 31.57.172.187, port: 443, type: trojan, password: !<str> 162534, sni: cchh2.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cchh2.pages.dev}}}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 18.183.7.25, port: 4633, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
   - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 16.163.139.177, port: 6604, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 DigitalOcean数据中心, server: 159.65.240.40, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,18 +76,20 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -91,41 +97,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +150,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇺🇸 美国 - 水牛城 - 7
+      - 🇨🇳 中国 阿里云
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚州圣何塞IKGlobal
-      - 🇺🇸 美国 - 洛杉矶 - 9
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国 - 達拉斯 - 4
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇯🇵 11,12|日本|@ripaojiedian
       - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇺🇸 美国 DigitalOcean数据中心
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
