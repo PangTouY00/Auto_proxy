@@ -5,47 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇨🇳 安徽省马鞍山市 联通, server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇺🇸 美国 - 達拉斯 - 3, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 8|🇮🇳IN_@WangCai_8, server: 13.126.66.208, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大 TELUS, server: 74.48.140.177, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 9|@B2vasl1, server: srm.kishonline.online, port: 443, type: hysteria2, ports: 443, password: 9P5zfc7S0s, obfs: salamander, obfs-password: kish-data-center, sni: srm.kishonline.online, skip-cert-verify: false}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.180.158.187, port: 667, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 104.207.145.249, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 4, server: cf.scpnb.top, port: 443, type: vmess, uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm, headers: {Host: cf.scpnb.top}}}
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 35.78.209.219, port: 23255, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 16.162.220.210, port: 6463, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +68,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +133,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 安徽省马鞍山市 联通
+      - 🇺🇸 美国 - 達拉斯 - 3
+      - 8|🇮🇳IN_@WangCai_8
+      - 🇨🇦 加拿大 TELUS
+      - 9|@B2vasl1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 - 洛杉矶 - 4
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
