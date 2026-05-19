@@ -5,51 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 16.163.95.49, port: 3685, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - 5, server: 154.37.223.19, port: 56972, type: vmess, uuid: ae225455-5e8c-491d-d931-c06ac56f4aee, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 8|👀6@oneclickvpnkeys, server: 68.233.103.254, port: 4433, type: hysteria2, ports: 4433, password: 2545ab46-6306-4f2b-badd-5531f384d55f, sni: ln4.xiaoliyu.cyou, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.145.230, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 18.162.149.118, port: 3882, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司, server: 66.135.5.63, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 3, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi", server: vpn-us-005.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-us-005.fastervpn.world, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 54.238.114.193, port: 2511, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: 6202b230-417c-4d8e-b624-0f71afa9c75d, sni: sni.111000.dynv6.net, network: ws, ws-opts: {path: "/?proxyip=ip.111000.de5.net:443", headers: {Host: sni.111000.dynv6.net}}}
+  - {name: 8|HK_@WangCai_8, server: 202.146.222.30, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: https://t.me/WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean数据中心, server: 209.97.170.177, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 54.238.114.193, port: 2511, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,59 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -136,13 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 5
-      - 🇭🇰 香港|@ripaojiedian
-      - 8|👀6@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 美国 路易斯安那州巴吞鲁日Smartrove公司
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - "US_24|6.1MB/s | 更多节点: https://t.me/byxiaoxi"
+      - 🇸🇬 11,12|新加坡2|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 8|HK_@WangCai_8
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
