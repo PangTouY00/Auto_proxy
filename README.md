@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `8`
-Updata：`2026-05-22 13:59:06`
+### Try the number of high-speed subscriptions: `7`
+Updata：`2026-05-23 00:16:24`
 
 
 <details>
@@ -32760,50 +32760,55 @@ Updata：`2026-05-22 13:59:06`
 
 
 
->Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=8c3bd028d120a20e3ef064cde7191c2d`
 
 
 
 
->Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=7874645d6a69fcb41d19e95fec355ae1`
 
 
 
-
->Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=713d19da88c475a2739e6cd759e9d2af`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=fadb43ad991d89acb3059275d596a3c1`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=88ab2c8126e01626ded312d6921c800c`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=7c345c31912b5c5bc71c7e41b4fd7221`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=ece43b825abfa96730b67aab99c27516`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=183ce074cdb8b0393c945590f32c4cc8`
+`https://yywhale.com/api/v1/client/subscribe?token=6486fa9433560efdfe175df272add555`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=8a8a8cc6889ec825406407f3dcae226a`
+`https://slianvpn.com/api/v1/client/subscribe?token=d76d447021d262b43db05507329e9f33`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=f97dcd0d1c0e575831826ba851a6a01c`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=b8079b3598cbfa39771a40179aeb4a89`
+
+
+
+
+>Trial subscription：
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=8407b0c12330082675dfaa76f2c32b94`
+
+
+
+
+>Trial subscription：
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=8936e139d0b155a42c0e0ca7a8d76e5e`
 
 
 
