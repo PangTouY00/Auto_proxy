@@ -5,71 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 13.230.33.127, port: 11541, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|🧃67@oneclickvpnkeys, server: hl1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 4d092122-268a-4a1a-b23f-83931c5abc3a, sni: hl1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 水牛城 - 2, server: 107.172.75.141, port: 10086, type: vmess, uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国 - 台湾 - 2, server: v11.zgtfqs.click, port: 30811, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.145.230, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 54.250.178.21, port: 3685, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.152.23, port: 2096, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /tr, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 13.230.33.127, port: 2511, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 11|🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|🧃88@oneclickvpnkeys, server: gb1.xiaoliyu.cyou, port: 10086, type: hysteria2, ports: 10086, password: 2545ab46-6306-4f2b-badd-5531f384d55f, obfs: salamander, obfs-password: T$rMIL_(dd($Ydfz, sni: gb1.xiaoliyu.cyou, skip-cert-verify: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 161.248.254.27, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇺🇸 美国 佛罗里达州迈阿密市, server: 72.56.72.94, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 95.182.101.74, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 13.230.33.127, port: 5224, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 83.147.253.194, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 5243.199.69.35, port: 1275, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 13.230.33.127, port: 53018, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|🧃65@oneclickvpnkeys, server: nlb3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 4d092122-268a-4a1a-b23f-83931c5abc3a, sni: nlb3.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 2, server: 31.58.50.114, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 11|🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,78 +84,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -175,18 +165,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本2|@ripaojiedian
-      - 9|🧃67@oneclickvpnkeys
-      - 🇺🇸 美国 - 水牛城 - 2
-      - 🇨🇳 中国 - 台湾 - 2
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
-      - 9|🧃88@oneclickvpnkeys
-      - 亚太地区 V2CROSS.COM
-      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 9|🧃65@oneclickvpnkeys
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
