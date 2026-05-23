@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `7`
-Updata：`2026-05-23 00:16:24`
+### Try the number of high-speed subscriptions: `8`
+Updata：`2026-05-23 13:34:09`
 
 
 <details>
@@ -32771,44 +32771,54 @@ Updata：`2026-05-23 00:16:24`
 
 
 
->Trial subscription：
-`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=88ab2c8126e01626ded312d6921c800c`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=ece43b825abfa96730b67aab99c27516`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=983f4eaf8146b02842078776cf8e0bf0`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=6486fa9433560efdfe175df272add555`
+`https://yywhale.com/api/v1/client/subscribe?token=43d0b1f1b276a386b99f545991c3bdc0`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=d76d447021d262b43db05507329e9f33`
+`https://slianvpn.com/api/v1/client/subscribe?token=a4b68db9ad6f4df144b3f2f40951bd5d`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=b8079b3598cbfa39771a40179aeb4a89`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=399e5e8a2754299250c666c88d5a37ef`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=8407b0c12330082675dfaa76f2c32b94`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=3b1cf8034336b1fdcd489d9c666a5363`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=8936e139d0b155a42c0e0ca7a8d76e5e`
+`https://xboard.mmbreed.sbs/api/v1/client/subscribe?token=913ee92baee71c7b5eb23b77a794644c`
+
+
+
+
+>Trial subscription：
+`https://panel.dannelblog.na.am/api/v1/client/subscribe?token=8aadcd542c0501c90e241bb088b6feaa`
+
+
+
+
+>Trial subscription：
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=f41c9128a424844e14983398073b9443`
 
 
 
