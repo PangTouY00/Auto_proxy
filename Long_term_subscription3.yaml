@@ -5,47 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 13.193.127.185, port: 2511, type: trojan, password: 635340b47bddf8f41c123dc6f2b5f7ce, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 43.206.93.224, port: 2663, type: trojan, password: 635340b47bddf8f41c123dc6f2b5f7ce, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: 140.83.50.165, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 31.57.63.63, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 43.206.93.224, port: 2663, type: trojan, password: 635340b47bddf8f41c123dc6f2b5f7ce, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 18.181.205.14, port: 5224, type: trojan, password: 635340b47bddf8f41c123dc6f2b5f7ce, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.207.215.131, port: 10578, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 31.57.26.194, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: 🇺🇸 12|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 3, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗 科技研究院, server: 62.60.150.140, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 43.198.101.71, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,12 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,35 +100,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇮🇷 伊朗 V2CROSS.COM
-      - tg频道:@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - 🇮🇷 伊朗 科技研究院
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
