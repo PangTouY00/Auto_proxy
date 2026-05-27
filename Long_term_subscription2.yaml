@@ -5,47 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 12|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 95.156.204.82, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 18.167.167.26, port: 3842, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.145.230, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: 82.118.22.141, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 13.115.88.193, port: 2511, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|⛳46@oneclickvpnkeys, server: assgzl.hhwyy.xyz, port: 35561, type: hysteria2, ports: 35561, password: 9994536d-4824-45f9-bdc9-ccde0443f3fa, sni: assgzl.hhwyy.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 16.163.157.10, port: 6604, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 12|美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 3.112.12.209, port: 2008, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 🇪🇸 西班牙 V2CROSS.COM
       - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
+      - 9|⛳46@oneclickvpnkeys
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
