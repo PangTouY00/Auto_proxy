@@ -5,43 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.166.178.81, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 13|KR_speednode_0029, server: 121.191.33.84, port: 30303, type: trojan, password: 433e785b-2077-47f7-a43d-985f63dd18d1, sni: vpn.rnmcnm.com, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan, headers: {Host: vpn.rnmcnm.com}}}
-  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 54.248.176.41, port: 4633, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.166.178.81, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.147.104, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}}
+  - {name: 12|KR_speednode_0031, server: 121.154.96.50, port: 18000, type: trojan, password: 433e785b-2077-47f7-a43d-985f63dd18d1, sni: vpn.rnmcnm.com, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan, headers: {Host: vpn.rnmcnm.com}}}
+  - {name: 🇺🇸 10|🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "11|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 12|KR_speednode_0030, server: 59.30.42.194, port: 12345, type: trojan, password: 433e785b-2077-47f7-a43d-985f63dd18d1, sni: vpn.rnmcnm.com, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan, headers: {Host: vpn.rnmcnm.com}}}
+  - {name: "🇺🇸 10,11|美国3|@ripaojiedian", server: 43.206.155.159, port: 2702, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 10,11|新加坡2|@ripaojiedian", server: 16.163.29.124, port: 3842, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +68,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +85,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 13|KR_speednode_0029
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点
+      - 12|KR_speednode_0031
+      - 🇺🇸 10|🇺🇸 美国5|@ripaojiedian
+      - "11|tg频道:@ripaojiedian #1"
+      - 12|KR_speednode_0030
+      - 🇺🇸 10,11|美国3|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
