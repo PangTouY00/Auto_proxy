@@ -5,47 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 13.115.88.193, port: 2511, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|⛳46@oneclickvpnkeys, server: assgzl.hhwyy.xyz, port: 35561, type: hysteria2, ports: 35561, password: 9994536d-4824-45f9-bdc9-ccde0443f3fa, sni: assgzl.hhwyy.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 16.163.157.10, port: 6604, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 16.163.157.10, port: 6604, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 🇺🇸 12|美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 3.112.12.209, port: 2008, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "9|Telegram : @V2ynpv", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 13|KR_speednode_0030, server: 59.30.42.194, port: 12345, type: trojan, password: 433e785b-2077-47f7-a43d-985f63dd18d1, sni: vpn.rnmcnm.com, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan, headers: {Host: vpn.rnmcnm.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +64,53 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +126,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|⛳46@oneclickvpnkeys
-      - 🇺🇸 美国2|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇺🇸 12|美国5|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - "9|Telegram : @V2ynpv"
+      - 13|KR_speednode_0030
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

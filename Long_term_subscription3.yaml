@@ -5,55 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 35.77.230.224, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 12|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|⛳47@oneclickvpnkeys, server: 166.88.142.205, port: 2056, type: hysteria2, ports: 2056, password: fe9b17e8-41e1-4d1b-b588-93a23665724f, sni: mg6.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 54.248.176.41, port: 4633, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 95.40.49.62, port: 3135, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 95.40.28.136, port: 5224, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 35.77.230.224, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.166.178.81, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 13|KR_speednode_0029, server: 121.191.33.84, port: 30303, type: trojan, password: 433e785b-2077-47f7-a43d-985f63dd18d1, sni: vpn.rnmcnm.com, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan, headers: {Host: vpn.rnmcnm.com}}}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 54.248.176.41, port: 4633, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.166.178.81, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,61 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,14 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚太地区 V2CROSS.COM
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|⛳47@oneclickvpnkeys
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 13|KR_speednode_0029
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
