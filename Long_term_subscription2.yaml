@@ -5,55 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 95.40.114.115, port: 2663, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 52.69.114.14, port: 2008, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 16.163.29.124, port: 8066, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 13.231.225.85, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 16.163.29.124, port: 8066, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 52.69.114.14, port: 2663, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 16.163.29.124, port: 3842, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 12|美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 13.231.225.85, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|outline_ir, server: 49.12.142.89, port: 443, type: hysteria2, ports: 443, password: auth, sni: www.microsoft.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.168.196.137, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 13|SC_speednode_0040, server: 45.130.125.76, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: www.app-cloud.ir}}}
+  - {name: 🇯🇵 日本 - 东京 - 1, server: cu3.ainivp.com, port: 33103, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: cu3.ainivp.com}}}
+  - {name: 13|US_speednode_0049, server: 104.18.20.213, port: 443, type: trojan, password: mitivpn, sni: www.app-cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.app-cloud.ir}}}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 95.40.114.115, port: 2663, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,61 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,14 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 12|美国5|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
+      - 9|outline_ir
+      - 🇭🇰 香港4|@ripaojiedian
+      - 13|SC_speednode_0040
+      - 🇯🇵 日本 - 东京 - 1
+      - 13|US_speednode_0049
+      - 🇺🇸 美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
