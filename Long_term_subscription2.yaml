@@ -5,51 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 10|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 18.163.128.27, port: 3135, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "11|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 18.166.208.219, port: 53018, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇯🇵 10,11|日本3|@ripaojiedian", server: 18.163.128.27, port: 3135, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 - 大阪市 - 1, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 11|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 8|@hi_proxy_iran :ا ا, server: hy2.123266.xyz, port: 33333, type: hysteria2, ports: 33333, password: bce6c821-200d-421f-bf3d-7159e5246ea0, sni: hy2.123266.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 54.238.76.39, port: 6604, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇸🇬 10,11|新加坡2|@ripaojiedian", server: 54.178.81.79, port: 3842, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 54.238.206.69, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - Frankfurt Am Main - 1, server: speedtest.org, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: speedtest.org}}}
+  - {name: "🇭🇰 10,11|香港4|@ripaojiedian", server: 16.162.24.151, port: 32858, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 10,11|新加坡|@ripaojiedian", server: 175.41.230.39, port: 4840, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇯🇵 10,11|日本|@ripaojiedian", server: 3.112.60.98, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,58 +76,65 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -135,13 +150,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - "11|tg频道:@ripaojiedian #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇯🇵 10,11|日本3|@ripaojiedian
-      - 🇯🇵 日本 - 大阪市 - 1
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 8|@hi_proxy_iran :ا ا
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇩🇪 德国 - Frankfurt Am Main - 1
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇸🇬 10,11|新加坡|@ripaojiedian
+      - 🇯🇵 10,11|日本|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
