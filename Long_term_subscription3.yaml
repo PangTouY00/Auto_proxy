@@ -5,59 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 8|🌝44@oneclickvpnkeys, server: speedtest.mozit.site, port: 46425, type: hysteria2, ports: 46425, password: BMmGlfFVF7, obfs: salamander, obfs-password: welovegod, sni: mci.ir, skip-cert-verify: true}
-  - {name: "🇭🇰 10,11|香港5|@ripaojiedian", server: 18.162.145.230, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾省 V2CROSS.COM, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省台北市 中华电信, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}
+  - {name: "🇯🇵 10,11|日本2|@ripaojiedian", server: 18.163.128.27, port: 24184, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: "🇯🇵 10,11|日本|@ripaojiedian", server: 13.231.192.34, port: 53307, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 11|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 10|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 13.231.192.34, port: 53307, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 中国 - 香港 - 4, server: ct3.ainivp.com, port: 33410, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ct3.ainivp.com}}}
-  - {name: 🇯🇵 日本 - 大阪市 - 1, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,67 +60,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 10,11|香港5|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇨🇳 台湾省台北市 中华电信
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -152,15 +118,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 8|🌝44@oneclickvpnkeys
-      - 🇭🇰 10,11|香港5|@ripaojiedian
+      - 🇨🇳 台湾省 V2CROSS.COM
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇨🇳 台湾省台北市 中华电信
+      - 🇯🇵 10,11|日本2|@ripaojiedian
       - 🇯🇵 10,11|日本|@ripaojiedian
-      - 🇭🇰 11|香港|@ripaojiedian
-      - 10|tg频道:@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 中国 - 香港 - 4
-      - 🇯🇵 日本 - 大阪市 - 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
