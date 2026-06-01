@@ -5,43 +5,51 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 11|美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 10|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - Chiyoda City - 2, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 18.162.145.230, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 11|🇺🇸 美国5|@ripaojiedian, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 175.41.230.39, port: 6604, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.199.204.59, port: 2008, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net}
+  - {name: 🇹🇷 土耳其 - 伊兹密尔 - 1, server: 62.3.12.140, port: 2087, type: vmess, uuid: 90a7a201-de71-4696-be44-f2c04aa36348, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 175.41.230.39, port: 4840, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +68,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +134,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11|美国5|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
-      - 🇯🇵 日本 - Chiyoda City - 2
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇺🇸 11|🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 11,12|美国|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇹🇷 土耳其 - 伊兹密尔 - 1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
