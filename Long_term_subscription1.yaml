@@ -5,119 +5,157 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 3f6d29d6-835e-40c3-80f7-f6b99da39bee, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 3f6d29d6-835e-40c3-80f7-f6b99da39bee, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
-  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 3f6d29d6-835e-40c3-80f7-f6b99da39bee, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 3f6d29d6-835e-40c3-80f7-f6b99da39bee, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: c039afab-5391-4643-bb81-fe0611a7282f, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: c039afab-5391-4643-bb81-fe0611a7282f, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: c039afab-5391-4643-bb81-fe0611a7282f, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: c039afab-5391-4643-bb81-fe0611a7282f, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: c039afab-5391-4643-bb81-fe0611a7282f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB, server: 15.linshi.xyz, port: 25846, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 15.linshi.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡15【免费机场 www.mfjc.cc】, server: 15.linshi.xyz, port: 25846, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 15.linshi.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国137【免费机场 www.mfjc.cc】, server: nube13.lijiuling.com, port: 6668, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: nube13.lijiuling.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国95【免费机场 www.mfjc.cc】, server: 95.efaka.top, port: 8443, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 95.efaka.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 34【推荐高速节点】, server: racknerd34.lijiuling.com, port: 3652, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: racknerd34.lijiuling.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港178【免费机场 www.mfjc.cc】, server: 1788888.fkfkfk.top, port: 8932, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 1788888.fkfkfk.top, skip-cert-verify: false}
-  - {name: 🇯🇵 日本233【推荐选此高速节点】, server: 233.fkfkfk.top, port: 6237, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 233.fkfkfk.top, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 87推荐高速【免费机场 www.mfjc.cc】, server: 27.efaka.top, port: 1124, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 27.efaka.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点, server: 78.efaka.top, port: 3369, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 78.efaka.top, skip-cert-verify: false}
-  - {name: 🇦🇺 悉尼22【免费机场 www.mfjc.cc】, server: 788.efaka.top, port: 1008, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 788.efaka.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】, server: 215.efaka.top, port: 3269, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 215.efaka.top, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国32【免费机场 www.mfjc.cc】, server: hanguo32.efaka.top, port: 24563, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: hanguo32.efaka.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国15【免费机场 www.mfjc.cc】, server: us15.efaka.top, port: 33225, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: us15.efaka.top, skip-cert-verify: false}
-  - {name: 🇦🇺 悉尼160【免费机场 www.mfjc.cc】, server: sgp.dujiaoshuka.top, port: 2549, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: sgp.dujiaoshuka.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡211【免费机场 www.mfjc.cc】, server: 211.fkfkfk.top, port: 25498, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 211.fkfkfk.top, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 197【免费机场 www.mfjc.cc】, server: 197.fkfkfk.top, port: 25618, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 197.fkfkfk.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 159【免费机场 www.mfjc.cc】, server: 159.fkfkfk.top, port: 25978, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 159.fkfkfk.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 138【免费机场 www.mfjc.cc】, server: 138.efaka.top, port: 32122, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 138.efaka.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 154【高速节点推荐】, server: 154.efaka.top, port: 32695, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 154.efaka.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 15 【高速节点 推荐】, server: 15.efaka.top, port: 9484, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: 15.efaka.top, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 102【免费机场 www.mfjc.cc】, server: jiaguwen102.lijiuling.com, port: 3659, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: jiaguwen102.lijiuling.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本204【高速】【免费机场 www.mfjc.cc】, server: nube219.lijiuling.com, port: 3267, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: nube219.lijiuling.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 141【免费机场 www.mfjc.cc】, server: nube18.lijiuling.com, port: 32675, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: nube18.lijiuling.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国120【高速】【免费机场 www.mfjc.cc】, server: nube75.lijiuling.com, port: 33652, type: trojan, password: 1e35a288-561e-4829-bffa-ca94c84e5156, sni: nube75.lijiuling.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡155, server: 15.linshi.xyz, port: 36991, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 15.linshi.xyz, network: ws, ws-opts: {path: /hfhsjkkf, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 1377, server: nube13.lijiuling.com, port: 6666, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: nube13.lijiuling.com, network: ws, ws-opts: {path: /dhdh, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国955, server: 95.efaka.top, port: 8443, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 95.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇭🇰 香港1788, server: 1788888.fkfkfk.top, port: 3365, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 1788888.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 日本2331, server: 233.fkfkfk.top, port: 5656, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 233.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡788 推荐高速节点, server: 78.efaka.top, port: 4662, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 78.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇦🇺 悉尼222, server: 7888.efaka.top, port: 10072, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 7888.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国36, server: 215.efaka.top, port: 46631, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 215.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 155, server: us15.efaka.top, port: 33654, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: us15.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇰🇷 韩国322, server: hanguo32.efaka.top, port: 14525, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: hanguo32.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇦🇺 悉尼1600, server: sgp.dujiaoshuka.top, port: 32654, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: sgp.dujiaoshuka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡2111, server: 211.fkfkfk.top, port: 33111, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 211.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 日本 1977, server: 197.fkfkfk.top, port: 24697, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 197.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡 1599, server: 159.fkfkfk.top, port: 24691, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 159.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡 1388, server: 138.efaka.top, port: 32114, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 138.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡 1544 【高速节点推荐】, server: 154.efaka.top, port: 14532, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 154.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡 155 【高速节点 推荐】, server: 15.efaka.top, port: 32567, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 15.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 日本 877, server: 27.efaka.top, port: 25431, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: 27.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 日本 1022, server: jiaguwen102.lijiuling.com, port: 53452, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: jiaguwen102.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇸🇬 新加坡1411, server: nube18.lijiuling.com, port: 6417, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: nube18.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 日本2044, server: nube219.lijiuling.com, port: 36411, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: nube219.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国344 【高速节点】, server: racknerd34.lijiuling.com, port: 34610, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: racknerd34.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 120【高速】, server: nube75.lijiuling.com, port: 33222, type: vmess, uuid: 1e35a288-561e-4829-bffa-ca94c84e5156, alterId: 0, cipher: auto, tls: true, servername: nube75.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 7e06a8a2-1296-4c07-9f6b-b632ac87da8f, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 7e06a8a2-1296-4c07-9f6b-b632ac87da8f, sni: empty.node, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：1 天, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
-  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 7c45e0ee-1c39-4338-a607-2d7f8d0d98b4}
+  - {name: 试用只有部分节点-付费后解锁60+节点, server: 83c4862a62.hk-a.nynode.one, port: 9008, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HKG·香港01, server: 83c4862a62.hk-a.nynode.one, port: 9008, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HKG·香港02, server: 83c4862a62.hk-a.nynode.one, port: 9007, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HKG·香港03, server: 83c4862a62.hk-a.nynode.one, port: 9006, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HKG·香港05, server: 83c4862a62.hk-a.nynode.one, port: 9005, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HKG·香港06, server: 83c4862a62.hk-a.nynode.one, port: 9004, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HKG·香港07, server: 83c4862a62.hk-a.nynode.one, port: 9003, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 USA·美国01, server: 83c4862a62.hk-a.nynode.one, port: 10001, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 USA·美国02, server: 83c4862a62.hk-a.nynode.one, port: 10002, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 USA·美国03, server: 83c4862a62.hk-a.nynode.one, port: 10003, type: trojan, password: 9c8271a4-3937-4503-bd36-a19dea192e87, sni: www.10sx.com, skip-cert-verify: false}
+  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 64b24a2d-fb69-4a7c-b6e7-813c7a39cee6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 64b24a2d-fb69-4a7c-b6e7-813c7a39cee6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 64b24a2d-fb69-4a7c-b6e7-813c7a39cee6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 64b24a2d-fb69-4a7c-b6e7-813c7a39cee6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 64b24a2d-fb69-4a7c-b6e7-813c7a39cee6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 64b24a2d-fb69-4a7c-b6e7-813c7a39cee6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 1ee1a55d-98d5-4086-a420-360c0b44729b, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 1ee1a55d-98d5-4086-a420-360c0b44729b, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 1ee1a55d-98d5-4086-a420-360c0b44729b, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 1ee1a55d-98d5-4086-a420-360c0b44729b, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 1ee1a55d-98d5-4086-a420-360c0b44729b, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 183acf4c-1060-42c2-abc8-c79b78a34db2, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 183acf4c-1060-42c2-abc8-c79b78a34db2, sni: empty.node, skip-cert-verify: false}
+  - {name: 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB, server: 15.linshi.xyz, port: 25846, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 15.linshi.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡15【免费机场 www.mfjc.cc】, server: 15.linshi.xyz, port: 25846, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 15.linshi.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国137【免费机场 www.mfjc.cc】, server: nube13.lijiuling.com, port: 6668, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: nube13.lijiuling.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国95【免费机场 www.mfjc.cc】, server: 95.efaka.top, port: 8443, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 95.efaka.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 34【推荐高速节点】, server: racknerd34.lijiuling.com, port: 3652, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: racknerd34.lijiuling.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港178【免费机场 www.mfjc.cc】, server: 1788888.fkfkfk.top, port: 8932, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 1788888.fkfkfk.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本233【推荐选此高速节点】, server: 233.fkfkfk.top, port: 6237, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 233.fkfkfk.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 87推荐高速【免费机场 www.mfjc.cc】, server: 27.efaka.top, port: 1124, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 27.efaka.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点, server: 78.efaka.top, port: 3369, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 78.efaka.top, skip-cert-verify: false}
+  - {name: 🇦🇺 悉尼22【免费机场 www.mfjc.cc】, server: 788.efaka.top, port: 1008, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 788.efaka.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】, server: 215.efaka.top, port: 3269, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 215.efaka.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国15【免费机场 www.mfjc.cc】, server: 46.efaka.top, port: 32144, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 46.efaka.top, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国32【免费机场 www.mfjc.cc】, server: hanguo32.efaka.top, port: 24563, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: hanguo32.efaka.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国15【免费机场 www.mfjc.cc】 2, server: us15.efaka.top, port: 33225, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: us15.efaka.top, skip-cert-verify: false}
+  - {name: 🇦🇺 悉尼160【免费机场 www.mfjc.cc】, server: sgp.dujiaoshuka.top, port: 2549, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: sgp.dujiaoshuka.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡211【免费机场 www.mfjc.cc】, server: 211.fkfkfk.top, port: 25498, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 211.fkfkfk.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 197【免费机场 www.mfjc.cc】, server: 197.fkfkfk.top, port: 25618, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 197.fkfkfk.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 159【免费机场 www.mfjc.cc】, server: 159.fkfkfk.top, port: 25978, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 159.fkfkfk.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 138【免费机场 www.mfjc.cc】, server: 138.efaka.top, port: 32122, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 138.efaka.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 154【高速节点推荐】, server: 154.efaka.top, port: 32695, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 154.efaka.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 15 【高速节点 推荐】, server: 15.efaka.top, port: 9484, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: 15.efaka.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 102【免费机场 www.mfjc.cc】, server: jiaguwen102.lijiuling.com, port: 3659, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: jiaguwen102.lijiuling.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本204【高速】【免费机场 www.mfjc.cc】, server: nube219.lijiuling.com, port: 3267, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: nube219.lijiuling.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 141【免费机场 www.mfjc.cc】, server: nube18.lijiuling.com, port: 32675, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: nube18.lijiuling.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国120【高速】【免费机场 www.mfjc.cc】, server: nube75.lijiuling.com, port: 33652, type: trojan, password: a78d976e-7f2c-4244-9cc8-3bf62572eea1, sni: nube75.lijiuling.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡155, server: 15.linshi.xyz, port: 36991, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 15.linshi.xyz, network: ws, ws-opts: {path: /hfhsjkkf, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国 1377, server: nube13.lijiuling.com, port: 6666, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: nube13.lijiuling.com, network: ws, ws-opts: {path: /dhdh, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国955, server: 95.efaka.top, port: 8443, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 95.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇭🇰 香港1788, server: 1788888.fkfkfk.top, port: 3365, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 1788888.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国155, server: 46.efaka.top, port: 4667, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 46.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇯🇵 日本2331, server: 233.fkfkfk.top, port: 5656, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 233.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡788 推荐高速节点, server: 78.efaka.top, port: 4662, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 78.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇦🇺 悉尼222, server: 7888.efaka.top, port: 10072, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 7888.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国36, server: 215.efaka.top, port: 46631, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 215.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国 155, server: us15.efaka.top, port: 33654, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: us15.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇰🇷 韩国322, server: hanguo32.efaka.top, port: 14525, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: hanguo32.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇦🇺 悉尼1600, server: sgp.dujiaoshuka.top, port: 32654, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: sgp.dujiaoshuka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡2111, server: 211.fkfkfk.top, port: 33111, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 211.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇯🇵 日本 1977, server: 197.fkfkfk.top, port: 24697, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 197.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡 1599, server: 159.fkfkfk.top, port: 24691, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 159.fkfkfk.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡 1388, server: 138.efaka.top, port: 32114, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 138.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡 1544 【高速节点推荐】, server: 154.efaka.top, port: 14532, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 154.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡 155 【高速节点 推荐】, server: 15.efaka.top, port: 32567, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 15.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇯🇵 日本 877, server: 27.efaka.top, port: 25431, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: 27.efaka.top, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇯🇵 日本 1022, server: jiaguwen102.lijiuling.com, port: 53452, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: jiaguwen102.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇸🇬 新加坡1411, server: nube18.lijiuling.com, port: 6417, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: nube18.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇯🇵 日本2044, server: nube219.lijiuling.com, port: 36411, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: nube219.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国344 【高速节点】, server: racknerd34.lijiuling.com, port: 34610, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: racknerd34.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国 120【高速】, server: nube75.lijiuling.com, port: 33222, type: vmess, uuid: a78d976e-7f2c-4244-9cc8-3bf62572eea1, alterId: 0, cipher: auto, tls: true, servername: nube75.lijiuling.com, network: ws, ws-opts: {path: /hhhhsk, headers: {Host: baidu.com}}}
+  - {name: ❤️故障报修邮箱❤️ 2, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 469960c4-81a1-41ba-85f0-54d2e367d5de, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com 2, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 469960c4-81a1-41ba-85f0-54d2e367d5de, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001 2, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 469960c4-81a1-41ba-85f0-54d2e367d5de, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002 2, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 469960c4-81a1-41ba-85f0-54d2e367d5de, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003 2, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 469960c4-81a1-41ba-85f0-54d2e367d5de, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004 2, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 469960c4-81a1-41ba-85f0-54d2e367d5de, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: d93b02ce-192e-473f-8040-1298a57f237f, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: d93b02ce-192e-473f-8040-1298a57f237f, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: d93b02ce-192e-473f-8040-1298a57f237f, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: d93b02ce-192e-473f-8040-1298a57f237f, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：1 天, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 香港 (广港)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 香港 (广港)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 香港 (广港)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 香港 (广新)1 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 香港  (广新)2 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 香港 (广新)3 x1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 新加坡解锁(广港)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 新加坡解锁(广港)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 新加坡解锁(广港)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇸🇬 新加坡解锁(广新)1 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇸🇬 新加坡解锁(广新)2 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇸🇬 新加坡解锁(广新)3 x1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇸🇬 日本1(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇸🇬 日本2(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇸🇬 日本3(广新) x1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 台湾解锁 (广港)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 台湾解锁 (广港)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 台湾解锁 (广港)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇨🇳 台湾解锁 (广新)1 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇨🇳 台湾解锁 (广新)2 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇨🇳 台湾解锁 (广新)3 x1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇺🇸 中转美国1(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇺🇸 中转美国2(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇺🇸 中转美国3(动态) x1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 韩国 (广港)1 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 韩国 (广港)2 x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 韩国 (广港)3x1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 冰岛 (广港)1 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 冰岛 (广港)2 x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 冰岛 (广港)3x1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 印度 (广港)1 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 印度 (广港)2 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 印度 (广港)3 x1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 巴西 (广港)1 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 巴西 (广港)2 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 巴西 (广港)3 x1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 墨西哥 (广港)1 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 墨西哥 (广港)2 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
+  - {name: 🇭🇰 墨西哥 (广港)3 x1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a49a65d0-78c9-44af-9b49-15f84ce8563e}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -129,8 +167,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -146,6 +185,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -165,8 +205,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -212,15 +260,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -232,8 +294,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -249,6 +312,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -268,8 +332,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -316,15 +388,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -336,8 +422,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -353,6 +440,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -372,8 +460,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -432,15 +528,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -452,8 +562,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -469,6 +580,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -488,8 +600,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -534,6 +654,12 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -575,15 +701,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -595,8 +735,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -612,6 +753,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -631,8 +773,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -678,15 +828,29 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -698,8 +862,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -715,6 +880,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -734,8 +900,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -782,15 +956,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -802,8 +990,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -819,6 +1008,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -838,8 +1028,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
@@ -895,15 +1093,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
+      - 试用只有部分节点-付费后解锁60+节点
+      - 🇭🇰 HKG·香港01
+      - 🇭🇰 HKG·香港02
+      - 🇭🇰 HKG·香港03
+      - 🇭🇰 HKG·香港05
+      - 🇭🇰 HKG·香港06
+      - 🇭🇰 HKG·香港07
+      - 🇺🇸 USA·美国01
+      - 🇺🇸 USA·美国02
+      - 🇺🇸 USA·美国03
+      - ❤️故障报修邮箱❤️
+      - 邮箱:louwangzhiyu.org@gmail.com
+      - 🇩🇪 德国-法兰克福-001
+      - 🇩🇪 德国-法兰克福-002
+      - 🇩🇪 德国-法兰克福-003
+      - 🇩🇪 德国-法兰克福-004
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
       - 🇺🇸 美国高速节点1
       - 🇨🇳 中国联通节点1
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
       - 🏳️‍🌈 【本站永久域名mfjc.cc】无限流量：999999 GB
       - 🇸🇬 新加坡15【免费机场 www.mfjc.cc】
       - 🇺🇸 美国137【免费机场 www.mfjc.cc】
@@ -915,8 +1127,9 @@ proxy-groups:
       - 🇸🇬 新加坡78 【免费机场 www.mfjc.cc】推荐高速节点
       - 🇦🇺 悉尼22【免费机场 www.mfjc.cc】
       - 🇺🇸 美国36【推荐】【免费机场 www.mfjc.cc】
-      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
       - 🇺🇸 美国15【免费机场 www.mfjc.cc】
+      - 🇰🇷 韩国32【免费机场 www.mfjc.cc】
+      - 🇺🇸 美国15【免费机场 www.mfjc.cc】 2
       - 🇦🇺 悉尼160【免费机场 www.mfjc.cc】
       - 🇸🇬 新加坡211【免费机场 www.mfjc.cc】
       - 🇯🇵 日本 197【免费机场 www.mfjc.cc】
@@ -932,6 +1145,7 @@ proxy-groups:
       - 🇺🇸 美国 1377
       - 🇺🇸 美国955
       - 🇭🇰 香港1788
+      - 🇺🇸 美国155
       - 🇯🇵 日本2331
       - 🇸🇬 新加坡788 推荐高速节点
       - 🇦🇺 悉尼222
@@ -951,8 +1165,16 @@ proxy-groups:
       - 🇯🇵 日本2044
       - 🇺🇸 美国344 【高速节点】
       - 🇺🇸 美国 120【高速】
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
+      - ❤️故障报修邮箱❤️ 2
+      - 邮箱:louwangzhiyu.org@gmail.com 2
+      - 🇩🇪 德国-法兰克福-001 2
+      - 🇩🇪 德国-法兰克福-002 2
+      - 🇩🇪 德国-法兰克福-003 2
+      - 🇩🇪 德国-法兰克福-004 2
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - 距离下次重置剩余：1 天
       - 🇭🇰 香港 (广港)1 x1
       - 🇭🇰 香港 (广港)2 x1
