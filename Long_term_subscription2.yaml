@@ -5,10 +5,9 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 如有需要，自行搭建, server: web.51.la, port: 443, type: vmess, uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b, alterId: 0, cipher: auto, tls: true, servername: web.51.la}
-  - {name: 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心, server: 45.79.8.17, port: 443, type: trojan, password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf, sni: 45.79.8.17, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 东京 - 2, server: bgroup.node1.v.nodelist-airport.com, port: 29712, type: vmess, uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46, alterId: 0, cipher: auto, tls: false}
+  - {name: 庆祝亚冬会胜利召开, server: web.51.la, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, servername: web.51.la}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 18.167.173.1, port: 2511, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.217.71, port: 19465, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -16,20 +15,18 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
@@ -37,10 +34,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
@@ -60,36 +56,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
@@ -97,10 +89,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
@@ -117,10 +108,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 如有需要，自行搭建
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇯🇵 日本 - 东京 - 2
+      - 庆祝亚冬会胜利召开
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
