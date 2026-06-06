@@ -5,47 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 16.162.93.34, port: 2008, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|@internet_azad_2026🇩🇰(3), server: 84.234.29.71, port: 8880, type: hysteria2, ports: 8880, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free2.masir-sefid.shop, skip-cert-verify: false}
-  - {name: 9|@internet_azad_2025🕊✨️(6), server: 34.196.169.182, port: 54040, type: hysteria2, ports: 54040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: masir-sefid.shop, skip-cert-verify: false}
+  - {name: "8|⚡@V2ray_official #4", server: 34.196.169.182, port: 59826, type: hysteria2, ports: 59826, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: masir-sefid.shop, skip-cert-verify: false}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: 16.162.32.32, port: 2511, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 18.167.173.1, port: 2511, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|@outline_ir, server: 18.157.222.169, port: 8880, type: hysteria2, ports: 8880, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
+  - {name: 8|@internet_azad_2026🇩🇰(3), server: 84.234.29.71, port: 8880, type: hysteria2, ports: 8880, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free2.masir-sefid.shop, skip-cert-verify: false}
+  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 2, server: 95.179.187.188, port: 57220, type: vmess, uuid: 13a400f3-e4d6-4cc6-840e-8cc9c52e9c25, alterId: 0, cipher: auto, tls: false}
+  - {name: 8|50134 | Telegram - t.me/SOSkey..., server: 195.15.254.245, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: "8|internet_azad_2026🇩🇪 #1", server: 18.157.222.169, port: 54040, type: hysteria2, ports: 54040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +64,51 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +124,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 9|@internet_azad_2026🇩🇰(3)
-      - 9|@internet_azad_2025🕊✨️(6)
+      - "8|⚡@V2ray_official #4"
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 9|@outline_ir
+      - 8|@internet_azad_2026🇩🇰(3)
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 8|50134 | Telegram - t.me/SOSkey...
+      - "8|internet_azad_2026🇩🇪 #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
