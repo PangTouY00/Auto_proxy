@@ -5,75 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: "9|@internet_azad_2026 #4", server: 18.157.222.169, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 95.40.47.145, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯 Samara State University, server: renderer-stream-1-411.mirra.now, port: 443, type: vmess, uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-1-411.mirra.now}}}
+  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.254, port: 443, type: trojan, password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd, sni: www.directorypipeline.click, skip-cert-verify: false}
+  - {name: "9|@internet_azad_2026 #10", server: 84.234.31.190, port: 4040, type: hysteria2, ports: 4040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free3.masir-sefid-1.my, skip-cert-verify: false}
   - {name: "9|⚡@V2ray_official #6", server: 34.196.169.182, port: 59826, type: hysteria2, ports: 59826, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: masir-sefid.shop, skip-cert-verify: false}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 95.40.35.52, port: 6604, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 43.198.226.205, port: 37973, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "9|internet_azad_2026🇩🇪 #1", server: 18.157.222.169, port: 54040, type: hysteria2, ports: 54040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 - 兰河畔林堡 - 1, server: de5.niekotin.de, port: 80, type: vmess, uuid: 85bf5801-4658-441c-a2e5-842c6c71a521, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de5.niekotin.de}}}
-  - {name: 9|🩵+@Azarakhsh_Proxy+🩷, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 洛杉矶, server: 66.81.247.155, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}}
-  - {name: "9|@internet_azad_2026 #8", server: 195.15.254.245, port: 444, type: hysteria2, ports: 444, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 18.167.42.231, port: 5701, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 9|internet_azad_2026, server: 195.15.254.245, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: "9|⚡@V2ray_official #3", server: 34.196.169.182, port: 15015, type: hysteria2, ports: 15015, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: masir-sefid.shop, skip-cert-verify: false}
+  - {name: 9|📀87@oneclickvpnkeys, server: 144.31.224.163, port: 443, type: hysteria2, ports: 443, password: rstnnl2705, obfs: salamander, obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W, sni: nrealistic.nn-foto.ru, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,19 +76,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -115,56 +95,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,19 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "9|@internet_azad_2026 #4"
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 🇷🇺 俄罗斯 Samara State University
+      - 8|1
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - "9|@internet_azad_2026 #10"
       - "9|⚡@V2ray_official #6"
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "9|internet_azad_2026🇩🇪 #1"
-      - 🇩🇪 德国 - 兰河畔林堡 - 1
-      - 9|🩵+@Azarakhsh_Proxy+🩷
-      - 🇺🇸 美国 洛杉矶
-      - "9|@internet_azad_2026 #8"
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - "9|@KAFING_2 #2"
-      - 9|internet_azad_2026
-      - "9|⚡@V2ray_official #3"
+      - 9|📀87@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
