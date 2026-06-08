@@ -5,59 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "9|@internet_azad_2026 #4", server: 18.157.222.169, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 95.40.47.145, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯 Samara State University, server: renderer-stream-1-411.mirra.now, port: 443, type: vmess, uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-1-411.mirra.now}}}
-  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.254, port: 443, type: trojan, password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd, sni: www.directorypipeline.click, skip-cert-verify: false}
-  - {name: "9|@internet_azad_2026 #10", server: 84.234.31.190, port: 4040, type: hysteria2, ports: 4040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free3.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: "9|⚡@V2ray_official #6", server: 34.196.169.182, port: 59826, type: hysteria2, ports: 59826, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: masir-sefid.shop, skip-cert-verify: false}
-  - {name: 9|📀87@oneclickvpnkeys, server: 144.31.224.163, port: 443, type: hysteria2, ports: 443, password: rstnnl2705, obfs: salamander, obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W, sni: nrealistic.nn-foto.ru, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 95.40.84.247, port: 11031, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "8|@internet_azad_2026 #16", server: 84.234.31.190, port: 8880, type: hysteria2, ports: 8880, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free3.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: 🇳🇱 8| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, server: 130.94.104.210, port: 443, type: trojan, password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m, sni: www.cdn-structure.click, skip-cert-verify: false}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.199.71.149, port: 53018, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 7|美国2, server: mg2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg2.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 11|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 52.196.69.56, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 43.199.71.149, port: 49277, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "8|🇩🇪@FreakConfig #1", server: 18.157.222.169, port: 54040, type: hysteria2, ports: 54040, password: "%40Masir_Sefid", obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 95.40.47.145, port: 28111, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,63 +84,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +167,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|@internet_azad_2026 #4"
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇷🇺 俄罗斯 Samara State University
-      - 8|1
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - "9|@internet_azad_2026 #10"
-      - "9|⚡@V2ray_official #6"
-      - 9|📀87@oneclickvpnkeys
+      - 🇭🇰 香港4|@ripaojiedian
+      - "8|@internet_azad_2026 #16"
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 7|美国2
+      - 🇺🇸 11|美国4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - "8|🇩🇪@FreakConfig #1"
+      - 🇸🇬 新加坡3|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

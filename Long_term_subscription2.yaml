@@ -5,67 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 162.159.195.173, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.199.65.125, port: 9731, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "9|@internet_azad_2026 #8", server: 195.15.254.245, port: 444, type: hysteria2, ports: 444, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 43.199.71.149, port: 49277, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "8,9|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 95.40.84.247, port: 11031, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|📀81@oneclickvpnkeys, server: 89.167.25.28, port: 11004, type: hysteria2, ports: 11004, password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2, sni: fi-node.farnet.top}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 52.196.69.56, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "9|⚡@V2ray_official #3", server: 34.196.169.182, port: 15015, type: hysteria2, ports: 15015, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: masir-sefid.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇨🇳 7|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: 172.237.145.189, port: 443, type: trojan, password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM, sni: 172.237.145.189, skip-cert-verify: false}
+  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 2, server: 95.179.187.188, port: 57220, type: vmess, uuid: 13a400f3-e4d6-4cc6-840e-8cc9c52e9c25, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 10|🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "8|@internet_azad_2026 #7", server: 18.157.222.169, port: 4040, type: hysteria2, ports: 4040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.167.51.169, port: 6357, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "8|@meliproxyy #5", server: 18.157.222.169, port: 443, type: hysteria2, ports: 443, password: "%40Masir_Sefid", obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
+  - {name: "11|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "8|@vmesskhodam #1", server: 195.15.253.119, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free2.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: 🇸🇬 7|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, server: 130.94.68.100, port: 443, type: trojan, password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE, sni: www.rolll.click, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,73 +84,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,17 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本|@ripaojiedian
-      - "9|@internet_azad_2026 #8"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 🇭🇰 香港4|@ripaojiedian
-      - 9|📀81@oneclickvpnkeys
-      - 🇭🇰 香港5|@ripaojiedian
-      - "9|⚡@V2ray_official #3"
-      - 🇸🇬 8|SG
+      - 🇨🇳 7|TW
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #7"
       - 🇸🇬 新加坡|@ripaojiedian
+      - "8|@meliproxyy #5"
+      - "11|tg频道:@ripaojiedian #1"
+      - "8|@vmesskhodam #1"
+      - 🇸🇬 7|SG
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
