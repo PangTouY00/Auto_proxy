@@ -5,63 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 54.46.2.184, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.65.85, port: 443, type: trojan, password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf, sni: 64.176.65.85}
-  - {name: 🇩🇪 8|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
-  - {name: "8,9|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "9|@internet_azad_2026 #11", server: 84.234.31.190, port: 1040, type: hysteria2, ports: 1040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free3.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
   - {name: "9|: @SIMSEFYD", server: hy2.aspidnet.xyz, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false}
-  - {name: 9|🇩🇪@FreakConfig, server: 18.157.222.169, port: 44044, type: hysteria2, ports: 44044, password: "%40Masir_Sefid", obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: "9|@internet_azad_2026 #14", server: 84.234.31.190, port: 8880, type: hysteria2, ports: 8880, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free3.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 35.77.201.105, port: 16712, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇨🇳 8|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 16.163.146.65, port: 2008, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 52.196.69.56, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 16.163.146.65, port: 29642, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|⚡@V2ray_official, server: 18.157.222.169, port: 444, type: hysteria2, ports: 444, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 16.163.146.65, port: 2008, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 12|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,67 +80,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +160,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 🇩🇪 8|DE
-      - 8,9|@KAFING_2
-      - "9|@KAFING_2 #2"
-      - "9|@internet_azad_2026 #11"
+      - 🇭🇰 8| HK
       - "9|: @SIMSEFYD"
-      - 9|🇩🇪@FreakConfig
-      - "9|@internet_azad_2026 #14"
-      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇨🇳 8|TW
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 9|⚡@V2ray_official
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇺🇸 12|美国4|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
