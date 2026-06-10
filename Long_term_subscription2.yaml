@@ -5,51 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇩🇪 德国 - 法兰克福 - 2, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 9|  @vistav2ray  👈ال  ✅, server: 18.157.222.169, port: 1040, type: hysteria2, ports: 1040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 43.198.108.17, port: 3743, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 54.178.8.69, port: 6737, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 18.162.124.37, port: 48738, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 18.162.54.223, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.162.124.37, port: 6357, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 91.233.8.25, port: 443, type: trojan, password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz, sni: fra34.tracker-ws.click, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 43.199.189.110, port: 3743, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|@GozargahAzad|, server: 32.195.51.20, port: 39150, type: hysteria2, ports: 39150, password: 5z15av99psrlhdqp, obfs: salamander, obfs-password: dlxmzvxvcp3i6v0e}
+  - {name: 🇺🇸 11|🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|59347 | ⚡️Telegram - t.me/SOSk..., server: markazi.kidshop.dpdns.org, port: 42641, type: hysteria2, ports: 42641, password: elczfe1nt42amtjf, obfs: salamander, obfs-password: kpj8ac1gwtzdfclh, sni: markazi.kidshop.dpdns.org}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 18.162.124.37, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 9|@FreakConfig, server: 18.157.222.169, port: 4040, type: hysteria2, ports: 4040, password: "%40Masir_Sefid", obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,13 +72,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,38 +90,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 德国 - 法兰克福 - 2
-      - 9|  @vistav2ray  👈ال  ✅
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 9|@GozargahAzad|
+      - 🇺🇸 11|🇺🇸 美国4|@ripaojiedian
+      - 9|59347 | ⚡️Telegram - t.me/SOSk...
+      - 🇺🇸 美国|@ripaojiedian
+      - "12|tg频道:@ripaojiedian #1"
+      - 9|@FreakConfig
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

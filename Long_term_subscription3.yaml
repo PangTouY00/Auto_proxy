@@ -5,75 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 43.199.189.110, port: 53018, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾省彰化县 中华电信, server: account-center.zzdy25.com, port: 38320, type: ss, cipher: chacha20-ietf-poly1305, password: a5115845-cc23-4082-905e-869fe212dfef}
-  - {name: 9|  ای   TelegramID Express_free..., server: 18.157.222.169, port: 54040, type: hysteria2, ports: 54040, password: "%40Express_freevpn", obfs: salamander, obfs-password: Express_freevpn, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: 9|⚡@V2ray_official, server: 18.157.222.169, port: 444, type: hysteria2, ports: 444, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 18.162.124.37, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 - 水牛城 - 4, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 52.196.69.56, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 119.246.1.143, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 43.198.98.40, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 43.199.189.110, port: 3743, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.65.85, port: 443, type: trojan, password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf, sni: 64.176.65.85}
-  - {name: 9|⚫ 12 • @spotfyhits, server: hy2.aspidnet.xyz, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, skip-cert-verify: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 52.196.69.56, port: 4327, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇩🇪 8|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 18.162.54.223, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 18.162.124.37, port: 6357, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 54.178.8.69, port: 6737, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,82 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,19 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11,12|香港3|@ripaojiedian
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 9|  ای   TelegramID Express_free...
-      - 9|⚡@V2ray_official
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇺🇸 美国 - 水牛城 - 4
-      - 8|1
-      - 🇸🇬 8|SG
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
       - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 加利福尼亚
-      - 9|⚫ 12 • @spotfyhits
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 8| HK
+      - 🇩🇪 8|DE
+      - "9|@KAFING_2 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇯🇵 11,12|日本|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
