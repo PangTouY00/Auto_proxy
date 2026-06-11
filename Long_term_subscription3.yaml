@@ -5,55 +5,79 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 43.199.207.202, port: 16712, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 11|tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 43.198.203.3, port: 49277, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.199.207.202, port: 16712, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 18.162.187.222, port: 3743, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.163.120.29, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "9|🇩🇪@FreakConfig #2", server: 18.157.222.169, port: 54040, type: hysteria2, ports: 54040, password: "%40Masir_Sefid", obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 18.166.223.23, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 18.163.120.29, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1", server: starlink-ca.mfa.cat, port: 443, type: hysteria2, ports: 443, password: "%E5%8D%87%E7%BA%A7%E8%AE%A2%E9%98%85%E8%A7%A3%E9%94%81%E5%85%A8%E9%83%A8%E8%8A%82%E7%82%B9", sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 18.162.187.222, port: 3743, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4", server: starlink-jp6.mfa.cat, port: 20443, type: hysteria2, ports: 20443, password: sI0wl1bvYlSXu2RsMSAtAIMM, sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 9|⚫ 12 • @spotfyhits ❤, server: hy2.aspidnet.xyz, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, skip-cert-verify: false}
+  - {name: 9|🇧🇷BR-🚀@VPNine1, server: starlink-br.mfa.cat, port: 30000, type: hysteria2, ports: 30000, password: "%E5%8D%87%E7%BA%A7%E8%AE%A2%E9%98%85%E8%A7%A3%E9%94%81%E5%85%A8%E9%83%A8%E8%8A%82%E7%82%B9", sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 43.198.203.3, port: 29642, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇨🇳 9|TW-🚀@VPNine1, server: starlink-tw1.mfa.cat, port: 12401, type: hysteria2, ports: 12401, password: sI0wl1bvYlSXu2RsMSAtAIMM, sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "🇺🇸 9|🇸US-🚀@VPNine1 #2", server: starlink-us4.mfa.cat, port: 443, type: hysteria2, ports: 443, password: sI0wl1bvYlSXu2RsMSAtAIMM, sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 18.163.120.29, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 18.163.193.177, port: 5701, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 43.198.203.3, port: 29642, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +96,84 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +189,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - "9|🇩🇪@FreakConfig #2"
-      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "🇨🇦 9|🇨🇦CA-🚀@VPNine1 #1"
+      - 🇯🇵 11,12|日本3|@ripaojiedian
+      - "🇯🇵 9|🇯🇵JP-🚀@VPNine1 #4"
+      - "9|@KAFING_2 #2"
+      - 9|⚫ 12 • @spotfyhits ❤
+      - 9|🇧🇷BR-🚀@VPNine1
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
+      - 🇨🇳 9|TW-🚀@VPNine1
+      - "🇺🇸 9|🇸US-🚀@VPNine1 #2"
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
