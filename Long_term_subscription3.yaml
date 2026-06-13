@@ -5,55 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "8|@prrofile_purple  ♥️👈 تلگرام #1", server: 206.189.58.246, port: 8443, type: hysteria2, ports: 8443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 18.183.58.98, port: 53018, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "7,8|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "8|@confiig_hub #1", server: 18.157.222.169, port: 54040, type: hysteria2, ports: 54040, password: "%40Masir_Sefid", obfs: salamander, obfs-password: Masir_Sefid, sni: free.masir-sefid.shop, skip-cert-verify: false}
-  - {name: "🇸🇬 10,11|新加坡3|@ripaojiedian", server: 43.199.36.58, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.162.244.255, port: 48738, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 10|🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: "8|@internet_azad_2026 #3", server: 206.189.58.246, port: 54040, type: hysteria2, ports: 54040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: "🇭🇰 10,11|香港4|@ripaojiedian", server: 18.166.62.24, port: 1123, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 10|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 16.162.163.189, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 7|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: "🇺🇸 10,11|美国2|@ripaojiedian", server: 16.162.163.189, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 🇺🇸 11|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: "8|@internet_azad_2026 #1", server: 206.189.58.246, port: 2087, type: hysteria2, ports: 2087, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: 🇭🇰 中国 - 香港 - 1, server: 154.37.223.19, port: 56972, type: vmess, uuid: ae225455-5e8c-491d-d931-c06ac56f4aee, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +76,66 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 中国 - 香港 - 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +151,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "8|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 7,8|@KAFING_2
-      - "8|@confiig_hub #1"
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇺🇸 10|🇺🇸 美国4|@ripaojiedian
+      - "8|@internet_azad_2026 #3"
+      - 🇭🇰 10,11|香港4|@ripaojiedian
+      - 🇭🇰 10|🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 7|SG
+      - 🇺🇸 10,11|美国2|@ripaojiedian
       - 🇺🇸 11|美国4|@ripaojiedian
-      - "8|@internet_azad_2026 #1"
+      - 🇭🇰 中国 - 香港 - 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
