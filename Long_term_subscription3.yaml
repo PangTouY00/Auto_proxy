@@ -5,43 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "9|@prrofile_purple  ♥️👈 تلگرام #1", server: 206.189.58.246, port: 8443, type: hysteria2, ports: 8443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 16.162.192.48, port: 2008, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|@prrofile_purple  ♥️👈 تلگرام, server: 206.189.58.246, port: 2053, type: hysteria2, ports: 2053, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - 1, server: lsv-kr.mmm.uw.to, port: 443, type: vmess, uuid: 60f4e608-94fa-4ee2-931a-e0ace9bd5d13, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /60f4e608-94fa-4ee2-931a-e0ace9bd5d13-vm, headers: {Host: lsv-kr.mmm.uw.to}}}
+  - {name: 9|@prrofile_purple, server: 206.189.58.246, port: 1040, type: hysteria2, ports: 1040, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: 13|DE_speednode_0001, server: de-1.hysteria.ltd, port: 9443, type: trojan, password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu, sni: de-1.hysteria.ltd, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 16.162.220.24, port: 1035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 95.40.55.96, port: 55973, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|@prrofile_purple  ♥️👈 تلگرام #1"
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
-      - "12|tg频道:@ripaojiedian #1"
+      - 🇭🇰 8| HK
+      - 🇰🇷 韩国 - 首尔特别市 - 1
+      - 9|@prrofile_purple
+      - 13|DE_speednode_0001
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
