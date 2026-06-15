@@ -5,67 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 - 首尔特别市 - 1, server: lsv-kr.mmm.uw.to, port: 443, type: vmess, uuid: 60f4e608-94fa-4ee2-931a-e0ace9bd5d13, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /60f4e608-94fa-4ee2-931a-e0ace9bd5d13-vm, headers: {Host: lsv-kr.mmm.uw.to}}}
   - {name: 🇩🇪 德国 - 法兰克福 - 6, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 8|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
-  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 16.163.154.228, port: 45744, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "8,9|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 9| 19  @spotfyhits, server: 206.189.58.246, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: 🇺🇸 12|美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|@internet_azad_2026, server: 37.156.46.29, port: 443, type: hysteria2, ports: 443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: api.masir-sefid-1.my, skip-cert-verify: false}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 43.198.12.196, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|@prrofile_purple  ♥️👈 تلگرام, server: 206.189.58.246, port: 2053, type: hysteria2, ports: 2053, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 185.126.236.44, port: 443, type: trojan, password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL, sni: www.mesaly.click, skip-cert-verify: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 95.40.55.96, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "9|@prrofile_purple  ♥️👈 تلگرام #2", server: 206.189.58.246, port: 8443, type: hysteria2, ports: 8443, password: Masir_Sefid, obfs: salamander, obfs-password: Masir_Sefid, sni: Api1.masir-sefid-1.my, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,17 +64,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -105,50 +80,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,17 +124,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 8|1
+      - 🇸🇬 8|SG
+      - 🇰🇷 韩国 - 首尔特别市 - 1
       - 🇩🇪 德国 - 法兰克福 - 6
-      - 🇯🇵 8|JP
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
-      - 8,9|@KAFING_2
-      - 9| 19  @spotfyhits
-      - 🇺🇸 12|美国4|@ripaojiedian
-      - 9|@internet_azad_2026
-      - tg频道:@ripaojiedian
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 9|@prrofile_purple  ♥️👈 تلگرام
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸 美国|@ripaojiedian
+      - "9|@prrofile_purple  ♥️👈 تلگرام #2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
