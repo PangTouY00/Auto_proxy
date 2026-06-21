@@ -5,75 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.208.184, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, network: ws, ws-opts: {path: /%2Fassignment, headers: {Host: www.multiplydose.com}}}
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 35.77.34.38, port: 29642, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|🏟️46@NetFlowTools, server: 202.61.205.86, port: 4433, type: hysteria2, ports: 4433, password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e, sni: de1.xiaoliyu.cyou}
-  - {name: 9|✈️30@oneclickvpnkeys, server: 140.245.27.220, port: 51000, type: hysteria2, ports: 51000, password: 940f51d6-e0a4-4add-b96b-328e4a84b642, sni: cn.cremedelamer.com, skip-cert-verify: true}
-  - {name: 9|  @vistav2ray  👈👈اا  ✅, server: 80.66.81.78, port: 9443, type: hysteria2, ports: 9443, password: rs2mR3g9bZiMloftx6lZQ59Um1Ld, obfs: salamander, obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ, sni: tunel1.washing.help, skip-cert-verify: false}
-  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
-  - {name: 9|🏟️47@NetFlowTools, server: vpn-de-002.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, skip-cert-verify: true}
-  - {name: 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG, server: 70.34.205.15, port: 443, type: hysteria2, ports: 443, password: T%24me%24V2RayyNGvpn, obfs: salamander, obfs-password: T.me$V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: true}
-  - {name: 🇩🇪 德国 - 纽伦堡 - 2, server: 167.235.108.86, port: 14991, type: vmess, uuid: d4dd0481-bc9c-4521-86ea-0c9f55f0aad5, alterId: 0, cipher: auto, tls: false}
-  - {name: 9|@prrofile_purple  ️, server: 31.22.91.243, port: 443, type: hysteria2, ports: 443, password: EsimHy2Game_7xK9mPq2, obfs: salamander, obfs-password: EsimObfs_9mK2x7, sni: se.esimpson.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.54, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 16.163.106.209, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇩🇪 德国 - 纽伦堡 - 7, server: 46.225.252.32, port: 14991, type: vmess, uuid: d4dd0481-bc9c-4521-86ea-0c9f55f0aad5, alterId: 0, cipher: auto, tls: false}
+  - {name: 9|@V2RayyNGvpn🇦, server: 66.92.161.94, port: 80, type: hysteria2, ports: 80, password: V2RayyNGvpn, obfs: salamander, obfs-password: T.me/V2RayyNGvpn, skip-cert-verify: true}
+  - {name: 🇨🇳 8|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 16.163.106.209, port: 41889, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|✈️5@NetFlowTools, server: 3.66.236.81, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, skip-cert-verify: true}
   - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 9|telegram @mtmvpn, server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|🇱@V2RayyNGvpn🇱, server: 82.47.63.181, port: 443, type: hysteria2, ports: 443, password: wundefinedg2dqmQqM, obfs: salamander, obfs-password: T$me$V2RayyNGvpn@V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 13.115.223.251, port: 17005, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,79 +84,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,19 +167,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 9|🏟️46@NetFlowTools
-      - 9|✈️30@oneclickvpnkeys
-      - 9|  @vistav2ray  👈👈اا  ✅
-      - 🇸🇬 8|SG
-      - 9|🏟️47@NetFlowTools
-      - 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
-      - 🇩🇪 德国 - 纽伦堡 - 2
-      - 9|@prrofile_purple  ️
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇩🇪 德国 - 纽伦堡 - 7
+      - 9|@V2RayyNGvpn🇦
+      - 🇨🇳 8|TW
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|✈️5@NetFlowTools
       - "9|@KAFING_2 #2"
-      - 9|telegram @mtmvpn
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 9|🇱@V2RayyNGvpn🇱
+      - 🇺🇸 11,12|美国2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
