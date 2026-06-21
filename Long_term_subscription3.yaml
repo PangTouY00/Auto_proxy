@@ -5,59 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 16.163.106.209, port: 41889, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国 - Frankfurt Am Main - 9, server: 188.121.109.55, port: 6066, type: vmess, uuid: 9aeb91f7-c539-4f15-8fbd-fb17efaca0e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇳🇱 9| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 9|✈️17@NetFlowTools, server: 188.225.80.130, port: 7443, type: hysteria2, ports: 7443, password: be7441a663ef465566e3a6e441a16357, sni: tw-vds.t1n2.com, skip-cert-verify: true}
-  - {name: 13|US_speednode_0069, server: 154.17.28.152, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hhcm.hhxaf.cc.cd}}}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.207.206.41, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
   - {name: 13|KR_speednode_0004, server: 129.154.50.159, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 18.163.200.170, port: 29642, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 35.77.34.38, port: 5701, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|@V2RayyNGvpn🇸🇪, server: 70.34.206.217, port: 443, type: hysteria2, ports: 443, password: T%24me%24V2RayyNGvpn, obfs: salamander, obfs-password: T$me$V2RayyNGVpn@V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 43.198.206.201, port: 48738, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|🇩🇪@V2RayyNGvpn 🇩🇪, server: 185.250.41.245, port: 443, type: hysteria2, ports: 443, password: rQRuZ8nFbC, obfs: salamander, obfs-password: T.me/V2RayyNGvpn, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,64 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,15 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 11,12|美国3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 🇩🇪 德国 - Frankfurt Am Main - 9
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|✈️17@NetFlowTools
-      - 13|US_speednode_0069
-      - 🇯🇵 日本|@ripaojiedian
       - 13|KR_speednode_0004
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|@V2RayyNGvpn🇸🇪
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn 🇩🇪
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
