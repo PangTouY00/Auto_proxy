@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `10`
-Updata：`2026-06-22 15:12:55`
+Updata：`2026-06-23 02:08:54`
 
 
 <details>
@@ -33330,62 +33330,72 @@ Updata：`2026-06-22 15:12:55`
 
 
 
->Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=76f66450a8621fba63bc09df1b37efaa`
 
 
 
 
->Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=1557b3d05b42783d2a0109c7e1fd6cc6`
 
 
-
-
->Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=7d9c2424b9548181addb643a1a84bf72`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=336c957b7549b0564104f67a27246314`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=adb4a74d9356304d09c387fda9037f04`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=4cfaec10dfc38407682ff0f6a02d042c`
+`https://b.adami.icu/api/v1/client/subscribe?token=77349b9c3a12272748f2657ab045dd26`
 
 
 
 
 >Trial subscription：
-`https://b.adami.icu/api/v1/client/subscribe?token=1b14b6d8fcddef3f47c05659af7ad9e0`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=3c824280f49f85ae51c0e6d4d102b8ca`
 
 
 
 
 >Trial subscription：
-`https://vps.bluexray.net/api/v1/client/subscribe?token=465e6e6386a2ba46b118dea409bfb426`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=ea5b1c1d67656809fc4699630f3906ce`
 
 
 
 
 >Trial subscription：
-`https://slianvpn.com/api/v1/client/subscribe?token=089033eeecb5caafffdf3d2486858e3c`
+`https://adminxboardvpn.hrzy.me/api/v1/client/subscribe?token=5d7362f75d5c0759f2cfb358f51c13e1`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=cb7d7312b57afe5a4a42310824eca176`
+`https://vps.bluexray.net/api/v1/client/subscribe?token=3fe90b9a4d5dc210914d9f3aabcc58cd`
 
 
 
 
 >Trial subscription：
-`https://adminxboardvpn.hrzy.me/api/v1/client/subscribe?token=37eed5901d7d001d1cae7bb54aa4b968`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=c9267561756a178e55ccd92729a72d52`
+
+
+
+
+>Trial subscription：
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=bfdae5f743bb5954d435ca64f6327c8d`
+
+
+
+
+>Trial subscription：
+`https://slianvpn.com/api/v1/client/subscribe?token=4ab87de78aec6d7eb4a47d59b80e8d78`
+
+
+
+
+>Trial subscription：
+`https://yywhale.com/api/v1/client/subscribe?token=4644fc571d9f1ac3b144cf9056796bde`
 
 
 
