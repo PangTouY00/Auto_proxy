@@ -5,47 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 35.77.44.189, port: 48738, type: trojan, password: 82c038b55e40ca2613b76bb98c7f6d1f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 43.199.41.146, port: 6357, type: trojan, password: 82c038b55e40ca2613b76bb98c7f6d1f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 18.166.64.127, port: 55973, type: trojan, password: 82c038b55e40ca2613b76bb98c7f6d1f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 13|GB_speednode_0005, server: 164.38.155.135, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: 95r.ir}}}
+  - {name: 13|US_speednode_0063, server: iranpoems.ir, port: 443, type: trojan, password: Mitivpn, sni: www.gamingdll.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: www.gamingdll.ir}}}
+  - {name: 🇯🇵 8|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 35.77.44.189, port: 48738, type: trojan, password: 82c038b55e40ca2613b76bb98c7f6d1f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|+@Azarakhsh_Proxy+, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - 普若佛 - 4, server: h1.bnm.uw.to, port: 443, type: vmess, uuid: 32d7c5c7-ab96-4803-bff3-cb9c67e66a64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /32d7c5c7-ab96-4803-bff3-cb9c67e66a64-vm, headers: {Host: h1.bnm.uw.to}}}
+  - {name: "8,9|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 43.199.35.162, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 8|SG_@WangCai_8, server: 13.229.94.221, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https://t.me/WangCai2, skip-cert-verify: true}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.241.66.76, port: 14605, type: ss, cipher: chacha20-ietf-poly1305, password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +76,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11,12|香港4|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +149,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇭🇰 8| HK
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - "12|tg频道:@ripaojiedian #1"
-      - 13|GB_speednode_0005
+      - 13|US_speednode_0063
+      - 🇯🇵 8|JP
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 9|+@Azarakhsh_Proxy+
+      - 🇺🇸 美国 - 普若佛 - 4
+      - 8,9|@KAFING_2
+      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 8|SG_@WangCai_8
+      - 🇮🇳 印度 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
