@@ -5,29 +5,25 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 0e423d15-fcfe-476b-adb6-a8cc8f7f8cf9, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 0e423d15-fcfe-476b-adb6-a8cc8f7f8cf9, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
-  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 0e423d15-fcfe-476b-adb6-a8cc8f7f8cf9, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 0e423d15-fcfe-476b-adb6-a8cc8f7f8cf9, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 8ea4ee82-69ab-4486-a4ef-1133d5fa7f6d, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 8ea4ee82-69ab-4486-a4ef-1133d5fa7f6d, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 8ea4ee82-69ab-4486-a4ef-1133d5fa7f6d, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 8ea4ee82-69ab-4486-a4ef-1133d5fa7f6d, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 8ea4ee82-69ab-4486-a4ef-1133d5fa7f6d, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 17b94e40-74c6-4ffe-b492-6ea5a96a5073, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 17b94e40-74c6-4ffe-b492-6ea5a96a5073, sni: empty.node, skip-cert-verify: false}
-  - {name: node1-vpn, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 3ac5fe28-c135-4c63-9d67-a682fc700ccf, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-001-FREE, server: 13.229.46.36, port: 8443, type: hysteria2, ports: 8443, password: 3ac5fe28-c135-4c63-9d67-a682fc700ccf, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: c549cce3-6f27-4292-a24b-1e18d1b374e9, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: c549cce3-6f27-4292-a24b-1e18d1b374e9, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: c549cce3-6f27-4292-a24b-1e18d1b374e9, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: c549cce3-6f27-4292-a24b-1e18d1b374e9, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: c549cce3-6f27-4292-a24b-1e18d1b374e9, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 935eee7f-ce6e-42e9-96fc-2831dff49069, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 935eee7f-ce6e-42e9-96fc-2831dff49069, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 04a4e89f-dca0-4336-b12f-a9054888f708, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 04a4e89f-dca0-4336-b12f-a9054888f708, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 04a4e89f-dca0-4336-b12f-a9054888f708, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 04a4e89f-dca0-4336-b12f-a9054888f708, sni: www.iq.com, skip-cert-verify: true}
+  - {name: node1-vpn, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 3657fb3c-c44c-409a-9c4f-27b7be8fef95, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-001-FREE, server: 13.229.46.36, port: 8443, type: hysteria2, ports: 8443, password: 3657fb3c-c44c-409a-9c4f-27b7be8fef95, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -35,6 +31,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: ♻️ 自动选择
@@ -42,10 +42,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -53,6 +49,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: 🎥 NETFLIX
@@ -61,10 +61,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -72,6 +68,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: ⛔️ 广告拦截
@@ -92,10 +92,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -103,6 +99,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: 🌏 国内媒体
@@ -118,10 +118,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -129,6 +125,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: 📲 电报信息
@@ -136,10 +136,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -147,6 +143,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: 🍎 苹果服务
@@ -155,10 +155,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -166,6 +162,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
   - name: 🎯 全球直连
@@ -183,10 +183,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -194,6 +190,10 @@ proxy-groups:
       - 🇨🇳 中国联通节点1
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
       - node1-vpn
       - 🇸🇬 SG-001-FREE
 rules:
