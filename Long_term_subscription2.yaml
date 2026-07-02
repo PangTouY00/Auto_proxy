@@ -5,31 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇷 希腊 V2CROSS.COM, server: 92.119.35.119, port: 443, type: trojan, password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh, sni: 92.119.35.119}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.60.136.156, port: 443, type: trojan, password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.142, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 18.181.219.39, port: 52904, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 16.162.192.195, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 16.163.149.119, port: 3941, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 95.40.113.209, port: 17005, type: trojan, password: cbed60798db0624ba9d15418f0d0d9a4, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇬🇷 希腊 V2CROSS.COM, server: 92.119.35.87, port: 443, type: trojan, password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -48,35 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -92,8 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
       - 🇬🇷 希腊 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

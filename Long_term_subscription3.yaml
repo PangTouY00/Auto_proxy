@@ -5,31 +5,39 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 95.40.113.209, port: 6357, type: trojan, password: cbed60798db0624ba9d15418f0d0d9a4, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 16.163.149.119, port: 3941, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.60.136.156, port: 443, type: trojan, password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.180.221.143, port: 17283, type: ss, cipher: chacha20-ietf-poly1305, password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 95.40.113.209, port: 49277, type: trojan, password: cbed60798db0624ba9d15418f0d0d9a4, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -48,36 +56,43 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,8 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
