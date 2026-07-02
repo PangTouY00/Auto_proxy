@@ -5,25 +5,25 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: b23e3beb-3784-45f0-aca6-f1c219452386, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: b23e3beb-3784-45f0-aca6-f1c219452386, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
-  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: b23e3beb-3784-45f0-aca6-f1c219452386, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: b23e3beb-3784-45f0-aca6-f1c219452386, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: fde22a2b-45de-4187-8608-6ec637125ee6, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: fde22a2b-45de-4187-8608-6ec637125ee6, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: fde22a2b-45de-4187-8608-6ec637125ee6, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: fde22a2b-45de-4187-8608-6ec637125ee6, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: fde22a2b-45de-4187-8608-6ec637125ee6, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 769c405f-84ee-490f-8d2c-d679a4508d53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 769c405f-84ee-490f-8d2c-d679a4508d53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
-  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 769c405f-84ee-490f-8d2c-d679a4508d53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 769c405f-84ee-490f-8d2c-d679a4508d53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 769c405f-84ee-490f-8d2c-d679a4508d53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 769c405f-84ee-490f-8d2c-d679a4508d53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 1041fdec-75e1-4873-a422-b9e9be118137, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 1041fdec-75e1-4873-a422-b9e9be118137, sni: empty.node, skip-cert-verify: false}
-  - {name: node1-vpn, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: ab5729ba-72b5-46cc-843c-d2dde8df91ed, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-001-FREE, server: 13.229.46.36, port: 8443, type: hysteria2, ports: 8443, password: ab5729ba-72b5-46cc-843c-d2dde8df91ed, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: bbbbb3eb-13e5-45b3-9456-520501d29f94, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: bbbbb3eb-13e5-45b3-9456-520501d29f94, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: bbbbb3eb-13e5-45b3-9456-520501d29f94, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: bbbbb3eb-13e5-45b3-9456-520501d29f94, sni: www.iq.com, skip-cert-verify: true}
+  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 02ebd9eb-c338-4396-ac4a-6d9ab46f8f8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 02ebd9eb-c338-4396-ac4a-6d9ab46f8f8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 02ebd9eb-c338-4396-ac4a-6d9ab46f8f8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 02ebd9eb-c338-4396-ac4a-6d9ab46f8f8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 02ebd9eb-c338-4396-ac4a-6d9ab46f8f8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 02ebd9eb-c338-4396-ac4a-6d9ab46f8f8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 332d56c6-e1c8-4a75-bde1-b7b51ba67544, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 332d56c6-e1c8-4a75-bde1-b7b51ba67544, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: c8981e63-81dc-454f-89a2-b416d380085d, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: c8981e63-81dc-454f-89a2-b416d380085d, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: c8981e63-81dc-454f-89a2-b416d380085d, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: c8981e63-81dc-454f-89a2-b416d380085d, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: c8981e63-81dc-454f-89a2-b416d380085d, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: Hysteria Game, server: de.fast-freeway.ru, port: 500, type: hysteria2, ports: 500, password: a3c0a42d-e5d6-481d-94b7-63ece42d4eca, obfs: salamander, obfs-password: JflrYFN6aCA1tyqV, sni: de.fast-freeway.ru, skip-cert-verify: false}
+  - {name: Hysteria Game 2, server: fin.fast-freeway.ru, port: 500, type: hysteria2, ports: 500, password: a3c0a42d-e5d6-481d-94b7-63ece42d4eca, obfs: salamander, obfs-password: JflrYFN6aCA1tyqV, sni: fin.fast-freeway.ru, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -34,11 +34,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -47,8 +42,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -58,11 +58,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -71,8 +66,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -83,11 +83,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -96,8 +91,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,11 +120,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -133,8 +128,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -152,11 +152,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -165,8 +160,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -176,11 +176,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -189,8 +184,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -201,11 +201,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -214,8 +209,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,11 +235,6 @@ proxy-groups:
       - 🇺🇸 hy-03 | US
       - 🇺🇸 hy-04 | US
       - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
@@ -248,8 +243,13 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-004
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - node1-vpn
-      - 🇸🇬 SG-001-FREE
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - Hysteria Game
+      - Hysteria Game 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

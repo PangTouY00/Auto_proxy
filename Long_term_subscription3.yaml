@@ -5,39 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.60.136.156, port: 443, type: trojan, password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.180.221.143, port: 17283, type: ss, cipher: chacha20-ietf-poly1305, password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 95.40.113.209, port: 49277, type: trojan, password: cbed60798db0624ba9d15418f0d0d9a4, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 52.195.161.184, port: 10624, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 16.163.43.143, port: 17005, type: trojan, password: b8494776252056a1b62e77c4ff6a6d61, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇳🇱 9| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 52.195.161.184, port: 10624, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 13|GB_speednode_0005, server: 164.38.155.135, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: 95r.ir}}}
+  - {name: 9|️@ATLAS_V2VPN️️432️, server: 2.26.49.16, port: 443, type: hysteria2, ports: 443, password: 653m8mmiy7048p0f, obfs: salamander, obfs-password: 3sv5vpdl9xr84lyb, sni: social.klipp.su, skip-cert-verify: false}
+  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,43 +72,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +141,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇯🇵 日本|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 8|1
+      - 13|GB_speednode_0005
+      - 9|️@ATLAS_V2VPN️️432️
+      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
