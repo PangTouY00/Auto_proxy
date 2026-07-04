@@ -5,47 +5,71 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 11|🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "9|اا تلگرام : MTMVPN", server: 65.109.177.191, port: 443, type: hysteria2, ports: 443, password: V2RayyNgvpn, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.oracle.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 16.163.43.143, port: 29642, type: trojan, password: b8494776252056a1b62e77c4ff6a6d61, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|hysteria, server: pro2.riziro.ir, port: 44100, type: hysteria2, ports: 44100, password: rjj39jg8iphgd06h, obfs: salamander, obfs-password: 2gg0tx9d2etug8n9, sni: pro2.riziro.ir}
-  - {name: 9|🇩🇪hysteria2-@hollowcon, server: ger1.riziro.ir, port: 2087, type: hysteria2, ports: 2087, password: hk6ah4vgb0qp2koh, obfs: salamander, obfs-password: xdbc2u01v1j9fhvv, sni: ger1.riziro.ir}
-  - {name: 9|telegram @mtmvpn, server: 103.251.167.168, port: 443, type: hysteria2, ports: 443, password: gdubbi2zb6gdp0c8, obfs: salamander, obfs-password: 2a7e8084206388f4, sni: gettestin.xxee.ru, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.198.12.202, port: 22459, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|🍓62@oneclickvpnkeys, server: 45.196.182.139, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: 🇨🇳 8|TW, server: tw.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 9|🍓40@oneclickvpnkeys, server: 45.196.182.232, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: 9|🍓66@oneclickvpnkeys, server: 45.196.182.246, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 16.163.155.249, port: 2366, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 18.162.58.236, port: 2008, type: trojan, password: b8494776252056a1b62e77c4ff6a6d61, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 9|🏠42@oneclickvpnkeys, server: www.838491.xyz, port: 13377, type: hysteria2, ports: 13377, password: dongtaiwang.com, sni: www.838491.xyz}
+  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇩🇪 8|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.221.143, port: 17283, type: ss, cipher: chacha20-ietf-poly1305, password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +88,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +173,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 11|🇭🇰 香港|@ripaojiedian
-      - "9|اا تلگرام : MTMVPN"
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 9|hysteria
-      - 9|🇩🇪hysteria2-@hollowcon
-      - 9|telegram @mtmvpn
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 9|🍓62@oneclickvpnkeys
+      - 🇨🇳 8|TW
+      - 9|🍓40@oneclickvpnkeys
+      - 9|🍓66@oneclickvpnkeys
+      - "12|tg频道:@ripaojiedian #1"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 9|🏠42@oneclickvpnkeys
+      - 🇸🇬 8|SG
+      - 🇩🇪 8|DE
+      - 🇺🇸 美国 华盛顿Cogent通信公司
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
