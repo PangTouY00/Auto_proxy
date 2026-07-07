@@ -5,63 +5,79 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 9|🇩🇪@V2RayyNGvpn🇩🇪, server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: V2Rayyngvpn, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
-  - {name: 13|NL_speednode_0016, server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: 95r.ir}}}
-  - {name: 9|🕹️47@oneclickvpnkeys, server: 13.229.106.122, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
-  - {name: "9|تلگرام : MTMVPN", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: true}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.111.114.71, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm}
-  - {name: 🇳🇱 9| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: "9|🇩🇪@V2RayyNGvpn🇩🇪 #1", server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: t-me-V2RayyNGvpN, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
-  - {name: 9|♦️50@oneclickvpnkeys, server: 45.196.182.225, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
-  - {name: 🇯🇵 12|日本|@ripaojiedian, server: 95.40.61.197, port: 47656, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 8|美国2, server: mg2.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: mg2.mangshe.xyz, skip-cert-verify: true}
+  - {name: 8|48@NetFlowTools, server: 13.250.29.24, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: "🇯🇵 10,11|日本3|@ripaojiedian", server: 16.163.50.86, port: 3743, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 Amazon数据中心, server: ss.047.node-for-bigairport.win, port: 19001, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e}
+  - {name: 8|@V2RayyNGvpn🇩🇪, server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: T%26me%26V2RayyNGvpn, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
+  - {name: 🇭🇰 11|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇸🇬 10,11|新加坡2|@ripaojiedian", server: 18.162.58.236, port: 29642, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇭🇰 10,11|香港3|@ripaojiedian", server: 16.163.138.198, port: 2008, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 18.166.66.1, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 8|♦️69@v2ray_configs_pools, server: 46.17.40.117, port: 51385, type: hysteria2, ports: 51385, password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd, sni: music.apple.com, skip-cert-verify: true}
+  - {name: 8|🇩🇪hysteria2-@hollowcon, server: ger1.riziro.ir, port: 2087, type: hysteria2, ports: 2087, password: hk6ah4vgb0qp2koh, obfs: salamander, obfs-password: xdbc2u01v1j9fhvv, sni: ger1.riziro.ir}
+  - {name: 🇳🇱 8| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 12|AE_speednode_0001, server: 94.140.0.100, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: 95r.ir}}}
+  - {name: "8|تلگرام : MTMVPN", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 16.163.50.86, port: 17005, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,67 +96,86 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 Amazon数据中心
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +191,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|🇩🇪@V2RayyNGvpn🇩🇪
-      - 13|NL_speednode_0016
-      - 9|🕹️47@oneclickvpnkeys
-      - "9|تلگرام : MTMVPN"
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - "9|🇩🇪@V2RayyNGvpn🇩🇪 #1"
-      - 9|♦️50@oneclickvpnkeys
-      - 🇯🇵 12|日本|@ripaojiedian
-      - 🇺🇸 8|美国2
+      - 8|48@NetFlowTools
+      - 🇯🇵 10,11|日本3|@ripaojiedian
+      - 🇭🇰 香港 Amazon数据中心
+      - 8|@V2RayyNGvpn🇩🇪
+      - 🇭🇰 11|香港|@ripaojiedian
+      - 🇸🇬 10,11|新加坡2|@ripaojiedian
+      - 🇭🇰 10,11|香港3|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 8|♦️69@v2ray_configs_pools
+      - 8|🇩🇪hysteria2-@hollowcon
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 12|AE_speednode_0001
+      - "8|تلگرام : MTMVPN"
+      - 🇺🇸 美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

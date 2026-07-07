@@ -5,95 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 193.168.175.56, port: 14605, type: ss, cipher: chacha20-ietf-poly1305, password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY}
-  - {name: 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian, server: 16.163.150.200, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇿🇦 南非 V2CROSS.COM, server: 45.196.182.145, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com}
-  - {name: 9|🇩🇪💎hysteria-@hollowcon, server: panel.riziro.ir, port: 4526, type: hysteria2, ports: 4526, password: hk6ah4vgb0qp2koh, sni: ger1.riziro.ir}
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 18.162.58.236, port: 6357, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 - Erith - 1, server: 104.17.124.179, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}}
-  - {name: 13|US_speednode_0063, server: iranpoems.ir, port: 443, type: trojan, password: Mitivpn, sni: www.gamingdll.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: www.gamingdll.ir}}}
-  - {name: 9|♦️54@oneclickvpnkeys, server: 66.234.150.243, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
-  - {name: 9|48@NetFlowTools, server: 13.250.29.24, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
-  - {name: 🇯🇵 11|🇯🇵 日本|@ripaojiedian, server: 3.112.52.247, port: 27826, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 12|香港4|@ripaojiedian, server: 16.162.109.204, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.60.136.156, port: 443, type: trojan, password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey}
-  - {name: 9|♦️58@oneclickvpnkeys, server: 66.234.150.227, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
-  - {name: 🇭🇰 12|香港5|@ripaojiedian, server: 16.162.143.22, port: 29449, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.149, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 16.163.138.198, port: 3743, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 9|♦️53@oneclickvpnkeys, server: 66.234.150.240, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 16.163.50.86, port: 55973, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 8|🕹️57@v2ray_configs_pools, server: 45.196.182.234, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 16.163.50.86, port: 3743, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 8|🪼46@NetFlowTools, server: 54.255.220.11, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: "11|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 8|5♦️@v2ray_configs_pools, server: 192.220.32.174, port: 443, type: hysteria2, ports: 443, password: 7Z47Z7yK4CpDBW6ht3XifQopIW7WVmEM, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.111.114.71, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm}
+  - {name: 8|🕹️49@v2ray_configs_pools, server: 54.251.212.188, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: "🇯🇵 10,11|日本2|@ripaojiedian", server: 16.163.50.86, port: 55973, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 12|US_speednode_0063, server: iranpoems.ir, port: 443, type: trojan, password: Mitivpn, sni: www.gamingdll.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: www.gamingdll.ir}}}
+  - {name: 8|🕹️58@v2ray_configs_pools, server: 66.234.150.237, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com}
+  - {name: 8|♦️74@v2ray_configs_pools, server: 45.196.182.173, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
+  - {name: 8|🕹️74@oneclickvpnkeys, server: 45.196.182.168, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
+  - {name: 8|1♦️@v2ray_configs_pools, server: 18.218.140.244, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,102 +100,88 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,24 +197,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 荷兰 V2CROSS.COM
-      - 🇸🇬 11|🇸🇬 新加坡3|@ripaojiedian
-      - 🇿🇦 南非 V2CROSS.COM
-      - 9|🇩🇪💎hysteria-@hollowcon
-      - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - 🇬🇧 英国 - Erith - 1
-      - 13|US_speednode_0063
-      - 9|♦️54@oneclickvpnkeys
-      - 9|48@NetFlowTools
-      - 🇯🇵 11|🇯🇵 日本|@ripaojiedian
-      - 🇭🇰 12|香港4|@ripaojiedian
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 9|♦️58@oneclickvpnkeys
-      - 🇭🇰 12|香港5|@ripaojiedian
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8|🕹️57@v2ray_configs_pools
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇭🇰 12|香港|@ripaojiedian
-      - 9|♦️53@oneclickvpnkeys
+      - 🇭🇰 香港|@ripaojiedian
+      - 8|🪼46@NetFlowTools
+      - "11|tg频道:@ripaojiedian #1"
+      - 8|5♦️@v2ray_configs_pools
+      - 🇮🇳 印度 V2CROSS.COM
+      - 8|🕹️49@v2ray_configs_pools
+      - 🇯🇵 10,11|日本2|@ripaojiedian
+      - 12|US_speednode_0063
+      - 8|🕹️58@v2ray_configs_pools
+      - 8|♦️74@v2ray_configs_pools
+      - 8|🕹️74@oneclickvpnkeys
+      - 8|1♦️@v2ray_configs_pools
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
