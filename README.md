@@ -20,39 +20,39 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 162`
+`Total number of merge nodes: 157`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription3`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription4`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.comPangTouY00/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription5`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription6`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription7`
-`Total number of merge nodes: 21`
+`Total number of merge nodes: 20`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 15`
+`Total number of merge nodes: 17`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `17`
-Updata：`2026-07-08 13:14:19`
+### Try the number of high-speed subscriptions: `16`
+Updata：`2026-07-08 23:59:09`
 
 
 <details>
@@ -33593,104 +33593,118 @@ Updata：`2026-07-08 13:14:19`
 
 
 
->Trial subscription：
-`https://pinchela.xyz/api/v1/client/subscribe?token=da0d150e81a85d43bb87f2fb3f04e29c`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://submall.ttc9999.com/api/v1/client/subscribe?token=f3f94f4a77a6420bf2b025f4d211967a`
+`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=cbd5a10ef8c35f207e951410c23dd35c`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=83aaba1741b32b99383f48637bb33786`
+`https://pinchela.org/api/v1/client/subscribe?token=dbda5028626e06981a677a6320b79a4c`
 
 
 
 
 >Trial subscription：
-`https://vaamx.louwangzhiyu.online/api/v1/client/subscribe?token=94273f368b8b286afa783da775d39c52`
+`https://www.cloudaddy.top/api/v1/client/subscribe?token=96b7698220c9934f08601ac8bfd22b52`
 
 
 
 
 >Trial subscription：
-`https://b.adami.icu/api/v1/client/subscribe?token=11d1b3e642f1ec6c0baa526c523c9ffa`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=f3c1778bc37f1e5a0fe56b3a7a11ad45`
 
 
 
 
 >Trial subscription：
-`https://pinche.la/api/v1/client/subscribe?token=0d7c6ec1075c14f6784ddd7d4a540dc6`
+`https://panel.wulove.net/api/v1/client/subscribe?token=e330878630a4867b6809cd6da78d3442`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=07884ea0b2eea6309bf249438610c20d`
+`https://www.pinche.la/api/v1/client/subscribe?token=3fd512b54e641be3b8b9a1c22eb144d0`
 
 
 
 
 >Trial subscription：
-`https://www.pinchela.org/api/v1/client/subscribe?token=f7ac2af96e5fafdba44d06baf7d8adec`
+`https://www.pinchela.xyz/api/v1/client/subscribe?token=1f7f54c899c968a45f7103505fe247e4`
 
 
 
 
 >Trial subscription：
-`https://www.pinchela.xyz/api/v1/client/subscribe?token=86456c6592cd6a5bd1529226c5c2521b`
+`https://simkey.cloud/api/v1/client/subscribe?token=2baf4b727abd0491bc72ec9e98ed71d5`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=2aba572d03bf25c1b13d11dee2356994`
+`https://tk131.com/api/v1/client/subscribe?token=8f133effb5b0709fed5cbf7d6f2bb471`
 
 
 
 
 >Trial subscription：
-`https://tk131.com/api/v1/client/subscribe?token=ecebc498e71d0dfc4f8f959bbf738b79`
+`https://www.pinchela.org/api/v1/client/subscribe?token=e169513aff39c6860be5156b432bfc4f`
 
 
 
 
 >Trial subscription：
-`https://pinchela.org/api/v1/client/subscribe?token=f5d3303be8ac2910a976fadd0bd27124`
+`https://submall.ttc9999.com/api/v1/client/subscribe?token=9898b0cc395f388854a561cf5d618204`
 
 
 
 
 >Trial subscription：
-`https://simkey.cloud/api/v1/client/subscribe?token=c48e9cf9d6ae9753c4b39162156b9d09`
+`https://yywhale.com/api/v1/client/subscribe?token=9af70c4cee59949ed0e78862fd662e47`
 
 
 
 
 >Trial subscription：
-`https://www.cloudaddy.top/api/v1/client/subscribe?token=f474aad8648ba704cc247a717dce3254`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=d334124967115bbdafaab09aaceea67a`
 
 
 
 
 >Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=cbc81782c1f69c4210cea7adb96a7143`
+`https://b.adami.icu/api/v1/client/subscribe?token=84389bdc9bf2db71d5789978a3df26ba`
 
 
 
 
 >Trial subscription：
-`https://www.pinche.la/api/v1/client/subscribe?token=ade1105df1094d867a8a2139950e5731`
+`https://pinchela.xyz/api/v1/client/subscribe?token=2296969ee56fc9efc4c1ddd96d12d720`
 
 
 
 
 >Trial subscription：
-`https://panel.wulove.net/api/v1/client/subscribe?token=4a5c8b777199ed07b0e9de87cf39e203`
+`https://pinche.la/api/v1/client/subscribe?token=09879d50e2e00100a4fdc63a475cac37`
 
 
 
