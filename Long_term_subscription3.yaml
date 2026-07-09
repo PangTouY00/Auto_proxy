@@ -5,79 +5,55 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 9|🎲94@oneclickvpnkeys, server: 45.196.182.143, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
-  - {name: 9|@meliproxyy, server: hy2.aspidnet.xyz, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false}
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 95.40.44.165, port: 55973, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国|@ripaojiedian", server: 95.40.44.165, port: 17005, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 95.40.1.25, port: 49277, type: trojan, password: d6788cf74e6844c45538204efd24b00f, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 9|️️@ATLAS_V2VPN️️432️, server: 2.26.49.16, port: 443, type: hysteria2, ports: 443, password: 653m8mmiy7048p0f, obfs: salamander, obfs-password: 3sv5vpdl9xr84lyb, sni: social.klipp.su, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.145, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q}
-  - {name: 9|🕹️53@v2ray_configs_pools, server: 13.229.60.114, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, skip-cert-verify: true}
-  - {name: 9|100@oneclickvpnkeys, server: 45.196.182.220, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 16.163.145.82, port: 50115, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇱 9| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 9|💡55@oneclickvpnkeys, server: 34.219.182.57, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, skip-cert-verify: true}
-  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港4|@ripaojiedian", server: 16.163.145.82, port: 50115, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 13|NL_speednode_0016, server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: 95r.ir}}}
+  - {name: 🇭🇰 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|💡48@oneclickvpnkeys, server: 66.234.150.230, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com}
+  - {name: 9|98@oneclickvpnkeys, server: 45.196.182.254, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.142, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q}
+  - {name: 9|🕹️47@v2ray_configs_pools, server: 13.229.106.122, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: 8|1, server: xjp1.mangshe.xyz, port: 2055, type: hysteria2, ports: 2055, password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 9|104400 | Telegram - t.me/v2ray..., server: 45.196.182.194, port: 8449, type: hysteria2, ports: 8449, password: 03e7f55f-22f8-4564-880f-b86c8cdbf140, sni: sni.fi-m247-02.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,85 +72,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 🇭🇰 12|香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -190,20 +141,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|🎲94@oneclickvpnkeys
-      - 9|@meliproxyy
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - 🇺🇸 11,12|美国|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 9|️️@ATLAS_V2VPN️️432️
+      - 13|NL_speednode_0016
+      - 🇭🇰 12|香港|@ripaojiedian
+      - 9|💡48@oneclickvpnkeys
+      - 9|98@oneclickvpnkeys
       - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|🕹️53@v2ray_configs_pools
-      - 9|100@oneclickvpnkeys
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇳🇱 9| - NL - @FreeOnlineVPN
-      - 9|💡55@oneclickvpnkeys
-      - "9|@KAFING_2 #2"
-      - 🇭🇰 11,12|香港4|@ripaojiedian
+      - 9|🕹️47@v2ray_configs_pools
+      - 8|1
+      - 9|104400 | Telegram - t.me/v2ray...
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
