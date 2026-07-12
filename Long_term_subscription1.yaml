@@ -5,163 +5,164 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "User ID: 4000", server: expired.example.com, port: 80, type: vmess, uuid: 6fffe659-9f30-4462-83e8-d144724bd2ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 6fffe659-9f30-4462-83e8-d144724bd2ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: 距离下次重置剩余：21 天, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 7008ae56-b7a5-4f83-bed5-a5bbe9d4b55c, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：21 天 2, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 2, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本 2, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 82eca37d-ae59-441f-9346-0329a8bdba10, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港 2, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 82eca37d-ae59-441f-9346-0329a8bdba10, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线 2, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 2, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线 2, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚 2, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 2, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 82eca37d-ae59-441f-9346-0329a8bdba10, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：21 天 3, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 3, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 3, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本 3, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港 3, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线 3, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 3, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线 3, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚 3, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 3, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: c5fb8a53-e825-4b0a-8ac3-0848e11132d8, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：21 天 4, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 4, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 4, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本 4, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港 4, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线 4, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 4, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线 4, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚 4, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 4, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 7817b8bd-b109-4b7d-95e5-0401483b3df5, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：1 天, server: hk01.wulink.net, port: 8443, type: trojan, password: ecd1d426-b285-47c1-90ec-3df83d890eb9, sni: hk01.wulink.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港加速器 01, server: hk01.wulink.net, port: 8443, type: trojan, password: ecd1d426-b285-47c1-90ec-3df83d890eb9, sni: hk01.wulink.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国加速器 01, server: hk01.wulink.net, port: 8443, type: trojan, password: ecd1d426-b285-47c1-90ec-3df83d890eb9, sni: hk01.wulink.net, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：21 天 5, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 5, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 5, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本 5, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港 5, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线 5, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 5, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线 5, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚 5, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 5, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 7ba63989-8625-4671-a8f2-80d484eedb9f, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：21 天 6, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 6, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 6, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本 6, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港 6, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线 6, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 6, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线 6, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚 6, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 6, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 9979274d-e0dd-4b66-b15e-a8b2853df052, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 60ba406d-08b0-4e88-a85e-7483295b72d1, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 60ba406d-08b0-4e88-a85e-7483295b72d1, sni: empty.node, skip-cert-verify: false}
-  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 3a95b096-5f94-4e5b-9d35-154d0c45fc86, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 3a95b096-5f94-4e5b-9d35-154d0c45fc86, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
-  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 3a95b096-5f94-4e5b-9d35-154d0c45fc86, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 3a95b096-5f94-4e5b-9d35-154d0c45fc86, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 距离下次重置剩余：21 天 7, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 7, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 7, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
-  - {name: 🇯🇵 Hy2-日本 7, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: bc7af700-a58a-496d-bd40-272235e91c1e, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
-  - {name: 🇭🇰 hy2-香港 7, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: bc7af700-a58a-496d-bd40-272235e91c1e, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2线 7, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 7, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2线 7, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇮🇩 印度尼西亚 7, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 7, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: bc7af700-a58a-496d-bd40-272235e91c1e, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 TTC9999 香港 (VMess), server: ww2.ttc9999.com, port: 443, type: vmess, uuid: 1b9bf29a-59ce-473b-ac35-f7e016661ea9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ww2.ttc9999.com}}}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: c7e25853-f605-4954-9719-b50fb25de5c4, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: c7e25853-f605-4954-9719-b50fb25de5c4, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: c7e25853-f605-4954-9719-b50fb25de5c4, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: c7e25853-f605-4954-9719-b50fb25de5c4, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: c7e25853-f605-4954-9719-b50fb25de5c4, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-06, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-07, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-08, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-09, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-10, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-06, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-07, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-08, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-09, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-10, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-06, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-07, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-08, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-09, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-10, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-06, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-07, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-08, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-09, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-10, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-06, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-07, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-08, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-09, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-10, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇰🇷 韩国, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇦 加拿大, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇰🇿 哈萨克斯坦, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇦🇺 澳大利亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇧🇬 保加利亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇬🇪 格鲁吉亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇱🇹 立陶宛, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇿 捷克, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇷🇺 俄罗斯, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇿🇦 南非, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇫🇮 芬兰, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇨🇭 瑞士, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇸 亚美尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇲🇾 马来西亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇲🇽 墨西哥, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇮🇩 印度尼西亚 8, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇧🇩 孟加拉国, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇸🇪 瑞典, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇧🇪 比利时, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇵🇹 葡萄牙, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇦🇪 阿联酋, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇫🇷 法国 8, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇵🇱 波兰, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇱🇻 拉脱维亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇳🇱 荷兰, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇷🇴 罗马尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇦🇹 奥地利, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇧🇷 巴西, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇹🇷 土耳其, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇮🇱 以色列, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇮🇹 意大利, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇪🇸 西班牙, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇹🇭 泰国, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇩🇪 德国, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇬🇧 英国, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇮🇳 印度, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
-  - {name: 🇺🇦 乌克兰, server: sie624.node2.top, port: 8527, type: trojan, password: d4bcb4d4-b2b5-438d-adc1-d4ce3d845f82, sni: itunes.apple.com}
+  - {name: 距离下次重置剩余：1 天, server: hk01.wulink.net, port: 8443, type: trojan, password: f58e2a11-70bb-4bc8-98bb-2579a6acc8d6, sni: hk01.wulink.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港加速器 01, server: hk01.wulink.net, port: 8443, type: trojan, password: f58e2a11-70bb-4bc8-98bb-2579a6acc8d6, sni: hk01.wulink.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国加速器 01, server: hk01.wulink.net, port: 8443, type: trojan, password: f58e2a11-70bb-4bc8-98bb-2579a6acc8d6, sni: hk01.wulink.net, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：21 天, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 85e5ed6f-5572-4f21-aec3-d06d23d2fffe, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 53e9cc51-7a79-4210-ab6c-893b8c33f326, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 53e9cc51-7a79-4210-ab6c-893b8c33f326, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 63656c22-e487-4ff3-8cf3-cfac01f159e4, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 63656c22-e487-4ff3-8cf3-cfac01f159e4, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 63656c22-e487-4ff3-8cf3-cfac01f159e4, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 63656c22-e487-4ff3-8cf3-cfac01f159e4, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇭🇰 TTC9999 香港 (VMess), server: ww2.ttc9999.com, port: 443, type: vmess, uuid: a82d4ee5-7883-4ee7-8b7c-d1fc909ed6ab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ww2.ttc9999.com}}}
+  - {name: 距离下次重置剩余：21 天 2, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 2, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本 2, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港 2, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线 2, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 2, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线 2, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚 2, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 2, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 2b2b30f8-beec-4be1-96f7-a685d855fcd0, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：21 天 3, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 3, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 3, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本 3, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港 3, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线 3, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 3, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线 3, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚 3, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 3, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: b25bdb2d-e244-42f4-9877-34aa21dc832c, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：21 天 4, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 4, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 4, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本 4, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港 4, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线 4, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 4, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线 4, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚 4, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 4, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: d3ed360b-f413-4abe-b10a-d94ba4bc8ad1, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港-06, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-07, server: sie711.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-08, server: sie711.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-09, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-10, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-06, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-07, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-08, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-09, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-10, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-06, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-07, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-08, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-09, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-10, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-06, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-07, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-08, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-09, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-10, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-06, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-07, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-08, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-09, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-10, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇰🇷 韩国, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇦 加拿大, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇰🇿 哈萨克斯坦, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇦🇺 澳大利亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇧🇬 保加利亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇬🇪 格鲁吉亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇱🇹 立陶宛, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇿 捷克, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇷🇺 俄罗斯, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇿🇦 南非, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇫🇮 芬兰, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇭 瑞士, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇸 亚美尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇲🇾 马来西亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇲🇽 墨西哥, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇮🇩 印度尼西亚 5, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇧🇩 孟加拉国, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇸🇪 瑞典, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇧🇪 比利时, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇵🇹 葡萄牙, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇦🇪 阿联酋, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇫🇷 法国 5, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇵🇱 波兰, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇱🇻 拉脱维亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇳🇱 荷兰, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇷🇴 罗马尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇦🇹 奥地利, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇧🇷 巴西, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇹🇷 土耳其, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇮🇱 以色列, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇮🇹 意大利, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇪🇸 西班牙, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇹🇭 泰国, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇩🇪 德国, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇬🇧 英国, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇮🇳 印度, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇺🇦 乌克兰, server: sie624.node2.top, port: 8527, type: trojan, password: d9b4641d-f3ef-4c9d-981d-3177ad3f506e, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 59304bbf-aaae-4f0c-834d-b5e9b89509f7, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 59304bbf-aaae-4f0c-834d-b5e9b89509f7, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 59304bbf-aaae-4f0c-834d-b5e9b89509f7, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 59304bbf-aaae-4f0c-834d-b5e9b89509f7, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 59304bbf-aaae-4f0c-834d-b5e9b89509f7, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：21 天 5, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 5, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 5, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本 5, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: e5afc784-9930-4df8-8405-27076c45e9d1, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港 5, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: e5afc784-9930-4df8-8405-27076c45e9d1, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线 5, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 6, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线 5, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚 6, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 5, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: e5afc784-9930-4df8-8405-27076c45e9d1, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：21 天 6, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 6, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 6, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本 6, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港 6, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线 6, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 7, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线 6, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚 7, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 6, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 89bd2768-cf0c-42d4-bf12-07e56c7e643a, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：21 天 7, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 7, server: rb01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: PCBVPflh6MDUA3EM, sni: rb01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 7, server: us01.pinchela.org, port: 4433, type: hysteria2, ports: 4433, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: AtEhnl5SebQY1yoK, sni: us01.pinchela.org, skip-cert-verify: false}
+  - {name: 🇯🇵 Hy2-日本 7, server: 216.23.121.126, port: 4434, type: hysteria2, ports: 4434, password: 00021f66-9b0e-4d27-a583-f16115143784, sni: hy2-zouter-jp.pinchela.org, skip-cert-verify: false}
+  - {name: 🇭🇰 hy2-香港 7, server: hy2-vless-zouter.pinchela.xyz, port: 4436, type: hysteria2, ports: 4436, password: 00021f66-9b0e-4d27-a583-f16115143784, sni: hy2-vless-zouter.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2线 7, server: 198.23.187.198.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: RX14sGmptnOZqnEh, sni: 198.23.187.198.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 8, server: fg31.56.146.135.pinchela.xyz, port: 8080, type: hysteria2, ports: 8080, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: 858sILlKqRJlug5M, sni: fg31.56.146.135.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港2线 7, server: 47.75.116.73.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: 4KonhVPIojfXekEV, sni: 47.75.116.73.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇮🇩 印度尼西亚 8, server: ydnxy8.215.1.126.pinchela.xyz, port: 5566, type: hysteria2, ports: 5566, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: bieaOsohYOKUTxmg, sni: ydnxy8.215.1.126.pinchela.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 7, server: xinjiapo.pinchela.xyz, port: 443, type: hysteria2, ports: 443, password: 00021f66-9b0e-4d27-a583-f16115143784, obfs: salamander, obfs-password: CCi51ZAlLWstDjTH, sni: xinjiapo.pinchela.xyz, skip-cert-verify: false}
+  - {name: "User ID: 4269", server: expired.example.com, port: 80, type: vmess, uuid: 6e405dac-9060-438a-bb1f-ecd43259f40d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 6e405dac-9060-438a-bb1f-ecd43259f40d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -172,6 +173,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -202,51 +210,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -287,13 +250,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -309,13 +272,51 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -326,6 +327,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -356,51 +364,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -441,13 +404,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -463,14 +426,52 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -481,6 +482,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -511,51 +519,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -596,13 +559,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -618,6 +581,43 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -636,8 +636,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -648,6 +649,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -678,51 +686,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -763,13 +726,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -785,29 +748,57 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港加速器 01
       - 🇭🇰 hy2-香港
       - 🇭🇰 香港2线
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 🇭🇰 hy2-香港 2
       - 🇭🇰 香港2线 2
       - 🇭🇰 hy2-香港 3
       - 🇭🇰 香港2线 3
       - 🇭🇰 hy2-香港 4
       - 🇭🇰 香港2线 4
-      - 🇭🇰 香港加速器 01
-      - 🇭🇰 hy2-香港 5
-      - 🇭🇰 香港2线 5
-      - 🇭🇰 hy2-香港 6
-      - 🇭🇰 香港2线 6
-      - 🇭🇰 hy2-香港 7
-      - 🇭🇰 香港2线 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -818,14 +809,24 @@ proxy-groups:
       - 🇨🇳 台湾-08
       - 🇨🇳 台湾-09
       - 🇨🇳 台湾-10
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇭🇰 hy2-香港 5
+      - 🇭🇰 香港2线 5
+      - 🇭🇰 hy2-香港 6
+      - 🇭🇰 香港2线 6
+      - 🇭🇰 hy2-香港 7
+      - 🇭🇰 香港2线 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -836,6 +837,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -866,51 +874,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -951,13 +914,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -973,13 +936,51 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -990,6 +991,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -1020,51 +1028,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -1105,13 +1068,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -1127,14 +1090,52 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -1145,6 +1146,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -1175,51 +1183,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -1260,13 +1223,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -1282,6 +1245,43 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1297,8 +1297,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "User ID: 4000"
-      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：1 天
+      - 🇭🇰 香港加速器 01
+      - 🇺🇸 美国加速器 01
       - 距离下次重置剩余：21 天
       - 🇯🇵 日本
       - 🇺🇸 美国
@@ -1309,6 +1310,13 @@ proxy-groups:
       - 🇭🇰 香港2线
       - 🇮🇩 印度尼西亚
       - 🇸🇬 新加坡
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇭🇰 TTC9999 香港 (VMess)
       - 距离下次重置剩余：21 天 2
       - 🇯🇵 日本 2
       - 🇺🇸 美国 2
@@ -1339,51 +1347,6 @@ proxy-groups:
       - 🇭🇰 香港2线 4
       - 🇮🇩 印度尼西亚 4
       - 🇸🇬 新加坡 4
-      - 距离下次重置剩余：1 天
-      - 🇭🇰 香港加速器 01
-      - 🇺🇸 美国加速器 01
-      - 距离下次重置剩余：21 天 5
-      - 🇯🇵 日本 5
-      - 🇺🇸 美国 5
-      - 🇯🇵 Hy2-日本 5
-      - 🇭🇰 hy2-香港 5
-      - 🇺🇸 美国2线 5
-      - 🇫🇷 法国 5
-      - 🇭🇰 香港2线 5
-      - 🇮🇩 印度尼西亚 5
-      - 🇸🇬 新加坡 5
-      - 距离下次重置剩余：21 天 6
-      - 🇯🇵 日本 6
-      - 🇺🇸 美国 6
-      - 🇯🇵 Hy2-日本 6
-      - 🇭🇰 hy2-香港 6
-      - 🇺🇸 美国2线 6
-      - 🇫🇷 法国 6
-      - 🇭🇰 香港2线 6
-      - 🇮🇩 印度尼西亚 6
-      - 🇸🇬 新加坡 6
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 距离下次重置剩余：21 天 7
-      - 🇯🇵 日本 7
-      - 🇺🇸 美国 7
-      - 🇯🇵 Hy2-日本 7
-      - 🇭🇰 hy2-香港 7
-      - 🇺🇸 美国2线 7
-      - 🇫🇷 法国 7
-      - 🇭🇰 香港2线 7
-      - 🇮🇩 印度尼西亚 7
-      - 🇸🇬 新加坡 7
-      - 🇭🇰 TTC9999 香港 (VMess)
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -1424,13 +1387,13 @@ proxy-groups:
       - 🇺🇸 亚美尼亚
       - 🇲🇾 马来西亚
       - 🇲🇽 墨西哥
-      - 🇮🇩 印度尼西亚 8
+      - 🇮🇩 印度尼西亚 5
       - 🇧🇩 孟加拉国
       - 🇸🇪 瑞典
       - 🇧🇪 比利时
       - 🇵🇹 葡萄牙
       - 🇦🇪 阿联酋
-      - 🇫🇷 法国 8
+      - 🇫🇷 法国 5
       - 🇵🇱 波兰
       - 🇱🇻 拉脱维亚
       - 🇳🇱 荷兰
@@ -1446,6 +1409,43 @@ proxy-groups:
       - 🇬🇧 英国
       - 🇮🇳 印度
       - 🇺🇦 乌克兰
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 距离下次重置剩余：21 天 5
+      - 🇯🇵 日本 5
+      - 🇺🇸 美国 5
+      - 🇯🇵 Hy2-日本 5
+      - 🇭🇰 hy2-香港 5
+      - 🇺🇸 美国2线 5
+      - 🇫🇷 法国 6
+      - 🇭🇰 香港2线 5
+      - 🇮🇩 印度尼西亚 6
+      - 🇸🇬 新加坡 5
+      - 距离下次重置剩余：21 天 6
+      - 🇯🇵 日本 6
+      - 🇺🇸 美国 6
+      - 🇯🇵 Hy2-日本 6
+      - 🇭🇰 hy2-香港 6
+      - 🇺🇸 美国2线 6
+      - 🇫🇷 法国 7
+      - 🇭🇰 香港2线 6
+      - 🇮🇩 印度尼西亚 7
+      - 🇸🇬 新加坡 6
+      - 距离下次重置剩余：21 天 7
+      - 🇯🇵 日本 7
+      - 🇺🇸 美国 7
+      - 🇯🇵 Hy2-日本 7
+      - 🇭🇰 hy2-香港 7
+      - 🇺🇸 美国2线 7
+      - 🇫🇷 法国 8
+      - 🇭🇰 香港2线 7
+      - 🇮🇩 印度尼西亚 8
+      - 🇸🇬 新加坡 7
+      - "User ID: 4269"
+      - Gói của bạn đã hết hạn
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

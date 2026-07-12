@@ -5,75 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 8|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 43.199.202.97, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 95.40.99.31, port: 24370, type: trojan, password: bb839d14960b7a4fb1e95a3aef990528, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 95.40.50.224, port: 6357, type: trojan, password: bb839d14960b7a4fb1e95a3aef990528, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "9|@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.135, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q}
-  - {name: 9|+@Azarakhsh_Proxy+, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: 9|🎍67@oneclickvpnkeys, server: 54.254.22.28, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: https://t.me/WangCai2🇨🇳, skip-cert-verify: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM 2, server: 185.137.157.151, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 95.40.50.224, port: 6357, type: trojan, password: bb839d14960b7a4fb1e95a3aef990528, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "8,9|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
-  - {name: "9|Tel: @Daily_Configs", server: social.klipp.su, port: 443, type: hysteria2, ports: 443, password: eltgrek81o6w5cd4, obfs: salamander, obfs-password: 3sv5vpdl9xr84lyb, sni: social.klipp.su, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.199.202.97, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 18.166.63.229, port: 48738, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 8|SG, server: sg3.oomz.ru, port: 30000, type: hysteria2, ports: 30000, password: e7965e64-e001-4e8c-8273-39c61ff4a094, sni: bing.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.60.168.129, port: 443, type: trojan, password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD}
+  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 43.199.252.80, port: 29443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 43.199.31.196, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 9|@V2RayyNGvpn🇪, server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: KYFundefinedZYs4KB, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
+  - {name: 🇭🇰 8| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 16.163.56.186, port: 6357, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 18.163.105.231, port: 17005, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,81 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,19 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 8|JP
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇯🇵 11,12|日本3|@ripaojiedian
       - 🇸🇬 11,12|新加坡|@ripaojiedian
-      - "9|@KAFING_2 #2"
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 9|+@Azarakhsh_Proxy+
-      - 9|🎍67@oneclickvpnkeys
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 8,9|@KAFING_2
-      - "9|Tel: @Daily_Configs"
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇸🇬 8|SG
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - 🇭🇰 香港|@ripaojiedian
+      - 9|@V2RayyNGvpn🇪
+      - 🇭🇰 8| HK
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
