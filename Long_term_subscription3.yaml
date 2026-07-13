@@ -5,51 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 11,12|新加坡2|@ripaojiedian", server: 16.163.109.165, port: 6357, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 16.163.109.165, port: 40138, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 149.28.241.235, port: 443, type: trojan, password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF, sni: 149.28.241.235}
-  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 43.199.29.120, port: 54411, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|32@oneclickvpnkeys, server: 202.61.205.86, port: 4433, type: hysteria2, ports: 4433, password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e, sni: de1.xiaoliyu.cyou, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 16.163.109.165, port: 40138, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
+  - {name: 🇩🇪 8|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 8|JP, server: jp7.dexlos.com, port: 13778, type: hysteria2, ports: 13778, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true}
+  - {name: "🇭🇰 11,12|香港3|@ripaojiedian", server: 54.46.117.9, port: 20083, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 18.163.110.193, port: 17005, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: vpn-kr-002.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ9wR5tF6vB3z, sni: vpn-kr-002.fastervpn.world, skip-cert-verify: true}
+  - {name: 9|@V2RayyNGvpn🇵, server: 155.117.5.222, port: 22746, type: hysteria2, ports: 22746, password: Vcl3b47Nvd, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.oracle.com, skip-cert-verify: true}
+  - {name: 9|🇫🇮109138 | ⚡️Telegram - t.me/S..., server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: elknam6l7izf3z71, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.111.114.80, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm}
+  - {name: 13|AE_speednode_0001, server: 94.140.0.100, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: 95r.ir}}}
+  - {name: "8,9|@KAFING_2", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,55 +80,68 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 11,12|香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +157,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 11,12|新加坡2|@ripaojiedian
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - "12|tg频道:@ripaojiedian #1"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 9|32@oneclickvpnkeys
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 8|DE
+      - 🇯🇵 8|JP
+      - 🇭🇰 11,12|香港3|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 9|@V2RayyNGvpn🇵
+      - 9|🇫🇮109138 | ⚡️Telegram - t.me/S...
+      - 🇮🇳 印度 V2CROSS.COM
+      - 13|AE_speednode_0001
+      - 8,9|@KAFING_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
