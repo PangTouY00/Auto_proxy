@@ -5,59 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "9|🇩🇪@V2rayng_Fast #1", server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: NZC2w2V2NQ, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 18.162.62.243, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 9|telegram @mtmvpn 12, server: assets.gateway-stream.com, port: 52013, type: hysteria2, ports: 52013, password: elknam6l7izf3z71, obfs: salamander, obfs-password: cukfjxud1ebjuuzs, sni: assets.gateway-stream.com, skip-cert-verify: false}
-  - {name: 9|@V2RayyNGvpn کانال ما🇩🇪, server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: p3HaP2Lht6, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 16.163.103.15, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
-  - {name: 9|23@oneclickvpnkeys, server: 45.155.103.217, port: 8443, type: hysteria2, ports: 8443, password: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2, sni: kamil-power-machine.roxa.org}
-  - {name: 13|AE_speednode_0001, server: 94.140.0.100, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: 95r.ir}}}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 18.167.68.98, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
+  - {name: 9|未命名, server: 140.233.177.48, port: 33884, type: hysteria2, ports: 33884, password: vVaz4PV7B7, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.oracle.com, skip-cert-verify: true}
+  - {name: 🇳🇱 9| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 - 大阪市 - 3, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.111.114.71, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm}
+  - {name: 9| t.me/bigAVPN را, server: 80.66.81.78, port: 9443, type: hysteria2, ports: 9443, password: rs2mR3g9bZiMloftx6lZQ59Um1Ld, obfs: salamander, obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ, sni: tunel1.washing.help, skip-cert-verify: false}
+  - {name: "🇺🇸 11,12|美国3|@ripaojiedian", server: 18.163.5.109, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|🇩🇪@V2RayyNGvpn کانال ما, server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: tf5LINcpQy, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 18.166.55.241, port: 24370, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
+  - {name: 9|️Telegram-V2RayyNGvpn🇩🇪, server: 91.107.174.32, port: 25810, type: hysteria2, ports: 25810, password: KJX4HQHodA, obfs: salamander, obfs-password: T-ME-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,15 +76,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -95,44 +95,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "9|🇩🇪@V2rayng_Fast #1"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|telegram @mtmvpn 12
-      - 9|@V2RayyNGvpn کانال ما🇩🇪
-      - 🇺🇸 美国2|@ripaojiedian
-      - 9|23@oneclickvpnkeys
-      - 13|AE_speednode_0001
-      - 🇺🇸 美国|@ripaojiedian
+      - 9|未命名
+      - 🇳🇱 9| - NL - @FreeOnlineVPN
+      - 🇯🇵 日本 - 大阪市 - 3
+      - 🇮🇳 印度 V2CROSS.COM
+      - 9| t.me/bigAVPN را
+      - 🇺🇸 11,12|美国3|@ripaojiedian
+      - 9|🇩🇪@V2RayyNGvpn کانال ما
+      - 🇯🇵 日本3|@ripaojiedian
+      - 9|️Telegram-V2RayyNGvpn🇩🇪
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
