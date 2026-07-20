@@ -5,51 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 9|🪭23@oneclickvpnkeys, server: 45.155.103.217, port: 8443, type: hysteria2, ports: 8443, password: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2, sni: kamil-power-machine.roxa.org}
-  - {name: "9|@FreakConfig #1", server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: elknam6l7izf3z71, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false}
-  - {name: 13|AE_speednode_0001, server: 94.140.0.100, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: 95r.ir}}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 43.198.71.42, port: 6357, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
-  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 43.198.71.42, port: 17005, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.198.71.42, port: 13118, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.166.113.165, port: 27167, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 8|@prrofile_purple   تلگرام, server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: elknam6l7izf3z71, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false}
+  - {name: "8|@AzarAndoozVPNbot #2", server: 91.107.152.188, port: 31999, type: hysteria2, ports: 31999, password: Ov5kSglMCd, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 54.46.125.103, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇮🇳 印度 - 孟买 - 1, server: family.bucket.x9.kfc-520.com, port: 10039, type: vmess, uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 7| HK, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, ports: 443, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com}
+  - {name: 8|⭕T.Me-irconfiig🇩🇪, server: 91.107.152.188, port: 31999, type: hysteria2, ports: 31999, password: IoFmkhjUlE, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: true}
+  - {name: 8|+@Azarakhsh_Proxy+, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
+  - {name: "🇺🇸 10,11|美国2|@ripaojiedian", server: 16.163.108.33, port: 17005, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇩🇪 7|DE, server: de.eyucdn.xyz, port: 2056, type: hysteria2, ports: 2056, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,57 +76,63 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -134,13 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|🪭23@oneclickvpnkeys
-      - "9|@FreakConfig #1"
-      - 13|AE_speednode_0001
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 11,12|美国2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 8|@prrofile_purple   تلگرام
+      - "8|@AzarAndoozVPNbot #2"
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇮🇳 印度 - 孟买 - 1
+      - 🇭🇰 7| HK
+      - 8|⭕T.Me-irconfiig🇩🇪
+      - 8|+@Azarakhsh_Proxy+
+      - 🇺🇸 10,11|美国2|@ripaojiedian
+      - 🇩🇪 7|DE
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
