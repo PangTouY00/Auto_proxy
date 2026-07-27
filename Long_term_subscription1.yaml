@@ -5,100 +5,111 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 测试112, server: 141.11.76.57, port: 8209, type: anytls, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: www.hku.hk, skip-cert-verify: true}
-  - {name: 中国-01, server: shenzhen716.node2.top, port: 22222, type: vmess, uuid: e06b605e-7bde-476c-8f43-962c87f0d9d1, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国-02, server: shaoxing716.node2.top, port: 22222, type: vmess, uuid: e06b605e-7bde-476c-8f43-962c87f0d9d1, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国-03, server: shanghai716.node2.top, port: 22222, type: vmess, uuid: e06b605e-7bde-476c-8f43-962c87f0d9d1, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国-04, server: beijing716.node2.top, port: 22222, type: vmess, uuid: e06b605e-7bde-476c-8f43-962c87f0d9d1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-06, server: sie624.node2.top, port: 9527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: dl.yeagent.com.cn, skip-cert-verify: false}
-  - {name: 🇭🇰 香港-07, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-08, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-09, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇭🇰 香港-10, server: sie721-hk10.node2.top, port: 10111, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: m.ctrip.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾-06, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-07, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-08, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-09, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇳 台湾-10, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-06, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-07, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-08, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-09, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇸🇬 新加坡-10, server: sie721-sg10.node2.top, port: 10131, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: m.ctrip.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-06, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-07, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-08, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-09, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇯🇵 日本-10, server: sie721-jp10.node2.top, port: 10121, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: m.ctrip.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-06, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-07, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-08, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-09, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇸 美国-10, server: sie721-us10.node2.top, port: 10151, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: m.ctrip.com, skip-cert-verify: true}
-  - {name: 🇦🇪 阿联酋, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇸 亚美尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇦🇹 奥地利, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇦🇺 澳大利亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇧🇩 孟加拉国, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇧🇪 比利时, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇧🇬 保加利亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇧🇷 巴西, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇦 加拿大, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇭 瑞士, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇨🇿 捷克, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇩🇪 德国, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇪🇸 西班牙, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇫🇮 芬兰, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇫🇷 法国, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇬🇧 英国, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇬🇪 格鲁吉亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇮🇩 印度尼西亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇮🇱 以色列, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇮🇳 印度, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇮🇹 意大利, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇰🇷 韩国, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇰🇿 哈萨克斯坦, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇱🇹 立陶宛, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇱🇻 拉脱维亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇲🇾 马来西亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇲🇽 墨西哥, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇳🇱 荷兰, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇵🇱 波兰, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇵🇹 葡萄牙, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇷🇴 罗马尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇷🇺 俄罗斯, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇸🇪 瑞典, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇹🇭 泰国, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇹🇷 土耳其, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇦 乌克兰, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇿🇦 南非, server: sie624.node2.top, port: 8527, type: trojan, password: e06b605e-7bde-476c-8f43-962c87f0d9d1, sni: itunes.apple.com}
-  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 27663faf-3c80-4735-85bf-1157c0ef361a, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 27663faf-3c80-4735-85bf-1157c0ef361a, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
-  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 27663faf-3c80-4735-85bf-1157c0ef361a, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 27663faf-3c80-4735-85bf-1157c0ef361a, sni: www.iq.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 3057849e-4b58-4b19-93ae-0ab537e7d716, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 3057849e-4b58-4b19-93ae-0ab537e7d716, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 3057849e-4b58-4b19-93ae-0ab537e7d716, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 3057849e-4b58-4b19-93ae-0ab537e7d716, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 3057849e-4b58-4b19-93ae-0ab537e7d716, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 距离下次重置剩余：8 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 08f1be34-b295-4535-a9a4-7ca629de0050, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 61bddf72-d91e-4fa1-9045-64143cbd7328, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 61bddf72-d91e-4fa1-9045-64143cbd7328, sni: empty.node, skip-cert-verify: false}
-  - {name: "User ID: 11201", server: expired.example.com, port: 80, type: vmess, uuid: 29d98788-2488-4b23-9fe6-c47a2390ba29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 29d98788-2488-4b23-9fe6-c47a2390ba29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: c6343a30-2c18-447d-a61a-d366d7d2de60, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: c6343a30-2c18-447d-a61a-d366d7d2de60, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, ports: 30003, password: 656cedfa-8fe6-457b-90da-b95baba6950d, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, ports: 30004, password: 656cedfa-8fe6-457b-90da-b95baba6950d, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false}
+  - {name: 🇺🇸 hy-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, ports: 30005, password: 656cedfa-8fe6-457b-90da-b95baba6950d, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇺🇸 hy-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, ports: 30006, password: 656cedfa-8fe6-457b-90da-b95baba6950d, sni: www.iq.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 513dbdba-0420-4aca-a79a-fa7b62966565, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 513dbdba-0420-4aca-a79a-fa7b62966565, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 513dbdba-0420-4aca-a79a-fa7b62966565, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 513dbdba-0420-4aca-a79a-fa7b62966565, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 513dbdba-0420-4aca-a79a-fa7b62966565, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 测试112, server: 141.11.76.57, port: 8209, type: anytls, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: www.hku.hk, skip-cert-verify: true}
+  - {name: 中国-01, server: shenzhen716.node2.top, port: 22222, type: vmess, uuid: 117e387b-dd64-47fa-9467-69a313cab20d, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国-02, server: shaoxing716.node2.top, port: 22222, type: vmess, uuid: 117e387b-dd64-47fa-9467-69a313cab20d, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国-03, server: shanghai716.node2.top, port: 22222, type: vmess, uuid: 117e387b-dd64-47fa-9467-69a313cab20d, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国-04, server: beijing716.node2.top, port: 22222, type: vmess, uuid: 117e387b-dd64-47fa-9467-69a313cab20d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-06, server: sie624.node2.top, port: 9527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: dl.yeagent.com.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 香港-07, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-08, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-09, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-10, server: sie721-hk10.node2.top, port: 10111, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾-06, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-07, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-08, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-09, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-10, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-06, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-07, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-08, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-09, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-10, server: sie721-sg10.node2.top, port: 10131, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本-06, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-07, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-08, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-09, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-10, server: sie721-jp10.node2.top, port: 10121, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-06, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-07, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-08, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-09, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-10, server: sie721-us10.node2.top, port: 10151, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇦🇪 阿联酋, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇺🇸 亚美尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇦🇹 奥地利, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇦🇺 澳大利亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇧🇩 孟加拉国, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇧🇪 比利时, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇧🇬 保加利亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇧🇷 巴西, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇦 加拿大, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇭 瑞士, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇨🇿 捷克, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇩🇪 德国, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇪🇸 西班牙, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇫🇮 芬兰, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇫🇷 法国, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇬🇧 英国, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇬🇪 格鲁吉亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇮🇩 印度尼西亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇮🇱 以色列, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇮🇳 印度, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇮🇹 意大利, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇰🇷 韩国, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇰🇿 哈萨克斯坦, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇱🇹 立陶宛, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇱🇻 拉脱维亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇲🇾 马来西亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇲🇽 墨西哥, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇳🇱 荷兰, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇵🇱 波兰, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇵🇹 葡萄牙, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇷🇴 罗马尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇷🇺 俄罗斯, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇸🇪 瑞典, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇹🇭 泰国, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇹🇷 土耳其, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇺🇦 乌克兰, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: 🇿🇦 南非, server: sie624.node2.top, port: 8527, type: trojan, password: 117e387b-dd64-47fa-9467-69a313cab20d, sni: itunes.apple.com}
+  - {name: "User ID: 12409", server: expired.example.com, port: 80, type: vmess, uuid: 4de1b4bc-59ed-4a00-a123-fabcfd38f96d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 4de1b4bc-59ed-4a00-a123-fabcfd38f96d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: 距离下次重置剩余：6 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: f9102ce7-3ac8-4714-aa16-54b77f5b9739, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -166,16 +177,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -183,15 +187,22 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -259,16 +270,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -276,16 +280,23 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -353,16 +364,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -370,10 +374,6 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -392,6 +392,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -459,16 +470,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -476,14 +480,13 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
       - 🇭🇰 香港-06
       - 🇭🇰 香港-07
       - 🇭🇰 香港-08
@@ -494,15 +497,23 @@ proxy-groups:
       - 🇨🇳 台湾-08
       - 🇨🇳 台湾-09
       - 🇨🇳 台湾-10
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -570,16 +581,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -587,15 +591,22 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -663,16 +674,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -680,16 +684,23 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -757,16 +768,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -774,10 +778,6 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -793,6 +793,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 🇺🇸 hy-02 | US
+      - 🇺🇸 hy-03 | US
+      - 🇺🇸 hy-04 | US
+      - 🇺🇸 hy-05| US
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
       - 测试112
       - 中国-01
       - 中国-02
@@ -860,16 +871,9 @@ proxy-groups:
       - 🇹🇷 土耳其
       - 🇺🇦 乌克兰
       - 🇿🇦 南非
-      - 🇺🇸 hy-02 | US
-      - 🇺🇸 hy-03 | US
-      - 🇺🇸 hy-04 | US
-      - 🇺🇸 hy-05| US
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：8 天
+      - "User ID: 12409"
+      - Gói của bạn đã hết hạn
+      - 距离下次重置剩余：6 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国 2
@@ -877,10 +881,6 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - "User ID: 11201"
-      - Gói của bạn đã hết hạn
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
