@@ -5,63 +5,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "10,11,12|HK_speednode_0014", server: 18.167.20.3, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "🇸🇬 10,11|新加坡3|@ripaojiedian", server: 43.198.187.59, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 8|🦄42@oneclickvpnkeys, server: 205.237.109.213, port: 8443, type: hysteria2, ports: 8443, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org}
-  - {name: "🇸🇬 10,11|新加坡2|@ripaojiedian", server: 18.167.20.3, port: 48738, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.146.1, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}}
-  - {name: 8|رر ⚡, server: hystry.accuratenetworkchecker.ir, port: 8083, type: hysteria2, ports: 8083, password: AstroVPN_official, obfs: salamander, obfs-password: 4b6gmo4jujpapx99, sni: vhd.nth.gelzaro.ir, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 16.162.109.217, port: 25982, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6, server: 91.107.178.22, port: 443, type: hysteria2, ports: 443, password: mY0pSnWDFk, obfs: salamander, obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak, sni: www.refersion.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 18.167.20.3, port: 48738, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net}
+  - {name: 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心, server: 23.95.75.151, port: 8080, type: hysteria2, ports: 8080, password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC, sni: hopp-us.yyuyy.com}
+  - {name: 🇳🇱 8| - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "10,11,12|HK_speednode_0007", server: 18.167.20.3, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 8|43@oneclickvpnkeys, server: prodfr.h2corp.org, port: 443, type: hysteria2, ports: 443, password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq, sni: prodfr.h2corp.org}
+  - {name: 8|Proxy_mtm Channel 27, server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: true}
+  - {name: 7|未命名, server: 5.255.102.165, port: 443, type: hysteria2, ports: 443, password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t, sni: www.microsoft.com, skip-cert-verify: true}
+  - {name: 8|🎒65@oneclickvpnkeys, server: hy2.561891.xyz, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, sni: hy2.561891.xyz}
+  - {name: "🇺🇸 10,11|美国|@ripaojiedian", server: 18.163.100.58, port: 12680, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "8|کانال تلگرام : Free_VPN_CH@", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +76,63 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 10,11,12|HK_speednode_0014
-      - 🇸🇬 10,11|新加坡3|@ripaojiedian
-      - 8|🦄42@oneclickvpnkeys
-      - 🇸🇬 10,11|新加坡2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 8|رر ⚡
-      - 🇭🇰 香港5|@ripaojiedian
-      - 8|🇩🇪 Telegram- V2RayyNGvpn 🇩🇪6
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
+      - 🇳🇱 8| - NL - @FreeOnlineVPN
+      - 10,11,12|HK_speednode_0007
+      - 8|43@oneclickvpnkeys
+      - 8|Proxy_mtm Channel 27
+      - 7|未命名
+      - 8|🎒65@oneclickvpnkeys
+      - 🇺🇸 10,11|美国|@ripaojiedian
+      - "8|کانال تلگرام : Free_VPN_CH@"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
