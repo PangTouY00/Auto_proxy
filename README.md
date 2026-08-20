@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 209`
+`Total number of merge nodes: 213`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 20`
+`Total number of merge nodes: 24`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `13`
-Updata：`2026-08-20 10:52:02`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-08-20 22:27:11`
 
 
 <details>
@@ -34044,80 +34044,90 @@ Updata：`2026-08-20 10:52:02`
 
 
 
->Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=e61fcfe028bfbcfb25599cb177273eb9`
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://api.mtvpn.net/api/v1/client/subscribe?token=0af679427fbb647994010a323819b290`
+`https://m.cqwer.xyz/api/v1/client/subscribe?token=3bd5361c798f7c92c76aecb49c3acb56`
 
 
 
 
 >Trial subscription：
-`https://sub.mtvpn.net/api/v1/client/subscribe?token=7e76a450a125f8d5c53dd6c23b21d1c0`
+`https://simkey.cloud/api/v1/client/subscribe?token=15d1748f08c9db2377c80ab2cb4c900c`
 
 
 
 
 >Trial subscription：
-`https://dy.ddgou.xyz/api/v1/client/subscribe?token=d48ebb8a366e0a7ba2e14fd87dad6df8`
+`https://dy.ddgou.xyz/api/v1/client/subscribe?token=fdc8a5f63495f444d3a453eb818f1377`
 
 
 
 
 >Trial subscription：
-`https://api.ddgou.xyz/api/v1/client/subscribe?token=88bb5f70c30635b9b88089d865bd453d`
+`https://mtvpn.net/api/v1/client/subscribe?token=e182cfc659010aefd36e0af9b54f48a6`
 
 
 
 
 >Trial subscription：
-`https://m.cqwer.xyz/api/v1/client/subscribe?token=b9fdaab5d38ffaaf3ef0f2be95dc8f7d`
+`https://m.caihongmao.org/api/v1/client/subscribe?token=129bcf8e3e383aa42f5b22974a7b2017`
 
 
 
 
 >Trial subscription：
-`https://api-xb.node2.top/api/v1/client/subscribe?token=1914ba6edf27f63171f815c2843b4390`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=0f652fd97a10a3c27a04864dcbb16d0e`
 
 
 
 
 >Trial subscription：
-`https://simkey.cloud/api/v1/client/subscribe?token=137084aa76d88ac596e98fd254b79b6b`
+`https://api.mtvpn.net/api/v1/client/subscribe?token=50e6c17203d9e90157295ca6b7fe39f2`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=66a2ec0643e0ffc2e8c5c109d55f583a`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=696944de6276512949e3f3b45dc044f1`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=2af01dda5e1a93001a98f9e84d2dcb19`
+`https://sub.mtvpn.net/api/v1/client/subscribe?token=d996cc5c733796359fba8bbd67820b4d`
 
 
 
 
 >Trial subscription：
-`https://mtvpn.net/api/v1/client/subscribe?token=21e0b6f59fb516f6d04d0e0273e6d1a5`
+`https://api.ddgou.xyz/api/v1/client/subscribe?token=f01208311d68d69d73b3e4c72bd9c432`
 
 
 
 
 >Trial subscription：
-`https://m.caihongmao.org/api/v1/client/subscribe?token=1e65d82f722c250f2f29a9e7ab76b3a2`
+`https://yywhale.com/api/v1/client/subscribe?token=8537e68fb44e4e6bc39bbbd0c7e8fec6`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=0bfd93b6ae1ebbdc2caa7b57846f0041`
+`https://api-xb.node2.top/api/v1/client/subscribe?token=10ef4134d6c4b602a98c54fb8e3ea7e7`
 
 
 
