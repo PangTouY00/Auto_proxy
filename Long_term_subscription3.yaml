@@ -5,99 +5,103 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "8|еҫ·еӣҪ #1", server: bel-03.node.lumixnet.com, port: 443, type: hysteria2, ports: 443, password: d1224950-ffab-4b9a-8696-431b40a6cfbd, sni: bel-03.node.lumixnet.com}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.77, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 9|рҹрҹҘ78@oneclickvpnkeys, server: 142.249.37.90, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, sni: hy2.561891.xyz}
-  - {name: 8|е°№, server: 211.22.154.26, port: 50160, type: hysteria2, ports: 50160, password: 85a88b70b5f2f73d0dcac92bd3934a5e, sni: 211-22-154-26.liao.kdns.fr}
-  - {name: "8|иҚ·е…° #2", server: nl8.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: nl8.mechvpn.online, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 18.163.180.82, port: 16691, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 16.162.109.29, port: 40136, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.219, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ..., server: assets.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: m3bqxk03mg221yi2, obfs: salamander, obfs-password: txwr28j1lntoy0sj, sni: assets.gateway-stream.com, skip-cert-verify: false}
-  - {name: 9|рҹҮ©рҹҮӘ@FreakConfig, server: dns.devmrzero.ir, port: 2096, type: hysteria2, ports: 2096, password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599, obfs: salamander, obfs-password: AIbOe_791iQ4k6kPUgdsO7B9, sni: a26738d5774ad803.devmrzero.ir, skip-cert-verify: false}
-  - {name: 8|і•еӣҪ, server: fr.vpn.legendaah.xyz, port: 36723, type: hysteria2, ports: 36723, password: Krab9Hyst2_Rk7pQ2xL, sni: www.cloudflare.com, skip-cert-verify: true}
-  - {name: 9|@ConfigvibesрҹҮрҹҮ, server: 198.105.123.106, port: 11504, type: hysteria2, ports: 11504, password: "%40Tel%40Configvibes", obfs: salamander, obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------, sni: archive.ubuntu.com, skip-cert-verify: true}
-  - {name: 🇩🇪 德国 - Nuremberg - 1, server: jpaws.ccwink.photos, port: 53225, type: vmess, uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1, alterId: 0, cipher: auto, tls: true}
-  - {name: 8|зеӣҪ, server: pg-usa2-hy2.gigatapbot.top, port: 1443, type: hysteria2, ports: 1443, password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t, sni: pg-usa2-hy2.gigatapbot.top, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 18.163.180.82, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 8|еӣҪ, server: 138.124.0.168, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org}
-  - {name: "9|kurdconfig #2", server: assets.gateway-stream.com, port: 52026, type: hysteria2, ports: 52026, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: d6pv15sghiq1onts, sni: assets.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇸🇬 8|SG, server: vip-sg-1.hkd4fwmg.vip, port: 12645, type: hysteria2, ports: 12645, password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI, sni: vip-sg-1.hkd4fwmg.vip, skip-cert-verify: true}
-  - {name: 9|рҹҚҘ72@oneclickvpnkeys, server: xby.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5, sni: mg2.mangshe.xyz, skip-cert-verify: true}
+  - {name: 9|@Configvibes🇹, server: 198.105.123.106, port: 11504, type: hysteria2, ports: 11504, password: "%40Tel%40Configvibes", obfs: salamander, obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------, sni: archive.ubuntu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 95.40.14.234, port: 39024, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: fast.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE, sni: fast.wwwinternetvideo.click, skip-cert-verify: false}
+  - {name: 9|@Nexus_Panell ل تلگرام, server: assets.gateway-stream.com, port: 52057, type: hysteria2, ports: 52057, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: auw7lhtk2kxyq4g9, sni: assets.gateway-stream.com, skip-cert-verify: false}
+  - {name: "8|未命名 #1", server: db1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5, sni: db1.mangshe.xyz}
+  - {name: "🇳🇱 8|荷兰 #2", server: nl8.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: nl8.mechvpn.online, skip-cert-verify: true}
+  - {name: "8|未命名 #7", server: 211.22.154.26, port: 50160, type: hysteria2, ports: 50160, password: 85a88b70b5f2f73d0dcac92bd3934a5e, sni: 211-22-154-26.liao.kdns.fr}
+  - {name: "8|未命名 #2", server: lsj1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5, sni: lsj1.mangshe.xyz, skip-cert-verify: true}
+  - {name: 8|利亚, server: 137.23.2.19, port: 443, type: hysteria2, ports: 443, password: b42d90fa667942aebc734d60, obfs: salamander, obfs-password: b42d90fa667942aebc734d60, sni: rmgyvpn.rest}
+  - {name: 9|41@oneclickvpnkeys, server: 103.246.248.226, port: 8443, type: hysteria2, ports: 8443, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.198.107.164, port: 25982, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: "🇺🇸 11,12|美国2|@ripaojiedian", server: 95.40.14.234, port: 39024, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇵🇱 8|波兰, server: node.embrofree.org, port: 443, type: hysteria2, ports: 443, password: 3703ccc0-ae74-49bd-b9d7-0897192bf8c4, sni: node.embrofree.org, skip-cert-verify: true}
+  - {name: 8|利, server: bg185.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: bg185.mechvpn.online}
+  - {name: 🇭🇰 8|🇭🇰HK, server: 18.162.42.61, port: 16001, type: hysteria2, ports: 16001, password: 9q3Mb0IzSVbnwaqK, sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc}
+  - {name: "9|kurdconfig #1", server: dns.devmrzero.ir, port: 2096, type: hysteria2, ports: 2096, password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599, obfs: salamander, obfs-password: AIbOe_791iQ4k6kPUgdsO7B9, sni: a26738d5774ad803.devmrzero.ir, skip-cert-verify: false}
+  - {name: "8|未命名 #4", server: swe.frkn.org, port: 8443, type: hysteria2, ports: 8443, password: 3b8c82ed-fe66-472d-915e-034ccb57103f, sni: swe.frkn.org}
+  - {name: "8|利 #1", server: 113.30.152.25, port: 443, type: hysteria2, ports: 443, password: belgium_hysteria2_fastlane_a118d9y0r, sni: be1.h.fastlanehosting.ru, skip-cert-verify: true}
+  - {name: "🇩🇪 8|德国 #6", server: de.1.23.h2corp.org, port: 443, type: hysteria2, ports: 443, password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj, sni: germany3.h2corp.local, skip-cert-verify: true}
+  - {name: "🇸🇬 11,12|新加坡|@ripaojiedian", server: 95.40.14.234, port: 51396, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,104 +120,108 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,25 +237,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "8|еҫ·еӣҪ #1"
-      - 🇺🇸 美国 CloudFlare节点
-      - 9|рҹрҹҘ78@oneclickvpnkeys
-      - 8|е°№
-      - "8|иҚ·е…° #2"
-      - 🇯🇵 11,12|日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 9|@v2ray313 Ъ©Ш§ЩҶШ§Щ„Щ…ЩҲЩҶ рҹҮ...
-      - 9|рҹҮ©рҹҮӘ@FreakConfig
-      - 8|і•еӣҪ
-      - 9|@ConfigvibesрҹҮрҹҮ
-      - 🇩🇪 德国 - Nuremberg - 1
-      - 8|зеӣҪ
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 8|еӣҪ
-      - "9|kurdconfig #2"
-      - 🇸🇬 8|SG
-      - 9|рҹҚҘ72@oneclickvpnkeys
+      - 9|@Configvibes🇹
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇬🇧 英国 V2CROSS.COM
+      - 9|@Nexus_Panell ل تلگرام
+      - "8|未命名 #1"
+      - "🇳🇱 8|荷兰 #2"
+      - "8|未命名 #7"
+      - "8|未命名 #2"
+      - 8|利亚
+      - 9|41@oneclickvpnkeys
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇺🇸 11,12|美国2|@ripaojiedian
+      - 🇵🇱 8|波兰
+      - 8|利
+      - 🇭🇰 8|🇭🇰HK
+      - "9|kurdconfig #1"
+      - "8|未命名 #4"
+      - "8|利 #1"
+      - "🇩🇪 8|德国 #6"
+      - 🇸🇬 11,12|新加坡|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
