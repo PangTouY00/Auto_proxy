@@ -5,91 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 9|7@oneclickvpnkeys, server: 162.249.124.108, port: 8443, type: hysteria2, ports: 8443, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本2|@ripaojiedian", server: 16.162.109.29, port: 40136, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "8,9|60@oneclickvpnkeys", server: 138.124.0.168, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
-  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 43.199.155.17, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|🧮19@oneclickvpnkeys, server: 86.107.178.76, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: hopp-netherland-new.dynuddns.net, skip-cert-verify: true}
-  - {name: "9|kurdconfig #2", server: assets.gateway-stream.com, port: 52026, type: hysteria2, ports: 52026, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: d6pv15sghiq1onts, sni: assets.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 95.40.14.234, port: 51396, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 12|日本3|@ripaojiedian, server: UcKniXjfd2JOKBmx.v.3dns.vip, port: 443, type: vmess, uuid: 1abe49dedb6e4f65a0f0a5ea79ddefad, alterId: 0, cipher: auto, tls: true, servername: UcKniXjfd2JOKBmx.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: UcKniXjfd2JOKBmx.v.3dns.vip}}}
+  - {name: 9|@Nexus_Panell ل تلگرام, server: assets.gateway-stream.com, port: 52057, type: hysteria2, ports: 52057, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: auw7lhtk2kxyq4g9, sni: assets.gateway-stream.com, skip-cert-verify: false}
+  - {name: 🇭🇰 8|HK, server: fg7xl1div.d33tqmk.cc, port: 10030, type: hysteria2, ports: 10030, password: 1dcc3b89-0b45-3908-9120-19741361d55d, obfs: salamander, obfs-password: 1ol3tasb90, sni: xk7q3.ckpfef.top, skip-cert-verify: true}
+  - {name: "8,9|16@oneclickvpnkeys", server: pixelcast.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o, sni: pixelcast.wwwinternetvideo.click, skip-cert-verify: true}
   - {name: "🇵🇱 8|波兰 #2", server: go.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc, sni: admin.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: "🇩🇪 8|德国 #3", server: bel-03.node.lumixnet.com, port: 443, type: hysteria2, ports: 443, password: d1224950-ffab-4b9a-8696-431b40a6cfbd, sni: bel-03.node.lumixnet.com}
-  - {name: 9|+@Azarakhsh_Proxy+, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: "🇯🇵 11,12|日本3|@ripaojiedian", server: 18.163.126.92, port: 18617, type: trojan, password: d5517dedef425597a1b9fdbaad99544e, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: "8|国 #1", server: uk196.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9}
-  - {name: 🇸🇪 8|瑞典, server: us54.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: us54.mechvpn.online}
-  - {name: 9|@Configvibes🇹🇷, server: 107.181.155.107, port: 2096, type: hysteria2, ports: 2096, password: "%40Telegram%40Configvibes", obfs: salamander, obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes, sni: ftp.debian.org, skip-cert-verify: true}
-  - {name: "🇳🇱 8|荷兰 #8", server: 91.84.119.49, port: 443, type: hysteria2, ports: 443, password: netherlands_3_hysteria2_fastlane_xr3nai71s, sni: nl4.h.fastlanehosting.ru}
-  - {name: "🇸🇬 11,12|新加坡3|@ripaojiedian", server: 43.199.155.17, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇳🇱 8|荷兰 #1", server: nl174.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: nl174.mechvpn.online, skip-cert-verify: true}
+  - {name: 9|@Configvibes, server: 198.105.123.106, port: 11504, type: hysteria2, ports: 11504, password: "%40Tel%40Configvibes", obfs: salamander, obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------, sni: archive.ubuntu.com, skip-cert-verify: true}
+  - {name: "8|兰 #2", server: 46.229.243.139, port: 8443, type: hysteria2, ports: 8443, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org, skip-cert-verify: true}
+  - {name: 9|@v2ray313 کانال, server: assets.gateway-stream.com, port: 52009, type: hysteria2, ports: 52009, password: m3bqxk03mg221yi2, obfs: salamander, obfs-password: kf1lypzqidy6pimt, sni: assets.gateway-stream.com, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 - Nuremberg - 1, server: jpaws.ccwink.photos, port: 53225, type: vmess, uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 43.199.64.95, port: 44002, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 12|美国2|@ripaojiedian, server: 3kCf86Ufi0U5xBDA.v.3dns.vip, port: 443, type: vmess, uuid: 1abe49dedb6e4f65a0f0a5ea79ddefad, alterId: 0, cipher: auto, tls: true, servername: 3kCf86Ufi0U5xBDA.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 3kCf86Ufi0U5xBDA.v.3dns.vip}}}
+  - {name: 🇸🇬 8|SG, server: vip-sg-1.hkd4fwmg.vip, port: 12645, type: hysteria2, ports: 12645, password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI, sni: vip-sg-1.hkd4fwmg.vip, skip-cert-verify: true}
+  - {name: "🇳🇱 8|荷兰 #4", server: 86.107.178.72, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: grape-zet-turbo-nl.yyuyy.com}
+  - {name: "8,9|🧮17@oneclickvpnkeys", server: 86.107.178.78, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: hopp-netherland-new.dynuddns.net, skip-cert-verify: true}
+  - {name: 9|🧮19@oneclickvpnkeys, server: 86.107.178.76, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: hopp-netherland-new.dynuddns.net, skip-cert-verify: true}
+  - {name: 🇮🇷 9|@Iran_v2ray1, server: ptserv.accuratenetworkchecker.ir, port: 36896, type: hysteria2, ports: 36896, password: StableInternet, obfs: salamander, obfs-password: hmvyfx1tpnz6pp3k, sni: lms22.gelzaro.ir, skip-cert-verify: false}
+  - {name: "🇬🇧 8|英国 #2", server: 222.167.212.81, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -108,23 +112,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -135,68 +140,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,23 +220,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9|7@oneclickvpnkeys
-      - 🇯🇵 11,12|日本2|@ripaojiedian
-      - 8,9|60@oneclickvpnkeys
-      - tg频道:@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 9|🧮19@oneclickvpnkeys
-      - "9|kurdconfig #2"
-      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇯🇵 12|日本3|@ripaojiedian
+      - 9|@Nexus_Panell ل تلگرام
+      - 🇭🇰 8|HK
+      - 8,9|16@oneclickvpnkeys
       - "🇵🇱 8|波兰 #2"
-      - "🇩🇪 8|德国 #3"
-      - 9|+@Azarakhsh_Proxy+
-      - 🇯🇵 11,12|日本3|@ripaojiedian
-      - "8|国 #1"
-      - 🇸🇪 8|瑞典
-      - 9|@Configvibes🇹🇷
-      - "🇳🇱 8|荷兰 #8"
-      - 🇸🇬 11,12|新加坡3|@ripaojiedian
+      - "🇳🇱 8|荷兰 #1"
+      - 9|@Configvibes
+      - "8|兰 #2"
+      - 9|@v2ray313 کانال
+      - 🇩🇪 德国 - Nuremberg - 1
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇸🇬 8|SG
+      - "🇳🇱 8|荷兰 #4"
+      - 8,9|🧮17@oneclickvpnkeys
+      - 9|🧮19@oneclickvpnkeys
+      - 🇮🇷 9|@Iran_v2ray1
+      - "🇬🇧 8|英国 #2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
