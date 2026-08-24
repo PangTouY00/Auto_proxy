@@ -5,171 +5,431 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: a129deab-11b6-4735-a2fb-f29e2291878f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: a129deab-11b6-4735-a2fb-f29e2291878f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
-  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: a129deab-11b6-4735-a2fb-f29e2291878f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: a129deab-11b6-4735-a2fb-f29e2291878f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: a129deab-11b6-4735-a2fb-f29e2291878f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: a129deab-11b6-4735-a2fb-f29e2291878f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
-  - {name: "User ID: 26763", server: expired.example.com, port: 80, type: vmess, uuid: 7bd99676-b862-40d8-9105-03d12b6918af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 7bd99676-b862-40d8-9105-03d12b6918af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: f2b0043b-4f57-4d0f-978b-9a7e9732b113, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: f2b0043b-4f57-4d0f-978b-9a7e9732b113, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: f2b0043b-4f57-4d0f-978b-9a7e9732b113, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: f2b0043b-4f57-4d0f-978b-9a7e9732b113, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: f2b0043b-4f57-4d0f-978b-9a7e9732b113, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: ❤️故障报修邮箱❤️ 2, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: fd7679c8-3ffa-4962-b202-a4bc858c0b4c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com 2, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: fd7679c8-3ffa-4962-b202-a4bc858c0b4c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
-  - {name: 🇩🇪 德国-法兰克福-001 2, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: fd7679c8-3ffa-4962-b202-a4bc858c0b4c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-002 2, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: fd7679c8-3ffa-4962-b202-a4bc858c0b4c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-003 2, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: fd7679c8-3ffa-4962-b202-a4bc858c0b4c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-004 2, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: fd7679c8-3ffa-4962-b202-a4bc858c0b4c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 0e64b326-d6e8-4b5d-a1ec-83c8148bfe81, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 0e64b326-d6e8-4b5d-a1ec-83c8148bfe81, sni: empty.node, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：9 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: c9e4f17a-4545-40c7-a93d-4b0a88d03518, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：9 天 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK 2, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2 2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK 2, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 86eec66f-dc4b-48d1-ae54-6e84bed711af, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港-06, server: 45.196.221.107, port: 52206, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-07, server: sie824.node2.top, port: 52207, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-08, server: sie824.node2.top, port: 52208, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-09, server: sie824.node2.top, port: 52209, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇭🇰 香港-10, server: sie721-hk10.node2.top, port: 10111, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾-06, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-07, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-08, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-09, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾-10, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-06, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-07, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-08, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-09, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇸🇬 新加坡-10, server: sie721-sg10.node2.top, port: 10131, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本-06, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-07, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-08, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-09, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇯🇵 日本-10, server: sie721-jp10.node2.top, port: 10121, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-06, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-07, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-08, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-09, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇺🇸 美国-10, server: sie721-us10.node2.top, port: 10151, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇦🇪 阿联酋, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇺🇸 亚美尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇦🇹 奥地利, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇦🇺 澳大利亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇧🇩 孟加拉国, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇧🇪 比利时, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇧🇬 保加利亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇧🇷 巴西, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇦 加拿大, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇭 瑞士, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇿 捷克, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇩🇪 德国, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇪🇸 西班牙, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇫🇮 芬兰, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇫🇷 法国, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇬🇧 英国, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇬🇪 格鲁吉亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇮🇩 印度尼西亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇮🇱 以色列, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇮🇳 印度, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇮🇹 意大利, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇰🇷 韩国, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇰🇿 哈萨克斯坦, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇱🇹 立陶宛, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇱🇻 拉脱维亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇲🇾 马来西亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇲🇽 墨西哥, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇳🇱 荷兰, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇵🇱 波兰, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇵🇹 葡萄牙, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇷🇴 罗马尼亚, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇷🇺 俄罗斯, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇸🇪 瑞典, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇹🇭 泰国, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇹🇷 土耳其, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇺🇦 乌克兰, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇿🇦 南非, server: sie624.node2.top, port: 8527, type: trojan, password: 9ab6e906-87fb-432e-8875-1515296ee64c, sni: itunes.apple.com}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: aa8fcd8a-1e4b-4d2b-b1a1-16db5fca4f09, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: aa8fcd8a-1e4b-4d2b-b1a1-16db5fca4f09, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: aa8fcd8a-1e4b-4d2b-b1a1-16db5fca4f09, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: aa8fcd8a-1e4b-4d2b-b1a1-16db5fca4f09, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: aa8fcd8a-1e4b-4d2b-b1a1-16db5fca4f09, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: 🇭🇰 Hong Kong, server: 202.155.141.87, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇫🇷 France, server: 141.253.107.174, port: 22345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇰🇷 Korea, server: 134.185.109.166, port: 32345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇬🇧 The United Kingdom, server: 140.238.64.207, port: 42345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇺🇸 United States, server: 152.67.250.45, port: 52345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇨🇦 Canada, server: 140.238.153.81, port: 13345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇨🇱 Chile, server: 129.151.99.94, port: 23345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇨🇭 Switzerland, server: 140.238.175.124, port: 33345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: 🇸🇬 Singapore, server: 140.245.121.101, port: 43345, type: ss, cipher: chacha20-ietf-poly1305, password: 6b322712-a545-425a-a587-5b6200700da3}
+  - {name: "User ID: 27150", server: expired.example.com, port: 80, type: vmess, uuid: de479177-a9dd-4e46-b595-de5f63842118, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: de479177-a9dd-4e46-b595-de5f63842118, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: f7451c19-1083-4780-a927-dd0d7bae0c60, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: f7451c19-1083-4780-a927-dd0d7bae0c60, sni: empty.node, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：8 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: cc16f65a-285e-41bd-8927-6753ba92bdf6, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：8 天 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 3, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK 2, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2 2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK 2, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 3, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: ad9155cc-7463-4376-83d6-814108d2b672, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 90efab65-2499-406b-a106-723177a14600, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 90efab65-2499-406b-a106-723177a14600, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 90efab65-2499-406b-a106-723177a14600, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 90efab65-2499-406b-a106-723177a14600, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 90efab65-2499-406b-a106-723177a14600, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 90efab65-2499-406b-a106-723177a14600, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -188,47 +448,122 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
       - 🇨🇳 台湾高速节点
       - 🇨🇳 台湾高速节点2
       - 🇨🇳 台湾高速节点3
@@ -238,128 +573,323 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -375,43 +905,108 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港-06
+      - 🇭🇰 香港-07
+      - 🇭🇰 香港-08
+      - 🇭🇰 香港-09
+      - 🇭🇰 香港-10
+      - 🇨🇳 台湾-06
+      - 🇨🇳 台湾-07
+      - 🇨🇳 台湾-08
+      - 🇨🇳 台湾-09
+      - 🇨🇳 台湾-10
+      - 🇸🇬 新加坡-06
+      - 🇸🇬 新加坡-07
+      - 🇸🇬 新加坡-08
+      - 🇸🇬 新加坡-09
+      - 🇸🇬 新加坡-10
+      - 🇯🇵 日本-06
+      - 🇯🇵 日本-07
+      - 🇯🇵 日本-08
+      - 🇯🇵 日本-09
+      - 🇯🇵 日本-10
+      - 🇺🇸 美国-06
+      - 🇺🇸 美国-07
+      - 🇺🇸 美国-08
+      - 🇺🇸 美国-09
+      - 🇺🇸 美国-10
+      - 🇦🇪 阿联酋
+      - 🇺🇸 亚美尼亚
+      - 🇦🇹 奥地利
+      - 🇦🇺 澳大利亚
+      - 🇧🇩 孟加拉国
+      - 🇧🇪 比利时
+      - 🇧🇬 保加利亚
+      - 🇧🇷 巴西
+      - 🇨🇦 加拿大
+      - 🇨🇭 瑞士
+      - 🇨🇿 捷克
+      - 🇩🇪 德国
+      - 🇪🇸 西班牙
+      - 🇫🇮 芬兰
+      - 🇫🇷 法国
+      - 🇬🇧 英国
+      - 🇬🇪 格鲁吉亚
+      - 🇮🇩 印度尼西亚
+      - 🇮🇱 以色列
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
+      - 🇰🇷 韩国
+      - 🇰🇿 哈萨克斯坦
+      - 🇱🇹 立陶宛
+      - 🇱🇻 拉脱维亚
+      - 🇲🇾 马来西亚
+      - 🇲🇽 墨西哥
+      - 🇳🇱 荷兰
+      - 🇵🇱 波兰
+      - 🇵🇹 葡萄牙
+      - 🇷🇴 罗马尼亚
+      - 🇷🇺 俄罗斯
+      - 🇸🇪 瑞典
+      - 🇹🇭 泰国
+      - 🇹🇷 土耳其
+      - 🇺🇦 乌克兰
+      - 🇿🇦 南非
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 Hong Kong
+      - 🇫🇷 France
+      - 🇰🇷 Korea
+      - 🇬🇧 The United Kingdom
+      - 🇺🇸 United States
+      - 🇨🇦 Canada
+      - 🇨🇱 Chile
+      - 🇨🇭 Switzerland
+      - 🇸🇬 Singapore
+      - "User ID: 27150"
+      - Gói của bạn đã hết hạn
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：8 天
+      - 🇺🇸 美国1线
+      - 🇯🇵 日本
+      - 🇫🇷 法国 2
+      - 🇺🇸 US-ATT-JK
+      - 🇺🇸 US-ATT-JK-2
+      - 🇯🇵 JP-JK
+      - 🇨🇦 加拿大 2
+      - 距离下次重置剩余：8 天 2
+      - 🇺🇸 美国1线 2
+      - 🇯🇵 日本 2
+      - 🇫🇷 法国 3
+      - 🇺🇸 US-ATT-JK 2
+      - 🇺🇸 US-ATT-JK-2 2
+      - 🇯🇵 JP-JK 2
+      - 🇨🇦 加拿大 3
       - ❤️故障报修邮箱❤️
       - 邮箱:louwangzhiyu.org@gmail.com
       - 🇩🇪 德国-法兰克福-001
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - "User ID: 26763"
-      - Gói của bạn đã hết hạn
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - ❤️故障报修邮箱❤️ 2
-      - 邮箱:louwangzhiyu.org@gmail.com 2
-      - 🇩🇪 德国-法兰克福-001 2
-      - 🇩🇪 德国-法兰克福-002 2
-      - 🇩🇪 德国-法兰克福-003 2
-      - 🇩🇪 德国-法兰克福-004 2
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 距离下次重置剩余：9 天
-      - 🇺🇸 美国1线
-      - 🇯🇵 日本
-      - 🇫🇷 法国
-      - 🇺🇸 US-ATT-JK
-      - 🇺🇸 US-ATT-JK-2
-      - 🇯🇵 JP-JK
-      - 🇨🇦 加拿大
-      - 距离下次重置剩余：9 天 2
-      - 🇺🇸 美国1线 2
-      - 🇯🇵 日本 2
-      - 🇫🇷 法国 2
-      - 🇺🇸 US-ATT-JK 2
-      - 🇺🇸 US-ATT-JK-2 2
-      - 🇯🇵 JP-JK 2
-      - 🇨🇦 加拿大 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
