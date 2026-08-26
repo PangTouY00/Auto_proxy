@@ -5,95 +5,103 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.163.118.157, port: 10418, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 12|日本3|@ripaojiedian, server: 103.236.66.4, port: 40002, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc}
-  - {name: "🇳🇱 8|荷兰 #2", server: 86.107.178.75, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: grape-zet-turbo-nl.yyuyy.com, skip-cert-verify: true}
-  - {name: 🇵🇱 8|波兰, server: 144.31.5.9, port: 2101, type: hysteria2, ports: 2101, password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb, sni: panel.vlessbotkey.ru, skip-cert-verify: true}
-  - {name: 8|兰, server: nl174.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: nl174.mechvpn.online, skip-cert-verify: true}
-  - {name: "🇭🇰 11,12|香港5|@ripaojiedian", server: 43.206.117.36, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 9|🏓26@oneclickvpnkeys, server: 89.125.156.80, port: 443, type: hysteria2, ports: 443, password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o, sni: pixelcast.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: "8,9|🏓33@oneclickvpnkeys", server: 94.156.250.67, port: 55000, type: hysteria2, ports: 55000, password: 0bacdaea-099b-462b-b625-d7d44c89aace, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇯🇵 12|日本2|@ripaojiedian, server: 103.236.66.4, port: 40001, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc}
+  - {name: "8,9|🏓11@oneclickvpnkeys", server: 46.229.243.139, port: 8443, type: hysteria2, ports: 8443, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org, skip-cert-verify: true}
+  - {name: 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
+  - {name: "12|tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: "8|兰 #1", server: 31.76.70.109, port: 8443, type: hysteria2, ports: 8443, password: 83deb5ce-cd1c-41a6-8ec5-2ebc91f6f861, sni: quic.tyr-agentstvo.tech}
+  - {name: "🇯🇵 11,12|日本|@ripaojiedian", server: 95.40.27.43, port: 16691, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 12|美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206QnV0dGVyZmx5MTIzQHF3ZTk1Mjc}
+  - {name: 🇭🇰 11|🇭🇰 香港3|@ripaojiedian, server: 112.28.141.77, port: 10006, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 9|🍑54@oneclickvpnkeys, server: 45.192.12.93, port: 443, type: hysteria2, ports: 443, password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc, sni: admin.wwwinternetvideo.click}
+  - {name: "8|未命名 #2", server: pixelcast.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o, sni: pixelcast.wwwinternetvideo.click, skip-cert-verify: true}
+  - {name: "🇩🇪 8|德国 #2", server: ndge4.whit3.net, port: 443, type: hysteria2, ports: 443, password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c, sni: ndge4.whit3.net, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 140.248.185.253, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: true, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}}
+  - {name: "8|国 #3", server: 82.39.214.98, port: 8080, type: hysteria2, ports: 8080, password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC, sni: hopp-us.yyuyy.com}
   - {name: 🇯🇵 8|日本, server: jp.cryptoofarm.com, port: 443, type: hysteria2, ports: 443, password: ef18d810-719c-4bf1-83c6-615d01f217eb, sni: jp.cryptoofarm.com, skip-cert-verify: true}
-  - {name: 9|hysteria, server: pro2.riziro.ir, port: 44100, type: hysteria2, ports: 44100, password: rjj39jg8iphgd06h, obfs: salamander, obfs-password: 2gg0tx9d2etug8n9, sni: pro2.riziro.ir}
-  - {name: "🇵🇱 8|波兰 #2", server: streambox.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01, sni: streambox.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: "🇩🇪 8|德国 #2", server: 194.180.188.104, port: 8443, type: hysteria2, ports: 8443, password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s, sni: keyhop-offshore.roxa.org, skip-cert-verify: true}
-  - {name: 🇸🇬 8|SG, server: vip-sg-1.hkd4fwmg.vip, port: 12645, type: hysteria2, ports: 12645, password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI, sni: vip-sg-1.hkd4fwmg.vip, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.206.117.36, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇱 8|荷兰, server: nl8.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: nl8.mechvpn.online, skip-cert-verify: true}
-  - {name: 🇺🇸 11|🇺🇸 美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: "8|国 #2", server: 85.204.107.169, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: grape-zet-ro-turbo.bumbleshrimp.com, skip-cert-verify: true}
+  - {name: "9|کانال تلگرام : Free_VPN_CH@", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.163.118.157, port: 10418, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 9|77@oneclickvpnkeys, server: hys22.wba-pn.ru, port: 443, type: hysteria2, ports: 443, password: oCYFcbOo8s, sni: hys22.wba-pn.ru}
+  - {name: 9|@v2ray313 کانالمون ️, server: assets.gateway-stream.com, port: 52009, type: hysteria2, ports: 52009, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: kf1lypzqidy6pimt, sni: assets.gateway-stream.com, skip-cert-verify: false}
+  - {name: "8,9|74@oneclickvpnkeys", server: 46.229.243.141, port: 8080, type: hysteria2, ports: 8080, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,101 +120,108 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -222,24 +237,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇯🇵 12|日本3|@ripaojiedian
-      - "🇳🇱 8|荷兰 #2"
-      - 🇵🇱 8|波兰
-      - 8|兰
-      - 🇭🇰 11,12|香港5|@ripaojiedian
-      - 9|🏓26@oneclickvpnkeys
-      - 8,9|🏓33@oneclickvpnkeys
-      - 🇯🇵 12|日本2|@ripaojiedian
-      - 🇯🇵 8|日本
-      - 9|hysteria
-      - "🇵🇱 8|波兰 #2"
-      - 🇺🇸 美国 CloudFlare节点
+      - 8,9|🏓11@oneclickvpnkeys
+      - 🇳🇱 9|🇳🇱 - NL - @FreeOnlineVPN
+      - "12|tg频道:@ripaojiedian #1"
+      - "8|兰 #1"
+      - 🇯🇵 11,12|日本|@ripaojiedian
+      - 🇺🇸 12|美国2|@ripaojiedian
+      - 🇭🇰 11|🇭🇰 香港3|@ripaojiedian
+      - 9|🍑54@oneclickvpnkeys
+      - "8|未命名 #2"
       - "🇩🇪 8|德国 #2"
-      - 🇸🇬 8|SG
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇳🇱 8|荷兰
-      - 🇺🇸 11|🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国 V2CROSS.COM
+      - "8|国 #3"
+      - 🇯🇵 8|日本
+      - 🇺🇸 美国 CloudFlare节点
+      - "8|国 #2"
+      - "9|کانال تلگرام : Free_VPN_CH@"
+      - 🇺🇸 美国3|@ripaojiedian
+      - 9|77@oneclickvpnkeys
+      - 9|@v2ray313 کانالمون ️
+      - 8,9|74@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
