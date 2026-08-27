@@ -5,40 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "User ID: 28564", server: expired.example.com, port: 80, type: vmess, uuid: 56b78abe-299f-4961-8b9c-56baa83160c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 56b78abe-299f-4961-8b9c-56baa83160c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: 距离下次重置剩余：6 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 4da57a96-5fa2-471d-a3a2-448a779f4de5, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 6fcba1e3-e3b4-4920-a33c-cc7ec60db53d, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 6fcba1e3-e3b4-4920-a33c-cc7ec60db53d, sni: empty.node, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 5cfbb18a-e907-43c1-9835-305bbb3b063e, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 5cfbb18a-e907-43c1-9835-305bbb3b063e, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 5cfbb18a-e907-43c1-9835-305bbb3b063e, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 5cfbb18a-e907-43c1-9835-305bbb3b063e, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 5cfbb18a-e907-43c1-9835-305bbb3b063e, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: 距离下次重置剩余：6 天 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK 2, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2 2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK 2, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: bb1c8676-8acd-446e-b363-bcf33df67cca, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 8a4089b8-55c5-4adc-9e2c-522c89232c9a, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 8a4089b8-55c5-4adc-9e2c-522c89232c9a, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 8a4089b8-55c5-4adc-9e2c-522c89232c9a, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 8a4089b8-55c5-4adc-9e2c-522c89232c9a, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 8a4089b8-55c5-4adc-9e2c-522c89232c9a, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
+  - {name: "User ID: 28982", server: expired.example.com, port: 80, type: vmess, uuid: e2b5bf56-6d79-4a38-af5e-4309d32aafcb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: e2b5bf56-6d79-4a38-af5e-4309d32aafcb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 39221378-cb3b-4882-aa9f-c689793d4f62, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 39221378-cb3b-4882-aa9f-c689793d4f62, sni: empty.node, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：5 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: d172ba75-4218-4e68-8140-9b4a1ae268c4, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：5 天 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK 2, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2 2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK 2, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 91cee46b-16cb-47ef-8773-bde6b4802bf9, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -46,14 +53,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -66,9 +66,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -76,14 +83,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -97,9 +97,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -107,14 +114,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -140,9 +140,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -150,14 +157,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -178,9 +178,16 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -188,14 +195,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -208,9 +208,16 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -218,14 +225,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -239,9 +239,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -249,14 +256,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -279,9 +279,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "User ID: 28564"
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
+      - "User ID: 28982"
       - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：6 天
+      - ⛔اشتراک را تمدید کنید⛔
+      - ⛔اشتراک منقضی شده است⛔
+      - 距离下次重置剩余：5 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -289,14 +296,7 @@ proxy-groups:
       - 🇺🇸 US-ATT-JK-2
       - 🇯🇵 JP-JK
       - 🇨🇦 加拿大
-      - ⛔اشتراک را تمدید کنید⛔
-      - ⛔اشتراک منقضی شده است⛔
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
-      - 距离下次重置剩余：6 天 2
+      - 距离下次重置剩余：5 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
