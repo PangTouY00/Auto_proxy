@@ -5,95 +5,123 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇵🇱 波兰 #3", server: go.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc, sni: admin.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: +@Azarakhsh_Proxy+🩷, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: "防范境外势力渗透 #4", server: 127.0.0.53, port: 84, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇧🇬 保加利亚, server: bg185.mechvpn.online, port: 443, type: hysteria2, ports: 443, password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9, sni: bg185.mechvpn.online}
-  - {name: "🇫🇷 法国 #2", server: dora4.api3-max.ru, port: 443, type: hysteria2, ports: 443, password: ac7fb60f-0b7a-465d-a002-05160ec04ed6, sni: dora4.api3-max.ru, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 #2", server: 47.129.155.42, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
-  - {name: 🇨🇳 中国 - Hefei - 1, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇯🇵 日本, server: 185.39.31.117, port: 8443, type: hysteria2, ports: 8443, password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5, sni: grape-beer.yyuyy.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: 38.180.190.215, port: 50160, type: hysteria2, ports: 50160, password: 0a344117cfeef3d6602e338c2f1e7957, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国, server: 132.226.226.189, port: 50160, type: hysteria2, ports: 50160, password: 1671a252e2a97dc2bda4e515475931da, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 80@oneclickvpnkeys, server: hy2-switzerlandgopota.unlimited-access.ru, port: 443, type: hysteria2, ports: 443, password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_, sni: hy2-switzerlandgopota.unlimited-access.ru}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 18.163.11126, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 - San Gabriel - 1, server: 103.179.142.158, port: 50269, type: vmess, uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇯🇵 日本|@ripaojiedian 2, server: 18.163.115.126, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai", server: tw.9966690.xyz, port: 40000, type: hysteria2, ports: 40000, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, obfs: salamander, obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 54.255.201.71, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: UKraine, server: hy2-germany.unlimited-access.ru, port: 8443, type: hysteria2, ports: 8443, password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_, sni: hy2-germany.unlimited-access.ru, skip-cert-verify: true}
   - {name: 🇧🇬 dc-udp- Bulgaria-Sofia, server: giftcard.gateway-stream.com, port: 52009, type: hysteria2, ports: 52009, password: ilkbtuxd94xofam1, sni: giftcard.gateway-stream.com}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 18.163.115.126, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda..., server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 🇦🇷 dc-udp- Argentina-Buenos Air..., server: giftcard.gateway-stream.com, port: 52001, type: hysteria2, ports: 52001, password: ilkbtuxd94xofam1, sni: giftcard.gateway-stream.com}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: "🇸🇬 新加坡 #1", server: 13.229.82.184, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.198.210.207, port: 1431, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: "防范境外势力渗透 #7", server: 127.0.0.53, port: 87, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "@Azaranv2ray", server: assets.gateway-stream.com, port: 52026, type: hysteria2, ports: 52026, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: d6pv15sghiq1onts, sni: assets.gateway-stream.com, skip-cert-verify: false}
   - {name: "防范境外势力渗透 #5", server: 127.0.0.53, port: 85, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: "@GozargahAzad|🇫🇮", server: giftcard.gateway-stream.com, port: 52061, type: hysteria2, ports: 52061, password: mdq80x0xv9wt7520}
+  - {name: "🇸🇬 SG #2", server: 13.229.54.166, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai", server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 52.195.148.119, port: 25982, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai", server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true}
+  - {name: "🇺🇸 美国 #2", server: nl1.sferavpn.pro, port: 443, type: hysteria2, ports: 443, password: cd74c0a406664a5bc0bac098220a2468, obfs: salamander, obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0, sni: nl1.sferavpn.pro, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian 2, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: "tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,99 +140,129 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,24 +278,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇵🇱 波兰 #3"
-      - 🇺🇸 美国 CloudFlare节点
-      - +@Azarakhsh_Proxy+🩷
-      - "防范境外势力渗透 #4"
-      - 🇧🇬 保加利亚
-      - "🇫🇷 法国 #2"
-      - "🇸🇬 新加坡 #2"
-      - 🇨🇳 中国 - Hefei - 1
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇯🇵 日本
-      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇸🇬 新加坡
+      - 🇰🇷 韩国
+      - 80@oneclickvpnkeys
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
+      - 🇺🇸 美国 - San Gabriel - 1
+      - 🇯🇵 日本|@ripaojiedian 2
+      - "🇨🇳 A - 🇹🇼 TW 01 TG: @nodpai"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - UKraine
+      - 🇧🇬 dc-udp- Bulgaria-Sofia
+      - 🇦🇷 dc-udp- Argentina-Buenos Air...
+      - 🇭🇰 香港2|@ripaojiedian
+      - "🇸🇬 新加坡 #1"
+      - 🇺🇸 美国3|@ripaojiedian
       - "防范境外势力渗透 #7"
-      - "@Azaranv2ray"
       - "防范境外势力渗透 #5"
-      - 🇺🇸 美国 CloudFlare节点 2
-      - "@GozargahAzad|🇫🇮"
+      - "🇸🇬 SG #2"
+      - 🇺🇸 美国 CloudFlare节点
+      - "🇸🇬 A - 🇸🇬 SG 06 TG: @nodpai"
+      - 🇭🇰 香港5|@ripaojiedian
+      - "🇺🇸 B - 🇺🇸 US 37 TG: @nodpai"
+      - "🇺🇸 美国 #2"
+      - 🇺🇸 美国|@ripaojiedian 2
+      - "tg频道:@ripaojiedian #1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
