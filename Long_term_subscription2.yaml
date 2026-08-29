@@ -5,107 +5,115 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo, server: giftcard.gateway-stream.com, port: 52046, type: hysteria2, ports: 52046, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 217.60.33.215, port: 443, type: hysteria2, ports: 443, password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01, sni: streambox.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: "🇳🇱 荷兰 #3", server: 86.107.178.78, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: hopp-netherland-new.dynuddns.net}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 154387 | ⚡️Telegram - t.me/S..., server: giftcard.gateway-stream.com, port: 52003, type: hysteria2, ports: 52003, password: 19f4kufiitwvpyy3, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 67@oneclickvpnkeys, server: mg3.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41f0d6d3-4a45-4635-8225-2abd2284189b, sni: mg3.mangshe.xyz, skip-cert-verify: true}
+  - {name: "🇸🇬 SG #1", server: 18.136.199.31, port: 12451, type: hysteria2, ports: 12451, password: VL0N0IPJ5Tqj672H7FsxYw%3D%3D, obfs: salamander, obfs-password: MBd0Kzj3ZcY3, sni: c.hbapp.xyz}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 95.40.24.249, port: 53001, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.198.210.207, port: 1431, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.111.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: "防范境外势力渗透 #5", server: 127.0.0.53, port: 85, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda..., server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: "@v2ray_phoenix", server: giftcard.gateway-stream.com, port: 52008, type: hysteria2, ports: 52008, password: zvxywxoorgqk3fzb, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 54.168.189, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 112.28.141.77, port: 10006, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 154416 | ⚡️Telegram - t.me/S..., server: giftcard.gateway-stream.com, port: 52049, type: hysteria2, ports: 52049, password: 19f4kufiitwvpyy3, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "🇩🇪 德国 #7", server: 194.180.188.97, port: 8443, type: hysteria2, ports: 8443, password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s, sni: keyhop-offshore.roxa.org, skip-cert-verify: true}
+  - {name: 🇮🇳 IN, server: 144.24.109.215, port: 51000, type: hysteria2, ports: 51000, password: 91283e34-8674-4961-b202-c3491b72eeb9, sni: cn.cremedelamer.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 加州, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
   - {name: 🇨🇭 瑞士, server: 46.229.243.141, port: 8080, type: hysteria2, ports: 8080, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org}
-  - {name: "防范境外势力渗透 #4", server: 127.0.0.53, port: 84, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇩🇪 德国 #6", server: 194.180.188.104, port: 8443, type: hysteria2, ports: 8443, password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s, sni: keyhop-offshore.roxa.org, skip-cert-verify: true}
-  - {name: "🇺🇸 美国 #2", server: nl1.sferavpn.pro, port: 443, type: hysteria2, ports: 443, password: cd74c0a406664a5bc0bac098220a2468, obfs: salamander, obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0, sni: nl1.sferavpn.pro, skip-cert-verify: true}
-  - {name: "🇩🇪 德国 #2", server: deu0003ntrhy01.tcp-reset-club.net, port: 443, type: hysteria2, ports: 443, password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3, sni: deu0003ntrhy01.tcp-reset-club.net, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 甲骨文机房, server: 138.2.73.238, port: 50160, type: hysteria2, ports: 50160, password: f87376e17da040ed04c9665ce8972930, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "🇬🇧 英国 #2", server: 138.124.0.168, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国, server: 132.226.226.189, port: 50160, type: hysteria2, ports: 50160, password: 1671a252e2a97dc2bda4e515475931da, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 39@oneclickvpnkeys, server: 103.246.248.229, port: 8443, type: hysteria2, ports: 8443, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
+  - {name: "@bored_vpn #3", server: giftcard.gateway-stream.com, port: 52019, type: hysteria2, ports: 52019, password: zvxywxoorgqk3fzb, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 154390 | ⚡️Telegram - t.me/S..., server: giftcard.gateway-stream.com, port: 52009, type: hysteria2, ports: 52009, password: 19f4kufiitwvpyy3, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "🇳🇱 荷兰 #2", server: 86.107.178.75, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: grape-zet-turbo-nl.yyuyy.com, skip-cert-verify: true}
+  - {name: "🇩🇪 德国 #1", server: 157.228.137.81, port: 443, type: hysteria2, ports: 443, password: 585b7bfe-6269-4149-ae22-ff07c57b5510, obfs: salamander, obfs-password: Xydh1mcz51VQHbbJ, sni: msk2.nebuchadnezzar.ink, skip-cert-verify: true}
+  - {name: "🇹🇷 土耳其 #3", server: gora4.api3-max.ru, port: 443, type: hysteria2, ports: 443, password: ac7fb60f-0b7a-465d-a002-05160ec04ed6, sni: gora4.api3-max.ru, skip-cert-verify: true}
+  - {name: "防范境外势力渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国, server: pixelcast.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o, sni: pixelcast.wwwinternetvideo.click, skip-cert-verify: true}
+  - {name: 31@oneclickvpnkeys, server: 72.56.116.57, port: 443, type: hysteria2, ports: 443, password: wrSuBorIlf, sni: hys9.wba-pn.ru, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,113 +132,122 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,27 +263,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - "🇳🇱 荷兰 #3"
+      - 🇺🇸 美国|@ripaojiedian
+      - 154387 | ⚡️Telegram - t.me/S...
+      - 67@oneclickvpnkeys
+      - "🇸🇬 SG #1"
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
+      - 154416 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #7"
+      - 🇮🇳 IN
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国 CloudFlare节点
-      - "防范境外势力渗透 #5"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - "@v2ray_phoenix"
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇨🇭 瑞士
-      - "防范境外势力渗透 #4"
-      - "🇩🇪 德国 #6"
-      - "🇺🇸 美国 #2"
-      - "🇩🇪 德国 #2"
-      - 🇸🇬 新加坡 甲骨文机房
-      - "🇬🇧 英国 #2"
-      - 🇰🇷 韩国
       - 🇺🇸 美国 CloudFlare节点 2
-      - 39@oneclickvpnkeys
+      - 🇨🇭 瑞士
+      - "@bored_vpn #3"
+      - 154390 | ⚡️Telegram - t.me/S...
+      - "🇳🇱 荷兰 #2"
+      - "🇩🇪 德国 #1"
+      - "🇹🇷 土耳其 #3"
+      - "防范境外势力渗透 #1"
+      - 🇩🇪 德国
+      - 31@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
