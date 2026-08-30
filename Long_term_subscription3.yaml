@@ -5,135 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 54.168.189, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: "🇩🇪 德国 #3", server: 85.204.107.174, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 132.226.226.189, port: 50160, type: hysteria2, ports: 50160, password: 1671a252e2a97dc2bda4e515475931da, sni: www.bing.com, skip-cert-verify: true}
+  - {name: "🇯🇵 日本 #1", server: c2.bestai.beauty, port: 3488, type: hysteria2, ports: 3488, password: a9081889-1949-49ba-a2aa-7054515716de, sni: c2.bestai.beauty, skip-cert-verify: true}
+  - {name: 14@oneclickvpnkeys, server: 46.229.243.147, port: 8443, type: hysteria2, ports: 8443, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org, skip-cert-verify: true}
+  - {name: 🇯🇵 日本, server: 185.39.31.117, port: 8443, type: hysteria2, ports: 8443, password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5, sni: grape-beer.yyuyy.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 18.163.11126, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 155839 | ⚡️Telegram - t.me/S..., server: giftcard.gateway-stream.com, port: 52088, type: hysteria2, ports: 52088, password: 76ivwa51ce2gauym, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "🇩🇪 德国 #2", server: 85.204.107.169, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: grape-zet-ro-turbo.bumbleshrimp.com, skip-cert-verify: true}
+  - {name: "@B2Hub", server: ptserv.accuratenetworkchecker.ir, port: 36896, type: hysteria2, ports: 36896, password: AstroVPN_official, obfs: salamander, obfs-password: pr317jpnr2arr09j, sni: lms22.gelzaro.ir, skip-cert-verify: false}
+  - {name: HK_1|4.6MB/s, server: www.shopify.com, port: 443, type: vmess, uuid: d187a23a-76a9-4d55-84e3-ea3b8b222cbf, alterId: 0, cipher: auto, tls: true, servername: dimensional-regularly-buildings-keys.trycloudflare.com, network: ws, ws-opts: {path: /d187a23a-76a9-4d55-84e3-ea3b8b222cbf-vm, headers: {Host: dimensional-regularly-buildings-keys.trycloudflare.com}}}
+  - {name: "🇸🇬 新加坡 #2", server: 54.254.190.23, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: "@Azaranv2ray", server: assets.gateway-stream.com, port: 52026, type: hysteria2, ports: 52026, password: t8t2qojzsykqazfu, obfs: salamander, obfs-password: d6pv15sghiq1onts, sni: assets.gateway-stream.com, skip-cert-verify: false}
   - {name: "Telegram@vpnjey #1", server: 77.110.96.201, port: 36264, type: hysteria2, ports: 36264, password: Telegram%40vpnjey, obfs: salamander, obfs-password: Telegram@vpnjey, sni: se.vpnjey2.dpdns.org, skip-cert-verify: true}
-  - {name: 52@ConfigV2RayNG, server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false}
-  - {name: 58@oneclickvpnkeys, server: 77.110.96.201, port: 36264, type: hysteria2, ports: 36264, password: Telegram%40vpnjey, obfs: salamander, obfs-password: Telegram@vpnjey, sni: se.vpnjey2.dpdns.org, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 #2", server: 47.129.155.42, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
-  - {name: 79@oneclickvpnkeys, server: 103.246.248.231, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org}
-  - {name: "کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: "🇬🇧 英国 #3", server: 222.167.212.81, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
-  - {name: FI_1|1.9MB/s, server: lv.katanalink.net, port: 443, type: hysteria2, ports: 443, password: 901113fb-2ddd-4472-84bf-307de471f32f, sni: lv.katanalink.net, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 #1", server: 13.229.82.184, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
-  - {name: "🇸🇬 SG #1", server: 18.136.199.31, port: 12451, type: hysteria2, ports: 12451, password: VL0N0IPJ5Tqj672H7FsxYw%3D%3D, obfs: salamander, obfs-password: MBd0Kzj3ZcY3, sni: c.hbapp.xyz}
-  - {name: 防范境外势力渗透, server: 127.0.0.53, port: 80, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 52.195.148.119, port: 25982, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: TW_3|4.0MB/s, server: vpn-tw-002.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: css.rbxcdn.com, skip-cert-verify: true}
-  - {name: 🇩🇪 德国, server: pixelcast.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o, sni: pixelcast.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1", server: giftcard.gateway-stream.com, port: 52001, type: hysteria2, ports: 52001, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 🇺🇸 美国 - Buffalo - 3, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇩🇪 德国 #1", server: deu0003ntrhy01.tcp-reset-club.net, port: 443, type: hysteria2, ports: 443, password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3, sni: deu0003ntrhy01.tcp-reset-club.net, skip-cert-verify: true}
   - {name: 69@oneclickvpnkeys, server: fast.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE, sni: fast.wwwinternetvideo.click, skip-cert-verify: true}
-  - {name: 🇸🇬 SG, server: xjp1.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41f0d6d3-4a45-4635-8225-2abd2284189b, sni: xjp1.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡, server: 38.180.190.215, port: 50160, type: hysteria2, ports: 50160, password: 0a344117cfeef3d6602e338c2f1e7957, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 35@oneclickvpnkeys, server: hys28.wba-pn.ru, port: 443, type: hysteria2, ports: 443, password: BWAFlp8g53, skip-cert-verify: true}
-  - {name: 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda..., server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: 🇹🇷 土耳其, server: 194.135.34.130, port: 443, type: hysteria2, ports: 443, password: 1ba59989-225e-4f1c-ab62-9bd7366009cb, sni: 194.135.34.130, skip-cert-verify: true}
-  - {name: "tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 50@oneclickvpnkeys, server: hys9.wba-pn.ru, port: 443, type: hysteria2, ports: 443, password: wrSuBorIlf, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: DE_1|1.7MB/s, server: 130.61.148.71, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: OXzmL1h7BLzI+gF8+61lZtiiltHgo2wphibbeQntWv0=}
-  - {name: KR_1|1.7MB/s, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,142 +112,100 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -303,34 +221,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "Telegram@vpnjey #1"
-      - 52@ConfigV2RayNG
-      - 58@oneclickvpnkeys
-      - "🇸🇬 新加坡 #2"
-      - 79@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - "🇬🇧 英国 #3"
-      - FI_1|1.9MB/s
-      - "🇸🇬 新加坡 #1"
-      - "🇸🇬 SG #1"
-      - 防范境外势力渗透
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - TW_3|4.0MB/s
-      - 🇩🇪 德国
-      - 🇭🇰 香港|@ripaojiedian
+      - "🇩🇪 德国 #3"
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - "🇯🇵 日本 #1"
+      - 14@oneclickvpnkeys
+      - 🇯🇵 日本
+      - 🇯🇵 日本|@ripaojiedian
+      - 155839 | ⚡️Telegram - t.me/S...
+      - "🇩🇪 德国 #2"
+      - "@B2Hub"
+      - HK_1|4.6MB/s
+      - "🇸🇬 新加坡 #2"
+      - "@Azaranv2ray"
+      - "Telegram@vpnjey #1"
+      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #1"
+      - 🇺🇸 美国 - Buffalo - 3
+      - "🇩🇪 德国 #1"
       - 69@oneclickvpnkeys
-      - 🇸🇬 SG
-      - 🇸🇬 新加坡
-      - 35@oneclickvpnkeys
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇹🇷 土耳其
-      - "tg频道:@ripaojiedian #1"
-      - 50@oneclickvpnkeys
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - DE_1|1.7MB/s
-      - KR_1|1.7MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
