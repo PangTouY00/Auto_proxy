@@ -5,147 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 139909 | ⚡️Telegram - t.me/S..., server: 54.213.89.22, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vk.com, skip-cert-verify: true}
-  - {name: 🇫🇷 法国巴黎 CloudFlare节点, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: US_14|3.0MB/s, server: 91.196.32.163, port: 443, type: hysteria2, ports: 443, password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj, sni: germany3.h2corp.local, skip-cert-verify: true}
-  - {name: "🇩🇪 德国 #3", server: 85.204.107.181, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org}
-  - {name: -🇩🇪 @VConfing, server: giftcard.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: 1w61o8j0slf0q9yj, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "@bored_vpn #4", server: giftcard.gateway-stream.com, port: 52019, type: hysteria2, ports: 52019, password: zvxywxoorgqk3fzb, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: 36.33.35.105, port: 30001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: "@MIGAVPNPRO #10", server: giftcard.gateway-stream.com, port: 52056, type: hysteria2, ports: 52056, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇨🇭 瑞士, server: 46.229.243.141, port: 8080, type: hysteria2, ports: 8080, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org}
-  - {name: "@v2ray_phoenix", server: giftcard.gateway-stream.com, port: 52029, type: hysteria2, ports: 52029, password: 1m1xfvpaa5ek4omq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "Channel: @Daily_Configs", server: giftcard.gateway-stream.com, port: 52016, type: hysteria2, ports: 52016, password: 1w61o8j0slf0q9yj, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: "防范境外势力渗透 #9", server: 127.0.0.53, port: 89, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 SG #2", server: 13.229.54.166, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
-  - {name: "Channel : @Daily_Configs #4", server: de1.sferavpn.pro, port: 443, type: hysteria2, ports: 443, password: cd74c0a406664a5bc0bac098220a2468, obfs: salamander, obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0, sni: de1.sferavpn.pro, skip-cert-verify: false}
-  - {name: "@meliproxyy #3", server: bwdf2fnt.xn--e1aatfr8bwa.online, port: 443, type: hysteria2, ports: 443, password: tnnls, obfs: salamander, obfs-password: b6d1f3888ab1d90dd11aac1dce427b81, sni: bwdf2fnt.xn--e1aatfr8bwa.online, skip-cert-verify: false}
-  - {name: SG_2|2.7MB/s, server: sg1.xiaoliyu.cyou, port: 1933, type: hysteria2, ports: 1933, password: 19f72087-4591-4d72-930b-2697078ec2be, sni: sg1.xiaoliyu.cyou, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大, server: vpn-ca-001.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: t.me, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.167.96.176, port: 52770, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "🇫🇮 芬兰 #1", server: 31.76.70.109, port: 8443, type: hysteria2, ports: 8443, password: 83deb5ce-cd1c-41a6-8ec5-2ebc91f6f861, sni: quic.tyr-agentstvo.tech}
-  - {name: "🇩🇪 德国 #2", server: 85.204.107.178, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org, skip-cert-verify: true}
+  - {name: 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo, server: giftcard.gateway-stream.com, port: 52046, type: hysteria2, ports: 52046, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: ✅  @vistav2ray  👈👈کانال ما ✅, server: 31.76.80.69, port: 443, type: hysteria2, ports: 443, password: 6aab8efdf13945829ae3699c342be406, obfs: salamander, obfs-password: uw9b2qq5rx, sni: fiproxy1.lockdwn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
   - {name: "@v2ray313 کانالمون 🇹🇷", server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: jbmuokj7p4kg4h4s, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon, server: giftcard.gateway-stream.com, port: 52057, type: hysteria2, ports: 52057, password: 1m1xfvpaa5ek4omq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: "@configprxy", server: giftcard.gateway-stream.com, port: 52000, type: hysteria2, ports: 52000, password: g2d0ooqq3ykzsacc, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "@v2ray_phoenix #1", server: giftcard.gateway-stream.com, port: 52030, type: hysteria2, ports: 52030, password: 1m1xfvpaa5ek4omq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "Telegram@vpnjey #1", server: 77.110.96.201, port: 36264, type: hysteria2, ports: 36264, password: Telegram%40vpnjey, obfs: salamander, obfs-password: Telegram@vpnjey, sni: se.vpnjey2.dpdns.org, skip-cert-verify: true}
-  - {name: "@V2ray_Alpha🌎 2", server: giftcard.gateway-stream.com, port: 52024, type: hysteria2, ports: 52024, password: 1w61o8j0slf0q9yj, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2", server: giftcard.gateway-stream.com, port: 52001, type: hysteria2, ports: 52001, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: "@V2ray_Alpha🌎 3", server: giftcard.gateway-stream.com, port: 52060, type: hysteria2, ports: 52060, password: 1w61o8j0slf0q9yj, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "Channel : @Daily_Configs #5", server: giftcard.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: clz08qwil91241w7, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "防范境外势力渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: "@MIGAVPNPRO #11", server: giftcard.gateway-stream.com, port: 52061, type: hysteria2, ports: 52061, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza, server: giftcard.gateway-stream.com, port: 52010, type: hysteria2, ports: 52010, password: g2d0ooqq3ykzsacc, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 🇯🇵 日本, server: 138.3.208.26, port: 50160, type: hysteria2, ports: 50160, password: 184cdec28da5a09450803c8debcd2cc9, sni: www.bing.com, skip-cert-verify: true}
+  - {name: NL_1|1.5MB/s, server: 46.229.243.152, port: 8443, type: hysteria2, ports: 8443, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org, skip-cert-verify: true}
+  - {name: "🇹🇷 土耳其 #3", server: gora4.api3-max.ru, port: 443, type: hysteria2, ports: 443, password: ac7fb60f-0b7a-465d-a002-05160ec04ed6, sni: gora4.api3-max.ru, skip-cert-verify: true}
+  - {name: "🇳🇱 荷兰 #1", server: 31.177.111.213, port: 443, type: hysteria2, ports: 443, password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98, sni: hy222.routeon.pro, skip-cert-verify: true}
+  - {name: 26@oneclickvpnkeys, server: 18.153.59.21, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-de-001.fastervpn.world, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇦🇱 dc-udp-🇦🇱 Albania-Tirana, server: giftcard.gateway-stream.com, port: 52000, type: hysteria2, ports: 52000, password: g2d0ooqq3ykzsacc, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 🇭🇰 HK, server: h.zz2233.cyou, port: 10444, type: hysteria2, ports: 10444, password: f4927789e58bcd24b6f6, sni: h.zz2233.cyou}
+  - {name: "@v2ray_phoenix #2", server: giftcard.gateway-stream.com, port: 52033, type: hysteria2, ports: 52033, password: 1m1xfvpaa5ek4omq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "🇫🇮 芬兰 #2", server: 45.149.147.194, port: 443, type: hysteria2, ports: 443, password: becd3b04-62a8-4b74-be67-be746008b4c2, sni: hys-mesh.spliceflowtech.com, skip-cert-verify: true}
+  - {name: 158867 | ⚡️Telegram - t.me/S..., server: giftcard.gateway-stream.com, port: 52062, type: hysteria2, ports: 52062, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "@tootffarangi🍓-13", server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: clz08qwil91241w7, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,153 +116,103 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -326,37 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 139909 | ⚡️Telegram - t.me/S...
-      - 🇫🇷 法国巴黎 CloudFlare节点
-      - US_14|3.0MB/s
-      - "🇩🇪 德国 #3"
-      - -🇩🇪 @VConfing
-      - "@bored_vpn #4"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - "@MIGAVPNPRO #10"
-      - 🇨🇭 瑞士
-      - "@v2ray_phoenix"
-      - "Channel: @Daily_Configs"
-      - "防范境外势力渗透 #9"
-      - "🇸🇬 SG #2"
-      - "Channel : @Daily_Configs #4"
-      - "@meliproxyy #3"
-      - SG_2|2.7MB/s
-      - 🇨🇦 加拿大
+      - 🇯🇵 dc-udp-🇯🇵 Japan-Tokyo
+      - ✅  @vistav2ray  👈👈کانال ما ✅
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国3|@ripaojiedian
-      - "🇫🇮 芬兰 #1"
-      - "🇩🇪 德国 #2"
       - "@v2ray313 کانالمون 🇹🇷"
-      - 🇵🇹 dc-udp-🇵🇹 Portugal-Lisbon
-      - "@configprxy"
-      - "@v2ray_phoenix #1"
-      - "Telegram@vpnjey #1"
-      - "@V2ray_Alpha🌎 2"
-      - "🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air... #2"
-      - "@V2ray_Alpha🌎 3"
-      - "Channel : @Daily_Configs #5"
+      - "防范境外势力渗透 #1"
+      - "@MIGAVPNPRO #11"
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - 🇯🇵 日本
+      - NL_1|1.5MB/s
+      - "🇹🇷 土耳其 #3"
+      - "🇳🇱 荷兰 #1"
+      - 26@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 🇭🇰 HK
+      - "@v2ray_phoenix #2"
+      - "🇫🇮 芬兰 #2"
+      - 158867 | ⚡️Telegram - t.me/S...
+      - "@tootffarangi🍓-13"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
