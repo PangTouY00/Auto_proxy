@@ -5,60 +5,56 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "User ID: 32015", server: expired.example.com, port: 80, type: vmess, uuid: f1d77e83-d500-496c-8aa0-8058ffb25cff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: f1d77e83-d500-496c-8aa0-8058ffb25cff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
-  - {name: 距离下次重置剩余：28 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: dac49ffc-186e-4361-86c6-2e166103e546, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 7111c4fa-dde5-4ac2-a6c9-588115ae5ec4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 7111c4fa-dde5-4ac2-a6c9-588115ae5ec4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
-  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 7111c4fa-dde5-4ac2-a6c9-588115ae5ec4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 7111c4fa-dde5-4ac2-a6c9-588115ae5ec4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 7111c4fa-dde5-4ac2-a6c9-588115ae5ec4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 7111c4fa-dde5-4ac2-a6c9-588115ae5ec4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
-  - {name: "🇸🇬 [Hy2]Singapore-新加坡", server: singapore.ruixing.fun, port: 30625, type: hysteria2, ports: 30625, password: bf9d2936-07d3-4a3f-8b38-d77433ff0dd7, obfs: salamander, obfs-password: Y0hOpQA0X4EMz6fO, sni: singapore.ruixing.fun, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 77e8367f-bfd7-472a-9739-aaf13023b488, sni: node1.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 77e8367f-bfd7-472a-9739-aaf13023b488, sni: node2.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 77e8367f-bfd7-472a-9739-aaf13023b488, sni: node3.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 77e8367f-bfd7-472a-9739-aaf13023b488, sni: node4.yuntongclouds.com, skip-cert-verify: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 77e8367f-bfd7-472a-9739-aaf13023b488, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
-  - {name: ❤️故障报修邮箱❤️ 2, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 69859f15-77f0-476d-83e5-ae28e383a672, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com 2, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 69859f15-77f0-476d-83e5-ae28e383a672, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
-  - {name: 🇩🇪 德国-法兰克福-001 2, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 69859f15-77f0-476d-83e5-ae28e383a672, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-002 2, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 69859f15-77f0-476d-83e5-ae28e383a672, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-003 2, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 69859f15-77f0-476d-83e5-ae28e383a672, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-004 2, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 69859f15-77f0-476d-83e5-ae28e383a672, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
-  - {name: "🇸🇬 [Hy2]Singapore-新加坡 2", server: singapore.ruixing.fun, port: 30625, type: hysteria2, ports: 30625, password: 75f644d3-b355-4e5c-8b6f-d7dfafb44de6, obfs: salamander, obfs-password: Y0hOpQA0X4EMz6fO, sni: singapore.ruixing.fun, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：28 天 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国1线 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: faguo.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK 2, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 US-ATT-JK-2 2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-JK 2, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 7684ef2a-da92-4361-866e-c062e502a79c, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
-  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: 8e4d51f2-d538-482c-ab0d-47e62e1a75fc, sni: empty.node, skip-cert-verify: false}
-  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: 8e4d51f2-d538-482c-ab0d-47e62e1a75fc, sni: empty.node, skip-cert-verify: false}
-  - {name: ❤️故障报修邮箱❤️ 3, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: e310720c-1027-476a-8d3a-3d071bf7bde1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
-  - {name: 邮箱:louwangzhiyu.org@gmail.com 3, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: e310720c-1027-476a-8d3a-3d071bf7bde1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
-  - {name: 🇩🇪 德国-法兰克福-001 3, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: e310720c-1027-476a-8d3a-3d071bf7bde1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-002 3, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: e310720c-1027-476a-8d3a-3d071bf7bde1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-003 3, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: e310720c-1027-476a-8d3a-3d071bf7bde1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
-  - {name: 🇩🇪 德国-法兰克福-004 3, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: e310720c-1027-476a-8d3a-3d071bf7bde1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: 距离下次重置剩余：27 天, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 2b75e35f-9514-4e42-a990-b263a0f60336, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: ❤️故障报修邮箱❤️, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 5c60e4be-817e-4e78-a630-6ac3ec722652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 5c60e4be-817e-4e78-a630-6ac3ec722652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 5c60e4be-817e-4e78-a630-6ac3ec722652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 5c60e4be-817e-4e78-a630-6ac3ec722652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 5c60e4be-817e-4e78-a630-6ac3ec722652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 5c60e4be-817e-4e78-a630-6ac3ec722652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: ❤️故障报修邮箱❤️ 2, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 6b06cff8-295e-4056-909f-f3043ea0a39e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com 2, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 6b06cff8-295e-4056-909f-f3043ea0a39e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001 2, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 6b06cff8-295e-4056-909f-f3043ea0a39e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002 2, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 6b06cff8-295e-4056-909f-f3043ea0a39e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003 2, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 6b06cff8-295e-4056-909f-f3043ea0a39e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004 2, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 6b06cff8-295e-4056-909f-f3043ea0a39e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: "User ID: 32532", server: expired.example.com, port: 80, type: vmess, uuid: 35f7a825-ea49-4236-959f-dd65769c3788, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: Gói của bạn đã hết hạn, server: expired.example.com, port: 80, type: vmess, uuid: 35f7a825-ea49-4236-959f-dd65769c3788, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}}
+  - {name: ❤️故障报修邮箱❤️ 3, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 1a907694-0e54-4545-8de2-9720c0196c54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}}
+  - {name: 邮箱:louwangzhiyu.org@gmail.com 3, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 1a907694-0e54-4545-8de2-9720c0196c54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}}
+  - {name: 🇩🇪 德国-法兰克福-001 3, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 1a907694-0e54-4545-8de2-9720c0196c54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-002 3, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 1a907694-0e54-4545-8de2-9720c0196c54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-003 3, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 1a907694-0e54-4545-8de2-9720c0196c54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}}
+  - {name: 🇩🇪 德国-法兰克福-004 3, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 1a907694-0e54-4545-8de2-9720c0196c54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}}
+  - {name: 距离下次重置剩余：27 天 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国1线 2, server: meiguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: meiguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 2, server: ri-ben-nube.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: ri-ben-nube.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 2, server: faguo.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: faguo.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK 2, server: us-attjk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: us-attjk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-ATT-JK-2 2, server: us-att-1.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: us-att-1.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-JK 2, server: riben-jk.tkvip.xyz, port: 443, type: hysteria2, ports: 443, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: riben-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 2, server: jianada-jk.tkvip.xyz, port: 4433, type: hysteria2, ports: 4433, password: 9950aa8b-09de-4825-ad95-99873728a6ae, sni: jianada-jk.tkvip.xyz, skip-cert-verify: false}
+  - {name: ⛔اشتراک را تمدید کنید⛔, server: empty.node, port: 443, type: trojan, password: f97a1ebb-e7e8-43a3-8192-7ca271565e65, sni: empty.node, skip-cert-verify: false}
+  - {name: ⛔اشتراک منقضی شده است⛔, server: empty.node, port: 443, type: trojan, password: f97a1ebb-e7e8-43a3-8192-7ca271565e65, sni: empty.node, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: b9842781-66ea-4c62-b935-5e61ad3ac1d4, sni: node1.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: b9842781-66ea-4c62-b935-5e61ad3ac1d4, sni: node2.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: b9842781-66ea-4c62-b935-5e61ad3ac1d4, sni: node3.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: b9842781-66ea-4c62-b935-5e61ad3ac1d4, sni: node4.yuntongclouds.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: b9842781-66ea-4c62-b935-5e61ad3ac1d4, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -72,20 +68,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -95,20 +92,17 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -122,20 +116,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -145,21 +140,18 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -173,20 +165,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -196,12 +189,11 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -220,9 +212,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -236,20 +226,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -259,12 +250,11 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -278,9 +268,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -294,20 +282,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -317,20 +306,17 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -344,20 +330,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -367,21 +354,18 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -395,20 +379,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -418,12 +403,11 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -439,9 +423,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "User ID: 32015"
-      - Gói của bạn đã hết hạn
-      - 距离下次重置剩余：28 天
+      - 距离下次重置剩余：27 天
       - 🇺🇸 美国1线
       - 🇯🇵 日本
       - 🇫🇷 法国
@@ -455,20 +437,21 @@ proxy-groups:
       - 🇩🇪 德国-法兰克福-002
       - 🇩🇪 德国-法兰克福-003
       - 🇩🇪 德国-法兰克福-004
-      - 🇸🇬 [Hy2]Singapore-新加坡
-      - 🇨🇳 台湾高速节点
-      - 🇨🇳 台湾高速节点2
-      - 🇨🇳 台湾高速节点3
-      - 🇺🇸 美国高速节点1
-      - 🇨🇳 中国联通节点1
       - ❤️故障报修邮箱❤️ 2
       - 邮箱:louwangzhiyu.org@gmail.com 2
       - 🇩🇪 德国-法兰克福-001 2
       - 🇩🇪 德国-法兰克福-002 2
       - 🇩🇪 德国-法兰克福-003 2
       - 🇩🇪 德国-法兰克福-004 2
-      - 🇸🇬 [Hy2]Singapore-新加坡 2
-      - 距离下次重置剩余：28 天 2
+      - "User ID: 32532"
+      - Gói của bạn đã hết hạn
+      - ❤️故障报修邮箱❤️ 3
+      - 邮箱:louwangzhiyu.org@gmail.com 3
+      - 🇩🇪 德国-法兰克福-001 3
+      - 🇩🇪 德国-法兰克福-002 3
+      - 🇩🇪 德国-法兰克福-003 3
+      - 🇩🇪 德国-法兰克福-004 3
+      - 距离下次重置剩余：27 天 2
       - 🇺🇸 美国1线 2
       - 🇯🇵 日本 2
       - 🇫🇷 法国 2
@@ -478,12 +461,11 @@ proxy-groups:
       - 🇨🇦 加拿大 2
       - ⛔اشتراک را تمدید کنید⛔
       - ⛔اشتراک منقضی شده است⛔
-      - ❤️故障报修邮箱❤️ 3
-      - 邮箱:louwangzhiyu.org@gmail.com 3
-      - 🇩🇪 德国-法兰克福-001 3
-      - 🇩🇪 德国-法兰克福-002 3
-      - 🇩🇪 德国-法兰克福-003 3
-      - 🇩🇪 德国-法兰克福-004 3
+      - 🇨🇳 台湾高速节点
+      - 🇨🇳 台湾高速节点2
+      - 🇨🇳 台湾高速节点3
+      - 🇺🇸 美国高速节点1
+      - 🇨🇳 中国联通节点1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
