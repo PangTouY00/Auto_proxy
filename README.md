@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `14`
-Updata：`2026-09-06 02:54:51`
+### Try the number of high-speed subscriptions: `12`
+Updata：`2026-09-07 02:47:22`
 
 
 <details>
@@ -34506,86 +34506,94 @@ Updata：`2026-09-06 02:54:51`
 
 
 
->Trial subscription：
-`https://airport.heatwarm.top/api/v1/client/subscribe?token=a8a441185b59751eab3ffcd6b028e957`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://781.jiasu.asia/api/v1/client/subscribe?token=96d6b77ca924499df3cd4a7fbe5368f3`
+`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=7768389b554b99d61d971181ba1f6954`
 
 
 
 
 >Trial subscription：
-`https://p1.lianjieni.com/api/v1/client/subscribe?token=533310ceb4b9db818c0df6e5fa3c2569`
+`https://yywhale.com/api/v1/client/subscribe?token=078f3ae105de8d6c0eab18ee73c0970e`
 
 
 
 
 >Trial subscription：
-`https://board.eyelink.ai/api/v1/client/subscribe?token=4b9e2ebfecfc8c54ea8bdfd60c49d403`
+`https://simkey.cloud/api/v1/client/subscribe?token=33f3c27d722b2ec08c58e6fe82c15ff8`
 
 
 
 
 >Trial subscription：
-`https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=3e805658c830e98750866b72a57a9a82`
+`https://tz.louwangzhiyu.org/api/v1/client/subscribe?token=387dd6062076936d98696a31305f0888`
 
 
 
 
 >Trial subscription：
-`https://bb.369258.icu/api/v1/client/subscribe?token=67327fdbb669a24725b4f86ec921095a`
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=7a674ebd1cbe36c1c640ad30a2e09784`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=63bb40b125cb7aea48d76132e1aa1550`
+`https://dy.ddgou.xyz/api/v1/client/subscribe?token=5154d3ed147635dd699f6a294d7d4427`
 
 
 
 
 >Trial subscription：
-`https://tz.louwangzhiyu.org/api/v1/client/subscribe?token=da43b30e04accd376f4df8c1cc1d5456`
+`https://api.ddgou.xyz/api/v1/client/subscribe?token=bf65788a435326dcefee966bfe362c17`
 
 
 
 
 >Trial subscription：
-`https://m.caihongmao.org/api/v1/client/subscribe?token=f4e41f2d019c1d4f386fad3ebdcf5a75`
+`https://p1.lianjieni.com/api/v1/client/subscribe?token=435f3a90229b2ab7c342be1bf8d8fea1`
 
 
 
 
 >Trial subscription：
-`https://dy.ddgou.xyz/api/v1/client/subscribe?token=5669a77566cbefc0e0866438feba614d`
+`https://airport.heatwarm.top/api/v1/client/subscribe?token=7b05f9703ffa9c8f148892fd56eae35e`
 
 
 
 
 >Trial subscription：
-`https://simkey.cloud/api/v1/client/subscribe?token=b498570ab6c4328426270f1e2f3bd72a`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=5403808a96e85bd461c58de61051291c`
 
 
 
 
 >Trial subscription：
-`https://api.ddgou.xyz/api/v1/client/subscribe?token=42f56a5ad5ac323e760cbcac360ae4db`
+`https://bb.369258.icu/api/v1/client/subscribe?token=f1468af2e5810db10b0eea599a7797d8`
 
 
 
 
 >Trial subscription：
-`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=47df4a283b5c03fd63dc906542e87b5a`
-
-
-
-
->Trial subscription：
-`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=7f84bde507a5782f873613f2f3a6597e`
+`https://m.caihongmao.org/api/v1/client/subscribe?token=ce6ca6efd4f2fb7329ccd5f2d782ebc3`
 
 
 

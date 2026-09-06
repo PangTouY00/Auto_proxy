@@ -5,119 +5,103 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 英国, server: vpn-uk-001.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-uk-001.fastervpn.world, skip-cert-verify: true}
-  - {name: -🇫🇮 @VConfing, server: giftcard.gateway-stream.com, port: 52029, type: hysteria2, ports: 52029, password: 1m1xfvpaa5ek4omq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "🇩🇪 德国 #4", server: hold.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx, sni: germany1.h2corp.local, skip-cert-verify: true}
-  - {name: "@Begoo_VPN ²⁹⁰", server: 91.142.73.159, port: 36758, type: hysteria2, ports: 36758, password: 5bcodmhjtyfyyrqh, obfs: salamander, obfs-password: dzcb7hv6i2kx2zze, sni: cdn77.dmtr.ru, skip-cert-verify: true}
-  - {name: 🇬🇧 GB, server: 31.76.22.210, port: 443, type: hysteria2, ports: 443, password: 8674df07-56b3-43ea-b687-aef2b1a20137, sni: crt.ultimagamest.com, skip-cert-verify: true}
-  - {name: KR_1|2.2MB/s, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae}
-  - {name: Telegram@VPNjey🇩🇪🇩🇪, server: 1.1.1.1, port: 37003, type: hysteria2, ports: 37003, password: TelegramVPNJey, obfs: salamander, obfs-password: 83v9muumcyikh5ch, sni: de.jey.cc.cd}
+  - {name: "-🇫🇮 @VConfing #1", server: giftcard.gateway-stream.com, port: 52029, type: hysteria2, ports: 52029, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "防范境外势力渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 95.40.28.75, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: "@UonVPN #3", server: giftcard.gateway-stream.com, port: 52031, type: hysteria2, ports: 52031, password: vpwzu6ug7tpoprsq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 🇺🇸 美国 - Los Angeles - 3, server: www.361371.xyz, port: 443, type: vmess, uuid: da77c564-3815-468c-8867-0aea0b397027, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-6rm27y, headers: {Host: www.361371.xyz}}}
+  - {name: "🇹🇷 土耳其 #1", server: 162.249.124.118, port: 8080, type: hysteria2, ports: 8080, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com}
+  - {name: "🇫🇷 法国 #1", server: 85.209.157.177, port: 8080, type: hysteria2, ports: 8080, password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R, sni: hopp-transit.1cooldns.com}
+  - {name: "-🇩🇪 @VConfing #1", server: giftcard.gateway-stream.com, port: 52023, type: hysteria2, ports: 52023, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
   - {name: 🇨🇳 台湾|@ripaojiedian, server: 36.33.35.105, port: 30001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: "防范境外势力渗透 #2", server: 127.0.0.53, port: 82, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "防范境外势力渗透 #6", server: 127.0.0.53, port: 86, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国, server: 157.228.137.81, port: 443, type: hysteria2, ports: 443, password: 585b7bfe-6269-4149-ae22-ff07c57b5510, obfs: salamander, obfs-password: Xydh1mcz51VQHbbJ, sni: msk2.nebuchadnezzar.ink, skip-cert-verify: true}
-  - {name: "Telegram 🆔@Cnetvpn 🇺🇲 #1", server: giftcard.gateway-stream.com, port: 52076, type: hysteria2, ports: 52076, password: fmaznn1lrzys7ddy, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "VCONFING #3", server: giftcard.gateway-stream.com, port: 52030, type: hysteria2, ports: 52030, password: clz08qwil91241w7, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda..., server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: mdq80x0xv9wt7520, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: 🇯🇵 日本 东京Digital VM, server: msjp.mangshe.xyz, port: 20562, type: hysteria2, ports: 20562, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, sni: www.microsoft.com, skip-cert-verify: true}
-  - {name: "🇹🇷 土耳其 #1", server: 162.249.124.114, port: 8080, type: hysteria2, ports: 8080, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com, skip-cert-verify: true}
-  - {name: "-🇫🇮 @VConfing #3", server: giftcard.gateway-stream.com, port: 52029, type: hysteria2, ports: 52029, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇺🇸 US, server: ush2.shazamri.xyz, port: 443, type: hysteria2, ports: 443, password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8, sni: ush2.shazamri.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: +@Azarakhsh_Proxy+🩷, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
-  - {name: "Channel : @Daily_Configs #1", server: giftcard.gateway-stream.com, port: 52029, type: hysteria2, ports: 52029, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "@Daily_Configs #1", server: giftcard.gateway-stream.com, port: 52016, type: hysteria2, ports: 52016, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 18@oneclickvpnkeys, server: 205.237.109.166, port: 8443, type: hysteria2, ports: 8443, password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s, sni: hopp-netherland-new.dynuddns.net}
+  - {name: 🇺🇸 美国, server: us.frkn.org, port: 443, type: hysteria2, ports: 443, password: 3b8c82ed-fe66-472d-915e-034ccb57103f, sni: us.frkn.org, skip-cert-verify: true}
+  - {name: "Channel : @Daily_Configs #3", server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "Channel : @Daily_Configs #2", server: giftcard.gateway-stream.com, port: 52030, type: hysteria2, ports: 52030, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 91@oneclickvpnkeys, server: vpn-uk-001.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-uk-001.fastervpn.world, skip-cert-verify: true}
+  - {name: "tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇩🇪 德国 #2", server: 85.204.107.181, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org}
+  - {name: hysteria, server: pro2.riziro.ir, port: 44100, type: hysteria2, ports: 44100, password: rjj39jg8iphgd06h, obfs: salamander, obfs-password: 2gg0tx9d2etug8n9, sni: pro2.riziro.ir}
+  - {name: "@UonVPN #2", server: giftcard.gateway-stream.com, port: 52016, type: hysteria2, ports: 52016, password: vpwzu6ug7tpoprsq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: "🇩🇪 德国 #1", server: 85.204.107.178, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org, skip-cert-verify: true}
+  - {name: -🇹🇷  @VConfing, server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: nqlool6l2dnfg45q, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,125 +120,108 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇨🇳 台湾|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,30 +237,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国
-      - -🇫🇮 @VConfing
-      - "🇩🇪 德国 #4"
-      - "@Begoo_VPN ²⁹⁰"
-      - 🇬🇧 GB
-      - KR_1|2.2MB/s
-      - Telegram@VPNjey🇩🇪🇩🇪
-      - 🇨🇳 台湾|@ripaojiedian
-      - "防范境外势力渗透 #2"
-      - "防范境外势力渗透 #6"
-      - 🇩🇪 德国
-      - "Telegram 🆔@Cnetvpn 🇺🇲 #1"
-      - "VCONFING #3"
-      - 🇳🇱 dc-udp-🇳🇱 Netherlands-Amsterda...
-      - 🇯🇵 日本 东京Digital VM
+      - "-🇫🇮 @VConfing #1"
+      - "防范境外势力渗透 #1"
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - "@UonVPN #3"
+      - 🇺🇸 美国 - Los Angeles - 3
       - "🇹🇷 土耳其 #1"
-      - "-🇫🇮 @VConfing #3"
-      - 🇺🇸 US
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - +@Azarakhsh_Proxy+🩷
-      - "Channel : @Daily_Configs #1"
-      - "@Daily_Configs #1"
-      - 18@oneclickvpnkeys
+      - "🇫🇷 法国 #1"
+      - "-🇩🇪 @VConfing #1"
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 美国
+      - "Channel : @Daily_Configs #3"
+      - "Channel : @Daily_Configs #2"
+      - 91@oneclickvpnkeys
+      - "tg频道:@ripaojiedian #1"
+      - "🇩🇪 德国 #2"
+      - hysteria
+      - "@UonVPN #2"
+      - "🇩🇪 德国 #1"
+      - -🇹🇷  @VConfing
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
