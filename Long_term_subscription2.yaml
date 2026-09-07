@@ -5,103 +5,111 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "-🇫🇮 @VConfing #1", server: giftcard.gateway-stream.com, port: 52029, type: hysteria2, ports: 52029, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "防范境外势力渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇹🇷 土耳其, server: 162.249.124.118, port: 8080, type: hysteria2, ports: 8080, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza, server: giftcard.gateway-stream.com, port: 52010, type: hysteria2, ports: 52010, password: g2d0ooqq3ykzsacc, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: "🇫🇮 芬兰 #2", server: fin14qr.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs%3D, sni: fin14qr.wwwinternetvideo.click, skip-cert-verify: true}
+  - {name: ☺️43@oneclickvpnkeys, server: 64.188.98.171, port: 443, type: hysteria2, ports: 443, password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj, sni: germany3.h2corp.local, skip-cert-verify: true}
+  - {name: 🇨🇳 中国 - Hefei - 1, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "✅  @vistav2ray  👈👈کانال ما ✅ #3", server: giftcard.gateway-stream.com, port: 52024, type: hysteria2, ports: 52024, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "-🇩🇪 @VConfing #1", server: giftcard.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: nqlool6l2dnfg45q, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - Buffalo - 2, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 35.78.206.14, port: 2944, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇷🇴 罗马尼亚, server: lmny.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41f0d6d3-4a45-4635-8225-2abd2284189b, sni: lmny.mangshe.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian 2, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air..., server: giftcard.gateway-stream.com, port: 52001, type: hysteria2, ports: 52001, password: g2d0ooqq3ykzsacc, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 95.40.28.75, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: "@UonVPN #3", server: giftcard.gateway-stream.com, port: 52031, type: hysteria2, ports: 52031, password: vpwzu6ug7tpoprsq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: 🇺🇸 美国 - Los Angeles - 3, server: www.361371.xyz, port: 443, type: vmess, uuid: da77c564-3815-468c-8867-0aea0b397027, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-6rm27y, headers: {Host: www.361371.xyz}}}
-  - {name: "🇹🇷 土耳其 #1", server: 162.249.124.118, port: 8080, type: hysteria2, ports: 8080, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com}
-  - {name: "🇫🇷 法国 #1", server: 85.209.157.177, port: 8080, type: hysteria2, ports: 8080, password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R, sni: hopp-transit.1cooldns.com}
-  - {name: "-🇩🇪 @VConfing #1", server: giftcard.gateway-stream.com, port: 52023, type: hysteria2, ports: 52023, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: 36.33.35.105, port: 30001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇺🇸 美国, server: us.frkn.org, port: 443, type: hysteria2, ports: 443, password: 3b8c82ed-fe66-472d-915e-034ccb57103f, sni: us.frkn.org, skip-cert-verify: true}
-  - {name: "Channel : @Daily_Configs #3", server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "Channel : @Daily_Configs #2", server: giftcard.gateway-stream.com, port: 52030, type: hysteria2, ports: 52030, password: 4savc5ig1n3549e4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 91@oneclickvpnkeys, server: vpn-uk-001.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-uk-001.fastervpn.world, skip-cert-verify: true}
-  - {name: "tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇩🇪 德国 #2", server: 85.204.107.181, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org}
-  - {name: hysteria, server: pro2.riziro.ir, port: 44100, type: hysteria2, ports: 44100, password: rjj39jg8iphgd06h, obfs: salamander, obfs-password: 2gg0tx9d2etug8n9, sni: pro2.riziro.ir}
-  - {name: "@UonVPN #2", server: giftcard.gateway-stream.com, port: 52016, type: hysteria2, ports: 52016, password: vpwzu6ug7tpoprsq, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: "🇩🇪 德国 #1", server: 85.204.107.178, port: 8080, type: hysteria2, ports: 8080, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: hopp-romania-new.roxa.org, skip-cert-verify: true}
-  - {name: -🇹🇷  @VConfing, server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: nqlool6l2dnfg45q, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "@v2ray313 کانالمون 🇹🇷", server: giftcard.gateway-stream.com, port: 52067, type: hysteria2, ports: 52067, password: jbmuokj7p4kg4h4s, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "防范境外势力渗透 #7", server: 127.0.0.53, port: 87, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: "✅  @vistav2ray  👈👈کانال ما ✅ #2", server: giftcard.gateway-stream.com, port: 52022, type: hysteria2, ports: 52022, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "防范境外势力渗透 #6", server: 127.0.0.53, port: 86, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,108 +128,116 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,26 +253,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "-🇫🇮 @VConfing #1"
-      - "防范境外势力渗透 #1"
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - "@UonVPN #3"
-      - 🇺🇸 美国 - Los Angeles - 3
-      - "🇹🇷 土耳其 #1"
-      - "🇫🇷 法国 #1"
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇹🇷 土耳其
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇧🇷 dc-udp-🇧🇷 Brazil-Fortaleza
+      - "🇫🇮 芬兰 #2"
+      - ☺️43@oneclickvpnkeys
+      - 🇨🇳 中国 - Hefei - 1
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #3"
       - "-🇩🇪 @VConfing #1"
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇺🇸 美国
-      - "Channel : @Daily_Configs #3"
-      - "Channel : @Daily_Configs #2"
-      - 91@oneclickvpnkeys
-      - "tg频道:@ripaojiedian #1"
-      - "🇩🇪 德国 #2"
-      - hysteria
-      - "@UonVPN #2"
-      - "🇩🇪 德国 #1"
-      - -🇹🇷  @VConfing
+      - 🇺🇸 美国 - Buffalo - 2
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇷🇴 罗马尼亚
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 🇦🇷 dc-udp-🇦🇷 Argentina-Buenos Air...
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - "@v2ray313 کانالمون 🇹🇷"
+      - "防范境外势力渗透 #7"
+      - "✅  @vistav2ray  👈👈کانال ما ✅ #2"
+      - "防范境外势力渗透 #6"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
