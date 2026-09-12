@@ -5,99 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "防范境外势力渗透 #7", server: 127.0.0.53, port: 87, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 54.251.190.150, port: 41142, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰, server: 45.88.14.120, port: 443, type: hysteria2, ports: 443, password: 252bb78f404ff43efa42808e98cc4ae9, sni: cloud.mail.ru, skip-cert-verify: true}
-  - {name: 🇷🇴 罗马尼亚, server: lmny.mangshe.xyz, port: 2056, type: hysteria2, ports: 2056, password: 41f0d6d3-4a45-4635-8225-2abd2284189b, sni: lmny.mangshe.xyz, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚, server: giftcard.gateway-stream.com, port: 52004, type: hysteria2, ports: 52004, password: 76ivwa51ce2gauym, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: Telegram 🆔@cnetvpn 🇳🇱, server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: s6gt5e4mof43sfg8, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 31@oneclickvpnkeys, server: nlq7hy.pleiades.codes, port: 8444, type: hysteria2, ports: 8444, password: e0b9fb0f-1bbd-478b-9580-c2294778338b, sni: nlq7hy.pleiades.codes}
-  - {name: 9@JKVPN, server: giftcard.gateway-stream.com, port: 52088, type: hysteria2, ports: 52088, password: s6gt5e4mof43sfg8, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels, server: giftcard.gateway-stream.com, port: 52008, type: hysteria2, ports: 52008, password: zvxywxoorgqk3fzb, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: "防范境外势力渗透 #6", server: 127.0.0.53, port: 86, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: ✅ t.me/bigAVPN ایران آزاد 👑, server: 2.27.249.79, port: 443, type: hysteria2, ports: 443, password: cd74c0a406664a5bc0bac098220a2468, obfs: salamander, obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0, sni: nl1.sferavpn.pro, skip-cert-verify: false}
-  - {name: 60@oneclickvpnkeys, server: gta.internet-card.sbs, port: 443, type: hysteria2, ports: 443, password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj, sni: gta.internet-card.sbs, skip-cert-verify: true}
-  - {name: "@Daily_Configs", server: 162.249.125.133, port: 443, type: hysteria2, ports: 443, password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s, obfs: salamander, obfs-password: c1b4086fea89914496c7e10967a419216566, sni: hy2-new.aspidnet.xyz, skip-cert-verify: false}
-  - {name: "防范境外势力渗透 #4", server: 127.0.0.53, port: 84, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: "@Sparrk_VPN #1", server: giftcard.gateway-stream.com, port: 52058, type: hysteria2, ports: 52058, password: fr9p9ji70krwnup6, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
   - {name: 🇹🇷 土耳其, server: 162.249.124.118, port: 8080, type: hysteria2, ports: 8080, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com}
-  - {name: ✅  @vistav2ray  👈👈کانال ما ✅, server: 31.76.80.69, port: 443, type: hysteria2, ports: 443, password: 6aab8efdf13945829ae3699c342be406, obfs: salamander, obfs-password: uw9b2qq5rx, sni: fiproxy1.lockdwn.com, skip-cert-verify: false}
-  - {name: "🇫🇷 法国 #1", server: 85.209.157.177, port: 8080, type: hysteria2, ports: 8080, password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R, sni: hopp-transit.1cooldns.com}
+  - {name: "@Sparrk_VPN", server: giftcard.gateway-stream.com, port: 52009, type: hysteria2, ports: 52009, password: fr9p9ji70krwnup6, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
   - {name: "🇬🇧 英国 #1", server: 103.246.248.234, port: 8080, type: hysteria2, ports: 8080, password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT, sni: hopp-legend-se.roxa.org, skip-cert-verify: true}
-  - {name: 🇩🇪 DE, server: de1.apexvpn.space, port: 443, type: hysteria2, ports: 443, password: dffb4c3d-1e84-4938-8881-cad917e8efb2, sni: de1.apexvpn.space}
+  - {name: Telegram 🆔@Cnetvpn 🇺🇲, server: giftcard.gateway-stream.com, port: 52087, type: hysteria2, ports: 52087, password: 8f0gvz5eul6omhq4, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: hysteria, server: pro2.riziro.ir, port: 44100, type: hysteria2, ports: 44100, password: rjj39jg8iphgd06h, obfs: salamander, obfs-password: 2gg0tx9d2etug8n9, sni: pro2.riziro.ir}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇧🇷 巴西, server: go.wwwinternetvideo.click, port: 443, type: hysteria2, ports: 443, password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc, sni: admin.wwwinternetvideo.click, skip-cert-verify: true}
+  - {name: VCONFING, server: giftcard.gateway-stream.com, port: 52030, type: hysteria2, ports: 52030, password: ijrixp6yh62ectfw, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 🇦🇱 dc-udp-🇦🇱 Albania-Tirana, server: giftcard.gateway-stream.com, port: 52000, type: hysteria2, ports: 52000, password: g2d0ooqq3ykzsacc, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: 94@oneclickvpnkeys, server: news.gazette.help, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: news.gazette.help, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "@V2ray_confiig #1", server: 15.223.122.197, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: t.me, skip-cert-verify: true}
+  - {name: 8@JKVPN, server: giftcard.gateway-stream.com, port: 52071, type: hysteria2, ports: 52071, password: s6gt5e4mof43sfg8, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
+  - {name: "Telegram @mtmvpn #3", server: giftcard.gateway-stream.com, port: 52031, type: hysteria2, ports: 52031, password: fr9p9ji70krwnup6, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: Telegram 🆔@cnetvpn 🇸🇪, server: giftcard.gateway-stream.com, port: 52062, type: hysteria2, ports: 52062, password: vz86jgszv4zszchv, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: "Tel: @Daily_Configs #1", server: bwdf2fnt.xn--e1aatfr8bwa.online, port: 443, type: hysteria2, ports: 443, password: tnnls, obfs: salamander, obfs-password: b6d1f3888ab1d90dd11aac1dce427b81, sni: bwdf2fnt.xn--e1aatfr8bwa.online, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.16.174.124, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,25 +112,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -145,74 +140,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,25 +220,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "防范境外势力渗透 #7"
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚
-      - 🇦🇺 澳大利亚
-      - Telegram 🆔@cnetvpn 🇳🇱
-      - 31@oneclickvpnkeys
-      - 9@JKVPN
-      - 🇧🇪 dc-udp-🇧🇪 Belgium-Brussels
-      - "防范境外势力渗透 #6"
-      - ✅ t.me/bigAVPN ایران آزاد 👑
-      - 60@oneclickvpnkeys
-      - "@Daily_Configs"
-      - "防范境外势力渗透 #4"
+      - "@Sparrk_VPN #1"
       - 🇹🇷 土耳其
-      - ✅  @vistav2ray  👈👈کانال ما ✅
-      - "🇫🇷 法国 #1"
+      - "@Sparrk_VPN"
       - "🇬🇧 英国 #1"
-      - 🇩🇪 DE
+      - Telegram 🆔@Cnetvpn 🇺🇲
+      - hysteria
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇧🇷 巴西
+      - VCONFING
+      - 🇦🇱 dc-udp-🇦🇱 Albania-Tirana
+      - 94@oneclickvpnkeys
+      - tg频道:@ripaojiedian
+      - "@V2ray_confiig #1"
+      - 8@JKVPN
+      - "Telegram @mtmvpn #3"
+      - Telegram 🆔@cnetvpn 🇸🇪
+      - "Tel: @Daily_Configs #1"
+      - 🇺🇸 美国 CloudFlare节点 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
