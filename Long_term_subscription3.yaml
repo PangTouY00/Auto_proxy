@@ -5,107 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "Telegram @mtmvpn #3", server: giftcard.gateway-stream.com, port: 52031, type: hysteria2, ports: 52031, password: fr9p9ji70krwnup6, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: "防范境外势力渗透 #1", server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 咕咕, server: 162.249.126.7, port: 8443, type: hysteria2, ports: 8443, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com}
-  - {name: "[ 🇷🇺 ] | @Cfox_SerVer", server: srv-17e124.21freedom.net, port: 11592, type: hysteria2, ports: 11592, password: 41edb44c8e, sni: off, skip-cert-verify: true}
-  - {name: "@v2ray313 کانالمون 😦", server: giftcard.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: bfmf6a05bp4fjwuh, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: ⚙️35@oneclickvpnkeys, server: 152.67.75.161, port: 443, type: hysteria2, ports: 443, password: 3a702d4d1de4949005d8431220e040fb, obfs: salamander, obfs-password: c13f29db6a638ad2b211b9ce2669ef27, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: FR_1|1.6MB/s, server: 13.39.233.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: "Telegram@vpnjey #2", server: 31.76.27.23, port: 443, type: hysteria2, ports: 443, password: Telegram, obfs: salamander, obfs-password: Telegram@vpnjey, sni: de.vpnjey.store, skip-cert-verify: true}
-  - {name: "@AZARBAYJAB1", server: giftcard.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: vz86jgszv4zszchv, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
+  - {name: 173085 | ⚡️Telegram - t.me/S..., server: 142.249.37.90, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, sni: hy2.561891.xyz, skip-cert-verify: false}
+  - {name: 38@oneclickvpnkeys, server: 217.60.182.79, port: 443, type: hysteria2, ports: 443, password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX, sni: cabinet.wwwinternetvideo.click, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.230, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: "کانال تلگرام : Free_VPN_CH@", server: 181.214.99.162, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 🇫🇮 芬兰, server: samurai.h4ck.me, port: 443, type: hysteria2, ports: 443, password: 14f7504c-bd01-4d88-bd42-80dc6bf6b202}
+  - {name: TW_2|1.5MB/s, server: 82259754d625.oylfmxz.cn, port: 443, type: vmess, uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6, alterId: 0, cipher: auto, tls: true, servername: 82259754d625.oylfmxz.cn, network: ws, ws-opts: {path: /, headers: {Host: 82259754d625.oylfmxz.cn}}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 13.215.162.132, port: 51391, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: V2RayyNGvpn 🇩🇪, server: 91.107.140.154, port: 443, type: hysteria2, ports: 443, password: Ur0okuRxze, obfs: salamander, obfs-password: V2RayyNGvpn, sni: www.bing.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 139909 | ⚡️Telegram - t.me/S..., server: 54.213.89.22, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vk.com, skip-cert-verify: true}
+  - {name: "کانال تلگرام : Free_VPN_CH@ #1", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
+  - {name: +@Azarakhsh_Proxy+🩷, server: 179.61.132.96, port: 8443, type: hysteria2, ports: 8443, password: KevinZakarian, obfs: salamander, obfs-password: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: true}
+  - {name: "[ 🇳🇱 ] | @Cfox_SerVer", server: 80.91.79.136, port: 443, type: hysteria2, ports: 443, password: c4d7e69958b226a426157a6e80eb9406, obfs: salamander, obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a, sni: 80.91.79.136, skip-cert-verify: true}
   - {name: 🇯🇵 日本|@ripaojiedian, server: 35.73.128.210, port: 3893, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰, server: 45.88.14.120, port: 443, type: hysteria2, ports: 443, password: 252bb78f404ff43efa42808e98cc4ae9, sni: cloud.mail.ru, skip-cert-verify: true}
-  - {name: "Telegram@vpnjey #5", server: 31.76.27.23, port: 37009, type: hysteria2, ports: 37009, password: Telegram%40vpnjey, obfs: salamander, obfs-password: Telegram@vpnjey, sni: de.vpnjey.store, skip-cert-verify: true}
-  - {name: 5@JKVPN, server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: s6gt5e4mof43sfg8, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com}
-  - {name: 🇵🇱 波兰 V2CROSS.COM, server: zfd-hkv2.kunlun01dns.com, port: 16116, type: vmess, uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1, alterId: 0, cipher: auto, tls: false}
-  - {name: Telegram 🆔@cnetvpn 🇫🇮, server: giftcard.gateway-stream.com, port: 52090, type: hysteria2, ports: 52090, password: xf2ak19a4uajprxg, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 43.199.146.46, port: 2716, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 103.236.66.4, port: 40001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: "کانال تلگرام : Free_VPN_CH@ #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: false}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: "防范境外势力渗透 #7", server: 127.0.0.53, port: 87, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 152-69-231-175.liao.kdns.fr, port: 50160, type: hysteria2, ports: 50160, password: 1beb216e3f60aea9555dae60d219a5ca, sni: 152-69-231-175.liao.kdns.fr}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,113 +116,104 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,27 +229,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "Telegram @mtmvpn #3"
-      - "防范境外势力渗透 #1"
-      - 咕咕
-      - "[ 🇷🇺 ] | @Cfox_SerVer"
-      - "@v2ray313 کانالمون 😦"
-      - ⚙️35@oneclickvpnkeys
-      - "کانال تلگرام : Free_VPN_CH@"
+      - FR_1|1.6MB/s
       - 🇺🇸 美国|@ripaojiedian
-      - "Telegram@vpnjey #2"
-      - "@AZARBAYJAB1"
+      - 173085 | ⚡️Telegram - t.me/S...
+      - 38@oneclickvpnkeys
+      - 🇺🇸 美国 CloudFlare节点
+      - "کانال تلگرام : Free_VPN_CH@"
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇫🇮 芬兰
+      - TW_2|1.5MB/s
+      - 🇭🇰 香港5|@ripaojiedian
+      - V2RayyNGvpn 🇩🇪
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 139909 | ⚡️Telegram - t.me/S...
+      - "کانال تلگرام : Free_VPN_CH@ #1"
+      - +@Azarakhsh_Proxy+🩷
+      - "[ 🇳🇱 ] | @Cfox_SerVer"
       - 🇯🇵 日本|@ripaojiedian
-      - 🇳🇱 荷兰
-      - "Telegram@vpnjey #5"
-      - 5@JKVPN
-      - 🇵🇱 波兰 V2CROSS.COM
-      - Telegram 🆔@cnetvpn 🇫🇮
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - "کانال تلگرام : Free_VPN_CH@ #2"
-      - 🇭🇰 香港|@ripaojiedian
+      - "防范境外势力渗透 #7"
+      - 🇺🇸 美国 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
