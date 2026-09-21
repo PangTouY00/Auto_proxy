@@ -5,79 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "防范境外势力渗透 #4", server: 127.0.0.53, port: 84, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: "tg频道:@ripaojiedian #1", server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "防范境外势力渗透 #6", server: 127.0.0.53, port: 86, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: hysteria, server: pro2.riziro.ir, port: 44100, type: hysteria2, ports: 44100, password: rjj39jg8iphgd06h, obfs: salamander, obfs-password: 2gg0tx9d2etug8n9, sni: pro2.riziro.ir}
-  - {name: "@KAFING_2 #2", server: 5.175.249.174, port: 35000, type: hysteria2, ports: 35000, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi", sni: api.kermanshahi.org, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: "@Daily_Configs : کانال تلگرام", server: 162.249.125.133, port: 443, type: hysteria2, ports: 443, password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s, obfs: salamander, obfs-password: c1b4086fea89914496c7e10967a419216566, sni: hy2-new.aspidnet.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 103.236.66.4, port: 40001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 嘎, server: vpn-uk-002.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-uk-002.fastervpn.world, skip-cert-verify: true}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.21.8.107, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
-  - {name: Telegram 🆔@cnetvpn 🇳🇱, server: giftcard.gateway-stream.com, port: 52050, type: hysteria2, ports: 52050, password: s6gt5e4mof43sfg8, obfs: salamander, obfs-password: fuw2k1ddrouwxr3u, sni: giftcard.gateway-stream.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
-  - {name: 🇳🇱 - NL - @FreeOnlineVPN, server: 206.71.158.37, port: 35000, type: hysteria2, ports: 35000, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: true}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 100.42.228.109, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: "咕 #1", server: 47.129.241.226, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-sg-001.fastervpn.world, skip-cert-verify: true}
+  - {name: 嘎嘎, server: se.xiaoliyu.cyou, port: 4433, type: hysteria2, ports: 4433, password: 19f72087-4591-4d72-930b-2697078ec2be, sni: se.xiaoliyu.cyou, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}}
+  - {name: 咕咕, server: 162.249.126.7, port: 8443, type: hysteria2, ports: 8443, password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z, sni: hopp-germany-new.ddnsguru.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,24 +84,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -121,59 +107,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,20 +166,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "防范境外势力渗透 #4"
-      - "tg频道:@ripaojiedian #1"
-      - "防范境外势力渗透 #6"
-      - 🇺🇸 美国|@ripaojiedian
-      - hysteria
-      - "@KAFING_2 #2"
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇯🇵 日本3|@ripaojiedian
-      - Telegram 🆔@cnetvpn 🇳🇱
       - 🇺🇸 美国 CloudFlare节点
-      - 🇳🇱 - NL - @FreeOnlineVPN
-      - 🇺🇸 美国3|@ripaojiedian
-      - "咕 #1"
+      - "@Daily_Configs : کانال تلگرام"
+      - 🇯🇵 日本2|@ripaojiedian
+      - 嘎
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 嘎嘎
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 咕咕
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
