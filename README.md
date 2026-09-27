@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 287`
+`Total number of merge nodes: 284`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 35`
+`Total number of merge nodes: 32`
 
 - [Clash subscription](https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -67,8 +67,8 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 </details>
 
-### Try the number of high-speed subscriptions: `12`
-Updata：`2026-09-27 03:32:52`
+### Try the number of high-speed subscriptions: `16`
+Updata：`2026-09-28 03:59:28`
 
 
 <details>
@@ -34800,25 +34800,55 @@ Updata：`2026-09-27 03:32:52`
 
 
 >Trial subscription：
-`https://shopdcom.pro/api/v1/client/subscribe?token=326b68fcbba252e464c9aa7d23e613cd`
+`https://yywhale.com/api/v1/client/subscribe?token=ce82a7d66a56eaaed2ecd5c171feead3`
 
 
 
 
 >Trial subscription：
-`https://m.caihongmao.org/api/v1/client/subscribe?token=c5d5969bc633e83ef3930f6529f253fd`
+`https://shopdcom.pro/api/v1/client/subscribe?token=e3efa19ff0242ac56455d8f9614f1ae0`
 
 
 
 
 >Trial subscription：
-`https://board.eyelink.ai/api/v1/client/subscribe?token=91792b8c463585610e6c0a5d140cda6f`
+`https://board.eyelink.ai/api/v1/client/subscribe?token=0f44d168f8db4bd2fa9170fd373c5dd7`
 
 
 
 
 >Trial subscription：
-`https://api.jjz.best/api/v1/client/subscribe?token=ecdf14aeb1b41f7d8d06a605140d1231`
+`https://v2rayshare.githubrowcontent.com/2025/12/20251231.txt`
+
+
+
+
+>Trial subscription：
+`https://www.lbbadmin.top/api/v1/client/subscribe?token=65988e589053375fe7bc18e366346f81`
+
+
+
+
+>Trial subscription：
+`https://m.caihongmao.org/api/v1/client/subscribe?token=4d44546b1e65fb0fb6c19d66f456381c`
+
+
+
+
+>Trial subscription：
+`https://dy.ddgou.xyz/api/v1/client/subscribe?token=55bb2311216ebb93e42355d10f94a409`
+
+
+
+
+>Trial subscription：
+`https://dctcc.louwangzhiyu.shop/api/v1/client/subscribe?token=062d6f16eeff5f2dea2e34664574dbc9`
+
+
+
+
+>Trial subscription：
+`https://tz.louwangzhiyu.org/api/v1/client/subscribe?token=a5d9b1097966f8c304c9f125803d682a`
 
 
 
@@ -34830,43 +34860,37 @@ Updata：`2026-09-27 03:32:52`
 
 
 >Trial subscription：
-`https://p1.lianjieni.com/api/v1/client/subscribe?token=bbcc779e96678d6e54bcdc8b87fbedca`
+`https://www.louwangzhiyu.org/api/v1/client/subscribe?token=890ceb35c5a2975c3327513b26aa0230`
 
 
 
 
 >Trial subscription：
-`https://sub.nb666666.top/api/v1/client/subscribe?token=bf26c2cdc0a35ade03fa2f15cac8df70`
+`https://api.ddgou.xyz/api/v1/client/subscribe?token=4564d9ec7db1a556f3f207df84db5123`
 
 
 
 
 >Trial subscription：
-`https://yywhale.com/api/v1/client/subscribe?token=ff67af5244294ea63f9cfed6d1282d29`
+`https://p1.lianjieni.com/api/v1/client/subscribe?token=5bdb33348f923cc16b63feaed9ebd915`
 
 
 
 
 >Trial subscription：
-`https://dy.ddgou.xyz/api/v1/client/subscribe?token=187bfacbb3a0766f55c7799cc9eabee7`
+`https://sub.nb666666.top/api/v1/client/subscribe?token=cf5fba3be35edc22997240b7c2d86625`
 
 
 
 
 >Trial subscription：
-`https://api.ddgou.xyz/api/v1/client/subscribe?token=9252441976a93727f5f317c73b6310c5`
+`https://bb.369258.icu/api/v1/client/subscribe?token=47f67a4e78e20bd03d001dc994af1290`
 
 
 
 
 >Trial subscription：
-`https://bb.369258.icu/api/v1/client/subscribe?token=d68f63650f145434644772a9c20dbce2`
-
-
-
-
->Trial subscription：
-`https://v2rayshare.githubrowcontent.com/2025/12/20251231.txt`
+`https://api.jjz.best/api/v1/client/subscribe?token=aa9911967e89f7989ddf3c8de204f9ac`
 
 
 
