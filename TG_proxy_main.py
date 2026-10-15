@@ -475,7 +475,7 @@ if __name__ == '__main__':
     print("========== 开始获取频道订阅链接 ==========")
 
     
-    """
+    
     for url in urls:
         print(url, "开始获取......")
         thread = threading.Thread(target=get_content,args = (url,))
@@ -495,7 +495,7 @@ if __name__ == '__main__':
             t.join(timeout=TIMEOUT)
         except TimeoutError:
             print(f"线程执行超时({TIMEOUT}秒),已强制终止")
-    """         
+            
     print("========== 准备写入订阅 ==========")
     res = write_document()
     clash_sub = get_yaml()
